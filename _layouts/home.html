@@ -2,7 +2,7 @@
 layout: default
 section: home
 ---
-{% assign family   = site.categories.family   %}<!-- | where: 'featured_image', -'nil' -->
+{% assign family   = site.categories.family %}<!-- | where: 'featured_image', -'nil' -->
 {% assign history  = site.categories.history  %}
 {% assign snapshot = site.categories.snapshot %}
 {{content}}
@@ -24,31 +24,38 @@ section: home
       {% endif %}
       <div class="gallery" id="container">
         <div class="grid-sizer"></div>
-        {% for image in history limit: 2 %}
+        {% for image in history limit: 10 %}
         {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+
           {% endif %}
         {% endfor %}
-        {% for image in snapshot limit: 2 %}
+        {% for image in snapshot limit: 10 %}
         {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+
           {% endif %}
         {% endfor %}
 
-        {% for image in family limit: 2 %}
+        {% for image in family limit: 10 %}
         {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+
         {% endif %}
 
         {% endfor %}
 
-        {% for image in history limit: 2 offset:2 %}
+        {% comment %}
+
+        {% for image in history limit: 1 offset: 1 %}
         {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+          {% else %}
+          <a href="{{ image.url }}"><img src="/assets/images/rectangle-300x300.jpg" style="border:1px solid #ddd;"/></a>
           {% endif %}
         {% endfor %}
-        {% comment %} <a href="" style="width:200px;background-color:#ccc;"><blockquote>Great Things Happen!</blockquote></a> {% endcomment %}
-        {% for image in snapshot limit: 2 offset: 2 %}
+
+        {% for image in snapshot limit: 1 offset: 1 %}
           {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% else %}
@@ -56,7 +63,7 @@ section: home
           {% endif %}
         {% endfor %}
 
-        {% for image in family limit: 2 offset: 2 %}
+        {% for image in family limit: 1 offset: 1 %}
         {% if image.featured_image %}
           <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% else %}
@@ -64,6 +71,7 @@ section: home
           {% endif %}
         {% endfor %}
 
+      {% endcomment %}
       </div>
     </section>
   </article>
