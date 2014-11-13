@@ -1,0 +1,78 @@
+
+$navigation-height: 90px;
+
+
+// Typography
+$sans-serif: "Open Sans", $helvetica;
+$serif: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua" ,Georgia, serif;
+//$serif: $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: "brandon-grotesque",  $sans-serif;
+
+// Font Sizes
+$base-font-size: 1em;
+$paragraph-font-size:$base-font-size * 1.25;// 1em;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Colors
+$blue: #33424f;
+$dark-gray: #333;
+$medium-gray: #555;
+$gray: #999;
+$light-gray: #ededed;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+$black: #121212;
+$white: #f7f7f7;//#f0f0f0;
+$redish: #ca4541;
+$brown:#674b23;
+
+// Background Color
+$base-background-color: $white;
+$centered-navigation-background: $black;
+
+// Font Colors
+$base-font-color: $medium-gray;
+$base-accent-color: $blue;
+$brand-color: lighten($medium-gray, 40%);
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: lighten($base-accent-color, 40);
+$success-color: $light-green;
+
+// Border color
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;

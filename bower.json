@@ -1,0 +1,35 @@
+{
+  "name": "Eick.us",
+  "version": "0.5",
+  "homepage": "https://github.com/budparr/",
+   "private": true,
+  "authors": [
+    "Bud Parr <budparr@sonnetmedia.net>"
+  ],
+  "description": "Starter files for a Jekyll based Website",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+        "jquery": "latest",
+        "respond": "latest",
+        "jquery-backstretch": "latest",
+        "html5shiv": "latest",
+        "listjs": "latest",
+        "moment": "latest",
+        "modernizr": "latest",
+        "underscore": "latest",
+        "masonry": "latest",
+        "imagesloaded": "latest"
+
+    }
+}

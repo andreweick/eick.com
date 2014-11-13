@@ -1,0 +1,103 @@
+article.page {
+  padding: 1.5em;
+  margin:2.375em auto;
+  overflow: hidden;
+  border-radius:4px;
+  header {
+    margin-bottom: .5em;
+  }
+  img, p img{
+  	max-width: 100%;
+    padding: 0
+  }
+  img:first-child {
+    float: none;
+    margin: 0 0 1.5em 0;
+    @include media($small-screen-up) {
+      float: left;
+      margin: .5em 1.4em 1em 0;
+    }
+  }
+  @include media($medium-screen-up) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}
+
+
+article.post, article.post-three_up {
+  padding: 0 4% 0 4%;
+  margin: 1.75em auto;
+  overflow: hidden;
+  border-radius:4px;
+  p.lead {
+    max-width: 90%;
+  }
+  header {
+    margin-bottom: .5em;
+  }
+  img, p img{
+    max-width: 100%;
+    padding: 0;
+    margin:auto;
+  }
+  // img:first-child {
+  //   float: none;
+  //   margin: 0 0 1.5em 0;
+  //   @include media($small-screen-up) {
+  //     float: left;
+  //     margin: .5em 1.4em 1em 0;
+  //   }
+  // }
+}
+
+article.post {
+    padding: 4em 4% 0 4%;
+  @include media($medium-screen-up) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+}
+
+
+ @include media($small-screen-up) {
+  html.js article.post-three_up {
+    padding-right:0;
+  }
+}
+
+
+// htm.js ensures that we're only serving masonry when JS is available
+html.js {
+
+  article.post-three_up #container br {
+    display: none;
+  }
+
+  article.post-three_up img{
+    max-width: 100%;
+    margin-bottom: 4%;
+    @include media($small-screen-up) {
+      width: 30%;
+      margin: 1%;
+    }
+  }
+  @include media($small-screen-up) {
+    article.post-three_up {
+      #container img:nth-of-type(5n-1){
+        width: 62%;
+      }
+    }
+  }
+}
+
+
+
+
+
+.lead, .lead p {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  font-weight:300;
+}

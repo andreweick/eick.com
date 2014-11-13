@@ -1,0 +1,25 @@
+---
+layout: default
+section: post
+---
+  <article class="hentry post{% if page.photo_layout %}-{{ page.photo_layout }}{% endif %}">
+    {% if page.title %}
+      <div class="small-screen-only">
+        <header>
+          <h1 class="entry-title">{{ page.title }}</h1>
+        </header>
+      </div>
+    {% endif %}
+    <section class="entry-content prose">
+      {% if page.intro %}
+        <div class="small-screen-only">
+          {{ page.intro }}
+          <hr />
+        </div>
+      {% endif %}
+      <div class="gallery" id="container">
+        <div class="grid-sizer"></div>
+        {{ content }}
+      </div>
+    </section>
+  </article>

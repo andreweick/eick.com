@@ -1,0 +1,75 @@
+<div class="sidebar-right">
+<aside class="identity sidebar-{{ page.categories }}">
+
+{% if template == "post.html" %}
+{# Faceboo, Twitter #}
+
+{% endif %}
+
+</aside>
+
+  <aside class="large-screens">
+    <header>
+      {% if page.section == 'post' %}
+        {% if page.categories %}
+          {% capture category %}{{ page.categories }}{% endcapture %}
+            <h2><a href="/{{ category }}/">{{ category | capitalize }}  <i class="icon-undo light"></i></a></h2>
+        {% endif %}
+      {% endif %}
+      {% if page.title %}
+        <h1 class="entry-title">
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+      {% endif %}
+    </header>
+
+     {% if page.intro %}
+      {{ page.intro }}
+    {% endif %}
+
+  {% if page.section == 'home' or page.section == 'archive'  %}
+    {% if page.section == 'home' %}
+      <blockquote>{{ site.bio | safe }}</blockquote>
+    {% endif %}
+    <h3 class="nav-sidebar-item"><a href="/family/"{% if page.url contains '/family/' %} class="active"{% endif %}>&raquo; Family</a></h3>
+    <h3 class="nav-sidebar-item"><a href="/history/"{% if page.url contains '/history/' %} class="active"{% endif %}>&raquo; History</a></h3>
+    <h3 class="nav-sidebar-item"><a href="/snapshot/"{% if page.url contains '/snapshot/' %} class="active"{% endif %}>&raquo; Snapshot</a></h3>
+  {% endif %}
+</aside>
+
+  {% if page.section == 'post' %}
+
+    <div class="paging">
+      <div class="page-icons">
+        {% if page.previous %}
+          <span class="previous">
+            <a class="previous-icon" href="{{ page.previous.url }}"> &lsaquo;</a>
+            <a class="previous-title" href="{{ page.previous.url }}">&lsaquo; {{ page.previous.title }}</a>
+          </span>
+        {% endif %}
+        {% if page.next %}
+        <span class="next">
+          <a class="next-icon" href="{{ page.next.url }}">&rsaquo;</a>
+          <a class="next-title" href="{{ page.next.url }}">&rsaquo; {{ page.next.title }}</a>
+        </span>
+        {% endif %}
+      </div>
+
+    </div>
+      <script>
+        document.body.onkeyup = function(e){
+          {% if page.previous %}
+            if (e.keyCode == '37') { window.location = '{{ previous.path | safe }}'; }
+          {% endif %}
+          {% if page.next %}
+            if (e.keyCode == '39') { window.location = '{{ next.path | safe }}'; }
+          {% endif %}
+        };
+      </script>
+
+  {% endif %}
+
+
+
+
+</div>

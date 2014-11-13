@@ -1,0 +1,18 @@
+---
+layout: default
+section: archive
+---
+
+{% if page.url contains '/archive/' %}
+  {% assign collection = site.posts %}
+{% else %}
+  {% capture archive_cat %}{{ page.url | remove: '/' }}{% endcapture %}
+  {% assign collection = site.categories[archive_cat] %}
+{% endif %}
+
+ {% for article in collection %}
+   {% capture category %}{{ article.categories }}{% endcapture %}
+    <a href="{{ article.url }}" class="headings">
+      <h2 class="{{ article.categories}}">{{ article.title }} <small>{{ category | capitalize }} &bull; {{ article.date | date:'%Y-%b-%d' }}</small></h2>
+    </a>
+  {% endfor %}

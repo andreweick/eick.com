@@ -1,0 +1,19 @@
+<div class="sidebar-left">
+<div class="state-icons">
+  <a href="javascript:void(0)" class="gallery-list"><i class="icon-th-list"></i></a>
+  <a href="javascript:void(0)" class="gallery-grid"><i class="icon-grid"></i></a>
+</div>
+  <aside class="sidebar-main">
+    <h1><a href="/">{{ site.title }}</a></h1>
+      <p>{{ site.bio }}</p>
+      <p class="navigation-menu-button" id="js-mobile-menu"><i class="icon-menu"></i></p>
+
+  </aside>
+  <aside class="sidebar-description js-mobile-menu">
+      <ul>
+        {% include nav/navigation-links.html %}
+      </ul>
+  </aside>
+</div>
+
+

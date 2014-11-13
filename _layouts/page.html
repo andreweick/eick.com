@@ -1,0 +1,27 @@
+---
+layout: default
+section: page
+---
+  <div class="has-layout">
+    <article class="page hentry {% if page_class %}{{ page_class }}{% endif %}">
+      {% if page.title %}
+        <div class="small-screen-only">
+          <header>
+            <h1 class="entry-title">{{ page.title }}</h1>
+          </header>
+        </div>
+      {% endif %}
+      <div class="entry-content prose">
+      {% if page.intro %}
+        <div class="small-screen-only">
+          {{ page.intro }}
+          <hr />
+        </div>
+      {% endif %}
+        {{ content }}
+        {% if page.include_on_page %}
+          {% include page.include_on_page %}
+        {% endif %}
+      </div>
+    </article>
+  </div>

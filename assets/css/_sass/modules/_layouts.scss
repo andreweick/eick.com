@@ -1,0 +1,54 @@
+.has-layoutTK {
+  @include outer-container;
+  article {
+    @include span-columns(12);
+    @include pad();
+  }
+  aside {
+    @include span-columns(12);
+    @include pad();
+  }
+
+  @include media($medium-screen-up) {
+    article {
+      @include span-columns(9 of 12);
+
+    }
+    aside {
+      @include span-columns(3 of 12);
+      //@include reset-display;???
+    }
+  }
+}
+
+.has-layout-two-even-columns {
+  @include outer-container;
+  article, .left-column {
+    @include span-columns(12);
+    @include pad();
+  }
+  aside, .right-column {
+    @include span-columns(12);
+    @include pad();
+  }
+
+  @include media($medium-screen-up) {
+    article, .left-column {
+      @include span-columns(6 of 12);
+
+    }
+    aside, .right-column {
+      @include span-columns(6 of 12);
+      //@include reset-display;???
+    }
+  }
+}
+
+
+
+#container hr {
+  width: 100%;
+  clear: both;
+  margin: 4em auto;
+}
+

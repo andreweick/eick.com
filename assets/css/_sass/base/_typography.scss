@@ -1,0 +1,143 @@
+/*
+  Medium.com-style fancy underlines.
+
+  Inspired by:
+  [1] https://medium.com/designing-medium/7c03a9274f9
+  [2] https://github.com/Team-Sass/toolkit#underline
+  [3] http://codepen.io/ghepting/pen/tLnHK/
+*/
+
+// @mixin underline($background: #fff, $color: #ccc, $distance: 2, $width: 1, $clear-descenders: true) {
+//   display: inline;
+//   text-decoration: none;
+//   background-repeat: repeat-x;
+
+//   @include background-image(
+//     linear-gradient(rgba($background, 0) 50%, $color 50%)
+//   );
+
+//   background-size: rem-calc(2) rem-calc($width);
+//   background-position: 0 (1rem + rem-calc($distance));
+//   padding-bottom: rem-calc($width) + rem-calc($distance);
+
+//   @if $clear-descenders {
+//     @include text-shadow(
+//       rem-calc(-1) rem-calc(-1) 0 $background,
+//       rem-calc(1) rem-calc(-1) 0 $background,
+//       rem-calc(-1) rem-calc(1) 0 $background,
+//       rem-calc(1) rem-calc(1) 0 $background
+//     );
+//   }
+// }
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: $base-background-color;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  line-height: $header-line-height;
+  margin: 0;
+  text-rendering: optimizeLegibility; // Fix the character spacing for headings
+  font-weight: 700;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  //font-weight: 300;
+}
+
+.entry-title {
+  font-weight: 700;
+  color: #0f315f;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+h6 {
+  font-size: $h6-font-size;
+}
+
+p {
+  margin: 0 0 ($base-spacing / 2);
+  font-size: $paragraph-font-size;
+  font-weight: 400;
+  font-family: $serif;
+  line-height: 1.6;
+}
+
+a {
+  @include transition(color 0.1s linear);
+  color: $base-link-color;
+  text-decoration: none;
+    //@include underline(#fff, #D6DDDE);
+
+
+
+  &:hover {
+    color: $hover-link-color;
+       //@include underline(#fff, #5f5164);
+  }
+
+  &:active, &:focus {
+    color: $hover-link-color;
+    outline: none;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: none;//2px solid $base-border-color;
+  //color: lighten($base-font-color, 15);
+  margin: $base-spacing 0;
+  //padding: $base-spacing / 2;
+  font-size: 1.3em;
+}
+
+cite {
+  color: lighten($base-font-color, 25);
+  font-style: italic;
+
+  &:before {
+    content: "\2014 \00A0";
+  }
+}

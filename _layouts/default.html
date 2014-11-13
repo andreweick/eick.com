@@ -1,0 +1,13 @@
+{% include global/head.html %}
+{% comment %}{{site.collections.[the_collection].class}}{% endcomment %}
+<body class="{% if page.class %}{{page.class}}{% endif %}{% if page.featured_image %} featured_image{% endif %}">
+<a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+  {% include nav/nav-top.html  %}
+  {% include nav/nav-left.html %}
+    <section class="content">
+      {{content}}
+    </section>
+  {% include nav/nav-right.html %}
+  {% include global/scripts.html %}
+</body>
+</html>

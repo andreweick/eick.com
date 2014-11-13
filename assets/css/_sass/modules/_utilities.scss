@@ -1,0 +1,34 @@
+object, embed, iframe {
+  max-width: 100% !important;
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+
+.sharing {
+margin-top: 4em;
+}
+
+hr {
+//margin-top:    @line-height-computed;
+//margin-bottom: @line-height-computed;
+margin:1em auto;
+border: 0;
+border-top: 1px solid #EEEEEE;
+}
+
+
+sup, sub {
+//@include adjust-font-size-to($kappa);
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub { top: 0.4em; }
+ul.inline li{
+  display: inline-block;
+}

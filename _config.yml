@@ -1,0 +1,48 @@
+title:   Andrew Eick
+description: "Head in the clouds, feet in the dirt."
+bio: "Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community"
+port: 4001
+#Your site's domain goes here. Leave localhost server or blank when working locally.
+url:
+# basedir:          "/"
+
+mediaurl: http://eick.us
+mediadir: "/media/photographs/"
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+include: ['_pages']
+exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile', 'bower.json',]
+permalink: pretty
+
+image_path: '/assets/img/'
+# gems:
+  #- jekyll-sitemap
+
+# dev options (true/false)
+# if site is in production, 'production: true'
+production: true
+include_addthis_sharing: true
+bust_css_cache: true
+
+# options (data)
+google_analytics_id: UA-fff-4
+disqus_id:
+addthis_id: "ra-fff"
+# CONTACT FORM http://getsimpleform.com/
+simple_form_api_token:
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/_sass
+
+# source: content
+# TODO: Set default layouts for posts, pages, and arguendo, and ipsos
+
+defaults:
+  -
+   scope:
+    path: ''
+   values:
+    layout: post
