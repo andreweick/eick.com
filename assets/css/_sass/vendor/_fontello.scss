@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?97141321');
-  src: url('../font/fontello.eot?97141321#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?97141321') format('woff'),
-       url('../font/fontello.ttf?97141321') format('truetype'),
-       url('../font/fontello.svg?97141321#fontello') format('svg');
+  src: url('../font/fontello.eot?58337616');
+  src: url('../font/fontello.eot?58337616#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?58337616') format('woff'),
+       url('../font/fontello.ttf?58337616') format('truetype'),
+       url('../font/fontello.svg?58337616#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?97141321#fontello') format('svg');
+    src: url('../font/fontello.svg?58337616#fontello') format('svg');
   }
 }
 */
@@ -44,21 +44,24 @@
   margin-left: .2em;
 
   /* you can be more comfortable with increased icons size */
-  //font-size: 150%;
+  /* font-size: 120%; */
 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
 .icon-twitter-squared:before { content: '\e800'; } /* '' */
-.icon-facebook-squared:before { content: '\e801'; } /* '' */
-.icon-up-open:before { content: '\e802'; } /* '' */
-.icon-down-open:before { content: '\e803'; } /* '' */
-.icon-right-open:before { content: '\e80a'; } /* '' */
-.icon-left-open:before { content: '\e80b'; } /* '' */
-.icon-gplus-squared:before { content: '\e80f'; } /* '' */
-.icon-linkedin-squared:before { content: '\e810'; } /* '' */
-.icon-github-squared:before { content: '\e811'; } /* '' */
-.icon-menu:before { content: '\e812'; } /* '' */
-.icon-grid:before { content: '\e813'; } /* '' */
-.icon-th-list:before { content: '\e814'; } /* '' */
+.icon-ccw:before { content: '\e801'; } /* '' */
+.icon-facebook-squared:before { content: '\e802'; } /* '' */
+.icon-up-open:before { content: '\e803'; } /* '' */
+.icon-down-open:before { content: '\e804'; } /* '' */
+.icon-left-open:before { content: '\e805'; } /* '' */
+.icon-gplus-squared:before { content: '\e806'; } /* '' */
+.icon-linkedin-squared:before { content: '\e807'; } /* '' */
+.icon-github-squared:before { content: '\e808'; } /* '' */
+.icon-menu:before { content: '\e809'; } /* '' */
+.icon-grid:before { content: '\e80a'; } /* '' */
+.icon-th-list:before { content: '\e80b'; } /* '' */
+.icon-link-ext:before { content: '\e80c'; } /* '' */
+.icon-link-ext-alt:before { content: '\e80d'; } /* '' */
+.icon-back:before { content: '\e80e'; } /* '' */

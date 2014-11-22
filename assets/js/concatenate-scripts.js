@@ -8,6 +8,7 @@ layout: null
  // display image caption on top of image
 $("article.post #container img").each(function() {
   var imageCaption = $(this).attr("alt");
+  var imageSource = $(this).attr("src");
 
   if (imageCaption != '') {
     var imgWidth = $(this).width();
@@ -15,7 +16,7 @@ $("article.post #container img").each(function() {
     var position = $(this).position();
     var positionTop = (position.top + imgHeight - 26)
   $("<span class'item'>").insertBefore(this);
-  $("<span class='img-caption'><em>"+imageCaption+"</em></span></span>").css({"margin-bottom":"2em", "top":positionTop+"px", "left":"0", "width":100 +"%", "clear":"both", "display": "block"}).insertAfter(this);}
+  $("<a class='img-caption' href='" + imageSource + "'><em>"+imageCaption+"</em> <i class='icon-link-ext'></i></a></span>").css({"margin-bottom":"2em", "top":positionTop+"px", "left":"0", "width":100 +"%", "clear":"both", "display": "block"}).insertAfter(this);}
 });
 // END image caption
 
