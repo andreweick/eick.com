@@ -126,11 +126,16 @@ picture {
 }
 
 blockquote {
-  border-left: none;//2px solid $base-border-color;
-  //color: lighten($base-font-color, 15);
+  border-left: 2px solid $base-border-color;
+  color: lighten($base-font-color, 15);
   margin: $base-spacing 0;
-  //padding: $base-spacing / 2;
-  font-size: 1.3em;
+  padding: $base-spacing / 2;
+  //font-size: 1.3em;
+}
+
+.sidebar-right blockquote {
+  border-left:none;
+  padding:0;
 }
 
 cite {
