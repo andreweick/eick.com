@@ -51,7 +51,7 @@ article.post, article.post-three_up {
   // }
 }
 
-article.post {
+article.post .prose{
     padding: 4em 4% 0 4%;
   @include media($medium-screen-up) {
     padding-left: 8em;
