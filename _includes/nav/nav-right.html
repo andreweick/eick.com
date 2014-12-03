@@ -13,7 +13,7 @@
       {% if page.section == 'post' %}
         {% if page.categories %}
           {% capture category %}{{ page.categories }}{% endcapture %}
-            <h2><a href="/{{ category }}/">{{ category | capitalize }}  <i class="icon-undo light"></i></a></h2>
+            <h2><a href="/{{ category }}/">{{ category | capitalize }}  <i class="icon-back"></i></a></h2>
         {% endif %}
       {% endif %}
       {% if page.title %}
@@ -21,6 +21,14 @@
           <a href="{{ page.url }}">{{ page.title }}</a>
         </h1>
       {% endif %}
+      {% if page.date %}
+      <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
+        <small>
+          {{ page.date | date:'%A %b %d, %Y' }}
+        </small>
+      </time>
+    {% endif %}
+
     </header>
 
      {% if page.intro %}

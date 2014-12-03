@@ -7,9 +7,26 @@ section: post
       <div class="small-screen-only">
         <header>
           <h1 class="entry-title">{{ page.title }}</h1>
+          {% if page.date %}
+      <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
+        <small>
+          {{ page.date | date:'%A %b %d, %Y' }}
+        </small>
+      </time>
+    {% endif %}
         </header>
       </div>
     {% endif %}
+
+
+        {% if page.vimeo %}
+          <div class='embed-container'>
+            <iframe src='//player.vimeo.com/video/{{ page.vimeo }}?portrait=0&color=333' webkitallowfullscreen mozallowfullscreen frameborder='0' allowfullscreen></iframe>
+          </div>
+          <hr />
+        {% endif %}
+
+
     <section class="entry-content prose">
       {% if page.intro %}
         <div class="small-screen-only">
@@ -17,6 +34,9 @@ section: post
           <hr />
         </div>
       {% endif %}
+
+
+
       <div class="gallery" id="container">
         <div class="grid-sizer"></div>
         {{ content }}

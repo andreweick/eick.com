@@ -1,40 +1,43 @@
 ---
 layout: null
 ---
+@import
 //REQUIRED
-@import "vendor/normalize";
-@import "libs/bourbon/bourbon";
-@import "base/base";
-@import "libs/neat/neat";
+"vendor/normalize",
+"libs/bourbon/bourbon",
+"base/base",
+"libs/neat/neat",
 
 // BASIC MODULES
-
-@import "modules/nav-top";
-@import "modules/hero";
-@import "modules/footer";
+"modules/nav-top",
+"modules/hero",
+"modules/footer",
 
 //typography-icons
-@import "modules/typography-underlines";
-@import "vendor/fontello";
-@import "vendor/fontello-undo";
+"modules/typography-underlines",
+"vendor/fontello",
+"vendor/fontello-undo",
 //utilities
-@import "modules/accessibility";
+"modules/accessibility",
 
 // GLOBAL
-@import "modules/article";
-@import "modules/layouts";
-@import "modules/sidebar";
+"modules/article",
+"modules/layouts",
+"modules/sidebar",
 
-@import "modules/utilities";
-@import "modules/wf-loading";
-@import "modules/_code";
+"modules/utilities",
+"modules/wf-loading",
+"modules/code",
+"modules/video-embed";
 
 
 
 .caption {
   text-transform: italic;
   font-style: italic;
+
 }
+.icon-link-ext:before, .icon-back:before { font-size:70%; }
 
 
 .state-icons i{
@@ -76,6 +79,12 @@ a.headings:hover h2.snapshot, .sidebar-snapshot {
 a.headings:hover h2.history, .sidebar-history {
   background-color:$brown;
   color: white;
+}
+.large-screens {
+  display: none;
+  @include media($medium-screen-up) {
+    display: block;
+  }
 }
 
 .small-screen-only {
