@@ -18,7 +18,7 @@ tags:
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby, age 7, grade 2.

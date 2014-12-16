@@ -10,7 +10,7 @@ tags:
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby plays dress up indian.  She even put makeup on to simulate working outside.  In the one picture she is pretending to warm herself by the fire.

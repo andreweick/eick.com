@@ -6,7 +6,7 @@ published: true
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby getting ready for the bunny in a very sunny yellow light.

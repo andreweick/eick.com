@@ -10,7 +10,7 @@ tags: []
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby looking in a mirror at McLean days

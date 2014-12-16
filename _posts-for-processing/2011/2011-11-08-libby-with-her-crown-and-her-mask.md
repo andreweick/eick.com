@@ -15,12 +15,12 @@ meta:
   quote-author: Unknown
 tags: 
 - crown
-- libby
+- Libby
 - mask
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby wearing her crown and mask

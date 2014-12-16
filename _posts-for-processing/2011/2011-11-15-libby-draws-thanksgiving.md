@@ -15,12 +15,12 @@ meta:
   quote-author: Unknown
 tags: 
 - kids drawing
-- libby
+- Libby
 - thanksgiving
 type: post
 categories: 
 - kids drawing
-- libby
+- Libby
 status: publish
 ---
 

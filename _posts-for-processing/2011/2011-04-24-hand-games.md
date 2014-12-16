@@ -18,7 +18,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Libby and Jasmine playing hand games selling free lemonade

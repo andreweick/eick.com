@@ -10,9 +10,54 @@ section: archive
   {% assign collection = site.categories[archive_cat] %}
 {% endif %}
 
- {% for article in collection %}
-   {% capture category %}{{ article.categories }}{% endcapture %}
-    <a href="{{ article.url }}" class="headings">
-      <h2 class="{{ article.categories}}">{{ article.title }} <small>{{ category | capitalize }} &bull; {{ article.date | date:'%Y-%b-%d' }}</small></h2>
-    </a>
+
+<style type="text/css">
+  .headings input {
+    display: inline-block;
+    margin: 1em 0;
+    //border-bottom: 1px solid #DDD;
+    height: 2em;
+    width: 100%;
+    padding: 1em 1.5em;
+    max-width: 100%;
+    font-size:2em;
+    border-radius: 0;
+  }
+
+  .headings form {
+    display: inline-block;
+  }
+
+  .headings h2 {
+    line-height: 1;
+  }
+  .tags {
+    padding: .5em 2.25em;
+  }
+
+</style>
+  <div id="container-filter">
+    <div class="headings">
+      <div>
+        <input type="text" class="search" placeholder="Search {{ archive_cat | capitalize }} posts…" />
+      </div>
+  </div>
+<div class="tags">
+  {% for tag in site.tags limit: 15 %}
+    {% capture tagsCount %}{{forloop.index0 }}{% endcapture %}
+    <button id="filter-{{ tag[0] }}" class="tag" style="margin:0 .5em .75em 0;">
+      {{ tag[0] }}
+    </button>
   {% endfor %}
+</div>
+
+
+  <div class="list-filter">
+    {% for article in collection %}
+     {% capture category %}{{ article.categories }}{% endcapture %}
+      <a href="{{ article.url }}" class="headings">
+        <h2 class="{{ article.categories}}"><span class="title">{{ article.title }}</span> <small>{% for tag in article.tags %}<span class="tag_{{ forloop.index0 }}">{{ tag }}</span>{% unless forloop.last %} &bull; {% endunless %}{% endfor %} <br /> {{ article.date | date:'%Y-%b-%d' }}</small></h2>
+      </a>
+    {% endfor %}
+  </div>
+</div>

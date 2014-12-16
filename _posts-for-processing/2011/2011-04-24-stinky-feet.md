@@ -18,7 +18,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Jasmine and Libby sell free lemonade and dog treats -- two customers!

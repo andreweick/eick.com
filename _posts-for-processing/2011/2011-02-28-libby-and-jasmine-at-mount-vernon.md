@@ -9,7 +9,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 

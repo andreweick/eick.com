@@ -7,7 +7,7 @@ published: true
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby getting ready to go to her piano recital.

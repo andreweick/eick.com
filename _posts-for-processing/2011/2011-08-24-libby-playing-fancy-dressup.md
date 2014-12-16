@@ -17,7 +17,7 @@ tags:
 - dressup
 type: post
 categories: 
-- libby
+- Libby
 status: publish
 ---
 Libby wanted to play with her new long gloves and crown, so she put on a fancy dress...

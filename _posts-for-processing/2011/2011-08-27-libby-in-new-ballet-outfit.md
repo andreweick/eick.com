@@ -8,7 +8,7 @@ tags:
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby in her new ballet uniform....

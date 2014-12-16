@@ -7,7 +7,7 @@ published: true
 type: post
 categories: 
 - kids drawing
-- libby
+- Libby
 status: publish
 ---
 

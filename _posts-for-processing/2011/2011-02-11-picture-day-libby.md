@@ -18,7 +18,7 @@ tags: []
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby's school picture, first grade.

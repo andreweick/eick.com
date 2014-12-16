@@ -10,7 +10,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 In honor of Agony visiting DC and spending some time with us while he was TDY down at Langley AFB, I pulled out some pictures of him holding the girls when they were babies....

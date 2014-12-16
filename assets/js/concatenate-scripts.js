@@ -4,6 +4,50 @@ layout: null
 {% include scripts/jquery/jquery.min.js %}
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
+{% include scripts/listjs/dist/list.min.js %}
+
+  var options = {
+      valueNames: [ 'title','tag', 'tag_0','tag_1','tag_2','tag_3','tag_4'],
+      listClass: 'list-filter'
+  };
+  var postList = new List('container-filter', options);
+
+{% assign tags = site.tags %}
+ {% for tag in tags %}
+  if (document.getElementById("filter-{{ tag[0] }}")) {
+    document.getElementById("filter-{{ tag[0] }}").onclick=function(){
+      postList.filter(function(item) {
+           if (item.values().tag_0 == "{{ tag[0] }}" ) {
+             return true;
+             }
+             else if (item.values().tag_1 == "{{ tag[0] }}" ) {
+             return true;
+             }
+             else if (item.values().tag_2 == "{{ tag[0] }}" ) {
+             return true;
+             }
+             else if (item.values().tag_3 == "{{ tag[0] }}" ) {
+             return true;
+             }
+             else if (item.values().tag_4 == "{{ tag[0] }}" ) {
+             return true;
+             } else {
+             return false;
+          }
+      });
+    };
+  }
+{% endfor %}
+    //and clear the filters
+if (document.getElementById("filter-none")) {
+ document.getElementById("filter-none").onclick=function(){
+     entryList.filter();
+     countryInfo.hide();
+    };
+  }
+
+
+
 
  // display image caption on top of image
 $("article.post #container img").each(function() {

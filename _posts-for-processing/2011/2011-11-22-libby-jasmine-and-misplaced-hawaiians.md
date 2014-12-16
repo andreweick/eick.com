@@ -19,7 +19,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Libby, Jasmine, and misplaced Hawaiians

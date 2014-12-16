@@ -18,7 +18,7 @@ tags: []
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby waits at the piano recital for her turn
