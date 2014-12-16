@@ -2,7 +2,7 @@
 title: Example Post with Pull Quote for Blog 2
 date: 2013-01-01
 author: Andy Eick
-tags: Tag
+keywords: Tag
 ---
 
 > Let's try this for a pull quote. It's reasonable size and helps offset the content nicely.

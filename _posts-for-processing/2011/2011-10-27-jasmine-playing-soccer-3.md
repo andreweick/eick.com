@@ -3,7 +3,7 @@ layout: post
 title: Jasmine playing soccer
 date: 2011-10-27
 published: true
-tags: 
+keywords: 
 - soccer
 type: post
 categories: 

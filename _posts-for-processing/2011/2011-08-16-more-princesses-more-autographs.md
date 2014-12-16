@@ -3,7 +3,7 @@ layout: post
 title: More princesses, more autographs
 date: 2011-08-16
 published: true
-tags: 
+keywords: 
 - disney
 - princesses
 type: post

@@ -12,14 +12,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - jasmine
 - kids drawing
-- video
+tags: video
 status: publish
 ---
 ##Jasmine draws a cartoon, "Out of Contrul"

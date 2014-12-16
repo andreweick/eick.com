@@ -3,7 +3,7 @@ layout: post
 title: Agony visits
 date: 2011-08-16
 published: true
-tags: 
+keywords: 
 - agony
 type: post
 categories: 

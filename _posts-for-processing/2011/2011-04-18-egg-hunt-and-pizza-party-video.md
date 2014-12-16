@@ -13,12 +13,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 We had 50 kids and parents over o our house for an egg hunt / pizza party. Kids had so much fun. It makes me laugh with Jasmine trying to direct everyone at the end of the video.  She was really worried about some little children not getting eggs (Like when she and Libby didn't get eggs at a hunt in Michigan)  Denise said they 500 eggs out in the yard, so the odds were pretty good that everyone would find something.Libby said that it was the most fun she's ever had in April...

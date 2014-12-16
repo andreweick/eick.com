@@ -13,13 +13,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - jasmine
-- video
+tags: video
 status: publish
 ---
 She's come a long way!  She must have been about four, since this was taken before we left michigan

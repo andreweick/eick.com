@@ -9,33 +9,6 @@ section: archive
   {% capture archive_cat %}{{ page.url | remove: '/' }}{% endcapture %}
   {% assign collection = site.categories[archive_cat] %}
 {% endif %}
-
-
-<style type="text/css">
-  .headings input {
-    display: inline-block;
-    margin: 1em 0;
-    //border-bottom: 1px solid #DDD;
-    height: 2em;
-    width: 100%;
-    padding: 1em 1.5em;
-    max-width: 100%;
-    font-size:2em;
-    border-radius: 0;
-  }
-
-  .headings form {
-    display: inline-block;
-  }
-
-  .headings h2 {
-    line-height: 1;
-  }
-  .tags {
-    padding: .5em 2.25em;
-  }
-
-</style>
   <div id="container-filter">
     <div class="headings">
       <div>
@@ -43,12 +16,14 @@ section: archive
       </div>
   </div>
 <div class="tags">
-  {% for tag in site.tags limit: 15 %}
+{% for article in collection %}
+  {% for tag in article.tags %}
     {% capture tagsCount %}{{forloop.index0 }}{% endcapture %}
     <button id="filter-{{ tag[0] }}" class="tag" style="margin:0 .5em .75em 0;">
       {{ tag[0] }}
     </button>
-  {% endfor %}
+   {% endfor %}
+  {% for article in collection %}
 </div>
 
 

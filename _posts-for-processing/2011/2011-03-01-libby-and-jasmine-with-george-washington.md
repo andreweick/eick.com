@@ -3,7 +3,7 @@ layout: post
 title: Libby and Jasmine with George Washington
 date: 2011-03-01
 published: true
-tags: 
+keywords: 
 - mount vernon
 type: post
 categories: 

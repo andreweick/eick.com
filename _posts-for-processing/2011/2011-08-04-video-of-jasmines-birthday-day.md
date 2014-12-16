@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - birthday
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Jasmine turned 8 the other day, but she had her party a few weeks earlier at the ice arena.  We just had cake, ice cream, and presents on her birthday (no friends over!)

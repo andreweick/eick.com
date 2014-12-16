@@ -3,7 +3,7 @@ layout: post
 title: Birthday cake
 date: 2011-05-15
 published: true
-tags:
+keywords:
 - birthday cake
 type: post
 keywords:

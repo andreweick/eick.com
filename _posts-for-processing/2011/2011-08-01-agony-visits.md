@@ -3,7 +3,7 @@ layout: post
 title: Agony visits
 date: 2011-08-01
 published: true
-tags: 
+keywords: 
 - agony
 - cottage
 type: post

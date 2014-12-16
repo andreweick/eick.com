@@ -19,15 +19,15 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - birthday party
 - play
-- video
+tags: video
 type: post
 categories: 
 - family
 - Libby
-- video
+tags: video
 status: publish
 ---
 Libby had her 7th birthday party yesterday.  She wanted a birthday play with all her friends as actors and actresses.  The play was American Girls Talent Show.  Video below....

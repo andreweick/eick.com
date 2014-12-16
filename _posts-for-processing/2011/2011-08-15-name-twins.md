@@ -3,7 +3,7 @@ layout: post
 title: Name twins
 date: 2011-08-15
 published: true
-tags: 
+keywords: 
 - disney
 - princesses
 type: post

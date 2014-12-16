@@ -12,7 +12,7 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - christmas
 - Santa
 type: post
@@ -20,7 +20,7 @@ categories:
 - family
 - jasmine
 - Libby
-- video
+tags: video
 status: publish
 ---
 Jasmine and Libby talk about Santa and Christmas.

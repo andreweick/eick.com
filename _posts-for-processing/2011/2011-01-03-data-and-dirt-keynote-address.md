@@ -9,7 +9,7 @@ keywords:
 - Institute for Modern Intelligence
 - MissionFocus
 - work
-- video
+tags: video
 ---
 Dr. Yoakum-Stover delivered the keynote address at the Information Managers 2010 Executive Symposium.  In the first part of the address, Dr. Stover talks about ULS systems.
 

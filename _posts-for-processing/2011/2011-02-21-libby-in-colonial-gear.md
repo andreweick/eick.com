@@ -3,7 +3,7 @@ layout: post
 title: Libby in colonial gear
 date: 2011-02-21
 published: true
-tags: []
+keywords: []
 
 type: post
 categories: 

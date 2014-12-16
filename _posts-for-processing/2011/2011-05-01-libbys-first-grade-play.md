@@ -12,13 +12,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - Libby
-- video
+tags: video
 status: publish
 ---
 Libby was "Sister Hare" in her play at Franklin Sherman

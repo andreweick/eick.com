@@ -1,0 +1,22 @@
+.headings input {
+    display: inline-block;
+    margin: 1em 0;
+    //border-bottom: 1px solid #DDD;
+    height: 2em;
+    width: 100%;
+    padding: 1em 1.5em;
+    max-width: 100%;
+    font-size:2em;
+    border-radius: 0;
+  }
+
+  .headings form {
+    display: inline-block;
+  }
+
+  .headings h2 {
+    line-height: 1;
+  }
+  .tags {
+    padding: .5em 2.25em;
+  }

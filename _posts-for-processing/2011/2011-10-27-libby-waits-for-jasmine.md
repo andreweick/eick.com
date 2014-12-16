@@ -5,7 +5,7 @@ date: 2011-10-27
 published: true
 meta: 
   aktt_notify_twitter: "no"
-tags: 
+keywords: 
 - soccer
 type: post
 categories: 

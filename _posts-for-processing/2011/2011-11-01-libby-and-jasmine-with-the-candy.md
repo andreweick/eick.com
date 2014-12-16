@@ -5,7 +5,7 @@ date: 2011-11-01
 published: true
 meta: 
   aktt_notify_twitter: "no"
-tags: 
+keywords: 
 - ha
 - halloween
 type: post
