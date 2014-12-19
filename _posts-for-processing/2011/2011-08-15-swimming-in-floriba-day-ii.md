@@ -5,7 +5,7 @@ date: 2011-08-15
 published: true
 
 type: post
-keywords:
+tags:
 - family
 status: publish
 ---

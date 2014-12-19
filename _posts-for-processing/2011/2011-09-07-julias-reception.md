@@ -3,10 +3,10 @@ layout: post
 title: Julia's reception
 date: 2011-09-07
 published: true
-keywords: []
+tags: []
 
 type: post
-keywords:
+tags:
 - family
 status: publish
 ---

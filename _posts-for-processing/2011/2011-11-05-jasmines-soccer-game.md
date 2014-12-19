@@ -3,7 +3,7 @@ layout: post
 title: Jasmine's soccer game
 date: 2011-11-05
 published: true
-keywords: 
+tags: 
 - jasmine
 - soccer
 type: post

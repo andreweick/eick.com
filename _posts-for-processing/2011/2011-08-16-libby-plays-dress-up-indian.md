@@ -3,7 +3,7 @@ layout: post
 title: Libby plays dress up indian
 date: 2011-08-16
 published: true
-keywords: 
+tags: 
 - dressup
 - indian
 - studio

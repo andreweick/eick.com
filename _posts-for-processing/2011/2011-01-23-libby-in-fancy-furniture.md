@@ -6,7 +6,7 @@ published: true
 meta: 
   aktt_notify_twitter: "no"
   image: http://eick.us/files/2011/01/iPhone-Capture2.jpg
-keywords: []
+tags: []
 
 type: post
 categories: []

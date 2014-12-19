@@ -19,7 +19,7 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-keywords: 
+tags: 
 - birthday party
 - play
 tags: video

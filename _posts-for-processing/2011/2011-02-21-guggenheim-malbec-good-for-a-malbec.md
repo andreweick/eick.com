@@ -6,10 +6,10 @@ published: true
 meta:
   aktt_notify_twitter: "no"
   image: http://eick.us/files/2011/02/iPhone-Capture3.jpg
-keywords: []
+tags: []
 
 type: post
-keywords: []
+tags: []
 
 status: publish
 ---

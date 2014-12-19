@@ -3,7 +3,7 @@ layout: post
 title: Jasmine taking portraits in a pink shirt
 date: 2011-04-19
 published: true
-keywords: 
+tags: 
 - portrait
 type: post
 categories: 

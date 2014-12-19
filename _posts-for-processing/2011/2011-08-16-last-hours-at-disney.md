@@ -3,7 +3,7 @@ layout: post
 title: Last hours at Disney
 date: 2011-08-16
 published: true
-keywords: 
+tags: 
 - disney
 - princesses
 type: post

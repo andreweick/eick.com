@@ -12,7 +12,7 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-keywords: 
+tags: 
 - cartoon
 - toontastic
 type: post

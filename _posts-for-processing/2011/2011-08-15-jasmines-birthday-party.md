@@ -3,7 +3,7 @@ layout: post
 title: Jasmine's birthday party
 date: 2011-08-15
 published: true
-keywords: 
+tags: 
 - birthday
 type: post
 categories: 

@@ -5,7 +5,7 @@ date: 2011-09-09
 published: true
 
 type: post
-keywords:
+tags:
 - fun
 status: publish
 ---

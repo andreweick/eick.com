@@ -4,7 +4,7 @@ title: St Francis of Assisi church 1710 still in use Rancho de Taos
 date: 2011-03-06
 published: true
 type: post
-keywords:
+tags:
 - family
 - slides
 status: publish

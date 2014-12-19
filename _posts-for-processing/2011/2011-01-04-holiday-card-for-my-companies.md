@@ -5,7 +5,7 @@ date: 2011-01-04
 published: true
 
 type: post
-keywords:
+tags:
 - work
 - christmas
 status: publish

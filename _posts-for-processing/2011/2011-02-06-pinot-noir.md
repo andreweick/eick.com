@@ -6,10 +6,10 @@ published: true
 meta:
   aktt_notify_twitter: "no"
   image: http://media.eick.us/2011/02/2011-02-06-at-16-09-37.jpg
-keywords: []
+tags: []
 
 type: post
-keywords: []
+tags: []
 
 status: publish
 ---

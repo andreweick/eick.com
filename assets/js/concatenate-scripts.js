@@ -5,14 +5,17 @@ layout: null
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
 {% include scripts/listjs/dist/list.min.js %}
+{% assign tags = site.tags %}
+{% assign filters = site.data.filters %}
 
   var options = {
-      valueNames: [ 'title','tag', 'tag_0','tag_1','tag_2','tag_3','tag_4'],
+      valueNames: [ 'title', 'tag', 'tag_0','tag_1','tag_2','tag_3','tag_4', 'tag_5', 'tag_6', 'tag_7'{% for filter in site.data.filters %}{% if forloop.first %} ,{% endif %}'{{filter.key}}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
       listClass: 'list-filter'
   };
   var postList = new List('container-filter', options);
+  var filtersButton = $('#filter-none').hide();
 
-{% assign tags = site.tags %}
+
  {% for tag in tags %}
   if (document.getElementById("filter-{{ tag[0] }}")) {
     document.getElementById("filter-{{ tag[0] }}").onclick=function(){
@@ -35,14 +38,29 @@ layout: null
              return false;
           }
       });
+      filtersButton.show();
+    };
+  }
+{% endfor %}
+{% for tag in filters %}
+  if (document.getElementById("filter-{{ tag.key }}")) {
+    document.getElementById("filter-{{ tag.key }}").onclick=function(){
+      postList.filter(function(item) {
+           if (item.values().{{ tag.key }} == "{{ tag.key }}" ) {
+             return true;
+             }
+              else {
+             return false;
+          }
+      });
+      filtersButton.show();
     };
   }
 {% endfor %}
     //and clear the filters
 if (document.getElementById("filter-none")) {
  document.getElementById("filter-none").onclick=function(){
-     entryList.filter();
-     countryInfo.hide();
+     postList.filter();
     };
   }
 
