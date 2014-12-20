@@ -3,12 +3,12 @@ layout: post
 title: Libby in new ballet outfit
 date: 2011-08-27
 published: true
-tags: 
+keywords: 
 - ballet
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby in her new ballet uniform....

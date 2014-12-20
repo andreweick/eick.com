@@ -3,7 +3,7 @@ layout: post
 title: Jasmine self portrait
 date: 2011-09-25
 published: true
-tags: 
+keywords: 
 - kids drawing
 type: post
 categories: 

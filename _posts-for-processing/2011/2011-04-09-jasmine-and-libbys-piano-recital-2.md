@@ -13,14 +13,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - piano
 type: post
 categories: 
 - family
 - jasmine
-- libby
-- video
+- Libby
+tags: video
 status: publish
 ---
 Jasmine and Libby's piano recital, April 3, 2011. 

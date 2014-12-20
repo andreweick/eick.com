@@ -3,7 +3,7 @@ layout: post
 title: Libby jumping in the waves, and Jasmine in the sand.
 date: 2011-08-13
 published: true
-tags: 
+keywords: 
 - beach
 - ocean
 - sand

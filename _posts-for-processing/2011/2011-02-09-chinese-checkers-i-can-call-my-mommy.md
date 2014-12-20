@@ -6,7 +6,7 @@ published: true
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Chinese checkers, I can do karate.  

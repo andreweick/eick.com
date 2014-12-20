@@ -13,13 +13,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- libby
-- video
+- Libby
+tags: video
 status: publish
 ---
 International night at their school, and they had a dance. Jasmine thought it was to loud, so she went back to the gym. Libby had so much fun, she danced for almost the full two hours.

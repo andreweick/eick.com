@@ -13,14 +13,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - christmas
 - Santa
 type: post
 categories: 
 - christmas
 - family
-- video
+tags: video
 status: publish
 ---
 Jasmine and Libby read wish lists for Santa. Jasmine is totally convinced on Santa, whereas Libby is not sure at all. They've been having arguments about it for the last few weeks. Jasmine tried to convince Libby that Santa was real by [googling for his house](http://g.co/maps/w27p4).

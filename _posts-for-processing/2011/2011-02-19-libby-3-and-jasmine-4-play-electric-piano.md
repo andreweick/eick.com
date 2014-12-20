@@ -13,14 +13,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - jasmine
-- libby
-- video
+- Libby
+tags: video
 status: publish
 ---
 Video taken in Michigan, so Libby must be 3 and Jasmine 4.  Jasmine called the frog "stinky" but doesn't know where it is.  Jasmine says "it's so wierd how you sing that way."  And Libby replies "I was only three...."

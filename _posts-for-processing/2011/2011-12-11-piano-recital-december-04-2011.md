@@ -3,12 +3,12 @@ layout: post
 title: Piano Recital, December 04, 2011
 date: 2011-12-11
 published: true
-tags: [piano]
+keywords: [piano]
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Jasmine and Libby have a piano recital.

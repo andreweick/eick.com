@@ -13,12 +13,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - school pictures
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby, age 7, grade 2.

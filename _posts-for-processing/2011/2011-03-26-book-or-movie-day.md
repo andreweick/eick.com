@@ -7,7 +7,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Friday was book or movie day at school.  I thought they would watch movies, but Libby told me they could dress up as a book OR a movie character.  She dressed up as a book *AND* a movie character.  Libby (of course) was a colonial girl, and Jasmine (of course) was a doggy....

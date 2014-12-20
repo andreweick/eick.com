@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - disney
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Libby's favorite ride at Disney World was "It's A Small World."  We rode it a few times every day.  Jasmine decided to take a video of the whole ride so that Libby could watch it every day...

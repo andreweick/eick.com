@@ -13,13 +13,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Jasmine and Libby go to Kumon every week to get extra drill on math and reading.  Although Jasmine has to work really hard at it, I think it has helped her get faster at arithmetic and feel better about school.  They had a ceremony last night where they each got two medals (one for math, one for reading).

@@ -3,7 +3,7 @@ layout: post
 title: Jasmine with balloons
 date: 2011-03-02
 published: true
-tags: 
+keywords: 
 - balloons
 - studio
 type: post

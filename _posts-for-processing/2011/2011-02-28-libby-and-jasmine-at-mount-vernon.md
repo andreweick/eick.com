@@ -3,13 +3,13 @@ layout: post
 title: Libby and Jasmine at Mount Vernon
 date: 2011-02-28
 published: true
-tags: 
+keywords: 
 - mount vernon
 type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 

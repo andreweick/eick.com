@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Libby lost another tooth (She was really excited for the five dollars)

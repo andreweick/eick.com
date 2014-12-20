@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Jasmine with a Christmas video recorded Christmas morning....

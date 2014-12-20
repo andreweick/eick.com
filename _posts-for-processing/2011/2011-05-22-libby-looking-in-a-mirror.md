@@ -5,12 +5,12 @@ date: 2011-05-22
 published: true
 meta: 
   aktt_notify_twitter: "no"
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby looking in a mirror at McLean days

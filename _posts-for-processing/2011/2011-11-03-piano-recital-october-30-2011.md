@@ -12,14 +12,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - piano
 - recital
 type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 Libby and Jasmine play a piano recital and a duet last weekend....

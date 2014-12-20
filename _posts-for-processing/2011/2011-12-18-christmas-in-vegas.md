@@ -12,13 +12,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags:
+keywords:
 - iPhone
 - vegas
 type: post
 keywords:
 - fun
-- video
+tags: video
 status: publish
 ---
 I had to go to Vegas for a quick business trip last week. I took these pictures while walking through the lobby of the hotel, and made the movie while waiting for dinner. Not bad for a video made on my phone!

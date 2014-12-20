@@ -3,7 +3,7 @@ layout: post
 title: Jasmine's 8th birthday day
 date: 2011-08-15
 published: true
-tags: 
+keywords: 
 - birthday
 type: post
 categories: 

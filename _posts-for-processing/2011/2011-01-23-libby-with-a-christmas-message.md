@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Libby recorded a Christmas message on Christmas morning 2010

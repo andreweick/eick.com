@@ -13,14 +13,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - crown
-- libby
+- Libby
 - mask
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 Libby wearing her crown and mask

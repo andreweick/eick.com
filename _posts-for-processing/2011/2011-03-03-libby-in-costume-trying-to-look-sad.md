@@ -3,12 +3,12 @@ layout: post
 title: Libby in costume trying to look sad
 date: 2011-03-03
 published: true
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 

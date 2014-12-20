@@ -3,13 +3,13 @@ layout: post
 title: Libby and Jasmine with George Washington
 date: 2011-03-01
 published: true
-tags: 
+keywords: 
 - mount vernon
 type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 We went to Mount Vernon on Washington day (Presidents day).  They had a "Presents for the General" play, and they picked Libby and Jasmine to give the present of coral.  Washington spent about two months in Barbados in 1751, the only time he was ever outside of the colonial United States.  (Who knew) So they had Libby and Jasmine present the general with coral so that he could educate us.

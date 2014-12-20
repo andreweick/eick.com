@@ -13,14 +13,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - kids drawing
-- libby
+- Libby
 - thanksgiving
 type: post
 categories: 
 - kids drawing
-- libby
+- Libby
 status: publish
 ---
 

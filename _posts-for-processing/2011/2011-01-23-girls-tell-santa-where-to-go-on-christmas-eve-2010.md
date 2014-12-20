@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Jasmine and Libby had a route planned out for Santa on Christmas eve -- down the fireplace, around the table, over to the tree, get the cookies, and give a carrot for each reindeer.  Jasmine was so excited she couldn't even sit still

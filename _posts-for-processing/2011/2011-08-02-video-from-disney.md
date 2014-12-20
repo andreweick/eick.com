@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - disney
 type: post
 categories: 
 - family
-- video
+tags: video
 status: publish
 ---
 Short video of Disney.  Jasmine took most of the videos, interesting to see what she looks at.  They both liked the "Tomorrowland speedway" where they could drive cars.  Libby was tired and went back to the hotel, while Jasmine wanted to do the "big kid" rides, so we went back at night and rode some of them.  It was July 4th, and around 6pm the park was already filling up with people who were there to watch the fireworks.  We rode "Thunder Mountain" and started to head back to the water taxi when the fire works started.  I was trying to run through the park to get to the taxis before the end of the show, while Jasmine just watched the fireworks...

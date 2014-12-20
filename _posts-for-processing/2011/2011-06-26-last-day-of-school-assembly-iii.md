@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 keywords:
 - family
-- video
+tags: video
 status: publish
 ---
 

@@ -13,13 +13,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 categories: 
 - family
 - halloween
-- libby
+- Libby
 status: publish
 ---
 Libby in her halloween costume.

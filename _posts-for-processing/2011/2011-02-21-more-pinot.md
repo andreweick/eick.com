@@ -13,7 +13,7 @@ meta:
   image: http://eick.us/files/2011/02/iPhone-Capture4.jpg
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 keywords: []

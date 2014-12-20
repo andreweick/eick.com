@@ -12,14 +12,14 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - ballet
 - dance
 type: post
 categories: 
 - family
-- libby
-- video
+- Libby
+tags: video
 status: publish
 ---
 Libby's last ballet recital -- last song

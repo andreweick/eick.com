@@ -2,6 +2,10 @@ object, embed, iframe {
   max-width: 100% !important;
 }
 
+.hidden {
+  display: none;
+}
+
 .screen-reader-text { /* Reusable, toolbox kind of class */
 position: absolute;
 top: -9999px;

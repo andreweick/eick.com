@@ -12,13 +12,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - cartoon
 - toontastic
 type: post
 categories: 
 - family
-- libby
+- Libby
 status: publish
 ---
 I'm not even sure she finished this....She made this on the iPad

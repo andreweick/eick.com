@@ -9,10 +9,30 @@ section: archive
   {% capture archive_cat %}{{ page.url | remove: '/' }}{% endcapture %}
   {% assign collection = site.categories[archive_cat] %}
 {% endif %}
+  <div id="container-filter">
+    <div class="headings">
+      <div>
+        <input type="text" class="search" placeholder="Search {{ archive_cat | capitalize }} posts…" />
+      </div>
+  </div>
+<div class="tags">
+{% for article in collection %}
+  {% for tag in article.tags %}
+    {% capture tagsCount %}{{forloop.index0 }}{% endcapture %}
+    <button id="filter-{{ tag[0] }}" class="tag" style="margin:0 .5em .75em 0;">
+      {{ tag[0] }}
+    </button>
+   {% endfor %}
+  {% for article in collection %}
+</div>
 
- {% for article in collection %}
-   {% capture category %}{{ article.categories }}{% endcapture %}
-    <a href="{{ article.url }}" class="headings">
-      <h2 class="{{ article.categories}}">{{ article.title }} <small>{{ category | capitalize }} &bull; {{ article.date | date:'%Y-%b-%d' }}</small></h2>
-    </a>
-  {% endfor %}
+
+  <div class="list-filter">
+    {% for article in collection %}
+     {% capture category %}{{ article.categories }}{% endcapture %}
+      <a href="{{ article.url }}" class="headings">
+        <h2 class="{{ article.categories}}"><span class="title">{{ article.title }}</span> <small>{% for tag in article.tags %}<span class="tag_{{ forloop.index0 }}">{{ tag }}</span>{% unless forloop.last %} &bull; {% endunless %}{% endfor %} <br /> {{ article.date | date:'%Y-%b-%d' }}</small></h2>
+      </a>
+    {% endfor %}
+  </div>
+</div>

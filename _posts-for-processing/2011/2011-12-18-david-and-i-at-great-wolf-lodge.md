@@ -12,12 +12,12 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: []
+keywords: []
 
 type: post
 keywords:
 - family
-- video
+tags: video
 status: publish
 ---
 Found this video on the camera from many months ago when we were at great wolf lodge -- taken riding the big slide...

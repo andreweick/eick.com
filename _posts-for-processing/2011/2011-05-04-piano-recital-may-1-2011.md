@@ -12,15 +12,15 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - piano
-- video
+tags: video
 type: post
 categories: 
 - family
 - jasmine
-- libby
-- video
+- Libby
+tags: video
 status: publish
 ---
 Libby plays "Enchanted Forest" and "America" while Jasmine played "The clown song" and another song that "I have no idea" (which is Libby's favorite saying right now)

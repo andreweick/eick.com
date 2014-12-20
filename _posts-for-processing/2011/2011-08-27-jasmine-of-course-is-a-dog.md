@@ -13,7 +13,7 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - doggy
 - dressup
 type: post

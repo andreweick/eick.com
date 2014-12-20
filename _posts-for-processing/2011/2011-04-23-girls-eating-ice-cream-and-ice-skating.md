@@ -7,7 +7,7 @@ type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 alias: /blog/2011/04/23/girls-eating-ice-cream-and-ice-ska/
 ---

@@ -20,13 +20,13 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-tags: 
+keywords: 
 - pool
 type: post
 categories: 
 - family
 - jasmine
-- libby
+- Libby
 status: publish
 ---
 
