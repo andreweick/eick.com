@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% include scripts/jquery/jquery.min.js %}
+{% include scripts/jquery/dist/jquery.min.js %}
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
 {% include scripts/listjs/dist/list.min.js %}

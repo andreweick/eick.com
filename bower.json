@@ -29,7 +29,8 @@
         "modernizr": "latest",
         "underscore": "latest",
         "masonry": "latest",
-        "imagesloaded": "latest"
+        "imagesloaded": "latest",
+        "aload": "latest"
 
     }
 }

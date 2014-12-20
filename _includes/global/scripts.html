@@ -46,5 +46,14 @@
   })();
 
  </script>
-
 {% endraw %}
+{% comment %}
+   <script type="text/javascript">
+    {% include scripts/aload/dist/aload.min.js %}
+    function aload(a){"use strict";a=a||window.document.querySelectorAll("[data-aload]"),void 0===a.length&&(a=[a]);var b,c=0,d=a.length;for(c;d>c;c+=1)b=a[c],b["LINK"!==b.tagName?"src":"href"]=b.getAttribute("data-aload"),b.removeAttribute("data-aload");return a}
+
+    window.onload = function () {
+    aload();
+  };
+  </script>
+{% endcomment %}

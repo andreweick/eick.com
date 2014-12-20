@@ -15,12 +15,25 @@ section: archive
     <input type="text" class="search" placeholder="Search {{ archive_cat | capitalize }} posts…" />
   </div>
   <div class="tags">
-    {% for tag in filters %}
-      <button id="filter-{{ tag.key }}" class="tag" style="margin:0 .5em .75em 0;">
-        {{ tag.filter }}
-      </button>
+    {% for article in collection %}
+      {% if article.vimeo OR if article.youtube OR if article.video %}
+        {% assign showVideo = 'yes' %}
+      {% endif %}
+      {% if article.photo_layout %}
+        {% assign showGallery = 'yes' %}
+      {% endif %}
     {% endfor %}
-    <button id="filter-none" class="small" style="margin:0 .5em .75em 0;float:right;">clear filters</button>
+    {% if showVideo == 'yes' %}
+      <button id="filter-video" class="tag" style="margin:0 .5em .75em 0;">
+        Video
+      </button>
+    {% endif %}
+    {% if showGallery == 'yes' %}
+      <button id="filter-photo_layout" class="tag" style="margin:0 .5em .75em 0;">
+        Gallery
+      </button>
+    {% endif %}
+    <button id="filter-none" class="small clearButton no-js">clear filters</button>
   </div>
   <div class="list-filter">
     {% for article in collection %}
@@ -33,4 +46,3 @@ section: archive
     {% endfor %}
   </div>
 </div>
-
