@@ -5,6 +5,17 @@ layout: null
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
 {% include scripts/listjs/dist/list.min.js %}
+
+$('#navigation-menu').removeClass("show");
+  $('#js-mobile-menu').on('click', function(e) {
+    e.preventDefault();
+    $('#navigation-menu').slideToggle(function(){
+      if($('#navigation-menu').is(':hidden')) {
+        $('#navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
 {% assign tags = site.tags %}
 {% assign filters = site.data.filters %}
 
