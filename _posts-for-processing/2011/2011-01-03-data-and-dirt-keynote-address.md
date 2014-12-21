@@ -4,7 +4,7 @@ title: Data and Dirt keynote address
 date: 2011-01-03 16:34
 published: true
 type: post
-keywords:
+tags:
 - Exclude
 - Institute for Modern Intelligence
 - MissionFocus

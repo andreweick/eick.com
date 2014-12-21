@@ -3,7 +3,7 @@ layout: post
 title: Breakfast with the princesses
 date: 2011-08-15
 published: true
-keywords: 
+tags: 
 - princesses
 type: post
 categories: 

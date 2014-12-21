@@ -3,7 +3,7 @@ layout: post
 title: Meetings with princesses
 date: 2011-08-15
 published: true
-keywords: 
+tags: 
 - disney
 - princesses
 type: post

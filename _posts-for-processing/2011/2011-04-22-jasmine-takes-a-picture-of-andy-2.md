@@ -13,7 +13,7 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-keywords: 
+tags: 
 - andy
 type: post
 categories: 

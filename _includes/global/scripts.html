@@ -18,19 +18,6 @@
 </script>
 
  <script type="text/javascript">
-//   WebFontConfig = {
-//     google: { families: [ 'Roboto:400,300,400italic,500,500italic,700,700italic,300italic:latin' , 'Lato:100:latin', 'Oswald:700:latin' ] }
-//   };
-//   (function() {
-//     var wf = document.createElement('script');
-//     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-//       '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-//     wf.type = 'text/javascript';
-//     wf.async = 'true';
-//     var s = document.getElementsByTagName('script')[0];
-//     s.parentNode.insertBefore(wf, s);
-//   })();
-
   WebFontConfig = {
     typekit: { id: 'dkk6gyx' }
   };
@@ -46,5 +33,14 @@
   })();
 
  </script>
-
 {% endraw %}
+{% comment %}
+   <script type="text/javascript">
+    {% include scripts/aload/dist/aload.min.js %}
+    function aload(a){"use strict";a=a||window.document.querySelectorAll("[data-aload]"),void 0===a.length&&(a=[a]);var b,c=0,d=a.length;for(c;d>c;c+=1)b=a[c],b["LINK"!==b.tagName?"src":"href"]=b.getAttribute("data-aload"),b.removeAttribute("data-aload");return a}
+
+    window.onload = function () {
+    aload();
+  };
+  </script>
+{% endcomment %}

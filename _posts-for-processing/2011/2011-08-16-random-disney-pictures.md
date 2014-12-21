@@ -3,7 +3,7 @@ layout: post
 title: Random Disney pictures
 date: 2011-08-16
 published: true
-keywords: 
+tags: 
 - disney
 type: post
 categories: 

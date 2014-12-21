@@ -6,10 +6,10 @@ published: true
 meta:
   aktt_notify_twitter: "no"
   link-url: http://j.mp/hWsuOg
-keywords: []
+tags: []
 
 type: post
-keywords: []
+tags: []
 
 status: publish
 ---

@@ -17,16 +17,12 @@ section: post
         </header>
       </div>
     {% endif %}
-
-
-        {% if page.vimeo %}
-          <div class='embed-container'>
-            <iframe src='//player.vimeo.com/video/{{ page.vimeo }}?portrait=0&color=333' webkitallowfullscreen mozallowfullscreen frameborder='0' allowfullscreen></iframe>
-          </div>
-          <hr />
-        {% endif %}
-
-
+    {% if page.vimeo %}
+      <div class='embed-container'>
+        <iframe src='//player.vimeo.com/video/{{ page.vimeo }}?portrait=0&color=333' webkitallowfullscreen mozallowfullscreen frameborder='0' allowfullscreen></iframe>
+      </div>
+      <hr />
+    {% endif %}
     <section class="entry-content prose">
       {% if page.intro %}
         <div class="small-screen-only">
@@ -34,8 +30,6 @@ section: post
           <hr />
         </div>
       {% endif %}
-
-
 
       <div class="gallery" id="container">
         <div class="grid-sizer"></div>

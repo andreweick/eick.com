@@ -4,7 +4,7 @@ title: Denver & Rio Grande
 date: 2011-05-21
 published: true
 type: post
-keywords:
+tags:
 - archive
 - family
 status: publish

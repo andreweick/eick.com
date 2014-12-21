@@ -4,7 +4,7 @@ title: A trip to National Mall
 date: 2011-09-08
 published: true
 type: post
-keywords:
+tags:
 - family
 status: publish
 ---

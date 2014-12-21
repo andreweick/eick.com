@@ -13,10 +13,10 @@ meta:
   image: http://eick.us/files/2011/02/iPhone-Capture4.jpg
   link-url: http://
   quote-author: Unknown
-keywords: []
+tags: []
 
 type: post
-keywords: []
+tags: []
 
 status: publish
 ---

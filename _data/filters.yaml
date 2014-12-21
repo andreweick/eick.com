@@ -1,0 +1,8 @@
+# if adding a new filter, add the filter criter in layouts/archive.html ~line 30
+- filter: Gallery
+  key: photo_layout
+
+- filter: Video
+  key: video
+
+

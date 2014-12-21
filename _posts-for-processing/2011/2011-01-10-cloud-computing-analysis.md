@@ -12,10 +12,10 @@ meta:
   image: ""
   link-url: http://
   quote-author: Unknown
-keywords: []
+tags: []
 
 type: post
-keywords:
+tags:
 - fun
 status: publish
 ---
