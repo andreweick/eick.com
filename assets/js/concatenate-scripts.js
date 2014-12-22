@@ -5,6 +5,8 @@ layout: null
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
 {% include scripts/listjs/dist/list.min.js %}
+{% include scripts/list.pagination.js/dist/list.pagination.min.js %}
+
 
 $('#navigation-menu').removeClass("show");
   $('#js-mobile-menu').on('click', function(e) {
@@ -21,7 +23,13 @@ $('#navigation-menu').removeClass("show");
 
   var options = {
       valueNames: [ 'title', 'tag', 'tag_0','tag_1','tag_2','tag_3','tag_4', 'tag_5', 'tag_6', 'tag_7'{% for filter in site.data.filters %}{% if forloop.first %} ,{% endif %}'{{filter.key}}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
-      listClass: 'list-filter'
+      listClass: 'list-filter',
+      page: 15,
+      plugins: [ ListPagination({
+
+        paginationClass: "pagination-list"
+
+      }) ]
   };
   var postList = new List('container-filter', options);
   var filtersButton = $('#filter-none').hide();
