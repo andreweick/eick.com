@@ -1,13 +1,3 @@
-2014-08-23 | Libby Aladdin:
-
-![](http://media.eick.us/media/photographs/2014/2014-08-21/aladdin-cast.jpg)
-		
-![](http://media.eick.us/media/photographs/2014/2014-08-21/aladdin-silly.jpg)
-		
-![](http://media.eick.us/media/photographs/2014/2014-08-22/jasmines-birthday-party-2014-08-22-11-05-11.jpg)
-		
-2014-10-04 | Jasmine Magic Wallet:
-![](http://media.eick.us/media/photographs/2014/2014-10-04/magic-wallet-video-2014-10-04-13-30-14.jpg)
 
 2014-10-12 | Arlington House:
 		![](http://media.eick.us/media/photographs/2014/2014-10-12/arlington-house-2014-10-12-13-33-07.jpg)
