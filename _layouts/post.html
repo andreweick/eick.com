@@ -23,7 +23,7 @@ section: post
       </div>
       <hr />
     {% endif %}
-    <section class="entry-content prose">
+    <section class="entry-content prose {% if page.photo_layout %}-{{ page.photo_layout }}{% endif %}">
       {% if page.intro %}
         <div class="small-screen-only">
           {{ page.intro }}

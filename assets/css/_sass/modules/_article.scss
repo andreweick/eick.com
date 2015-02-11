@@ -25,7 +25,7 @@ article.page {
 }
 
 
-article.post, article.post-three_up {
+article.post, article.post-three_up, article.post-stack {
   padding: 0 4% 0 4%;
   margin: 1.75em auto;
   overflow: hidden;
@@ -89,6 +89,12 @@ html.js {
         width: 62%;
       }
     }
+  }
+
+  article.post-stack img{
+    max-width: 100%;
+    margin-bottom: 4%;
+
   }
 }
 
