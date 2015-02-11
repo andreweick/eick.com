@@ -31,5 +31,8 @@
     "imagesloaded": "latest",
     "aload": "latest",
     "list.pagination.js": "~0.1.1"
+  },
+  "devDependencies": {
+    "magnific-popup": "~1.0.0"
   }
 }

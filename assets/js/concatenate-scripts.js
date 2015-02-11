@@ -1,11 +1,23 @@
 ---
 layout: null
 ---
-{% include scripts/jquery/dist/jquery.min.js %}
+{% include scripts/jquery/jquery.min.js %}
 {% include scripts/imagesloaded/imagesloaded.pkgd.min.js %}
 {% include scripts/masonry/dist/masonry.pkgd.min.js %}
 {% include scripts/listjs/dist/list.min.js %}
 {% include scripts/list.pagination.js/dist/list.pagination.min.js %}
+{% include scripts/magnific-popup/dist/jquery.magnific-popup.min.js %}
+
+
+$('.gallery').magnificPopup({
+delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+
+
+
 
 
 $('#navigation-menu').removeClass("show");
