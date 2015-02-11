@@ -16,14 +16,10 @@ $('.gallery').magnificPopup({
   gallery: {
     // options for gallery
     enabled: true
-  }
-
+  },
+   verticalFit: true, // Fits image in area vertically
+   showCloseBtn: false
 });
-
-
-
-
-
 
 $('#navigation-menu').removeClass("show");
   $('#js-mobile-menu').on('click', function(e) {
