@@ -10,9 +10,14 @@ layout: null
 
 
 $('.gallery').magnificPopup({
-delegate: 'a', // child items selector, by clicking on it popup will open
-  type: 'image'
-  // other options
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  //disableOn: 400,
+  gallery: {
+    // options for gallery
+    enabled: true
+  }
+
 });
 
 
