@@ -37,7 +37,11 @@ section: post
           <div class="grid-sizer"></div>
             {% assign imageData = site.data.images.images.2014-12-19-busy-week %}
             {% for image in imageData.images %}
-              <p><img src="{{ imageData.base_url }}{{ image[1] }}" alt="{{ image[0] }}"></p>
+              <p>
+                <a href="{{ imageData.base_url }}{{ image[1] }}">
+                  <img src="{{ imageData.base_url }}{{ image[1] }}" alt="{{ image[0] }}">
+                </a>
+              </p>
             {% endfor %}
           </div>
         {% else %}
