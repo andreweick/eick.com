@@ -31,9 +31,35 @@ section: post
         </div>
       {% endif %}
 
+      {% if page.images %}
+                {{ content }}
+      <div class="gallery" id="container">
+        <div class="grid-sizer"></div>
+
+
+  {% assign imageData = site.data.images.images.2014-12-19-busy-week %}
+
+
+    {% for image in imageData.images %}
+       <p> <img src="{{ imageData.base_url }}{{ image[1] }}" alt="{{ image[0] }}"></p>
+    {% endfor %}
+
+      </div>
+
+
+      {% else %}
+
       <div class="gallery" id="container">
         <div class="grid-sizer"></div>
         {{ content }}
       </div>
+
+
+
+      {% endif %}
+
+
+
+
     </section>
   </article>

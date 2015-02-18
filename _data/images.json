@@ -1,41 +1,40 @@
 {
   "images": {
       "2014-12-19-busy-week": {
-
         "base_url": "http://media.eick.us/media/photographs/",
         "images": {
 
-            "Libby\'s chorus":"/2014/2014-12-17/busy-week-2014-12-17-18-58-40.jpg",
+            "Libby\'s chorus 1":"/2014/2014-12-17/busy-week-2014-12-17-18-58-40.jpg",
 
-            "Libby\'s chorus":"/2014/2014-12-17/busy-week-2014-12-17-20-46-18.jpg",
+            "Libby\'s chorus 2":"/2014/2014-12-17/busy-week-2014-12-17-20-46-18.jpg",
 
-            "Libby\'s chorus":"/2014/2014-12-17/busy-week-2014-12-17-20-46-33.jpg",
+            "Libby\'s chorus 3":"/2014/2014-12-17/busy-week-2014-12-17-20-46-33.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-21-29.jpg",
+            "Jasmine 6th grade play 1":"/2014/2014-12-18/busy-week-2014-12-18-19-21-29.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-29-19.jpg",
+            "Jasmine 6th grade play 2":"/2014/2014-12-18/busy-week-2014-12-18-19-29-19.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-29-20.jpg",
+            "Jasmine 6th grade play 3":"/2014/2014-12-18/busy-week-2014-12-18-19-29-20.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-30-15.jpg",
+            "Jasmine 6th grade play 4":"/2014/2014-12-18/busy-week-2014-12-18-19-30-15.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-41-49.jpg",
+            "Jasmine 6th grade play 5":"/2014/2014-12-18/busy-week-2014-12-18-19-41-49.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-42-15.jpg",
+            "Jasmine 6th grade play 6":"/2014/2014-12-18/busy-week-2014-12-18-19-42-15.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-44-14.jpg",
+            "Jasmine 6th grade play 7":"/2014/2014-12-18/busy-week-2014-12-18-19-44-14.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-47-35.jpg",
+            "Jasmine 6th grade play 8":"/2014/2014-12-18/busy-week-2014-12-18-19-47-35.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-50-19.jpg",
+            "Jasmine 6th grade play 9":"/2014/2014-12-18/busy-week-2014-12-18-19-50-19.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-19-55-07.jpg",
+            "Jasmine 6th grade play 10":"/2014/2014-12-18/busy-week-2014-12-18-19-55-07.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-20-06-11.jpg",
+            "Jasmine 6th grade play 11":"/2014/2014-12-18/busy-week-2014-12-18-20-06-11.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-20-19-07.jpg",
+            "Jasmine 6th grade play 12":"/2014/2014-12-18/busy-week-2014-12-18-20-19-07.jpg",
 
-            "Jasmine 6th grade play":"/2014/2014-12-18/busy-week-2014-12-18-20-20-23.jpg",
+            "Jasmine 6th grade play 13":"/2014/2014-12-18/busy-week-2014-12-18-20-20-23.jpg",
 
             "Team Mission Focus":"/2014/2014-12-19/busy-week-2014-12-19-12-15-30.jpg",
 
@@ -43,17 +42,11 @@
 
             "Libby\'s Jury":"/2014/2014-12-19/busy-week-2014-12-19-18-44-38.jpg"
           }
+      },
 
-    },
+  "2015-01-14-stuff-goes-here": {
 
-
-
-  "2014-12-14": {
-
-      "copy":"This is the legned"
   }
-
-
 
 }
 }
