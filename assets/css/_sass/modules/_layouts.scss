@@ -1,3 +1,9 @@
+.copy {
+  @include media($medium-screen-up) {
+  max-width: 98%;
+  margin: auto;
+}
+}
 .has-layoutTK {
   @include outer-container;
   article {
