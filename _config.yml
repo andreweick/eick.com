@@ -26,10 +26,11 @@ production: true
 bust_css_cache: true
 
 # options (data)
-google_analytics_id: UA-fff-4
+google_analytics_id: UA-320642-1
 disqus_id:
 # CONTACT FORM http://getsimpleform.com/
 simple_form_api_token:
+typekit_id: qur4ysq
 
 sass:
     style: :compressed
