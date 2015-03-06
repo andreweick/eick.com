@@ -1,5 +1,9 @@
 Personal website for Andrew Eick, built with Jekyll
 
+## Front Matter additions
+
+```allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)```
+
 
 ### Layouts:
 

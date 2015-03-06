@@ -45,3 +45,4 @@ defaults:
     path: ''
    values:
     layout: post
+    allow-robots: true
