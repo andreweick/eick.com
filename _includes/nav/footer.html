@@ -1,0 +1,9 @@
+{% assign footer_links = site.data.footer-links %}
+<footer class="footer-2">
+  <ul>
+  {% for link in footer_links %}
+  <li><a href="{{ link.link }}">{{ link.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+</footer>
