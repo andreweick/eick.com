@@ -85,16 +85,3 @@ a.headings:hover h2.history, .sidebar-history {
   background-color:$brown;
   color: white;
 }
-.large-screens {
-  display: none;
-  @include media($medium-screen-up) {
-    display: block;
-  }
-}
-
-.small-screen-only {
-  display: block;
-  @include media($medium-screen-up) {
-    display: none;
-  }
-}

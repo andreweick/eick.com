@@ -36,3 +36,16 @@ sub { top: 0.4em; }
 ul.inline li{
   display: inline-block;
 }
+.large-screens {
+  display: none;
+  @include media($medium-screen-up) {
+    display: block;
+  }
+}
+
+.small-screen-only {
+  display: block;
+  @include media($medium-screen-up) {
+    display: none;
+  }
+}
