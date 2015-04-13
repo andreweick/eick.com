@@ -90,7 +90,6 @@ $('#container').imagesLoaded( function() {
     //$("p:nth-child(4) img").addClass("w2");
 });
 
-
  // display image caption on bottom of image
 $("article.post #container img").each(function() {
   var imageCaption = $(this).attr("alt");
