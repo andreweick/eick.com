@@ -35,7 +35,7 @@ section: home
         {% endfor %}
         {% for image in family limit: 50 %}
           {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+            <a href="{{ image.base_url }}{{ image.featured_image }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
       </div>
