@@ -36,6 +36,13 @@ sass:
     style: :compressed
     sass_dir: assets/css/_sass
 
+collections:
+ cv:
+  collection_name: "CV"
+  output: true
+  description: "About Andrew Eick"
+  permalink: /:collection/:path/
+
 # source: content
 # TODO: Set default layouts for posts, pages, and arguendo, and ipsos
 
