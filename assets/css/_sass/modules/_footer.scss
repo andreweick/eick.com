@@ -25,6 +25,7 @@ html, body {
   padding: $base-spacing;
   width: 100%;
   font-size:.875em;
+  margin-top: 2em;
   background: $redish ;
     @include media($large-screen) {
       background: $footer-background;
