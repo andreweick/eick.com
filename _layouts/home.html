@@ -24,52 +24,20 @@ section: home
       <div class="gallery" id="container">
         <div class="grid-sizer"></div>
         {% for image in history limit: 1 %}
-        {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-
+          {% if image.featured_image %}
+            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
         {% for image in snapshot limit: 1 %}
-        {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-
-          {% endif %}
-        {% endfor %}
-
-        {% for image in family limit: 50 %}
-        {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-        {% endif %}
-
-        {% endfor %}
-
-        {% comment %}
-
-        {% for image in history limit: 1 offset: 1 %}
-        {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-          {% else %}
-          <a href="{{ image.url }}"><img src="/assets/images/rectangle-300x300.jpg" style="border:1px solid #ddd;"/></a>
-          {% endif %}
-        {% endfor %}
-
-        {% for image in snapshot limit: 1 offset: 1 %}
           {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-          {% else %}
-          <a href="{{ image.url }}"><img src="/assets/images/rectangle-300x300.jpg" style="border:1px solid #ddd;"/></a>
+            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
-
-        {% for image in family limit: 1 offset: 1 %}
-        {% if image.featured_image %}
-          <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
-          {% else %}
-          <a href="{{ image.url }}"><img src="/assets/images/rectangle-300x300.jpg" style="border:1px solid #ddd;"/></a>
+        {% for image in family limit: 50 %}
+          {% if image.featured_image %}
+            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
-
-      {% endcomment %}
       </div>
     </section>
   </article>
