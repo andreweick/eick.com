@@ -30,12 +30,13 @@ section: post
           <hr />
         </div>
       {% endif %}
-
+        {% comment %} //If we use the images flag we have put our images in the data/images JSON file so that we can display them as pop-ups {% endcomment %}
       {% if page.images %}
         <div class="copy">{{ content }}</div>
         <div class="gallery" id="container">
           <div class="grid-sizer"></div>
-            {% assign imageData = site.data.images.images.2014-12-19-busy-week %}
+            {% assign page_images = page.images %}
+            {% assign imageData = site.data.images.images[page_images] %}
             {% for image in imageData.images %}
               <p>
                 <a href="{{ imageData.base_url }}{{ image[1] }}">
@@ -44,7 +45,7 @@ section: post
               </p>
             {% endfor %}
           </div>
-        {% else %}
+        {% else %} {% comment %} //Otherwise show the content from the page body {% endcomment %}
           <div class="gallery" id="container">
             <div class="grid-sizer"></div>
             {{ content }}
