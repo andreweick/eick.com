@@ -23,13 +23,14 @@ html, body {
   $footer-color: $medium-gray;
   $footer-link-color: transparentize($footer-color, .6);
   $footer-disclaimer-color: transparentize($footer-color, .6);
-  padding: $base-spacing;
+  padding: 4em $base-spacing 4em $base-spacing;
   width: 100%;
   font-size:.875em;
   margin-top: 2em;
   background: $redish ;
     @include media($large-screen) {
       background: $footer-background;
+      padding: $base-spacing;
       color: white;
     }
   ul {
@@ -42,10 +43,10 @@ html, body {
   }
   ul li {
     padding-right: 1em;
-    @include media($large-screen) {
+
       display: inline;
       text-align: left;
-    }
+
   }
   ul li a {
      color: $light-gray;
