@@ -91,7 +91,7 @@ $('#container').imagesLoaded( function() {
 });
 
  // display image caption on bottom of image
-$("article.post #container img").each(function() {
+$("article.post #container img, article.post-full #container img").each(function() {
   var imageCaption = $(this).attr("alt");
   var imageSource = $(this).attr("src");
   if (imageCaption != '') {

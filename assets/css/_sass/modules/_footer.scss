@@ -18,6 +18,7 @@ html, body {
 }
 
 .footer-2 {
+  clear: both;
   $footer-background: white;//$centered-navigation-background;//desaturate(darken($base-accent-color, 20), 30);
   $footer-color: $medium-gray;
   $footer-link-color: transparentize($footer-color, .6);

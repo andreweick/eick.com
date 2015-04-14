@@ -91,12 +91,47 @@ html.js {
     }
   }
 
+
+
+
   article.post-stack img{
     max-width: 100%;
     margin-bottom: 4%;
 
   }
 }
+
+//layout
+  article.post-two_up {
+    //width: 98%;
+    margin: 1.5% auto;
+    p {
+      margin-bottom: .375em;
+    }
+    @include media($small-screen-up) {
+      width: 97%;
+      #container p:nth-of-type(3n+3), #container p:nth-of-type(3n+4){
+        background-color: $black;
+        width: 49%;
+        float:left;
+        margin-top: 0;
+        margin-right: .5em;
+        margin-bottom: .875em;
+        margin-left:0;
+
+        height: 391px;
+        overflow: hidden;
+        img {
+          width: 100%
+        }
+      }
+      #container p:nth-of-type(3n+4) {
+        //second in the row should be flush right
+        margin-right: 0;
+        margin-left: .5em;
+      }
+    }
+  }
 
 
 
@@ -106,4 +141,9 @@ html.js {
   font-size: 1.0625rem;
   line-height: 1.5;
   font-weight:300;
+}
+.post-full {
+  width: 98%;
+  margin: 1.5% auto;
+
 }
