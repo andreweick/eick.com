@@ -26,9 +26,10 @@ html, body {
   padding: 4em $base-spacing 4em $base-spacing;
   width: 100%;
   font-size:.875em;
-  margin-top: 2em;
+
   background: $redish ;
     @include media($large-screen) {
+      margin-top: 2em;
       background: $footer-background;
       padding: $base-spacing;
       color: white;
