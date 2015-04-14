@@ -108,7 +108,7 @@ html.js {
     p {
       margin-bottom: .375em;
     }
-    @include media($small-screen-up) {
+    @include media($medium-screen-up) {
       width: 97%;
       #container p:nth-of-type(3n+3), #container p:nth-of-type(3n+4){
         background-color: $black;
