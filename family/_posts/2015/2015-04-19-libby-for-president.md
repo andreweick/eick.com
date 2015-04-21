@@ -6,7 +6,6 @@ author: Andy Eick
 tags: 
 - libby
 - video 
-featured_image: ""
 intro : Libby running for 6th grade class president
 vimeo : 125331120
 published: true
