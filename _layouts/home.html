@@ -33,7 +33,7 @@ section: home
             <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
-        {% for image in family limit: 50 %}
+        {% for image in family limit: 12 %}
           {% if image.featured_image %}
             <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
           {% endif %}
