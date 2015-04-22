@@ -24,6 +24,7 @@ If you use layouts and have text, use the key ```intro:``` as in
 ### Homepage
 ```featured_image: path/to/image.jpg```
 
+---
 
 The Sass (bourbon) files are in assets/css
 
