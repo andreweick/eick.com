@@ -96,10 +96,6 @@ a {
   @include transition(color 0.1s linear);
   color: $base-link-color;
   text-decoration: none;
-    //@include underline(#fff, #D6DDDE);
-
-
-
   &:hover {
     color: $hover-link-color;
        //@include underline(#fff, #5f5164);
@@ -110,6 +106,14 @@ a {
     outline: none;
   }
 }
+
+
+.entry-content a {
+
+    border-bottom: 1px solid #101010;
+
+}
+
 
 hr {
   border-bottom: $base-border;
