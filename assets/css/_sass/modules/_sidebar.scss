@@ -31,7 +31,7 @@ $sidebar-right-color: lighten($sidebar-right-color-background, 66%);//$medium-gr
     margin-left: 0; //mobile first, nav stays on top
 
     @include media($sidebar-left-breakpoint) {
-      min-width: $b-vp; // TODO: change this to more stable variable
+      min-width: $b-vp;
       margin-left:  $sidebar-width; // on larger screens, push out content to make way for sidebar
     }
   }
@@ -47,17 +47,12 @@ $sidebar-right-color: lighten($sidebar-right-color-background, 66%);//$medium-gr
     padding: 0;
     background-color: $sidebar-right-color-background;
     color: white;///$sidebar-color;
+    background-repeat: no-repeat;
+    background-position:70% center;
 
-    //background: url(/assets/img/Ferrari_Formula_1_lineup.jpg);
-        background-repeat: no-repeat;
-        background-position:70% center;
-
-
-
-
-aside {
-  padding: 2em 3em;
-}
+    aside {
+      padding: 2em 3em;
+    }
 
     a {
       color: lighten($sidebar-color, 25%); // TODO: Replace with variable
