@@ -9,42 +9,38 @@ layout: null
 "libs/neat/neat",
 
 // BASIC MODULES
-"modules/nav-top",
-"modules/hero",
 "modules/footer",
-
+"modules/hero",
+"modules/nav-top",
 //typography-icons
-"modules/typography-underlines",
 "vendor/fontello",
+"modules/typography-underlines",
 
 //utilities
 "modules/accessibility",
 
 // GLOBAL
+"modules/archives",
 "modules/article",
+"modules/button-overrides",
+"modules/code",
 "modules/footnotes",
 "modules/layouts",
-"modules/sidebar",
-
-"modules/utilities",
-"modules/wf-loading",
-"modules/code",
-"modules/video-embed",
-"modules/button-overrides",
 "modules/pagination",
-"modules/archives";
-
+"modules/sidebar-headings-and-colors",
+"modules/sidebar",
+"modules/utilities",
+"modules/video-embed",
+"modules/wf-loading";
 @import "vendor/magnific-popup"; //lightbox
-
 
 .caption {
   text-transform: italic;
   font-style: italic;
-
 }
-.icon-link-ext:before, .icon-back:before { font-size:70%; }
-
-
+.icon-link-ext:before, .icon-back:before {
+  font-size:70%;
+}
 .state-icons i{
   font-size: 230%;
   color: $black;
@@ -53,35 +49,4 @@ layout: null
     @include media($d-vp) {
       display: block;
     }
-}
-
-a.headings h2 {
-  padding: 1em 1.5em;
-  //padding: 1.5em 0 1.25em 3.25em;
-  width: 100%;
-  border-bottom: 1px solid darken($light-gray, 5%);
-}
-
-a.headings small {
-  font-size: .4375em;
-  font-family: $sans-serif;
-}
-
-a.headings:hover h2 {
-  @include transition (all 0.2s ease-in-out);
-  background-color:$redish;
-  color: white;
-}
-a.headings:hover h2.family, .sidebar-family {
-  background-color:$redish;
-  color: white;
-}
-a.headings:hover h2.snapshot, .sidebar-snapshot {
-  //background-color:$black;
-  background-color: lighten($sidebar-right-color-background, 5%);
-  color: white;
-}
-a.headings:hover h2.history, .sidebar-history {
-  background-color:$brown;
-  color: white;
 }
