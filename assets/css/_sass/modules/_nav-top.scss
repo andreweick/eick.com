@@ -63,6 +63,13 @@ header.navigation {
     }
   }
 
+  .mobile-only {
+    display: block;
+    @include media ($horizontal-bar-mode) {
+      display: none;
+    }
+  }
+
   // Nav menu
 
   .nav {
