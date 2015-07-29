@@ -1,11 +1,17 @@
 <header class="navigation">
   <div class="navigation-wrapper">
   <h1 class="brand-mobile"><a href="/">{{ site.title }}</a></h1>
+
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
       <ul id="navigation-menu" class="navigation-menu show">
+      {% unless page.collection == 'cv' %}
         {% include nav/navigation-links.html %}
+        {% else %}
+        <li class="nav-link brand"><a href="/">{{ site.title }}</a></li>
+        {% endunless %}
       </ul>
     </div>
+
   </div>
 </header>

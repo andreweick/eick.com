@@ -33,7 +33,7 @@ section: archive
         Gallery
       </button>
     {% endif %}
-    <button id="filter-none" class="small clearButton no-js">clear filters</button>
+    <button id="filter-none" class="small clearButton hidden">clear filters</button>
   </div>
   <div class="list-filter">
     {% for article in collection %}
@@ -44,5 +44,11 @@ section: archive
         {% if article.photo_layout %}<span class="photo_layout hidden">photo_layout</span>{% endif %}
       </a>
     {% endfor %}
+
+
+  </div>
+  <div class="pagination">
+      <ul class="pagination-list"></ul>
+
   </div>
 </div>

@@ -23,17 +23,33 @@ section: post
       </div>
       <hr />
     {% endif %}
-    <section class="entry-content prose">
+    <section class="entry-content prose {% if page.photo_layout %}-{{ page.photo_layout }}{% endif %}">
       {% if page.intro %}
         <div class="small-screen-only">
           {{ page.intro }}
           <hr />
         </div>
       {% endif %}
-
-      <div class="gallery" id="container">
-        <div class="grid-sizer"></div>
-        {{ content }}
-      </div>
+        {% comment %} //If we use the images flag we have put our images in the data/images JSON file so that we can display them as pop-ups {% endcomment %}
+      {% if page.images %}
+        <div class="copy">{{ content }}</div>
+        <div class="gallery" id="container">
+          <div class="grid-sizer"></div>
+            {% assign page_images = page.images %}
+            {% assign imageData = site.data.images.images[page_images] %}
+            {% for image in imageData.images %}
+              <p>
+                <a href="{{ imageData.base_url }}{{ image[1] }}">
+                  <img src="{{ imageData.base_url }}{{ image[1] }}" alt="{{ image[0] }}">
+                </a>
+              </p>
+            {% endfor %}
+          </div>
+        {% else %} {% comment %} //Otherwise show the content from the page body {% endcomment %}
+          <div class="gallery" id="container">
+            <div class="grid-sizer"></div>
+            {{ content }}
+          </div>
+        {% endif %}
     </section>
   </article>

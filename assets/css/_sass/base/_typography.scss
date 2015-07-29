@@ -1,36 +1,3 @@
-/*
-  Medium.com-style fancy underlines.
-
-  Inspired by:
-  [1] https://medium.com/designing-medium/7c03a9274f9
-  [2] https://github.com/Team-Sass/toolkit#underline
-  [3] http://codepen.io/ghepting/pen/tLnHK/
-*/
-
-// @mixin underline($background: #fff, $color: #ccc, $distance: 2, $width: 1, $clear-descenders: true) {
-//   display: inline;
-//   text-decoration: none;
-//   background-repeat: repeat-x;
-
-//   @include background-image(
-//     linear-gradient(rgba($background, 0) 50%, $color 50%)
-//   );
-
-//   background-size: rem-calc(2) rem-calc($width);
-//   background-position: 0 (1rem + rem-calc($distance));
-//   padding-bottom: rem-calc($width) + rem-calc($distance);
-
-//   @if $clear-descenders {
-//     @include text-shadow(
-//       rem-calc(-1) rem-calc(-1) 0 $background,
-//       rem-calc(1) rem-calc(-1) 0 $background,
-//       rem-calc(-1) rem-calc(1) 0 $background,
-//       rem-calc(1) rem-calc(1) 0 $background
-//     );
-//   }
-// }
-
-
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
@@ -96,10 +63,6 @@ a {
   @include transition(color 0.1s linear);
   color: $base-link-color;
   text-decoration: none;
-    //@include underline(#fff, #D6DDDE);
-
-
-
   &:hover {
     color: $hover-link-color;
        //@include underline(#fff, #5f5164);
@@ -110,6 +73,14 @@ a {
     outline: none;
   }
 }
+
+
+.entry-content a {
+
+    border-bottom: 1px solid #101010;
+
+}
+
 
 hr {
   border-bottom: $base-border;

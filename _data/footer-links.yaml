@@ -1,0 +1,8 @@
+# if adding a new filter, add the filter criter in layouts/archive.html ~line 30
+- link: /
+  title: "&copy; Andrew Eick"
+
+- link: /archive/
+  title: Archive
+
+
