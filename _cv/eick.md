@@ -8,8 +8,8 @@ M. Andrew Eick
 ==============
 [100 Daingerfield, Suite 400, Alexandria, VA, 22314](http://goo.gl/gSnBwR)  <!-- https://www.google.com/maps/place/Mission+Focus/@38.8058376,-77.0613239,17z/data=!4m7!1m4!3m3!1s0x89b7b1aa810845eb:0x2352bd9112782748!2sMission+Focus!3b1!3m1!1s0x0000000000000000:0x2352bd9112782748
  -->
-(703) 291-6721  
-<maeick@missionfocus.com>  
+(703) 291-6721    
+<maeick@missionfocus.com>    
 
 ## Biography ##
 Mark Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community (IC). With degrees in computer science and philosophy, he started his career in 1995 at Ford Motor Company developing systems to manage the development and printing of service manuals. The system he developed fundamentally changed the production process, improving efficiency and quality and earning him multiple technology awards. 
