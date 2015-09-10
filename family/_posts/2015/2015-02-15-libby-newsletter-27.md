@@ -8,4 +8,4 @@ tags:
 - newsletter
 published: false
 ---
-[Newsletter 27](http://media.eick.us/media/static/pdfs/newsletter-27.pdf)
+[Newsletter 27](https://s3.amazonaws.com/media.eick.us/static/pdfs/newsletter-27.pdf)

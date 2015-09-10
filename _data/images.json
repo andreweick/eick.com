@@ -1,7 +1,7 @@
 {
   "images": {
       "2014-12-19-busy-week": {
-        "base_url": "http://media.eick.us/media/photographs/",
+        "base_url": "https://s3.amazonaws.com/media.eick.us/photographs/",
         "images": {
 
             "Libby\'s chorus 1":"/2014/2014-12-17/busy-week-2014-12-17-18-58-40.jpg",
