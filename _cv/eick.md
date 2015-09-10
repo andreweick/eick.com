@@ -8,7 +8,7 @@ M. Andrew Eick
 ==============
 [100 Daingerfield, Suite 400, Alexandria, VA, 22314](http://goo.gl/gSnBwR)  <!-- https://www.google.com/maps/place/Mission+Focus/@38.8058376,-77.0613239,17z/data=!4m7!1m4!3m3!1s0x89b7b1aa810845eb:0x2352bd9112782748!2sMission+Focus!3b1!3m1!1s0x0000000000000000:0x2352bd9112782748
  -->
-(703) 291-6721    
+(703) 291-6720   
 <maeick@missionfocus.com>    
 
 ## Biography ##
