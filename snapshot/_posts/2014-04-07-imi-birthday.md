@@ -10,6 +10,6 @@ The [non profit](http://imintel.org) we started is five years old.
 
 > Developing the Science, Practice, and Governance of Modern Intelligence.
 
-![IMI](https://s3.amazonaws.com/media.eick.us/photographs/2014/2014-04-06/imi-paperwork-2014-04-06-14-30-09.jpg)
+![IMI]({{ site.mediaurl }}{{ site.mediadir }}/photographs/2014/2014-04-06/imi-paperwork-2014-04-06-14-30-09.jpg)
 
 
