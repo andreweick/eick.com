@@ -12,8 +12,6 @@ published: true
 ---
 The Emerald Dragon's lose the second game of the 2015-2016 season 3 to 1.
 
-![Emerald Dragons Game #2]({{ site.mediaurl }}{{ site.mediadir }}/photographs/2000s/2010s/2015/09/2015-09-12/20150912-IMG_8996.jpg)
-
 ![Emerald Dragons Game #2]({{ site.mediaurl }}{{ site.mediadir }}/photographs/2000s/2010s/2015/09/2015-09-19/20150919-IMG_9385.jpg)
 
 ![Emerald Dragons Game #2]({{ site.mediaurl }}{{ site.mediadir }}/photographs/2000s/2010s/2015/09/2015-09-19/20150919-IMG_9387.jpg)
