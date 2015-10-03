@@ -7,7 +7,7 @@ tags:
 - emerald-dragon
 featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/2000s/2010s/2015/09/2015-09-19/20150919-KP8A6609.jpg"
 intro : Emarld Dragons 1, Visitors 0.
-photo_layout: "two_up"
+photo_layout: "full"
 published: true
 ---
 The Emerald Dragon's lose the second game of the 2015-2016 season 3 to 1.

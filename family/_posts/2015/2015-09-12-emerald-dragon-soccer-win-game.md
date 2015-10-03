@@ -7,7 +7,7 @@ tags:
 - emerald-dragon
 featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/2000s/2010s/2015/09/2015-09-12/20150912-IMG_9030.jpg"
 intro : Emarld Dragons 1, Visitors 0.
-photo_layout: "two_up"
+photo_layout: "full"
 published: true
 ---
 The Emerald Dragon's win the first game of the 2015-2016 season!
