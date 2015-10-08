@@ -8,4 +8,4 @@ tags:
 - piano
 featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpg"
 ---
-![Libby playing piano]({{ site.mediaurl }}{{ site.mediadir }}/photographs/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpg)
+![Libby playing piano]({{ site.mediaUrlRoot }}/photographs/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpg)

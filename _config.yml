@@ -6,8 +6,7 @@ port: 4001
 url:
 # basedir:          "/"
 
-mediaurl: "https://s3.amazonaws.com"
-mediadir: "/media.eick.us"
+mediaUrlRoot: "https://s3.amazonaws.com/media.eick.us"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
