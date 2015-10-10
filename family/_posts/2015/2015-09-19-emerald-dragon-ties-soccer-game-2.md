@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emerald Dragon Soccer Game 2
+title: Emerald Dragon Ties Soccer Game 2
 date: 2015-09-19 09:35
 author: Andy Eick
 tags: 
