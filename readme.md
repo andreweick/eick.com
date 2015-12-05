@@ -7,26 +7,35 @@ Personal website for Andrew Eick, built with Jekyll
 
 ### Layouts:
 
-```photo_layout: "three_up"```
-```photo_layout: "two_up"```
-```photo_layout: "full"```
+```
+photo_layout: "three_up"
+photo_layout: "two_up"
+photo_layout: "full"
+```
 
 If you use layouts and have text, use the key ```intro:``` as in 
 
-``` intro: "Soccer Peeps second to last game of the season."```
+``` 
+intro: "Soccer Peeps second to last game of the season."
+```
 
 ---
 
-[example of two_up:](/family/2014/11/16/all-star-tournament-day-2%20copy/)
-[example of full:](/family/2014/12/06/jasmine-and-julia/), [full](/family/2014/12/19/busy-week/)
-[example of three_up:](/family/2014/11/15/all-star-tournament-day-1/)
+[example of two_up:](https://www.eick.us/family/2014/11/16/all-star-tournament-day-2%20copy/)
+
+[example of full:](https://www.eick.us/family/2014/12/06/jasmine-and-julia/), [full](/family/2014/12/19/busy-week/)
+
+[example of three_up:](https://www.eick.us/family/2014/11/15/all-star-tournament-day-1/)
 
 ### Homepage
-```featured_image: path/to/image.jpg```
+To get an image up on the home page thumbnail grid put into the YAML
+
+```
+featured_image: path/to/image.jpg
+```
 
 ---
 
 The Sass (bourbon) files are in assets/css
 
-Type is loaded in _includes/global/scripts.html 
-
+Type is loaded in _includes/global/scripts.html
