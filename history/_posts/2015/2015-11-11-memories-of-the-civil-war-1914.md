@@ -4,18 +4,15 @@ date: 2015-11-11
 author: Andy Eick
 tags: sackett
 published: false
-featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/1600/1924/1924-01-06/untitled-1-copy-b-1924-01-06-at-03-10-38.jpg"
+featured_image: "https://www.eick.us/media/static/family-tree-books/our-army-nurses/sacket_emma.jpg"
 ---
-
-Memories of the Civil War
+Memories of the Civil War, as told to Winterset Women's Club, October 9, 1914
 
 by
 
 Civil War Nurse
 
-Emma French Sackett*
-
-Presented before the Winterset Women's Club October 9, 1914 and reprinted in the Winterset Madisonian as a five-week series from October 21 to November 25, 1914
+Emma French Sackett (Eick great grandmother) *
 
 Today I am living in the dim and hazy past, as I reread the treasured letters received in time of the Civil War.  While there is such of sadness, there is great interest in reviewing those days of fifty years ago, when our country was in a turmoil in every part, when friend and foe were on every hand. The traitors were not all below Mason & Dixon’s line, but Copperheads, like the reptile name they bore, striking in the dark were in our very midst and had they dared, in their bitterness, would have taken the lives of many.  From the time of the John Brown raid, capturing the government arsenal at Harper’s Ferry, Va., in the autumn of 1857, there was much bitter feeling, which could not be smothered, and was aggravated by the election of Lincoln to the presidency in the fall of 1860,  followed by the seceding of several of the southern states in February, 1861.  The distant rumbling of war culminated in the firing on Ft. Sumpter, April 14, 1861, which found the North wholly unprepared for war, while the South had prepared in many ways.  Most of the men at the head of government affairs were slaveholders, so that through them great aid was given the South and crippled the North, and men who had received their military education at West Point, through the generosity of the government, became leading officers in the rebel army.
 
@@ -81,6 +78,8 @@ As our work closed in the latter part of September, 1865, two of my associate nu
 I had often wondered what use if any, had been made of this extensive government building, and upon inquiry, learned that it is used as a place for manufacturing army blankets. And when twenty nine army nurses met as a national association in annual convention a few weeks ago, it was not as strangers, for we had a common bond of sympathy in our experience of the long ago. And we fully appreciated the many honors bestowed upon us by the citizens of Detroit and all the patriotic organizations convened there, who sent delegations, giving us greetings and a souvenir of the happy occasion.   
 
 Mrs. Emma French Sackett
+
+Presented before the Winterset Women's Club October 9, 1914 and reprinted in the Winterset Madisonian as a five-week series from October 21 to November 25, 1914
 
 ---
 
