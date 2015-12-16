@@ -5,7 +5,7 @@ date: 2015-09-19 09:35
 author: Andy Eick
 tags: 
 - emerald-dragon
-featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/1600/2000s/2010s/2015/09/2015-09-19/20150919-KP8A6609.jpg"
+featured_image: "https://www.eick.us/media/photographs/1600/2000s/2010s/2015/09/2015-09-19/20150919-KP8A6609.jpg"
 intro : Emarld Dragons 1, Visitors 0.
 photo_layout: "full"
 published: true

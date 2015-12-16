@@ -5,7 +5,7 @@ date: 2015-10-17 09:35
 author: Andy Eick
 tags: 
 - emerald-dragon
-featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/1600/2000s/2010s/2015/10/2015-10-17/20151017-KP8A8332.jpg"
+featured_image: "https://www.eick.us/media/photographs/1600/2000s/2010s/2015/10/2015-10-17/20151017-KP8A8332.jpg"
 intro : Emarld Dragons Game 5.
 photo_layout: "full"
 published: true

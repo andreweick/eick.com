@@ -13,5 +13,5 @@ published: false
 Libby playing the Harpsichord at Levine School of Music.
 
 <audio controls>
-	<source src="https://s3.amazonaws.com/media.eick.us/static/audio/2015/libby-harpsichord.mp3" type="audio/mpeg" >
+	<source src="https://www.eick.us/media/static/audio/2015/libby-harpsichord.mp3" type="audio/mpeg" >
 </audio>

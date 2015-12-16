@@ -5,7 +5,7 @@ date: 2015-09-26 09:35
 author: Andy Eick
 tags: 
 - emerald-dragon
-featured_image: "https://s3.amazonaws.com/media.eick.us/photographs/1600/2000s/2010s/2015/09/2015-09-26/20150926-KP8A7179.jpg"
+featured_image: "https://www.eick.us/media/photographs/1600/2000s/2010s/2015/09/2015-09-26/20150926-KP8A7179.jpg"
 intro : Emarld Dragons tie, 1 to 1.
 photo_layout: "full"
 published: true
