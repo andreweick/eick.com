@@ -32,7 +32,6 @@ disqus_id:
 simple_form_api_token:
 typekit_id: qur4ysq
 
-encoding: utf-8
 sass:
     style: :compressed
     sass_dir: assets/css/_sass
