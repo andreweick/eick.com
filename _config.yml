@@ -16,7 +16,7 @@ include: ['_pages', '.htaccess']
 exclude: ['readme.md','license.md','gemfile', 'Gemfile.lock', 'links.jsonp', 'CNAME', 'rakefile', 'bower.json']
 permalink: pretty
 keep_file: ['media']
-destination: _site
+destination: '/opt/_site/'
 
 image_path: '/assets/img/'
 # gems:
