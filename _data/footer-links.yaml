@@ -4,6 +4,9 @@
 
 - link: /archive/
   title: Archive
-  
+
 - link: /photo/
   title: "Photo Archive"
+
+  - link: /cv/eick/
+    title: "Resumé"
