@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+if [[ $# -ne 0 ]]; then
+	if [ "$1" = 'build' ]; then
+    mkdir ~/.ssh ; chmod 700 ~/.ssh
+    cp /opt/ssh-keys/id_rsa ~/.ssh/. ; cp /opt/ssh-keys/id_rsa.pub ~/.ssh/.
+    chmod 600 ~/.ssh/id_rsa; chmod 644 ~/.ssh/id_rsa.pub
+    ssh-keyscan -H git.missionfocus.com >> ~/.ssh/known_hosts
+
+    cd /opt
+    git clone git@git.missionfocus.com:maeick/aedc.git
+    cd /opt/aedc
+		exec jekyll build
+  else
+		# Else just execute the passed command (i.e. just run 'bash')
+		exec "$@"
+	fi
+fi
