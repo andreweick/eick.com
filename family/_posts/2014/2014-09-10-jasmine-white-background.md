@@ -1,0 +1,16 @@
+---
+layout: post
+title: Jasmine on a white background
+date: 2014-09-10 11:44
+comments: false
+published: true
+tags:
+- jasmine
+share: true
+featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-12-14/jasmine-setting-up-lights-2013-12-14-at-13-48-08.jpg"
+---
+Jasmine setting up and posing with a white background
+
+![Jasmine white background]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-12-14/jasmine-setting-up-lights-2013-12-14-at-13-48-08.jpg)
+
+![Jasmine trying to look sad.]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-12-14/jasmine-setting-up-lights-2013-12-14-at-13-54-46.jpg)
