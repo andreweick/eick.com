@@ -16,7 +16,7 @@ exclude: ['readme.md','license.md','gemfile', 'Gemfile.lock', 'links.jsonp', 'CN
 permalink: pretty
 keep_files: ['media']
 
-destination: '/opt/_site/'
+destination: '_site/'
 
 image_path: '/assets/img/'
 # gems:
