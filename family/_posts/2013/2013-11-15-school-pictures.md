@@ -7,10 +7,10 @@ published: true
 tags: 
 - school-pictures 
 slug: school-pictures
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-19-18.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-19-18.jpeg"
 ---
 Jasmine (5<sup>th</sup>) and Libby (4<sup>th</sup>) School 2013 School Pictures.
 
-![2013 School Pictures]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-19-18.jpg)
+![2013 School Pictures]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-19-18.jpeg)
 
-![2013 School Pictures]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-20-26.jpg)
+![2013 School Pictures]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-11-10/2013-school-pictures-2013-11-10-at-16-20-26.jpeg)

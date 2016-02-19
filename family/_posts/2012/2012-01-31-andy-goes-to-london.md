@@ -8,7 +8,7 @@ tags:
 - speaking
 tags:
 - London
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-01-25/IMG_3323-.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-01-25/IMG_3323-.jpeg"
 ---
 I spent 5 days in London, however, my luggage spent 3 days in London.
 
@@ -21,9 +21,9 @@ Here is the blurb from the conference agenda.
 A few pictures from my iPhone. (I have more pictures that I need to upload in a few days!)
 
 Jasmine and Libby video chatting with me at the airport.
-![Waiting at DCA]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3310-2.jpg)
+![Waiting at DCA]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3310-2.jpeg)
 
 
 The view from the conference window.
-![Out of the conference room window]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3323-.jpg)
+![Out of the conference room window]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3323-.jpeg)
 

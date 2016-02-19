@@ -8,8 +8,8 @@ tags:
 - Libby
 - portrait
 slug: old-tymey-libby
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpeg"
 ---
 Old Tymey Libby.
 
-![Libby in her purple dress before her piano recital]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpg)
+![Libby in her purple dress before her piano recital]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpeg)

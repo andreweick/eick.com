@@ -6,13 +6,13 @@ comments: false
 tags: 
 - Libby
 - parasol
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-37.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-37.jpeg"
 ---
 Libby posing with her parasol.
 
-![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-37.jpg)
+![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-37.jpeg)
 
-![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-01-55.jpg)
+![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-01-55.jpeg)
 
-![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-21.jpg)
+![Libby with her parasol]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-03-21.jpeg)
 

@@ -7,12 +7,12 @@ tags:
 - Jasmine
 - Libby
 - jump
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg"
 ---
 Libby and Jasmine playing jump in the basement.
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg)
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpeg)
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpeg)

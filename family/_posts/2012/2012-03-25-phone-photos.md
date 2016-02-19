@@ -7,13 +7,13 @@ tags:
 - Libby
 - Jasmine
 - iPhone
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-03-25/Random-2.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-03-25/Random-2.jpeg"
 ---
 Jasmine
 
 
 
-![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-03-25/Random-2.jpg)
+![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-03-25/Random-2.jpeg)
 
 
 Libby
@@ -21,4 +21,4 @@ Libby
 
 
 
-![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-03-25/Random-1.jpg)
+![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-03-25/Random-1.jpeg)

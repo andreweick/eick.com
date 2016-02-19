@@ -7,17 +7,17 @@ tags:
 - Libby
 - kids drawing
 - family
-thumbsrc: http://media.eick.us/2012/2012-04-08/1024x1024/IMG_0009.JPG
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-04-08/IMG_0009.JPG"
+thumbsrc: http://media.eick.us/2012/2012-04-08/1024x1024/IMG_0009.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-04-08/IMG_0009.jpeg"
 ---
 Libby drawing her family.
 
 
 
-![Libby drawing her family]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-08/IMG_0009.JPG)
+![Libby drawing her family]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-08/IMG_0009.jpeg)
 
 
 
 
-![Libby drawing her family]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-08/IMG_0004.JPG)
+![Libby drawing her family]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-08/IMG_0004.jpeg)
 

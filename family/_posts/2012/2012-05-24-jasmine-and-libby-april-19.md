@@ -7,7 +7,7 @@ tags:
 - jasmine
 - Libby
 - iPhone
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-04-19-1/6945624064_018d52e6e6_o.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-04-19-1/6945624064_018d52e6e6_o.jpeg"
 ---
 A few iPhone pictures of Jasmine and Libby from last month.
 
@@ -15,12 +15,12 @@ Libby
   
 
 
-![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-19-1/6945624064_018d52e6e6_o.jpg)
+![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-19-1/6945624064_018d52e6e6_o.jpeg)
 
 
 Jasmine
 
 
 
-![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-19-2/7091688491_16513fba0f_o.jpg)
+![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-19-2/7091688491_16513fba0f_o.jpeg)
 

@@ -7,13 +7,13 @@ tags:
 - jasmine
 - Libby
 - horse
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.JPG"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.jpeg"
 ---
 Jasmine and Libby at horseback riding camp.
 
-![Libby and Blazer]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.JPG)
+![Libby and Blazer]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.jpeg)
 
 
 Jasmine and Blazer.
 
-![Jasmine and Blazer]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-08-2/jasmine-horeseback-riding-camp-2012-07-08.JPG)
+![Jasmine and Blazer]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-08-2/jasmine-horeseback-riding-camp-2012-07-08.jpeg)
