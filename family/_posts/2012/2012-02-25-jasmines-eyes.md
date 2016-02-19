@@ -6,15 +6,15 @@ comments: false
 tags: 
 - family
 - jasmine
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.11.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.11.jpeg"
 ---
 Jasmine has been doing eye exercises for years to overcome a lazy eye.  The doctor is finally making her wear tape on her glasses in an effort to straighten them out.
 
 
 
-![Jasmine's glasses]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.11.jpg)
+![Jasmine's glasses]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.11.jpeg)
 
 
 
 
-![Jasmine's glasses]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.06.jpg)
+![Jasmine's glasses]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-13/2012-02-11-at-14.08.06.jpeg)

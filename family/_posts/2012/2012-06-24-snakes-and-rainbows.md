@@ -6,8 +6,8 @@ comments: false
 tags:
 - jasmine
 - kids drawing
-thumbsrc: http://media.eick.us/2012/2012-06-24/1024x1024/jasmine-rainbow.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-06-24/jasmine-rainbow.jpg"
+thumbsrc: http://media.eick.us/2012/2012-06-24/1024x1024/jasmine-rainbow.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-06-24/jasmine-rainbow.jpeg"
 ---
 Jasmine writes a poem in for school
 
@@ -31,6 +31,6 @@ Oh, how about we run up the hill and see what's up
 Wow!  Look at the pot of gold we are rich, very, very rich
 > endblockquote
 
-![Jasmine writes a poem in for school]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-24/jasmine-rainbow.jpg)
+![Jasmine writes a poem in for school]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-24/jasmine-rainbow.jpeg)
 
 

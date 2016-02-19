@@ -9,7 +9,7 @@ tags:
 - fun
 status: publish
 ---
-![Sackett's in 1917.]({{ site.mediaUrlRoot }}/photographs/1600/2002/2002-10-27/sackett-family-1917.jpg)
+![Sackett's in 1917.]({{ site.mediaUrlRoot }}/photographs/1600/2002/2002-10-27/sackett-family-1917.jpeg)
 
 *Sal's dad (Libby's Great Grandfather) is the young man in the back row on the right.*
 
@@ -32,9 +32,9 @@ This happy anniversary not only brought joy to the Sackett family, but to this c
 
 ---
 
-![Written on the back of the photograph]({{ site.mediaUrlRoot }}/photographs/1600/2002/2002-10-27/sackett-family-1917-back.jpg)
+![Written on the back of the photograph]({{ site.mediaUrlRoot }}/photographs/1600/2002/2002-10-27/sackett-family-1917-back.jpeg)
 
-![Newspaper clipping commemorating the day]({{ site.mediaUrlRoot }}/photographs/1600/2010/2010-05-07/sackett-family-golden-1917-newspaper.jpg)
+![Newspaper clipping commemorating the day]({{ site.mediaUrlRoot }}/photographs/1600/2010/2010-05-07/sackett-family-golden-1917-newspaper.jpeg)
 
 
 [^1]: Sal's dad (Libby's Great Grandfather) is the young man in the back row on the right.

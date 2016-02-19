@@ -8,12 +8,12 @@ tags:
 - Libby
 - portrait
 slug: libby-portrait
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-07.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-07.jpeg"
 ---
 Libby
 
-![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-07.jpg)
+![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-07.jpeg)
 
-![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-31.jpg)
+![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-31.jpeg)
 
-![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-50.jpg)
+![Vinyl White Backdrop]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-08-26/2013-08-26-vinyl-white-backdrop-portraits-2013-08-26-at-16-21-50.jpeg)

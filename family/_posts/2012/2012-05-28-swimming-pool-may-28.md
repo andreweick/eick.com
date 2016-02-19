@@ -8,17 +8,17 @@ tags:
 - Libby
 - iPhone
 - swimming
-thumbsrc: http://media.eick.us/2012/2012-05-28/1024x1024/2012-05-28at18.03.36.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpg"
+thumbsrc: http://media.eick.us/2012/2012-05-28/1024x1024/2012-05-28at18.03.36.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg"
 ---
 Jasmine and Libby at the pool.
 
 
 
-![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpg)
+![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg)
 
 
 
 
-![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.00.59.jpg)
+![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.00.59.jpeg)
 

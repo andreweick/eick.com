@@ -5,17 +5,17 @@ date: 2012-05-18 17:02
 comments: false
 tags: 
 - Libby
-thumbsrc: http://media.eick.us/2012/2012-05-06-2/1024x1024/libby-communion-13.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-05-06-2/libby-communion-13.jpg"
+thumbsrc: http://media.eick.us/2012/2012-05-06-2/1024x1024/libby-communion-13.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-06-2/libby-communion-13.jpeg"
 ---
 Libby in her dress and with Marie Grace.
 
 
 
-![Libby in her dress]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-13.jpg)
+![Libby in her dress]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-13.jpeg)
 
 
 
 
-![Libby and Marie Grace]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-14.jpg)
+![Libby and Marie Grace]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-14.jpeg)
 

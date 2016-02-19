@@ -7,8 +7,8 @@ tags:
 - jasmine
 - soccer
 - emerald-dragons
-thumbsrc: http://media.eick.us/2012/2012-04-22/1024x1024/emerald-dragons-2012-04-14-39.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpg"
+thumbsrc: http://media.eick.us/2012/2012-04-22/1024x1024/emerald-dragons-2012-04-14-39.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpeg"
 ---
 The first game for Jasmine's soccer game was April 14, and it was unusually warm for April here in Virginia.  They wanted to change the name of the team, and Jasmine voted for the "Pink Peeps" but she couldn't talk her teammates into it, so they kept last years name.
 
@@ -21,74 +21,74 @@ I also put together a web site for me to post pictures of the whole team.  The [
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-33.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-33.jpeg)
 
 
 
 
-![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-19.jpg)
-
-
-
-
-
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-31.jpg)
+![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-19.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-30.jpg)
-
-
-
-
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-29.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-31.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-25.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-30.jpeg)
+
+
+
+
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-29.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-24.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-25.jpeg)
+
+
+
+
+
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-24.jpeg)
 
 
 
 
 
 
-![Jasmine jockey's for position]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-14.jpg)
+![Jasmine jockey's for position]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-14.jpeg)
 
 
 
 
 
-![chasing down the ball]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-12.jpg)
+![chasing down the ball]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-12.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-3.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-3.jpeg)
 
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-2.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-2.jpeg)
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-1.jpg)
+![]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-04-22/emerald-dragons-2012-04-14-1.jpeg)

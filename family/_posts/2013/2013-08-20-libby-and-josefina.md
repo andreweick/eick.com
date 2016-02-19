@@ -10,8 +10,8 @@ tags:
 - american-girl
 - josefina
 slug: libby-and-josefina
-featured_image: "https://www.eick.us/media/photographs/1600/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpeg"
 ---
 Libby poses with Josefina.
 
-![Libby and Josephine]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpg)
+![Libby and Josephine]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-05/libby-and-josephine-2013-05-05-at-08-40-03.jpeg)

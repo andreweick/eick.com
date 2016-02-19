@@ -6,13 +6,13 @@ comments: false
 tags: 
 - Libby
 - lena
-thumbsrc: http://media.eick.us/2012/2012-05-06-2/1024x1024/libby-communion-16.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-05-06-2/libby-communion-16.jpg"
+thumbsrc: http://media.eick.us/2012/2012-05-06-2/1024x1024/libby-communion-16.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-06-2/libby-communion-16.jpeg"
 ---
 Libby and Grandma Soupy
 
-![Libby and Grandma Soupy 1]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-16.jpg)
+![Libby and Grandma Soupy 1]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-16.jpeg)
 
 
-![Libby and Grandma Soupy 2]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-17.jpg)
+![Libby and Grandma Soupy 2]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-06-2/libby-communion-17.jpeg)
 

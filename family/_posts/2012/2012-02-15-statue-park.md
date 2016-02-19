@@ -7,17 +7,17 @@ tags:
 - work
 - travel
 - london
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-02-12/London-56.jpg"
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-02-12/London-56.jpeg"
 ---
 Statues along Whitehall (Avenue?  Street?  Way?  Not sure what the name of the street is)
 
-![statues]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-56.jpg)
+![statues]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-56.jpeg)
 
 
-![Monty]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-57.jpg)
+![Monty]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-57.jpeg)
 
 
-![Field Marshall Alan Brooke]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-58.jpg)
+![Field Marshall Alan Brooke]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-02-12/London-58.jpeg)
 
 
 I think this was Teddy Roosevelt, but I'm not really sure.

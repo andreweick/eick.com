@@ -6,17 +6,17 @@ comments: false
 tags: 
 - jasmine
 - Libby
-thumbsrc: http://media.eick.us/2012/2012-07-03-1/1024x1024/2012-07-03at07.15.06.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-07-03-1/2012-07-03at07.15.06.jpg"
+thumbsrc: http://media.eick.us/2012/2012-07-03-1/1024x1024/2012-07-03at07.15.06.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-07-03-1/2012-07-03at07.15.06.jpeg"
 ---
 Freak storm in DC knocks out power for 100,000's including them.  Fortunately they had the iPad's charged up.
 
 Libby by the glow of the iPad.
 
-![Libby by the glow of the iPad]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-03-1/2012-07-03at07.15.06.jpg)
+![Libby by the glow of the iPad]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-03-1/2012-07-03at07.15.06.jpeg)
 
 
 Jasmine by the glow of the iPad.
 
-![Jasmine by the glow of the iPad]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-03-1/2012-07-03at07.14.55.jpg)
+![Jasmine by the glow of the iPad]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-03-1/2012-07-03at07.14.55.jpeg)
 

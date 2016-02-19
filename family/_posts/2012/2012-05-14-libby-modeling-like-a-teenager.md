@@ -7,12 +7,12 @@ tags:
 - Libby
 - fun
 - iPhone
-thumbsrc: http://media.eick.us/2012/2012-05-14/1024x1024/2012-05-13at16.27.33.jpg
-featured_image: "https://www.eick.us/media/photographs/1600/2012/2012-05-14/2012-05-13at16.27.33.jpg"
+thumbsrc: http://media.eick.us/2012/2012-05-14/1024x1024/2012-05-13at16.27.33.jpeg
+featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-14/2012-05-13at16.27.33.jpeg"
 ---
 Libby posing like (what she thinks) a teenage does
 
 
 
-![Libby posing like (what she thinks) a teenage does]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-14/2012-05-13at16.27.33.jpg)
+![Libby posing like (what she thinks) a teenage does]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-14/2012-05-13at16.27.33.jpeg)
 
