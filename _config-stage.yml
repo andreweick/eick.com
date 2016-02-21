@@ -1,7 +1,5 @@
 mediaUrlRoot: "http://media.eick.us"
 
-# dev options (true/false)
-# if site is in production, 'production: true'
 production: false
 bust_css_cache: true
 
