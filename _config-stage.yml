@@ -1,0 +1,15 @@
+mediaUrlRoot: "http://media.eick.us"
+
+production: false
+bust_css_cache: true
+show_drafts: true
+future: true
+unpublished: true
+
+defaults:
+  -
+   scope:
+    path: ''
+   values:
+    layout: post
+    allow-robots: false
