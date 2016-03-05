@@ -1,5 +1,15 @@
 Personal website for Andrew Eick, built with Jekyll
 
+## Deploy
+To deploy to www.eick.us, push code to origin/www-eick-us. This site built with 
+
+```JEKYLL_ENV=production jekyll build --config=_config.yml```
+
+To deploy to http://stage.eick.us, push code to origin/stage-eick-us. This is 
+built publishing the drafts and future posts and disabling robots etc...
+
+```JEKYLL_ENV=stage jekyll build --config=_config.yml,_config-stage.yml --drafts --future```
+
 ## Front Matter additions
 
 ```allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)```
@@ -23,7 +33,7 @@ intro: "Soccer Peeps second to last game of the season."
 
 [example of two_up:](https://www.eick.us/family/2014/11/16/all-star-tournament-day-2%20copy/)
 
-[example of full:](https://www.eick.us/family/2014/12/06/jasmine-and-julia/), [full](/family/2014/12/19/busy-week/)
+[example of full:](http://www.eick.us/family/2014/12/19/busy-week/)
 
 [example of three_up:](https://www.eick.us/family/2014/11/15/all-star-tournament-day-1/)
 
