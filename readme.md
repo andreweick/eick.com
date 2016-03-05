@@ -1,5 +1,15 @@
 Personal website for Andrew Eick, built with Jekyll
 
+## Deploy
+To deploy to www.eick.us, push code to origin/www-eick-us. This site built with 
+
+```JEKYLL_ENV=production jekyll build --config=_config.yml```
+
+To deploy to http://stage.eick.us, push code to origin/stage-eick-us. This is 
+built publishing the drafts and future posts and disabling robots etc...
+
+```JEKYLL_ENV=stage jekyll build --config=_config.yml,_config-stage.yml --drafts --future```
+
 ## Front Matter additions
 
 ```allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)```
