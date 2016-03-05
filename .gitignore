@@ -1,6 +1,6 @@
 # Ignore docs files
 _site
-
+_includes/scripts
 .ruby-version
 .sass-cache
 
