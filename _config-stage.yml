@@ -1,4 +1,4 @@
-mediaUrlRoot: "http://media.eick.us"
+mediaUrlRoot: "http://stage.media.eick.us"
 
 production: false
 bust_css_cache: true
