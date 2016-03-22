@@ -9,16 +9,16 @@ tags:
 - iPhone
 - swimming
 thumbsrc: http://media.eick.us/2012/2012-05-28/1024x1024/2012-05-28at18.03.36.jpeg
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg"
 ---
 Jasmine and Libby at the pool.
 
 
 
-![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg)
+![Jasmine]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-28/2012-05-28at18.03.36.jpeg)
 
 
 
 
-![Libby]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-28/2012-05-28at18.00.59.jpeg)
+![Libby]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-28/2012-05-28at18.00.59.jpeg)
 

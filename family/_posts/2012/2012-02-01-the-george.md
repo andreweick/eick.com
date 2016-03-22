@@ -6,7 +6,7 @@ comments: false
 tags:
 - work
 - London
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-01-25/IMG_3328-.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-01-25/IMG_3328-.jpeg"
 ---
 I remembered this pub from when I was there so much when I worked for Ford 10 years ago.  The pub dates back to Shakespearian time.  (Well, in actual fact it was rebuilt.  A fire destroyed it in 1676, so they had to rebuild it on the site).  I shouldn't be surprised that the pub is there 10 years later, seeing as it's been there for over 300 years!
 
@@ -14,10 +14,10 @@ There are many small rooms (maybe 10 tables and a fireplace) with bars in each o
 
 It took quite a walk to find the place from Westminster to Southbank (in that I really didn't remember where it was), but I found it by the tower bridge tube station down an alley between two buildings.
 
-![The George Inn]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3328-.jpeg)
+![The George Inn]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-01-25/IMG_3328-.jpeg)
 
 
-![The George Inn]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/IMG_3329-.jpeg)
+![The George Inn]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-01-25/IMG_3329-.jpeg)
 
 
 In case I forget where it is for next time I'm in London, go to the London Bridge tube station, and ...

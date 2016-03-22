@@ -7,7 +7,7 @@ tags:
 - American Girl Dolls
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-10-15/640x640/2012-10-08at09.58.15.jpeg
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-10-15/american-girl-doll-schedule.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-10-15/american-girl-doll-schedule.jpeg"
 ---
 Libby has a strict schedule on who is to change the dolls each night and morning.  
 
@@ -15,8 +15,8 @@ I thought she'd get tired of it (Jasmine did), but 10 or so months later, she st
 
 After they are changed, she lines them up on the couch while she goes to school...
 
-![American Girl doll schedule]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-10-15/american-girl-doll-schedule.jpeg)
+![American Girl doll schedule]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-10-15/american-girl-doll-schedule.jpeg)
 
 
-![American Girl dolls on the couch]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-10-15/2012-10-08at09.58.15.jpeg)
+![American Girl dolls on the couch]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-10-15/2012-10-08at09.58.15.jpeg)
 

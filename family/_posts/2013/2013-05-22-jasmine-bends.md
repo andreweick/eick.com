@@ -6,10 +6,10 @@ comments: false
 tags:
 - Jasmine
 - Gymnastics
-featured_image: "http://media.eick.us/photographs/1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpeg"
 ---
 Jasmine does her gymnastics.
 
-![Jasmine Bends]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpeg)
+![Jasmine Bends]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-00.jpeg)
 
-![Jasmine Bends]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-21.jpeg)
+![Jasmine Bends]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-02-08/Jasmine-Bends-2013-02-08-at-17-05-21.jpeg)

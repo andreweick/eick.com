@@ -5,13 +5,13 @@ date: 2012-01-25 17:32
 comments: false
 tags: 
 - agony
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-01-25/agony-january-visit--1.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-01-25/agony-january-visit--1.jpeg"
 ---
-![Agony in DC]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/agony-january-visit--1.jpeg)
+![Agony in DC]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-01-25/agony-january-visit--1.jpeg)
 
 
-![Libby looking up the stairs]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/agony-january-visit--2.jpeg)
+![Libby looking up the stairs]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-01-25/agony-january-visit--2.jpeg)
 
 
-![Jasmine paints a self portrait]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-01-25/agony-january-visit--3.jpeg)
+![Jasmine paints a self portrait]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-01-25/agony-january-visit--3.jpeg)
 

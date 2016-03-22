@@ -8,10 +8,10 @@ tags:
 - Libby
 - jasmine
 slug: libby-and-jasmine
-featured_image: "http://media.eick.us/photographs/1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-16-56.jpeg"
+featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-16-56.jpeg"
 ---
 Libby and Jasmine mug for the camera.
 
-![Libby in her ballet costume]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-16-56.jpeg)
+![Libby in her ballet costume]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-16-56.jpeg)
 
-![Libby in her ballet costume]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-18-11.jpeg)
+![Libby in her ballet costume]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-11-18-11.jpeg)
