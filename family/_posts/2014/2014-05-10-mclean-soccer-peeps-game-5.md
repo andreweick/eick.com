@@ -8,7 +8,7 @@ tags:
 - jasmine
 - soccer
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-05-10/soccer-game-5-2014-05-10-07-54-28.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-05-10/soccer-game-5-2014-05-10-07-54-28.jpeg"
 ---
 The home team loses to Bella's team
 

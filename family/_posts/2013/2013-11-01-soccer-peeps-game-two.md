@@ -8,7 +8,7 @@ tags:
 - soccer
 - soccer-peeps
 slug: soccer-peeps-game-two
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-09-21/soccer-peeps-game-two-2013-09-21-at-10-59-51.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-09-21/soccer-peeps-game-two-2013-09-21-at-10-59-51.jpeg"
 ---
 ![The Soccer Peeps beat the Green Dynamite]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-09-21/soccer-peeps-game-two-2013-09-21-at-10-59-51.jpeg)
 

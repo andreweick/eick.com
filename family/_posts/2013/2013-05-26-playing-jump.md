@@ -7,7 +7,7 @@ tags:
 - Jasmine
 - Libby
 - jump
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg"
 ---
 Libby and Jasmine playing jump in the basement.
 

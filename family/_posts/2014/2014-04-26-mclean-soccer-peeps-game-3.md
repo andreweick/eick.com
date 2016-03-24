@@ -8,7 +8,7 @@ tags:
 - jasmine
 - soccer
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-04-26/soccer-peeps-game-3-2014-04-26-15-04-56.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-04-26/soccer-peeps-game-3-2014-04-26-15-04-56.jpeg"
 ---
 Soccer Peeps beat Green Eggs and Ham 3 to 2
 

@@ -8,7 +8,7 @@ tags:
 - Libby
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-04-19/1024x1024/6945623586_c8085175a5_o.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-04-19-2/7091689945_57d0428f40_o.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-04-19-2/7091689945_57d0428f40_o.jpeg"
 ---
 Old iPhone pictures of Jasmine and Libby around the house...
 

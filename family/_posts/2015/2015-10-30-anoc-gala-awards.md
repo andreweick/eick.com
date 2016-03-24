@@ -6,7 +6,7 @@ author: Andy Eick
 tags:
 - video
 intro: "Libby's chorus sings for the American National Olympic Committee Gala"
-featured_image: "http://media.eick.us/static/video/2015-12-18-libby-jury/libby-jury-poster.jpeg"
+featured_image: "/static/video/2015-12-18-libby-jury/libby-jury-poster.jpeg"
 published: False
 ---
 "The Washington Children's Chorus sings ""Seasons of Love" featuring the Children's Chorus of Washington along with Sharone Sayegh, Frank Paparone, Darius Barnes, Justin Henry, Patrick Lavallee, Donielle Janora, Felicity Stiverson, Samarah Williams and Mamie Duncan Gibbs.

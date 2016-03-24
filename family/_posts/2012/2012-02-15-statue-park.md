@@ -7,7 +7,7 @@ tags:
 - work
 - travel
 - london
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-02-12/London-56.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-02-12/London-56.jpeg"
 ---
 Statues along Whitehall (Avenue?  Street?  Way?  Not sure what the name of the street is)
 

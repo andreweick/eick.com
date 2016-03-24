@@ -5,7 +5,7 @@ date: 2013-05-05 14:52
 comments: false
 tags: 
 - Jasmine
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-05.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-01-25/Jasmine-on-her-iPhone-2013-01-25-at-20-14-05.jpeg"
 ---
 Jasmine plays with her iPhone.
 

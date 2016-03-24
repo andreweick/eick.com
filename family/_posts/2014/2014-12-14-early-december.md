@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-12-14/early-december-2014-12-14-11-50-32.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-12-14/early-december-2014-12-14-11-50-32.jpeg"
 ---
 Many things to do before Christmas. School concerts (Jasmine had a speaking part), making cookies, and a tween-ager dance for Jasmine.
 

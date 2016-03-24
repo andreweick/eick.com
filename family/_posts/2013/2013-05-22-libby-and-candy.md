@@ -6,7 +6,7 @@ comments: false
 tags: 
 - Libby
 - valentine
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-02-17/Libby-and-Candy-2013-02-17-at-17-53-42.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-02-17/Libby-and-Candy-2013-02-17-at-17-53-42.jpeg"
 ---
 Libby and Candy (the bear she got for Valentines Day).
 

@@ -5,7 +5,7 @@ date: 2012-08-05 19:04
 comments: false
 tags:
 - archive
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-05/Queen-Louises-funeral-procession.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-05/Queen-Louises-funeral-procession.jpeg"
 ---
 Crowds line svoanvanger for Queen Louises funeral procession.
 

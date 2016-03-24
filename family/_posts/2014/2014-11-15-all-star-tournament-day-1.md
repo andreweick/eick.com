@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-11-15/mclean-all-star-day-one-2014-11-15-12-20-09.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-11-15/mclean-all-star-day-one-2014-11-15-12-20-09.jpeg"
 photo_layout: "three_up"
 intro: "McLean All Star Tournament Day 1"
 ---

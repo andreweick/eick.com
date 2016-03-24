@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-11-08/emerald-dragons-tournament-2014-11-08-10-48-05.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-11-08/emerald-dragons-tournament-2014-11-08-10-48-05.jpeg"
 photo_layout: "three_up"
 intro: "Emerald Dragons Tournament"
 ---

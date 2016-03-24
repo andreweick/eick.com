@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - disney
 - vacation
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-06-28/disney-photo-pass-2014-06-28-16-02-13.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-06-28/disney-photo-pass-2014-06-28-16-02-13.jpeg"
 ---
 Disney
 ![Disney]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-06-28/disney-photo-pass-2014-06-28-16-02-13.jpeg)

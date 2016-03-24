@@ -8,7 +8,7 @@ tags:
 - soccer
 - emerald-dragons
 thumbsrc: http://media.eick.us/2012/2012-04-25/1024x1024/e-d-2012-04-21-18.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-04-25/e-d-2012-04-21-33.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-04-25/e-d-2012-04-21-33.jpeg"
 ---
 The Emerald Dragons soccer game from April 21.  Still not up to the weekend last weekend where it was so cold that my hands were blue after I took pictures, but I'll get those posted in a day or so.
  

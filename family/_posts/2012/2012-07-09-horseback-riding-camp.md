@@ -7,7 +7,7 @@ tags:
 - jasmine
 - Libby
 - horse
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-07-08-2/libby-horeseback-riding-camp-2012-07-08.jpeg"
 ---
 Jasmine and Libby at horseback riding camp.
 

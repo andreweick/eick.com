@@ -7,7 +7,7 @@ tags:
 - disney
 - airport
 thumbsrc: http://media.eick.us/2012/2012-07-03/1024x1024/2012-07-03at07.04.11.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-07-03/2012-07-03at07.04.07.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-07-03/2012-07-03at07.04.07.jpeg"
 ---
 The girls traveling to Disney, with their American Girl Dolls, of course.
 

@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-09-27/soccer-game-4-2014-09-27-10-05-53.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-09-27/soccer-game-4-2014-09-27-10-05-53.jpeg"
 intro: "Fourth soccer game of the season, a win, two to 1."
 ---
 ![Soccer Game 4]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-09-27/soccer-game-4-2014-09-27-10-05-53.jpeg)

@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-09-06/soccer-game-1-2014-09-06-09-58-23.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-09-06/soccer-game-1-2014-09-06-09-58-23.jpeg"
 ---
 McLean's first soccer game of the season, a win, 2 to nil.
 

@@ -8,7 +8,7 @@ tags:
 - Libby
 - ballet
 slug: libby-in-her-ballet-uniform
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-15-34-01.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-05-18/2013-05-18-libby-ballet-2013-05-18-at-15-34-01.jpeg"
 ---
 Libby had [a ballet show][1] so we did some quick portraits before she went to the theater.
 

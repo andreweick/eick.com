@@ -4,7 +4,7 @@ date: 2015-11-12
 author: Andy Eick
 tags: sackett
 published: false
-featured_image: "http://media.eick.us/static/family-tree-media/lodemia%20sackett.jpeg"
+featured_image: "/static/family-tree-media/lodemia%20sackett.jpeg"
 ---
 [Lodemia Scakett](http://media.eick.us/static/family-tree-media/lodemia%20sackett.jpeg)
 

@@ -6,7 +6,7 @@ comments: false
 tags: 
 - Jasmine
 - Christmas
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-12-08/Jasmine-ChristmasLists2010-05-01at01-02-20.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-12-08/Jasmine-ChristmasLists2010-05-01at01-02-20.jpeg"
 ---
 ## My Christmas List!  From: Jasmine Eick
 

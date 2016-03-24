@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-09-13/soccer-game-2-2014-09-13-09-57-43.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-09-13/soccer-game-2-2014-09-13-09-57-43.jpeg"
 ---
 Second soccer game of the season, a tie.
 

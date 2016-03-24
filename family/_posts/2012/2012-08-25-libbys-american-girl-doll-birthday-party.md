@@ -7,7 +7,7 @@ tags:
 - Libby
 - birthday
 thumbsrc: http://media.eick.us/2012/2012-08-19-1/640x640/libby-birthday-party--2012-06-03at14-19-42.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-19-1/libby-birthday-party--2012-06-03at14-19-42.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-19-1/libby-birthday-party--2012-06-03at14-19-42.jpeg"
 ---
 Libby really wanted her birthday party at the American Girl Doll store this year.
 

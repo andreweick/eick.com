@@ -7,7 +7,7 @@ tags:
 - Jasmine
 - Libby
 thumbsrc: http://media.eick.us/2012/2012-08-19-2/640x640/2012-07-27at11-46-57-2012-07-27at11-46-57.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-19-2/2012-07-27at12-24-29-2012-07-27at12-24-29.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-19-2/2012-07-27at12-24-29-2012-07-27at12-24-29.jpeg"
 ---
 Libby at Glen Echo for her play.
 

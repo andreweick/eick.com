@@ -7,7 +7,7 @@ published: true
 tags:
 - dance
 slug: not-libby-dancing
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-08-40.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-01/libby-ballet-recital-2013-06-01-at-10-08-40.jpeg"
 ---
 Some pictures I took at Libby's dance recital in the spring which were not Libby's class.
 

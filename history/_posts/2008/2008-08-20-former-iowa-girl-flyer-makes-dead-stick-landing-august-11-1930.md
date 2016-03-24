@@ -11,7 +11,7 @@ tags:
 - cosgrove
 - historical
 status: publish
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-11-08/harriett-sackett-newspaper-2.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-11-08/harriett-sackett-newspaper-2.jpeg"
 ---
 Engine Died in License Test, but Harriet Sackett's Nerve Saved Her
 ------------------------------------------------------------------

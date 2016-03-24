@@ -6,7 +6,7 @@ comments: false
 tags:
 - haircuts
 thumbsrc: http://media.eick.us/2012/2012-08-19-2/640x640/2012-21-new-haircuts--2012-07-21at14-30-27.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-19-2/2012-21-new-haircuts--2012-07-21at14-31-18.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-19-2/2012-21-new-haircuts--2012-07-21at14-31-18.jpeg"
 ---
 New Haircuts.
 

@@ -6,7 +6,7 @@ comments: false
 tags: 
 - Libby
 - Christmas
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg"
 ---
 # Libby
 

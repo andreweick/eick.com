@@ -5,7 +5,7 @@ date: 2014-06-21 14:20
 author: Andy Eick
 tags: 
 - virginia
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-06-21/james-madison-2014-06-21-14-49-44.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-06-21/james-madison-2014-06-21-14-49-44.jpeg"
 ---
 Agony visiting James Madison house.
 

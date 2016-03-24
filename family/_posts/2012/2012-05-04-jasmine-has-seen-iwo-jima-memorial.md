@@ -8,7 +8,7 @@ tags:
 - washington
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-05-04/1024x1024/2012-04-28at17.24.01.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-04/2012-04-28at17.24.01.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-04/2012-04-28at17.24.01.jpeg"
 ---
 Jasmine, however, has seen Iwo Jima memorial (several times) and couldn't wake even wake up...
 

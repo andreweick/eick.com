@@ -5,7 +5,7 @@ date: 2012-05-17 19:38
 comments: false
 tags:
 - historical
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-17/Sally-and-kids-on-route-to-england.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-17/Sally-and-kids-on-route-to-england.jpeg"
 ---
 Sally (Mom) and kids on route to england (1965)
 

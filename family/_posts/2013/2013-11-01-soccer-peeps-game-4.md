@@ -8,7 +8,7 @@ tags:
 - soccer
 - soccer-peeps
 slug: soccer-peeps-game-4
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-10-05/soccer-peeps-game-4-2013-10-05-at-12-26-14.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-10-05/soccer-peeps-game-4-2013-10-05-at-12-26-14.jpeg"
 ---
 Soccer Peeps
 

@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - birthday
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-08-23/jasmines-birthday-party-2014-08-23-14-50-08.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-08-23/jasmines-birthday-party-2014-08-23-14-50-08.jpeg"
 ---
 Jasmine played laser tag for her birthday party
 

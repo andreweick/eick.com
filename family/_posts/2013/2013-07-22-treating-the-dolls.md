@@ -10,7 +10,7 @@ tags:
 - Libby
 - american girls
 slug: treating-the-dolls
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-03-16/Playing-Medical-2013-03-16-at-10-29-45.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-03-16/Playing-Medical-2013-03-16-at-10-29-45.jpeg"
 ---
 Jasmine and Libby were "playing medical" with American Girl doll Kaya.
 

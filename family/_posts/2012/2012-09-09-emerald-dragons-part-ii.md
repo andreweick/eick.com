@@ -7,7 +7,7 @@ tags:
 - jasmine
 - soccer
 - emerald-dragons
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-19-1/06-09-emerald-dragons-2nd-half--2012-06-09at12-34-23.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-19-1/06-09-emerald-dragons-2nd-half--2012-06-09at12-34-23.jpeg"
 ---
 One of Jasmine's Soccer games from last June (2012).
 

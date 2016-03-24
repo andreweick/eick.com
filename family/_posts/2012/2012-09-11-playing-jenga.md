@@ -7,7 +7,7 @@ tags:
 - Jasmine
 - Libby
 thumbsrc: http://media.eick.us/2012/2012-09-11/640x640/2012-09-10at20.39.21.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-09-11/2012-09-10at20.39.21.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-09-11/2012-09-10at20.39.21.jpeg"
 ---
 [Agony](/blog/2012/08/28/agony-in-virginia/) came to the correct coast for meetings in DC.  He is only here for a day and a half but was able to stop by and see the girls.
 

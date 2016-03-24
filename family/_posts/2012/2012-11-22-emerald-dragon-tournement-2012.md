@@ -7,7 +7,7 @@ tags:
 - jasmine
 - soccer
 - emerald-dragons
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-11-11/EmeraldDragonstournamentLibby2012-11-10at15-53-07.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-11-11/EmeraldDragonstournamentLibby2012-11-10at15-53-07.jpeg"
 ---
 Emerald Dragon's win the tournament!
 

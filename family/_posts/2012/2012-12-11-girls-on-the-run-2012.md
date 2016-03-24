@@ -6,7 +6,7 @@ comments: false
 tags: 
 - girls-on-the-run
 thumbsrc: http://media.eick.us/2012/2012-11-22/640x640/Girls-on-the-run-2.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-11-22/Girls-on-the-run-2.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-11-22/Girls-on-the-run-2.jpeg"
 ---
 Libby, Denise, Jasmine and our friend Nicole did "Girls on the Run", a 5K race, this year. 
 

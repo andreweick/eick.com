@@ -7,7 +7,7 @@ tags:
 - Libby
 - doll
 - piano
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-03-28/Random-iPhone-3.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-03-28/Random-iPhone-3.jpeg"
 ---
 Libby warms up for her [piano recital](/blog/2012/03/31/march-18-recital/) while Marie Grace looks on
 

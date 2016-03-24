@@ -8,7 +8,7 @@ tags:
 - soccer
 - emerald-dragons
 thumbsrc: http://media.eick.us/2012/2012-04-22/1024x1024/emerald-dragons-2012-04-14-39.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-04-22/emerald-dragons-2012-04-14-39.jpeg"
 ---
 The first game for Jasmine's soccer game was April 14, and it was unusually warm for April here in Virginia.  They wanted to change the name of the team, and Jasmine voted for the "Pink Peeps" but she couldn't talk her teammates into it, so they kept last years name.
 

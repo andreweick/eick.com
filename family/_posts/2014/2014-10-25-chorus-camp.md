@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - Libby
 - chorus
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-10-25/chorus-camp-2014-10-25-14-45-17.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-10-25/chorus-camp-2014-10-25-14-45-17.jpeg"
 photo_layout: "three_up"
 ---
 ![Chorus Camp]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-10-25/chorus-camp-2014-10-25-14-45-17.jpeg)

@@ -6,7 +6,7 @@ comments: false
 tags:
 - work
 - London
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-01-25/IMG_3328-.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-01-25/IMG_3328-.jpeg"
 ---
 I remembered this pub from when I was there so much when I worked for Ford 10 years ago.  The pub dates back to Shakespearian time.  (Well, in actual fact it was rebuilt.  A fire destroyed it in 1676, so they had to rebuild it on the site).  I shouldn't be surprised that the pub is there 10 years later, seeing as it's been there for over 300 years!
 

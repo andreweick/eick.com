@@ -5,7 +5,7 @@ date: 2014-08-23 14:20
 author: Andy Eick
 tags: 
 - libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-08-21/aladdin-cast.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-08-21/aladdin-cast.jpeg"
 vimeo: 111338394
 ---
 During Libby's summer camp they put together and performed the musical Aladdin.  Here's the cast pictures, and one of Libby after the performance.

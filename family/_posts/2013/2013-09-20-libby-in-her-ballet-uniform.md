@@ -10,7 +10,7 @@ tags:
 - protrait
 - ballet 
 slug: libby-in-her-ballet-uniform
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-01/libby-ballet-1.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-01/libby-ballet-1.jpeg"
 ---
 Libby in her ballet costume that she wore to her [recital](/blog/2013/08/18/libby-dance-recital/)
 

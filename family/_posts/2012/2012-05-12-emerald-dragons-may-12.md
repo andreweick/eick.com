@@ -7,7 +7,7 @@ tags:
 - Jasmine
 - soccer
 - emerald-dragons
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-09-20/05-12-emerald-dragons-33.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-09-20/05-12-emerald-dragons-33.jpeg"
 ---
 Emerald Dragons play on May 12, 2011.
 

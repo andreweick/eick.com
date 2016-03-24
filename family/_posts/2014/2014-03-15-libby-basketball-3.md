@@ -8,7 +8,7 @@ tags:
 - basketball
 published: true
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-03-01/2014-03-01-libby-basket-ball-2014-03-01-at-15-56-11.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-03-01/2014-03-01-libby-basket-ball-2014-03-01-at-15-56-11.jpeg"
 ---
 Libby playing basketball.
 

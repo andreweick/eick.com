@@ -9,7 +9,7 @@ tags:
 - pool
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-06-12/1024x1024/2012-06-10at18.54.51.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-06-12/2012-06-10at18.54.51.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-12/2012-06-10at18.54.51.jpeg"
 ---
 Pictures from the Pool
 

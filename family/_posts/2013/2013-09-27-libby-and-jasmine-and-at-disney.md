@@ -8,7 +8,7 @@ tags:
 - dinsey
 - princess
 slug: libby-and-jasmine-and-at-disney
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-30/disney-photopass-2013-06-30-at-11-23-03.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-30/disney-photopass-2013-06-30-at-11-23-03.jpeg"
 ---
 Pictures from Disney World, 2013.  Libby (finally) went on the roller coasters, and of course, all the princesses. 
 

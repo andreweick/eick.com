@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - halloween
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-10-24/halloween-dance-2014-10-24-16-55-25.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-10-24/halloween-dance-2014-10-24-16-55-25.jpeg"
 ---
 Jasmine went to the Halloween dance at the local community center. Jasmine changed outfits several times, and put on her makeup a few times before figuring out what she wanted to wear.
 

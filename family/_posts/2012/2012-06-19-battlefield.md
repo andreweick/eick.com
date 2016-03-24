@@ -8,7 +8,7 @@ tags:
 - Libby
 - iPhone 
 thumbsrc: http://media.eick.us/2012/2012-06-18/1024x1024/6954281886_7d710f607b_o.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-06-18/7100355907_9d73252a5f_o.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-18/7100355907_9d73252a5f_o.jpeg"
 ---
 
 Took Jasmine and Libby to a civil war battlefield around here while Denise went to Dearborn for the weekend.

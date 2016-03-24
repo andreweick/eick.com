@@ -8,7 +8,7 @@ tags:
 - Libby
 - chorus
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-05-10/libby-chorus-2014-05-10-17-30-17.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-05-10/libby-chorus-2014-05-10-17-30-17.jpeg"
 ---
 Libby Chorus
 

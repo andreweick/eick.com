@@ -5,7 +5,7 @@ date: 2012-01-25 17:28
 comments: false
 tags: 
 - Jasmine
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-01-25/2012-01-28%20at%2012-53-28-.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-01-25/2012-01-28%20at%2012-53-28-.jpeg"
 ---
 Jasmine reading a book.
 

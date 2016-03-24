@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - volleyball
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-05-31/jasmine-vball-tourney-2014-05-31-17-00-49.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-05-31/jasmine-vball-tourney-2014-05-31-17-00-49.jpeg"
 intro: "Team Phoenix Champions!"
 photo_layout: "three_up"
 ---

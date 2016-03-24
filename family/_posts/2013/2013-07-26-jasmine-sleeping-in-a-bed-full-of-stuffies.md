@@ -8,7 +8,7 @@ tags:
 - iPhone
 - jasmine
 slug: jasmine-sleeping-in-a-bed-full-of-stuffies
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-04-01/2013-04-iPhone-2013-04-01-at-20-06-17.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-04-01/2013-04-iPhone-2013-04-01-at-20-06-17.jpeg"
 ---
 I'm not even sure where Jasmine sleeps, but she sure seems to
 

@@ -7,7 +7,7 @@ published: true
 tags:
 - iPhone
 slug: april-iphone-pictures
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-04-11/2013-04-iphone-2013-04-11-at-08-09-05.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-04-11/2013-04-iphone-2013-04-11-at-08-09-05.jpeg"
 ---
 April iPhone pictures...
 

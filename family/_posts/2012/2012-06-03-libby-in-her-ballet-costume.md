@@ -7,7 +7,7 @@ tags:
 - Libby
 - ballet
 thumbsrc: http://media.eick.us/2012/2012-06-03/1024x1024/05-19-libby-ballet-costume-12.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-06-03/05-19-libby-ballet-costume-15.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-03/05-19-libby-ballet-costume-15.jpeg"
 ---
 Libby in her ballet costume
 

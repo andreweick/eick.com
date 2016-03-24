@@ -7,7 +7,7 @@ tags:
 - work
 - London
 - travel
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-02-12/London-64.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-02-12/London-64.jpeg"
 ---
 London
 

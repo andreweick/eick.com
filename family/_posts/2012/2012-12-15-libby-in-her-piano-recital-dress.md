@@ -5,7 +5,7 @@ date: 2012-12-15 17:21
 comments: false
 tags: 
 - Libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-11-11/LibbyPianoRecital2012-11-04at13-55-02.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-11-11/LibbyPianoRecital2012-11-04at13-55-02.jpeg"
 ---
 Libby in her piano recital dress
 

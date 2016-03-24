@@ -8,7 +8,7 @@ tags:
 - Jasmine
 - basketball
 - ballet
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-01-12/Libby-Ballet-Studio-2013-01-12-at-16-41-33.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-01-12/Libby-Ballet-Studio-2013-01-12-at-16-41-33.jpeg"
 ---
 Libby playing basketball on a very busy weekend going from ballet straigt to basketball.
 

@@ -6,7 +6,7 @@ comments: false
 tags: 
 - jasmine
 - kids drawing
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-06-02/IMG_0006.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-02/IMG_0006.jpeg"
 ---
 Jasmine draws pictures of dogs
 

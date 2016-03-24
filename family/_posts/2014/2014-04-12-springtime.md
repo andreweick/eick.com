@@ -7,7 +7,7 @@ tags:
 - virginia
 published: true
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-04-09/blossoms-2014-04-09-07-03-28.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-04-09/blossoms-2014-04-09-07-03-28.jpeg"
 ---
 Springtime in Virginia
 

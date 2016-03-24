@@ -6,7 +6,7 @@ comments: false
 tags:
 - kids drawing
 thumbsrc: http://media.eick.us/2012/2012-06-24-1/1024x1024/2012-06-24at13.39.11.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-06-24-1/2012-06-24at13.39.11.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-24-1/2012-06-24at13.39.11.jpeg"
 ---
 The girls made a schedule for tomorrow since they are very busy on summer vacation already.
 

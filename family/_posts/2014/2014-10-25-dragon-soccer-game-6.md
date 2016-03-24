@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - soccer
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-10-25/dragon-soccer-2014-10-25-12-55-38-version2.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-10-25/dragon-soccer-2014-10-25-12-55-38-version2.jpeg"
 photo_layout: "three_up"
 intro: "Dragon Soccer game 6"
 ---

@@ -7,7 +7,7 @@ published: true
 tags: 
 - birthday 
 slug: jasmines-birthday
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg"
 ---
 ![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg)
 

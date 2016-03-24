@@ -8,7 +8,7 @@ tags:
 - soccer
 - emerald-dragons
 thumbsrc: http://media.eick.us/2012/2012-10-21-1/640x640/EmeraldDragons2012-10-13at16-18-42-2012-10-13at16-18-42.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-10-21-1/EmeraldDragons2012-10-13at16-17-25-2012-10-13at16-17-25.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-10-21-1/EmeraldDragons2012-10-13at16-17-25-2012-10-13at16-17-25.jpeg"
 ---
 Emerald Dragons play on October 13, 2012.
 

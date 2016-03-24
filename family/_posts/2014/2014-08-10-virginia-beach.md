@@ -5,7 +5,7 @@ date: 2014-08-10 14:20
 author: Andy Eick
 tags: 
 - virginia
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-08-09/virginia-beach-2014-08-09-12-04-09.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-08-09/virginia-beach-2014-08-09-12-04-09.jpeg"
 ---
 Virginia Beach.  End of summer and back to school soon!
 

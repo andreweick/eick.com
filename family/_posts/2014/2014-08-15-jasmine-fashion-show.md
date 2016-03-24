@@ -5,7 +5,7 @@ date: 2014-08-10 14:20
 author: Andy Eick
 tags: 
 - jasmine
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-08-15/jasmine-fashion-show-2014-08-15-12-08-19.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-08-15/jasmine-fashion-show-2014-08-15-12-08-19.jpeg"
 ---
 Jasmine went to fashion camp this summer to learn how to make clothes. 
 

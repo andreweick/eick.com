@@ -8,7 +8,7 @@ tags:
 - julia
 - photobomb
 slug: julia-photobombs-jasmine-and-libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-17.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-04-06/2013-04-iPhone-2013-04-06-at-19-00-17.jpeg"
 ---
 Julia photobombs Jasmine and Libby.
 

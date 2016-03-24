@@ -5,7 +5,7 @@ date: 2012-03-21 13:56
 comments: false
 tags: 
 - Traverse City
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-03-21/DSC01227.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-03-21/DSC01227.jpeg"
 ---
 A Tale of Two Cities
  

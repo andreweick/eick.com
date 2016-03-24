@@ -7,7 +7,7 @@ tags:
 - jasmine
 - Libby
 thumbsrc: http://media.eick.us/2012/2012-05-06/original/piano-recital-6.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-06/piano-recital-1.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-06/piano-recital-1.jpeg"
 ---
 The girls getting ready for a piano recital ([two months ago!](http://eick.us/blog/2012/03/31/march-18-recital/)).  Denise went to Michigan for the weekend so I took the girls to the piano recital.
 

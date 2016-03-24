@@ -7,7 +7,7 @@ tags:
 - Libby
 - fun
 thumbsrc: http://media.eick.us/2012/2012-03-31/320x320/Random-iPad.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-03-31/Random-iPad.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-03-31/Random-iPad.jpeg"
 ---
 Libby so wants summer to be here that she wanted to play "beach" -- it was actually only about 50 outside, but she wanted to wear her bathing suit because she was so cold in michigan!
 

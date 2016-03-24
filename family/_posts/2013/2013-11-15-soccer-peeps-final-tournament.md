@@ -8,7 +8,7 @@ tags:
 - soccer
 - soccer-peeps
 slug: soccer-peeps-final-tournament
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-11-09/soccer-peeps-tournament-2013-11-09-at-12-39-34.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-11-09/soccer-peeps-tournament-2013-11-09-at-12-39-34.jpeg"
 ---
 The soccer peeps had their final torunament last weekend.  Although they didn't play well, Jasmine was ecstatic that she got to play four games in one day.  This weekend, she has the McLean all-star tournament.  Full-length games, she is in soccering heaven.
 

@@ -9,7 +9,7 @@ tags:
 - soccer
 - emerald-dragons
 slug: emerald-dragons-tie-in-the-most-exciting-game-of-the-season
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-05-04/emerald-dragons-v-warriors-2013-05-04-at-15-43-46.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-05-04/emerald-dragons-v-warriors-2013-05-04-at-15-43-46.jpeg"
 ---
 ![Emerald Dragon's tie the Warriors]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-05-04/emerald-dragons-v-warriors-2013-05-04-at-15-43-46.jpeg)
 

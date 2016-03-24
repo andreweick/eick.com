@@ -7,7 +7,7 @@ tags:
 - jasmine
 - soccer
 - emerald-dragons
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-09-20-1/05-19-ed-592.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-09-20-1/05-19-ed-592.jpeg"
 ---
 Emerald Dragons game on May 19, 2011.
 

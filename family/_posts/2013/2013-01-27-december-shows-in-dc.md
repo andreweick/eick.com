@@ -5,7 +5,7 @@ date: 2013-01-27 15:31
 comments: false
 tags:
 - Christmas
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-12-24/December-Shows2012-12-23at16-06-42.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-12-24/December-Shows2012-12-23at16-06-42.jpeg"
 ---
 Christmas time in DC.
 

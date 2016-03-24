@@ -8,7 +8,7 @@ tags:
 - Libby
 - portrait
 slug: old-tymey-libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-10-27/libby-before-piano-2013-10-27-at-11-21-06.jpeg"
 ---
 Old Tymey Libby.
 

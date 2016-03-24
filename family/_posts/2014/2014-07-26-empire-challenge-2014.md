@@ -5,7 +5,7 @@ date: 2014-07-26 14:20
 author: Andy Eick
 tags: 
 - work
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-07-14/EC14-2014-07-14-21-59-11.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-07-14/EC14-2014-07-14-21-59-11.jpeg"
 ---
 Empire Challenge 2014, Death Valley, California
 

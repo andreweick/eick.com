@@ -7,7 +7,7 @@ tags:
 - jasmine
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-05-23/1024x1024/2012-05-17at21.27.40.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-23/2012-05-17at21.27.40.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-23/2012-05-17at21.27.40.jpeg"
 ---
 Jasmine goes to sleep with the iPad
 

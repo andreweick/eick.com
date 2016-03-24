@@ -8,7 +8,7 @@ tags:
 - Libby
 - dance
 slug: libby-dance-class
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-28/libby-dance-recital-2013-06-28-at-18-48-09.jp"
+featured_image: "/photographs/1600x1600/2013/2013-06-28/libby-dance-recital-2013-06-28-at-18-48-09.jp"
 ---
 Libby's dance class picture.
 

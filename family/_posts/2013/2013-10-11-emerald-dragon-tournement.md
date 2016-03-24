@@ -8,7 +8,7 @@ tags:
 - jasmine
 - soccer
 slug: emerald-dragon-tournement
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-08/jasmine-soccer-tourney-2013-06-08-at-14-08-19.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-08/jasmine-soccer-tourney-2013-06-08-at-14-08-19.jpeg"
 ---
 Pictures from Jasmine's Emerald Dragon tournment last spring.  I don't remember how she did, I'll have to look and see if she got a trouphy in her trophy case.  I think they lost the tourney, but won a trophy for having the best record (I think they were unbeaten).
 

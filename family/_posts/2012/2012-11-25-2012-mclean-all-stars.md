@@ -6,7 +6,7 @@ comments: false
 tags: 
 - soccer
 thumbsrc: http://media.eick.us/2012/2012-11-22/640x640/McLeanAllStarSoccer2012-11-18at16-48-14.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-11-22/McLeanAllStarSoccer2012-11-18at16-48-14.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-11-22/McLeanAllStarSoccer2012-11-18at16-48-14.jpeg"
 ---
 2012 McLean All Stars.
 

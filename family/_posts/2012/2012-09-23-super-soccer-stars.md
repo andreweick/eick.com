@@ -8,7 +8,7 @@ tags:
 - emerald-dragons
 - soccer
 thumbsrc: http://media.eick.us/2012/2012-09-23/640x640/EmeraldDragonsvsSuperSoccerStars2012-09-22at14-06-16.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-09-23/EmeraldDragonsvsSuperSoccerStars2012-09-22at14-02-02.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-09-23/EmeraldDragonsvsSuperSoccerStars2012-09-22at14-02-02.jpeg"
 ---
 The Emerald Dragons play the Super Soccer Stars.
 

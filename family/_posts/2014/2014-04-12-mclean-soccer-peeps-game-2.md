@@ -11,7 +11,7 @@ tags:
 - soccer
 splash_image: /images/2014/2014-04-12/soccer-peeps-game-2-2014-04-12-14-32-02.jpeg
 intro: "The Soccer Peeps tie the second game of the year. Everyone was running a bit slower because it warmed up to 70 and sunny from 40 and rainy during the week."
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-04-12/soccer-peeps-game-2-2014-04-12-14-32-02.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-04-12/soccer-peeps-game-2-2014-04-12-14-32-02.jpeg"
 ---
 ![Soccer Peeps Game 2]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-04-12/soccer-peeps-game-2-2014-04-12-14-32-02.jpeg "Soccer Peeps Game 2")
 ![Soccer Peeps Game 2]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-04-12/soccer-peeps-game-2-2014-04-12-14-34-57.jpeg "Soccer Peeps Game 2")

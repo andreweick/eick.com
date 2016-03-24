@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - halloween
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-10-31/halloween-2014-10-31-16-51-34.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-10-31/halloween-2014-10-31-16-51-34.jpeg"
 ---
 Jasmine on Halloween as a "Nerd" with her friend Julia.
 

@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - volleyball
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-05-03/volleyball-2014-05-03-14-56-17.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-05-03/volleyball-2014-05-03-14-56-17.jpeg"
 ---
 Team Phoenix volleyball wins game 4.
 

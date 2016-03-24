@@ -8,7 +8,7 @@ tags:
 - dress
 - studio
 thumbsrc: http://media.eick.us/2012/2012-05-06-1/1024x1024/libby-dress-1.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-06-1/libby-dress-1.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-06-1/libby-dress-1.jpeg"
 ---
 Libby modeling her first communion dress
 

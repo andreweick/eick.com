@@ -7,7 +7,7 @@ tags:
 - jasmine
 - soccer
 - emerald-dragons
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-11-11/EmeraldDragons2012-11-03at16-02-15.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-11-11/EmeraldDragons2012-11-03at16-02-15.jpeg"
 ---
 Emerald Dragons November 3rd game.
 

@@ -11,7 +11,7 @@ tags:
 - david
 - maria
 slug: grandma-soupy
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-20/grandma-and-kids-2013-06-20-at-20-14-07.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-20/grandma-and-kids-2013-06-20-at-20-14-07.jpeg"
 ---
 Grandama Soupy[castelevetere] and the kids.
 

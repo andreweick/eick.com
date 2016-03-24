@@ -6,7 +6,7 @@ comments: false
 tags: 
 - kids drawing
 - Jasmine
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-12-16/2012_12_07-jasmine-birthday-card.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-12-16/2012_12_07-jasmine-birthday-card.jpeg"
 ---
 Jasmine draws a birthday card for her teacher.
 

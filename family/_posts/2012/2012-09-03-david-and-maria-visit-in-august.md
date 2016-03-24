@@ -9,7 +9,7 @@ tags:
 - Libby
 - jasmine
 thumbsrc: http://media.eick.us/2012/2012-08-19-1/640x640/06-22-david-and-maria-visit-2012-06-22at21-40-26.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-08-19-1/06-22-david-and-maria-visit-2012-06-22at21-40-26.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-08-19-1/06-22-david-and-maria-visit-2012-06-22at21-40-26.jpeg"
 ---
 David and Maria visit back in August.
 

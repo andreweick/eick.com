@@ -9,7 +9,7 @@ tags:
 - soccer
 - all-stars
 slug: mclean-all-star-soccer-tournament
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-11-17/all-star-tourney-day-2-2013-11-17-at-18-33-32.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-11-17/all-star-tourney-day-2-2013-11-17-at-18-33-32.jpeg"
 ---
 Jasmine was in the McLean all-star soccer team a few weeks ago. I think she was mostly excited about being able to play four games in a day. The first day they didn't do well because the games were so short, they won one and tied the rest.  The second day was when the real tournament started and they did really well, winning the championship game (played at night under the lights).
 

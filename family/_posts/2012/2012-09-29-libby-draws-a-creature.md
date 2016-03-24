@@ -6,7 +6,7 @@ comments: false
 tags: 
 - kids drawing
 - Libby
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-09-29-3/IMG_0004.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-09-29-3/IMG_0004.jpeg"
 ---
 Libby draws a creature.
 

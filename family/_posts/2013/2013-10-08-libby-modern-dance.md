@@ -8,7 +8,7 @@ tags:
 - Libby
 - dance
 slug: libby-modern-dance
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-01/libby-modern-dance-recital-2013-06-01-at-16-00-31.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-01/libby-modern-dance-recital-2013-06-01-at-16-00-31.jpeg"
 ---
 Libby's modern dance -- the danced to ABBA.
 

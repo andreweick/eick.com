@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - libby
 - school
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-10-12/arlington-house-2014-10-12-15-04-14.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-10-12/arlington-house-2014-10-12-15-04-14.jpeg"
 ---
 A photograph of Robert E. Lee's slave [was found][1] on eBay. Libby wanted to do her current event report on the photograph, so we went down to [Arlington House][2] to see the display. We parked by Iwo Jima Marine Memorial, walked through national cemetery, and then up the hill to Arlington House. Libby had fun touring the house, and talking to the docent about hoop skirts.
 

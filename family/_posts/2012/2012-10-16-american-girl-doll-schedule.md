@@ -7,7 +7,7 @@ tags:
 - American Girl Dolls
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-10-15/640x640/2012-10-08at09.58.15.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-10-15/american-girl-doll-schedule.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-10-15/american-girl-doll-schedule.jpeg"
 ---
 Libby has a strict schedule on who is to change the dolls each night and morning.  
 

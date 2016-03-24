@@ -8,7 +8,7 @@ tags:
 - fun
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-05-14/1024x1024/2012-05-13at16.27.33.jpeg
-featured_image: "http://media.eick.us/photographs/1600x1600/2012/2012-05-14/2012-05-13at16.27.33.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-14/2012-05-13at16.27.33.jpeg"
 ---
 Libby posing like (what she thinks) a teenage does
 

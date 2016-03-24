@@ -8,7 +8,7 @@ tags:
 - china
 - adoption
 - gotcha
-featured_image: "http://media.eick.us/photographs/1600x1600/2004/2004-07-18/2004-07-18-at-09-32-04.jpeg"
+featured_image: "/photographs/1600x1600/2004/2004-07-18/2004-07-18-at-09-32-04.jpeg"
 ---
 I got Jasmine from the orphanage 9 years ago today.
 

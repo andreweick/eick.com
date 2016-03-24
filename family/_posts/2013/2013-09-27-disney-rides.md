@@ -8,7 +8,7 @@ tags:
 - dinsey
 - princess
 slug: disney-rides
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-06-30/disney-photopass-2013-06-30-at-12-00-55.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-06-30/disney-photopass-2013-06-30-at-12-00-55.jpeg"
 ---
 The one that I think is funny is where Libby is yelling at me.
 

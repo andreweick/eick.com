@@ -7,7 +7,7 @@ published: true
 tags:
 - jasmine
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2013/2013-12-14/jasmine-setting-up-lights-2013-12-14-at-13-48-08.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-12-14/jasmine-setting-up-lights-2013-12-14-at-13-48-08.jpeg"
 ---
 Jasmine setting up and posing with a white background
 

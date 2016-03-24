@@ -6,7 +6,7 @@ author: Andy Eick
 tags: 
 - jasmine
 - birthday
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-08-03/jasmine-11th-birthday-2014-08-03-17-11-41.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-08-03/jasmine-11th-birthday-2014-08-03-17-11-41.jpeg"
 ---
 Jasmine had a late birthday party this year
 

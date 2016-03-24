@@ -8,7 +8,7 @@ tags:
 - andy
 - birthday
 share: true
-featured_image: "http://media.eick.us/photographs/1600x1600/2014/2014-04-25/andys-birthday-2014-04-25-18-00-18.jpeg"
+featured_image: "/photographs/1600x1600/2014/2014-04-25/andys-birthday-2014-04-25-18-00-18.jpeg"
 ---
 Going to NYC for spring break
 

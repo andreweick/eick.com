@@ -7,7 +7,7 @@ published: true
 tags:
 - slides
 slug: eicks-from-the-60-s
-featured_image: "http://media.eick.us/photographs/1600x1600/2006/2006-12-17/2006-12-17-at-16-42-12.jpeg"
+featured_image: "/photographs/1600x1600/2006/2006-12-17/2006-12-17-at-16-42-12.jpeg"
 ---
 Some pictures my dad took circa 1965 or thereabouts.  I can tell Carol, and Peter was the baby.  Or was it Agony as the baby.  I like that they went exploring the abonded snowed in car, although I'm not sure if Carol is as committed as the boys climbing in the window.  Dad?
 
