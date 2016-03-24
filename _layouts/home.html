@@ -25,17 +25,17 @@ section: home
         <div class="grid-sizer"></div>
         {% for image in history limit: 1 %}
           {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot}}{{ image.featured_image }}"></a>
+            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
         {% for image in snapshot limit: 1 %}
           {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
         {% for image in family limit: 16 %}
           {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
           {% endif %}
         {% endfor %}
       </div>
