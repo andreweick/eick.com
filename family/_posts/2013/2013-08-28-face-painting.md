@@ -9,10 +9,10 @@ tags:
 - Libby
 - face painting
 slug: face-painting
-featured_image: "http://media.eick.us/photographs/1600/2013/2013-05-05/jasmine.jpeg"
+featured_image: "/photographs/1600x1600/2013/2013-05-05/jasmine.jpeg"
 ---
 Jasmine and Libby get their face painted and hair extensions at the fair.
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-05/jasmine.jpeg)
+![]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-05-05/jasmine.jpeg)
 
-![]({{ site.mediaUrlRoot }}/photographs/1600/2013/2013-05-05/libby.jpeg)
+![]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-05-05/libby.jpeg)

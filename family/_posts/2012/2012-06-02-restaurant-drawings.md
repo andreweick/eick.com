@@ -5,31 +5,31 @@ date: 2012-06-02 13:37
 comments: false
 tags: 
 - kids drawings
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-06-02-1/IMG_0005.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-06-02-1/IMG_0005.jpeg"
 ---
 Jasmine and Libby drawing at some restaurant.
 
 
 
-![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-02-1/IMG_0005.jpeg)
+![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02-1/IMG_0005.jpeg)
 
 
 
 
-![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-02-1/IMG_0004-2.jpeg)
+![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02-1/IMG_0004-2.jpeg)
 
 
 
 
-![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-02-1/IMG_0003.jpeg)
+![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02-1/IMG_0003.jpeg)
 
 
 
 
-![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-02-1/IMG_0002.jpeg)
+![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02-1/IMG_0002.jpeg)
 
 
 
 
-![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-06-02-1/IMG_0001.jpeg)
+![kid drawing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02-1/IMG_0001.jpeg)
 

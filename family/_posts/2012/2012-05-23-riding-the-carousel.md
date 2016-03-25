@@ -7,16 +7,16 @@ tags:
 - carousel
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-05-23/1024x1024/2012-05-19at16.06.29.jpeg
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-23/2012-05-19at16.06.29.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-23/2012-05-19at16.06.29.jpeg"
 ---
 Riding the carousel
 
 
 
-![Riding the carousel]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-23/2012-05-19at16.06.29.jpeg)
+![Riding the carousel]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-23/2012-05-19at16.06.29.jpeg)
 
 
 
 
-![Riding the carousel]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-23/2012-05-19at14.59.36.jpeg)
+![Riding the carousel]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-23/2012-05-19at14.59.36.jpeg)
 

@@ -8,22 +8,22 @@ tags:
 - Libby
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-05-27-1/1024x1024/2012-05-27at18.45.03.jpeg
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-05-27-1/2012-05-27at18.57.50.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-05-27-1/2012-05-27at18.57.50.jpeg"
 ---
 Opening weekend at the neighborhood pool.  Already the first raft night...
 
 
 
 
-![Jasmine at the pool]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-27-1/2012-05-27at18.57.50.jpeg)
+![Jasmine at the pool]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-27-1/2012-05-27at18.57.50.jpeg)
 
 
 
 
-![Libby at the pool]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-27-1/2012-05-27at18.57.29.jpeg)
+![Libby at the pool]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-27-1/2012-05-27at18.57.29.jpeg)
 
 
 
 
-![Jasmine in Mommy's sunglasses]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-05-27-1/2012-05-27at18.45.03.jpeg)
+![Jasmine in Mommy's sunglasses]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-05-27-1/2012-05-27at18.45.03.jpeg)
 

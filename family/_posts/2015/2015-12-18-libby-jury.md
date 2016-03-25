@@ -6,7 +6,7 @@ author: Andy Eick
 tags:
 - video
 intro: "Libby plays Chopin and Bach."
-featured_image: "http://media.eick.us/static/video/2015-12-18-libby-jury/libby-jury-poster.jpeg"
+featured_image: "/static/video/2015-12-18-libby-jury/libby-jury-poster.jpeg"
 published: True
 ---
 Libby plays Chopin and Bach for her jury.

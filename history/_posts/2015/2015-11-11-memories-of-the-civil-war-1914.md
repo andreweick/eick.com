@@ -4,7 +4,7 @@ date: 2015-11-11
 author: Andy Eick
 tags: sackett
 published: false
-featured_image: "http://media.eick.us/static/family-tree-books/our-army-nurses/sacket_emma.jpeg"
+featured_image: "/static/family-tree-books/our-army-nurses/sacket_emma.jpeg"
 ---
 Memories of the Civil War, as told to Winterset Women's Club, October 9, 1914
 

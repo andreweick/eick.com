@@ -7,8 +7,8 @@ tags:
 - jasmine
 - kids drawing
 thumbsrc: http://media.eick.us/2012/2012-07-21/1024x1024/IMG_0063.jpeg
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-07-21/IMG_0063.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-07-21/IMG_0063.jpeg"
 ---
 Jasmine draws her family on black paper...
 
-![Jasmine draws her family on black paper]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-07-21/IMG_0063.jpeg)
+![Jasmine draws her family on black paper]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-07-21/IMG_0063.jpeg)

@@ -6,7 +6,7 @@ comments: false
 tags: 
 - Libby
 - Christmas
-featured_image: "http://media.eick.us/photographs/1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg"
+featured_image: "/photographs/1600x1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg"
 ---
 # Libby
 
@@ -44,10 +44,10 @@ Dear Santa, I want[^1],
 Love
 Libby Eick
 
-![Libby's Christmas List]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg)
+![Libby's Christmas List]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-12-08/LibbyChristmasListpage1.jpeg)
 
 
-![Libby's Christmas List]({{ site.mediaUrlRoot }}/photographs/1600/2012/2012-12-08/LibbyChristmasListpage2.jpeg)
+![Libby's Christmas List]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-12-08/LibbyChristmasListpage2.jpeg)
 
 
 [^1]: I told Libby that there was no way Santa could read her writing, and she had to read it to me to type

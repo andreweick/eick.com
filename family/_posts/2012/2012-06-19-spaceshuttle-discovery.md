@@ -10,5 +10,5 @@ featured_image:
 ---
 Jasmine and Libby took David, Maria, and Grandma Soupy to see, as Jasmine describes it, the "Space shuttle that flew over our house, Daddy!"
 
-![Space Shuttle Discovery][http://media.eick.us/photographs/1600/2012/2012-06-19/shuttle-discovery.jpeg]
+![Space Shuttle Discovery][http://media.eick.us/photographs/1600x1600/2012/2012-06-19/shuttle-discovery.jpeg]
 
