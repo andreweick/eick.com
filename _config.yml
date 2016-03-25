@@ -6,7 +6,7 @@ port: 4001
 url:
 # basedir:          "/"
 
-mediaUrlRoot: "http://media.eick.us"
+mediaUrlRoot: "https://media.eick.us"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
