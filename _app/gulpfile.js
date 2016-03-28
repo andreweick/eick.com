@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var config = require('./gulp/config.json');
+var config = require('./_gulp/config.json');
 var plugins = require('gulp-load-plugins')();
 
 // JS Minification - uglify my scripts
