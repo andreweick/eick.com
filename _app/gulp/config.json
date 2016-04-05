@@ -10,7 +10,7 @@
    "./node_modules/magnific-popup/dist/jquery.magnific-popup.js",
    "./js/*.js"
   ],
-  "scriptsWatch":"./_js",
+  "scriptsWatch":"./js",
   "scriptsDest":"./../assets/js",
 
   "imgSrc":"./src/img",
@@ -24,9 +24,9 @@
     ],
   "filesSrcDest":"./../assets/js",
 
-   "jekyllPath": ["./index.html", "./_posts/*", "./_layouts/*", "./_includes/*" , "./assets/*", "./assets/**/*"],
+   "jekyllPath": ["./../../index.html", "./../../_posts/*", "./_app/_layouts/*", "./_app/_includes/*" , "./../../assets/*", "./../../assets/**/*"],
    "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",
-   "tasksPath":"./_gulp/tasks"
+   "tasksPath":"./gulp/tasks"
 
 
 }

@@ -21,9 +21,9 @@ gulp.task('watch', function () {
          gulp.start('image-minification');
      });
 
-    //  plugins.watch(config.jekyllPath, function () {
-    //      gulp.start('build-jekyll');
-    //  });
+     plugins.watch(config.jekyllPath, function () {
+         gulp.start('build-jekyll');
+     });
 
 
      //plugins.watch(sync.css).on('change', bs1.reload);
