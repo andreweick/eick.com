@@ -62,3 +62,9 @@ defaults:
    values:
     layout: post
     allow-robots: true
+
+
+compress_html:
+  ignore:
+    envs: [development]
+  profile: false
