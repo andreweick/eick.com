@@ -1,0 +1,29 @@
+a.headings h2 {
+  padding: 1em 1.5em;
+  //padding: 1.5em 0 1.25em 3.25em;
+  width: 100%;
+  border-bottom: 1px solid darken($light-gray, 5%);
+}
+
+a.headings small {
+  font-size: .4375em;
+  font-family: $sans-serif;
+}
+
+a.headings:hover h2 {
+  @include transition (all 0.2s ease-in-out);
+  background-color:$redish;
+  color: white;
+}
+a.headings:hover h2.family, .sidebar-family {
+  background-color:$redish;
+  color: white;
+}
+a.headings:hover h2.snapshot, .sidebar-snapshot {
+  background-color: $green-dark;
+  color: white;
+}
+a.headings:hover h2.history, .sidebar-history {
+  background-color:$brown;
+  color: white;
+}
