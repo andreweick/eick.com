@@ -1,0 +1,32 @@
+{
+
+ "scssSrc":"./_sass",
+ "cssDist":"./../assets/css",
+
+ "scriptsSrc":[
+   "./node_modules/jquery/dist/jquery.js",
+   "./node_modules/masonry-layout/dist/masonry.pkgd.js",
+   "./node_modules/imagesloaded/imagesloaded.pkgd.js",
+   "./node_modules/magnific-popup/dist/jquery.magnific-popup.js",
+   "./node_modules/list.js/dist/list.js",
+   "./bower_components/list.pagination.js/dist/list.pagination.js",
+   "./js/*.js"
+  ],
+  "scriptsWatch":"./_js",
+  "scriptsDest":"./../assets/js",
+
+  "imgSrc":"./src/img",
+  "imgDist":"./../assets/images",
+
+  "filesSrc":[
+    "./node_modules/html5shiv/dist/html5shiv.min.js",
+    "./node_modules/respond.js/dest/respond.min.js"
+    ],
+  "filesSrcDest":"./../assets/js",
+
+   "jekyllPath": ["./index.html", "./_posts/*", "./_layouts/*", "./_includes/*" , "./assets/*", "./assets/**/*"],
+   "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",
+   "tasksPath":"./_gulp/tasks"
+
+
+}
