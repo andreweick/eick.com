@@ -25,6 +25,7 @@ Thumbs.db
 .tmproj
 nbproject
 .idea
+.jekyll-metadata
 
 # Folders to ignore
 node_modules
