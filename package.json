@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
-
+    "browser-sync": "^2.11.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
@@ -33,10 +33,9 @@
     "normalize-opentype.css": "^0.2.4",
     "normalize.scss": "^0.1.0",
     "respond.js": "^1.4.2"
-
   },
   "scripts": {
-     "gulp": "gulp"
+    "gulp": "gulp"
   },
   "author": "",
   "license": "ISC"

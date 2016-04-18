@@ -1,4 +1,7 @@
-<script type="text/javascript" async>
+<script type="text/javascript" src="/assets/js/list.js"></script>
+<script type="text/javascript" src="/assets/js/list.pagination.js"></script>
+
+<script type="text/javascript">
 {% assign tags = site.tags %}
 {% assign filters = site.data.filters %}
 
@@ -13,7 +16,7 @@
       }) ]
   };
   var postList = new List('container-filter', options);
-  var filtersButton = $('#filter-none').hide();
+  //var filtersButton = $('#filter-none').hide(); // MOVED TO _js/main.js for JQuery dependency.
 
 
  {% for tag in tags %}

@@ -3,7 +3,11 @@
   function downloadJSAtOnload() {
 
     var element = document.createElement("script");
-    element.src = "/assets/js/concatenate-scripts.js";
+    element.src = "/assets/js/scripts.min.js";
+    document.body.appendChild(element);
+
+    var element = document.createElement("script");
+    element.src = "/listjs.js";
     document.body.appendChild(element);
   }
   if (window.addEventListener)
@@ -30,4 +34,6 @@
 
  </script>
 
- {% include scripts-listjs.js %}
+{% if page.url == '/archive/' %}
+  {% include scripts-listjs.js %}
+ {% endif %}

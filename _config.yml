@@ -8,15 +8,29 @@ url:
 
 mediaUrlRoot: "https://media.eick.us"
 
-plugins_dir:  ./_app/_plugins
-layouts_dir:  ./_app/_layouts
-includes_dir: ./_app/_includes
+# plugins_dir:  ./_app/_plugins
+# layouts_dir:  ./_app/_layouts
+# includes_dir: ./_app/_includes
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
 include: ['_pages', '.htaccess']
-exclude: ['readme.md','license.md','gemfile', 'Gemfile.lock', 'links.jsonp', 'CNAME', 'rakefile', 'bower.json']
+exclude:
+  - readme.md
+  - license.md
+  - gemfile
+  - Gemfile.lock
+  - links.jsonp
+  - CNAME
+  - rakefile
+  - bower.json
+  - gulp
+  - gulpfile.js
+  - package.json
+  - flags.md
+  - bower_components
+  - node_modules
 permalink: pretty
 keep_files: ['media']
 
@@ -62,3 +76,9 @@ defaults:
    values:
     layout: post
     allow-robots: true
+
+
+compress_html:
+  ignore:
+    envs: [development]
+  profile: false

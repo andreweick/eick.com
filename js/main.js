@@ -49,3 +49,7 @@ $('#navigation-menu').removeClass("show");
      verticalFit: true, // Fits image in area vertically
      showCloseBtn: false
   });
+
+//listjs
+
+var filtersButton = $('#filter-none').hide();
