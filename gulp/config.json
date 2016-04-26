@@ -24,11 +24,11 @@
     ],
   "filesSrcDest":"./assets/js",
 
-   "jekyllPath": ["./index.html", "./_pages/*", "./_layouts/*", "./_includes/*" , ".assets/*", "./assets/**/*"],
+   "jekyllPath": ["./index.html", "./_pages/*", "./_layouts/*", "./_includes/*" , ".assets/*", "./assets/**/*", "_cv/*", "_data/*", "_pages/*", "family/_posts/*", "history/_posts/*", "snapshot/_posts/*", "video/_posts/*"],
 
-"jekyllSrc": "./",
-"jekylldest": "./_site",
-"jekyllConfig": "./_config.yml",
+   "jekyllSrc": "./",
+   "jekylldest": "./_site",
+   "jekyllConfig": "./_config.yml",
 
 
    "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",
