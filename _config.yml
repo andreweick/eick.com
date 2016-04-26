@@ -75,10 +75,9 @@ defaults:
     path: ''
    values:
     layout: post
-    allow-robots: true
 
 
 compress_html:
-  ignore:
-    envs: [development]
+#  ignore:
+#    envs: [development]
   profile: false

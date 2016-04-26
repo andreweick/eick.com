@@ -17,7 +17,7 @@ layout: compress
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-      {% if site.production == true and page.allow-robots == true %}
+      {% if site.production == true and page.sitemap != false %}
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
       {% else %}
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -64,7 +64,7 @@ layout: compress
       {% include global/analytics.html %}
     {% endif %}
 
-    <script src="/assets/js/timeago.js"></script>
+
   </head>
 
 {% comment %}{{site.collections.[the_collection].class}}{% endcomment %}
