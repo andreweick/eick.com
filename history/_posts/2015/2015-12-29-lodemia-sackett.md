@@ -4,9 +4,9 @@ date: 2015-11-12
 author: Andy Eick
 tags: sackett
 published: false
-featured_image: "/static/family-tree-media/lodemia%20sackett.jpeg"
+featured_image: "/static/family-tree-media/lodemia%20sackett.jpg"
 ---
-[Lodemia Scakett](http://media.eick.us/static/family-tree-media/lodemia%20sackett.jpeg)
+![Lodemia Scakett](http://media.eick.us/static/family-tree-media/lodemia%20sackett.jpg)
 
 Lodemia Sackett, my fourth great aunt, lived from 1788 to 1889 in Ohio. She was interviewd in 1887 about being a school teacher.
 
@@ -23,4 +23,6 @@ Her wages were one and a half dollars a day and her board. For three months work
 
 When it was sold, three years later, one third of it had disappeared. After considerable investigation they found straws through which someone had obtained the whiskey. In the meantime, the hired man had a terrible sickness which the doctor diagnosed as delirium tremens. Thus the mystery was solved.
 
-[Newspaper Story](http://media.eick.us/static/family-tree-media/lodemia-sackett-newspaper.jpeg)
+![Lodemia Sackett Prayer Card](http://media.eick.us/static/family-tree-media/lodemia-sackett-prayer-card.jpg)
+
+[Newspaper Story](http://media.eick.us/static/family-tree-media/lodemia-sackett-newspaper.jpg)

@@ -3,11 +3,11 @@ layout: post
 title: McLean Christmas
 date: 2014-12-26 14:25
 author: Andy Eick
-tags: 
+tags:
 - jasmine
 - libby
 - christmas
-featured_image: http://media.eick.us/photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-52-53.jpeg
+featured_image: /photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-52-53.jpeg
 ---
 Christmas in Washington.  Libby's Christmas Concert, National Christmas tree, The Whitehouse, and the lightshow.
 
@@ -50,4 +50,3 @@ Christmas in Washington.  Libby's Christmas Concert, National Christmas tree, Th
 [![Libby and Jasmine]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-50-53.jpeg)]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-50-53.jpeg)
 
 [![Nutcracker]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-52-53.jpeg)]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-12-24/christmas-week-2014-12-24-19-52-53.jpeg)
-
