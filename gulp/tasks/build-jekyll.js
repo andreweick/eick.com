@@ -1,4 +1,4 @@
-var cp          = require('child_process');
+var cp = require('child_process');
 
 module.exports = function(gulp, plugins, config) {
 /**
@@ -6,7 +6,7 @@ module.exports = function(gulp, plugins, config) {
  */
 gulp.task('build-jekyll', function(done) {
 
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '-q', '--source=' + config.jekyllSrc, '--destination=' + config.jekylldest, '--config=' + config.jekyllConfig], { stdio: 'inherit' })
+  return cp.spawn('bundle', ['exec', 'jekyll', 'serve', '-q', '--source=' + config.jekyllSrc, '--destination=' + config.jekylldest, '--config=' + config.jekyllConfig], { stdio: 'inherit' })
   .on('close', done);
 
 

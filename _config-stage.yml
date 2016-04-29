@@ -13,4 +13,4 @@ defaults:
     path: ''
    values:
     layout: post
-    allow-robots: false
+    sitemap: false
