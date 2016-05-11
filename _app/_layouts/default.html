@@ -62,5 +62,9 @@ layout: compress
     {% include nav/nav-right.html %}
     {% include nav/footer.html %}
     {% include global/scripts.html %}
+    {% if page.url == '/archive/' %}
+      {% include scripts-listjs.html %}
+    {% endif %}
+
   </body>
 </html>

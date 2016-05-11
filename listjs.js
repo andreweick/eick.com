@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{% include  scripts-listjs.js %}
+{% include  scripts-listjs.html %}
