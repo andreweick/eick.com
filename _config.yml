@@ -6,8 +6,9 @@ url: http://eick.us
 mediaUrlRoot: "https://media.eick.us"
 image_path: '/assets/img/'
 
-# gems:
-  #- jekyll-sitemap
+gems:
+  - jekyll-seo-tag
+
 
 
 plugins_dir:  ./_app/_plugins
