@@ -18,6 +18,9 @@ require(config.tasksPath + '/file-copy')(gulp, plugins, config);
 // SASS Compliation
 require(config.tasksPath + '/sass-compile')(gulp, plugins, config);
 
+// Image Minification
+require(config.tasksPath + '/image-minification')(gulp, plugins, config);
+
 // BUILD Jekyll
 require(config.tasksPath + '/build-jekyll')(gulp, plugins, config);
 

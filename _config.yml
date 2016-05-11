@@ -10,9 +10,9 @@ image_path: '/assets/img/'
   #- jekyll-sitemap
 
 
-# plugins_dir:  ./_app/_plugins
-# layouts_dir:  ./_app/_layouts
-# includes_dir: ./_app/_includes
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 port: 4001

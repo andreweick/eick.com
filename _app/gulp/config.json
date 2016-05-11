@@ -1,7 +1,7 @@
 {
 
  "scssSrc":"./_sass",
- "cssDist":"./assets/css",
+ "cssDist":"./../assets/css",
 
  "scriptsSrc":[
    "./node_modules/jquery/dist/jquery.js",
@@ -11,24 +11,29 @@
    "./js/*.js"
   ],
   "scriptsWatch":"./js",
-  "scriptsDest":"./assets/js",
+  "scriptsDest":"./../assets/js",
 
-  "imgSrc":"./src/img",
-  "imgDist":"./../assets/images",
+  "imgSrcPath":"./images/*.*",
+  "imgDest":"./../assets/images",
 
-  "filesSrc":[
+  "filesSrcJs":[
     "./node_modules/list.js/dist/list.js",
     "./bower_components/list.pagination.js/dist/list.pagination.js",
     "./node_modules/html5shiv/dist/html5shiv.min.js",
     "./node_modules/respond.js/dest/respond.min.js"
     ],
-  "filesSrcDest":"./assets/js",
+  "filesSrcJsDest":"./../assets/js",
 
-   "jekyllPath": ["./index.html", "./_pages/*", "./_layouts/*", "./_includes/*" , ".assets/*", "./assets/**/*", "_cv/*", "_data/*", "_pages/*", "family/_posts/*", "history/_posts/*", "snapshot/_posts/*", "video/_posts/*"],
+  "filesSrcFont":"./font/*.*",
+  "filesSrcFontDest":"./../assets/font",
 
-   "jekyllSrc": "./",
-   "jekylldest": "./_site",
-   "jekyllConfig": "./_config.yml",
+
+
+   "jekyllPath": ["./../index.html", "./../_pages/*", "./_layouts/*", "./_includes/*" , "./../assets/*", "./assets/**/*", "./../_cv/*", "./../_data/*", "./../_pages/*", "./../family/_posts/*", "./../history/_posts/*", "./../snapshot/_posts/*", "./../video/_posts/*"],
+
+   "jekyllSrc": "./../",
+   "jekylldest": "./../_site",
+   "jekyllConfig": "./../_config.yml",
 
 
    "browserList":"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",

@@ -17,7 +17,7 @@ gulp.task('watch', function () {
      });
 
      // Optimizes Images
-     plugins.watch([config.imgSrc + '/**/*.jpg', config.imgSrc + '/**/*.png', config.imgSrc + '/**/*.svg'], function () {
+     plugins.watch([config.imgSrcPath + '/**/*.jpg', config.imgSrcPath + '/**/*.png', config.imgSrcPath + '/**/*.svg'], function () {
          gulp.start('image-minification');
      });
 
