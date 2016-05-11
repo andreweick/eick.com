@@ -1,18 +1,21 @@
 title:   Andrew Eick
 description: "Head in the clouds, feet in the dirt."
 bio: "Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community"
-port: 4001
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:
+url: http://eick.us
 # basedir:          "/"
-
 mediaUrlRoot: "https://media.eick.us"
+image_path: '/assets/img/'
+
+# gems:
+  #- jekyll-sitemap
+
 
 # plugins_dir:  ./_app/_plugins
 # layouts_dir:  ./_app/_layouts
 # includes_dir: ./_app/_includes
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+port: 4001
 timezone:    America/New_York
 future:      true
 include: ['_pages', '.htaccess']
@@ -34,11 +37,9 @@ exclude:
 permalink: pretty
 keep_files: ['media']
 
-destination: '_site/'
 
-image_path: '/assets/img/'
-# gems:
-  #- jekyll-sitemap
+
+
 
 # dev options (true/false)
 # if site is in production, 'production: true'
@@ -50,14 +51,8 @@ unpublished: false
 
 # options (data)
 google_analytics_id: UA-320642-1
-disqus_id:
-# CONTACT FORM http://getsimpleform.com/
-simple_form_api_token:
 typekit_id: qur4ysq
 
-sass:
-    style: :compressed
-    sass_dir: assets/css/_sass
 
 collections:
  cv:
