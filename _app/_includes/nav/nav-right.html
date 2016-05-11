@@ -6,6 +6,7 @@
   </aside>
   <aside class="large-screens">
     <header>
+
       {% if page.section == 'post' %}
         {% if page.categories %}
           {% capture category %}{{ page.categories }}{% endcapture %}
@@ -25,12 +26,14 @@
       </time>
     {% endif %}
     </header>
+
      {% if page.intro %}
       {{ page.intro }}
     {% endif %}
-    {% if page.section == 'home' or page.section == 'archive'  %}
-      {% if page.section == 'home' %}
-        <blockquote>{{ site.bio | safe }}</blockquote>
+
+    {% if page.layout == 'home' or page.section == 'archive'  %}
+      {% if page.layout == 'home' %}
+        <blockquote>{{ site.bio | markdownify | remove: '<p>' | remove: '</p>' }}</blockquote>
       {% endif %}
       <h3 class="nav-sidebar-item"><a href="/family/"{% if page.url contains '/family/' %} class="active"{% endif %}>&raquo; Family</a></h3>
       <h3 class="nav-sidebar-item"><a href="/history/"{% if page.url contains '/history/' %} class="active"{% endif %}>&raquo; History</a></h3>
