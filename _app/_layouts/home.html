@@ -6,38 +6,33 @@ section: home
 {% assign history  = site.categories.history  %}
 {% assign snapshot = site.categories.snapshot %}
 
-  <article class="hentry post-three_up">
-    {% if title %}
-      <div class="small-screen-only">
-        <header>
-          <h1 class="entry-title">{{ title }}</h1>
-        </header>
-      </div>
-    {% endif %}
-    <section class="entry-content prose">
-      {% if intro %}
-        <div class="small-screen-only">
-          {{ intro }}
-          <hr />
-        </div>
+<article class="hentry">
+  <div class="grid js-masonry" data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+
+    {% for object in history limit: 1 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}">
+        </a>
       {% endif %}
-      <div id="container">
-        <div class="grid-sizer"></div>
-        {% for image in history limit: 1 %}
-          {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
-          {% endif %}
-        {% endfor %}
-        {% for image in snapshot limit: 1 %}
-          {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
-          {% endif %}
-        {% endfor %}
-        {% for image in family limit: 16 %}
-          {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </section>
-  </article>
+
+    {% endfor %}
+
+    {% for object in snapshot limit: 1 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}">
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    {% for object in family limit: 16 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}">
+        </a>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</article>
