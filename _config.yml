@@ -5,10 +5,12 @@ url: http://eick.us
 # basedir:          "/"
 mediaUrlRoot: "https://media.eick.us"
 image_path: '/assets/img/'
-
 gems:
   - jekyll-seo-tag
-
+  - jekyll/imgix
+imgix:
+  source: eick.imgix.net # Your imgix source address
+  secure_url_token: FACEBEEF12 # (optional) The Secure URL Token associated with your source
 
 
 plugins_dir:  ./_app/_plugins
