@@ -14,6 +14,7 @@ section: archive
   <div class="headings">
     <input type="text" class="search" placeholder="Search {{ archive_cat | capitalize }} posts…" />
   </div>
+   {% comment %}<!-- TODO: Fix these filter buttons
   <div class="tags">
     {% for article in collection %}
       {% if article.vimeo OR if article.youtube OR if article.video %}
@@ -35,6 +36,7 @@ section: archive
     {% endif %}
     <button id="filter-none" class="small clearButton hidden">clear filters</button>
   </div>
+   -->{% endcomment %}
   <div class="list-filter">
     {% for article in collection %}
      {% capture category %}{{ article.categories }}{% endcapture %}
@@ -52,3 +54,5 @@ section: archive
 
   </div>
 </div>
+
+{% include scripts-listjs.html %}

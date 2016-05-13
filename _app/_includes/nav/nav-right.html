@@ -40,7 +40,7 @@
       {{ page.intro }}
     {% endif %}
 
-    {% if page.layout == 'home' or page.section == 'archive'  %}
+    {% if page.layout == 'home' or page.layout == 'archive'  %}
       {% if page.layout == 'home' %}
         <blockquote>
           {{ site.bio | markdownify | remove: '<p>' | remove: '</p>' }}
