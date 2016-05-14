@@ -3,8 +3,12 @@
 "vendor/normalize",
 "libs/bourbon/bourbon",
 "base/base",
-"libs/neat/neat",
+"libs/neat/neat";
 
+// vendor
+@import "vendor/flickity"; //lightbox
+
+@import
 // BASIC MODULES
 "modules/footer",
 "modules/hero",
@@ -28,7 +32,8 @@
 "modules/utilities",
 "modules/video-embed",
 "modules/wf-loading";
-@import "vendor/magnific-popup"; //lightbox
+//@import "vendor/magnific-popup"; //lightbox
+
 
 .caption {
   text-transform: italic;

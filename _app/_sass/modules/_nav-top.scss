@@ -80,13 +80,19 @@ header.navigation {
   ul#navigation-menu {
     -webkit-transform-style: preserve-3d; // stop webkit flicker
     clear: both;
-    display: none;
+    //display: none;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
-    z-index: 9999;
+    //z-index: 9999;
     font-family: $header-font-family;
+    background-color: $black;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
 
     @include media ($horizontal-bar-mode) {
       display: inline;
@@ -101,9 +107,10 @@ header.navigation {
 
   ul li.nav-link {
     background: $navigation-background;
-    display: block;
+    display: inline;//block;
 
     overflow: hidden;
+    padding-left: .8em;
     padding-right: .8em;
     text-align: right;
     width: 100%;

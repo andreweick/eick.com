@@ -1,22 +1,4 @@
-
-<script type="text/javascript">
-  function downloadJSAtOnload() {
-
-    var element = document.createElement("script");
-    element.src = "/assets/js/scripts.min.js";
-    document.body.appendChild(element);
-
-    var element = document.createElement("script");
-    element.src = "/listjs.js";
-    document.body.appendChild(element);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-  else window.onload = downloadJSAtOnload;
-</script>
-
+<script type="text/javascript" src="/assets/js/scripts.min.js" async></script>
  <script type="text/javascript">
   WebFontConfig = {
     typekit: { id: 'klu8str' }

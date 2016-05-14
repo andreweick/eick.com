@@ -6,6 +6,7 @@
  "scriptsSrc":[
     "./node_modules/flickity/dist/flickity.pkgd.js",
    "./node_modules/masonry-layout/dist/masonry.pkgd.js",
+   "./node_modules/imagesloaded/imagesloaded.pkgd.js",
    "./js/*.js"
   ],
   "scriptsWatch":"./js",
