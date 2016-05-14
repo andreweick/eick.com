@@ -2,54 +2,46 @@
 layout: default
 section: post
 ---
-  <article class="hentry post{% if page.photo_layout %}-{{ page.photo_layout }}{% endif %}">
-    {% if page.title %}
-      <div class="small-screen-only">
-        <header>
-          <h1 class="entry-title">{{ page.title }}</h1>
-          {% if page.date %}
-      <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
-        <small>
-          {{ page.date | date:'%A %b %d, %Y' }}
-        </small>
-      </time>
-    {% endif %}
-        </header>
+{% include posts.html %}
+
+{% if page.images %}
+    {% assign page_images = page.images %}
+    {% assign imageData = site.data.images.images[page_images] %}
+    {% assign base_url = imageData.base_url %}
+
+
+  {% if page.photo_layout == 'slideshow' %}
+
+    <div class="row">
+      <div class="gallery js-flickity"
+            data-flickity-options='{ "imagesLoaded": true, "wrapAround": true, "percentPosition": false, "autoPlay": 7200, "lazyLoad": 3}'>
+        {% for image in imageData.images %}
+          <img data-flickity-lazyload="{{ base_url }}{{ image[1] }}" alt="{{ image[0] }}" class="carousel-cell-image">
+          <noscript>
+            <img src="{{ base_url }}{{ image[1] }}" alt="{{ image[0] }}">
+          </noscript>
+        {% endfor %}
       </div>
-    {% endif %}
-    {% if page.vimeo %}
-      <div class='embed-container'>
-        <iframe src='//player.vimeo.com/video/{{ page.vimeo }}?portrait=0&color=333' webkitallowfullscreen mozallowfullscreen frameborder='0' allowfullscreen></iframe>
-      </div>
-      <hr />
-    {% endif %}
-    <section class="entry-content prose {% if page.photo_layout %}-{{ page.photo_layout }}{% endif %}">
-      {% if page.intro %}
-        <div class="small-screen-only">
-          {{ page.intro }}
-          <hr />
+    </div>
+
+  {% elsif page.photo_layout == 'three_up' or page.photo_layout == 'two_up' %}
+
+    <div class="grid {{ page.photo_layout | default: 'three_up' }}" id="image-container">
+      <div class="grid-sizer"></div>
+      {% for image in imageData.images %}
+        <div class="grid-item{% cycle ' grid-item--width3', ' grid-item--width4', ' grid-item--width4', ' grid-item--width5' , ''%}">
+          <img src="{{ base_url }}{{ image[1] }}" alt="{{ image[0] }}">
         </div>
-      {% endif %}
-        {% comment %} //If we use the images flag we have put our images in the data/images JSON file so that we can display them as pop-ups {% endcomment %}
-      {% if page.images %}
-        <div class="copy">{{ content }}</div>
-        <div class="gallery" id="container">
-          <div class="grid-sizer"></div>
-            {% assign page_images = page.images %}
-            {% assign imageData = site.data.images.images[page_images] %}
-            {% for image in imageData.images %}
-              <p>
-                <a href="{{ imageData.base_url }}{{ image[1] }}">
-                  <img src="{{ imageData.base_url }}{{ image[1] }}" alt="{{ image[0] }}">
-                </a>
-              </p>
-            {% endfor %}
-          </div>
-        {% else %} {% comment %} //Otherwise show the content from the page body {% endcomment %}
-          <div class="gallery" id="container">
-            <div class="grid-sizer"></div>
-            {{ content }}
-          </div>
-        {% endif %}
-    </section>
-  </article>
+      {% endfor %}
+    </div>
+
+  {% else %}
+
+    {% for image in imageData.images %}
+      <p>
+        <img src="{{ base_url }}{{ image[1] }}" alt="{{ image }}" style="max-width:100%;">
+      </p>
+    {% endfor %}
+
+  {% endif %}
+{% endif %}
