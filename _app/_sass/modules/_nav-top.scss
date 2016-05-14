@@ -95,10 +95,9 @@ header.navigation {
       padding: 0;
     }
   }
+  // show nav on click
 ul#navigation-menu.show {
-  @include transition (all 1.2s ease-out);
   display: block;
-  -webkit-transform-style: preserve-3d; // stop webkit flicker
 }
 
 
