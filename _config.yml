@@ -18,7 +18,7 @@ layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-port: 4002
+port: 4004
 timezone:    America/New_York
 future:      true
 include: ['_pages', '.htaccess']
