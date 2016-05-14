@@ -1,5 +1,4 @@
 window.onload = function () {
-    'use strict';
     imagesLoaded(document.querySelector('#image-container'), function (instance) {
         var elem = document.querySelector('.grid');
         var msnry = new Masonry(elem, {
