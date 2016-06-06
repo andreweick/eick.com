@@ -7,11 +7,9 @@ tags:
 - emerald-dragon
 featured_image: "/photographs/1600x1600/2000s/2010s/2015/10/2015-10-03/20151003-KP8A7765.jpeg"
 intro : Emarld Dragons tie, 1 to 1.
-photo_layout: "full"
+photo_layout: slideshow
 published: true
 ---
-Emerald Dragons tie with Annandale 1 to 1.
-
 ![Emerald Dragons Game #4]({{ site.mediaUrlRoot }}/photographs/1600x1600/2000s/2010s/2015/10/2015-10-03/20151003-KP8A7321.jpeg)
 
 ![Emerald Dragons Game #4]({{ site.mediaUrlRoot }}/photographs/1600x1600/2000s/2010s/2015/10/2015-10-03/20151003-KP8A7337.jpeg)

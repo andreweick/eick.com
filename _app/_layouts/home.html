@@ -1,0 +1,38 @@
+---
+layout: default
+section: home
+---
+{% assign family   = site.categories.family %}<!-- | where: 'featured_image', -'nil' -->
+{% assign history  = site.categories.history  %}
+{% assign snapshot = site.categories.snapshot %}
+
+  <div id="image-container" class="grid{% if page.class %} {{ page.class}}{% else %} three_up{% endif %}">
+  <div class="grid-sizer"></div>
+
+    {% for object in history limit: 1 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}" alt="{{ object.title }}">
+        </a>
+      {% endif %}
+
+    {% endfor %}
+
+    {% for object in snapshot limit: 1 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item grid-item--width2">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}" alt="{{ object.title }}">
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    {% for object in family limit: 16 %}
+      {% if object.featured_image %}
+        <a href="{{ object.url }}" class="grid-item {% cycle 'grid-item--width3', 'grid-item--width4', 'grid-item--width4', 'grid-item--width5' , ''%}">
+          <img src="{{ site.mediaUrlRoot }}{{ object.featured_image }}" alt="{{ object.title }}">
+        </a>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
