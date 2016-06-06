@@ -1,0 +1,53 @@
+@import
+//REQUIRED
+"vendor/normalize",
+"libs/bourbon/bourbon",
+"base/base",
+"libs/neat/neat";
+
+// vendor
+@import "vendor/flickity"; //lightbox
+
+@import
+// BASIC MODULES
+"modules/footer",
+"modules/hero",
+"modules/nav-top",
+//typography-icons
+"vendor/fontello",
+
+//utilities
+"modules/accessibility",
+
+// GLOBAL
+"modules/archives",
+"modules/article",
+"modules/button-overrides",
+"modules/code",
+"modules/footnotes",
+"modules/layouts",
+"modules/pagination",
+"modules/sidebar-headings-and-colors",
+"modules/sidebar",
+"modules/utilities",
+"modules/video-embed",
+"modules/wf-loading";
+//@import "vendor/magnific-popup"; //lightbox
+
+
+.caption {
+  text-transform: italic;
+  font-style: italic;
+}
+.icon-link-ext:before, .icon-back:before {
+  font-size:70%;
+}
+.state-icons i{
+  font-size: 230%;
+  color: $black;
+  display: none;
+  margin: .5em auto;
+    @include media($d-vp) {
+      display: block;
+    }
+}

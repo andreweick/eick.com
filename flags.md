@@ -3,7 +3,7 @@
 
 ```photo_layout: "three_up"```
 ```photo_layout: "two_up"```
-```photo_layout: "full"```
+```photo_layout: "slideshow"```
 
 If you use layouts and have text, use the key ```intro:``` as in 
 
