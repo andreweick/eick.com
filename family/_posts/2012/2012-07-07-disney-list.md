@@ -7,7 +7,7 @@ tags:
 - disney
 - iPhone
 thumbsrc: http://media.eick.us/2012/2012-07-07/1024x1024/2012-07-06at08.44.00.jpeg
-featured_image: "/photographs/1600x1600/2012/2012-07-07/2012-07-06at08.44.00.jpeg"
+featured_image: "/photographs/2012/2012-07-07/2012-07-06at08.44.00.jpeg"
 ---
 List(s) for Disney Rides
 ## Negotiated Disney List for last day at Magic Kingdom
@@ -38,4 +38,4 @@ List(s) for Disney Rides
 15. Speedway
 16. Peter Pan
 
-![Disney List]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-07-07/2012-07-06at08.44.00.jpeg)
+![Disney List]({{ site.mediaUrlRoot }}/photographs/2012/2012-07-07/2012-07-06at08.44.00.jpeg)

@@ -6,10 +6,10 @@ comments: false
 tags: 
 - jasmine
 - studio
-featured_image: "/photographs/1600x1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpeg"
+featured_image: "/photographs/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpeg"
 ---
 Jasmine poses in her soccer shirt.
 
-![Jasmine poses in a soccer shirt]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpeg)
+![Jasmine poses in a soccer shirt]({{ site.mediaUrlRoot }}/photographs/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-35.jpeg)
 
-![Jasmine standing]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-50.jpeg)
+![Jasmine standing]({{ site.mediaUrlRoot }}/photographs/2013/2013-01-15/lazy-saturday-2013-01-15-at-20-05-50.jpeg)

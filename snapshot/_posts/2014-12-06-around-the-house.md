@@ -6,6 +6,6 @@ author: Andy Eick
 tags: 
 - libby
 - piano
-featured_image: "/photographs/1600x1600/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpeg"
+featured_image: "/photographs/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpeg"
 ---
-![Libby playing piano]({{ site.mediaUrlRoot }}/photographs/1600x1600/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpeg)
+![Libby playing piano]({{ site.mediaUrlRoot }}/photographs/2014/2014-12-05/around-the-house-2014-12-05-20-15-40.jpeg)

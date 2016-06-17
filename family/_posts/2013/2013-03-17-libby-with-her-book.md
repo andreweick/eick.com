@@ -8,7 +8,7 @@ tags:
 - aedc
 - Libby
 - studio
-featured_image: "/photographs/1600x1600/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpeg"
+featured_image: "/photographs/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpeg"
 ---
 
-![Libby holding her book]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpeg)
+![Libby holding her book]({{ site.mediaUrlRoot }}/photographs/2013/2013-01-11/Libby-Book-2013-01-11-at-18-04-00.jpeg)

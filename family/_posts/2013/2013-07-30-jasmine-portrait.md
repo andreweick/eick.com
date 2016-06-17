@@ -8,8 +8,8 @@ tags:
 - jasmine
 - portrait
 slug: jasmine-portrait
-featured_image: "/photographs/1600x1600/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpeg"
+featured_image: "/photographs/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpeg"
 ---
 Jasmine stayed home from school sick one day in March, but she must have been feeling better to take a picture.
 
-![Jasmine poses while sick]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpeg)
+![Jasmine poses while sick]({{ site.mediaUrlRoot }}/photographs/2013/2013-03-10/Sick-Jasmine-2013-03-10-at-16-00-25.jpeg)

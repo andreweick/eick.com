@@ -6,7 +6,7 @@ author: Andy Eick
 tags:
 - libby
 - piano
-featured_image: "/photographs/1600x1600/2000s/2015/03/2015-03-13/20150313-0001.jpeg"
+featured_image: "/photographs/2000s/2015/03/2015-03-13/20150313-0001.jpeg"
 intro : “Libby playing the Harpsichord at Levine School of Music”
 images: "2015-03-16-libby-plays-harpsichord"
 published: false
