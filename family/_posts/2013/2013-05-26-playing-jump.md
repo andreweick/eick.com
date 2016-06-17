@@ -7,12 +7,12 @@ tags:
 - Jasmine
 - Libby
 - jump
-featured_image: "/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg"
+featured_image: "/photographs/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg"
 ---
 Libby and Jasmine playing jump in the basement.
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-27-39.jpeg)
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpeg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-15.jpeg)
 
-![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpeg)
+![Jumping in the basement]({{ site.mediaUrlRoot }}/photographs/2013/2013-02-23/Basement-Jump-2013-02-23-at-13-28-24.jpeg)

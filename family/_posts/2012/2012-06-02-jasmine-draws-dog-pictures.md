@@ -6,17 +6,17 @@ comments: false
 tags: 
 - jasmine
 - kids drawing
-featured_image: "/photographs/1600x1600/2012/2012-06-02/IMG_0006.jpeg"
+featured_image: "/photographs/2012/2012-06-02/IMG_0006.jpeg"
 ---
 Jasmine draws pictures of dogs
 
 
-![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02/IMG_0006.jpeg)
+![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/2012/2012-06-02/IMG_0006.jpeg)
 
 
 
-![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02/IMG_0005.jpeg)
+![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/2012/2012-06-02/IMG_0005.jpeg)
 
 
 
-![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-02/IMG_0001.jpeg)
+![Jasmine draws pictures of dogs]({{ site.mediaUrlRoot }}/photographs/2012/2012-06-02/IMG_0001.jpeg)

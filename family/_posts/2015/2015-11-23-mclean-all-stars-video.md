@@ -7,7 +7,7 @@ tags:
 - all-star
 - soccer
 - video
-featured_image: "/photographs/1600x1600/2000s/2010s/2015/11/2015-11-21/20151121-0002.jpeg"
+featured_image: "/photographs/2000s/2010s/2015/11/2015-11-21/20151121-0002.jpeg"
 intro : McLean All Stars Fall 2015 soccer video.
 published: True
 ---

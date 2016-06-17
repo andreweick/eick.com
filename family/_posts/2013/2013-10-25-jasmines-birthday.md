@@ -7,12 +7,12 @@ published: true
 tags: 
 - birthday 
 slug: jasmines-birthday
-featured_image: "/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg"
+featured_image: "/photographs/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg"
 ---
-![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg)
+![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-32-25.jpeg)
 
-![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-40-16.jpeg)
+![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-17-40-16.jpeg)
 
-![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-20-31-11.jpeg)
+![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-20-31-11.jpeg)
 
-![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/1600x1600/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-20-32-10.jpeg)
+![Jasmine on her 10th birthday]({{ site.mediaUrlRoot }}/photographs/2013/2013-07-26/jasmine-birthday-cake-2013-07-26-at-20-32-10.jpeg)

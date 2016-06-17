@@ -7,12 +7,12 @@ tags:
 - kids drawing
 - whiteboard
 thumbsrc: http://media.eick.us/2012/2012-06-30/1024x1024/2012-06-30at14.29.12.jpeg
-featured_image: "/photographs/1600x1600/2012/2012-06-30/2012-06-30at14.29.12.jpeg"
+featured_image: "/photographs/2012/2012-06-30/2012-06-30at14.29.12.jpeg"
 ---
 
 <!-- blockquote  -->
 "Ruf, my name is Rusty"
 <!-- endblockquote  -->
 
-![Ruf My Name is Rusty]({{ site.mediaUrlRoot }}/photographs/1600x1600/2012/2012-06-30/2012-06-30at14.29.12.jpeg)
+![Ruf My Name is Rusty]({{ site.mediaUrlRoot }}/photographs/2012/2012-06-30/2012-06-30at14.29.12.jpeg)
 

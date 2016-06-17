@@ -3,7 +3,7 @@ description: "Head in the clouds, feet in the dirt."
 bio: "Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community"
 url: http://eick.us
 # basedir:          "/"
-mediaUrlRoot: "https://media.eick.us"
+mediaUrlRoot: "https://eick.imgix.net"
 image_path: '/assets/img/'
 gems:
   - jekyll-seo-tag
