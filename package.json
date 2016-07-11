@@ -6,7 +6,7 @@
   "scripts": {
     "clean:assets": "rm -rf assets",
     "copy:files": "rm -f 'assets/js/legacy/*' && copyfiles -f node_modules/html5shiv/dist/html5shiv.min.js assets/js/legacy && rm -rf assets/font/ && copyfiles -u 2 '_app/font/**/*.*' ./assets/font/ && copyfiles -f node_modules/list.js/dist/list.min.js _app/js-external/list.pagination.js assets/js",
-    "uglify:js": "mkdir -p assets/js && uglifyjs _app/js/*.js -m -o assets/js/scripts.js && uglifyjs node_modules/flickity/dist/flickity.pkgd.js _app/js/*.js -m -c -o assets/js/scripts.min.js",
+    "uglify:js": "mkdir -p assets/js && uglifyjs _app/js/*.js -m -o assets/js/scripts.js && uglifyjs node_modules/masonry-layout/dist/masonry.pkgd.js node_modules/flickity/dist/flickity.pkgd.js _app/js/*.js -m -c -o assets/js/scripts.min.js",
     "lint:js": "eslint _app/js",
     "build:js": "npm run lint:js && npm run uglify:js",
     "watch:js": "onchange '_app/js/*.js' -- npm run build:js",
