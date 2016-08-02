@@ -3,7 +3,7 @@ image: ruby:2.3
 before_script:
   - gem install jekyll
   - gem install jekyll-seo-tag
-  - gem install jekyll/imgix
+  - gem install jekyll-imgix
 
 stages:
     - build
