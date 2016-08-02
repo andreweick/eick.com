@@ -1,5 +1,10 @@
 image: ruby:2.3
 
+before_script:
+  - gem install jekyll
+  - gem install jekyll-seo-tag
+  - gem install jekyll/imgix
+
 stages:
     - build
     - test
@@ -8,10 +13,8 @@ stages:
 build:
   stage: build
   script:
-  - gem install jekyll
   - echo $(whoami)
   - jekyll build -d test
-  - gem uninstall jekyll
   except:
   - master
 
@@ -19,9 +22,7 @@ test:
   stage: test
   script:
   - echo $(whoami)
-  - gem install jekyll
   - jekyll build -d test
-  - gem uninstall jekyll
   except:
   - master
 
@@ -29,7 +30,6 @@ deploy:
   stage: deploy
   script:
   - echo $(whoami)
-  - gem install jekyll
   - jekyll build -d public
 
   # install ssh-agent
@@ -45,10 +45,9 @@ deploy:
   # WARNING: use only in docker container, if you use it with shell you will overwrite your user's ssh config
   - mkdir -p ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p ~/missionfocus.com'
-  - scp -r -p -P 49999 public/* maeick@linode.missionfocus.com:~/missionfocus.com
+  - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p ~/eick'
+  - scp -r -p -P 49999 public/* maeick@linode.missionfocus.com:~/eick
 
-  - gem uninstall jekyll
   artifacts:
     expire_in: 1 weeks
     paths:
