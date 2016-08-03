@@ -35,7 +35,7 @@ staging:
   stage: staging
   script:
   - echo $(whoami)
-  - JEKYLL_ENV=stage jekyll build --config=_config.yml,_config-stage.yml --drafts --future
+  - JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
   - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p /opt/caddy/eick-staging'
   - scp -r -p -P 49999 _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
 
@@ -50,7 +50,7 @@ deploy:
   stage: deploy
   script:
   - echo $(whoami)
-  - JEKYLL_ENV=production jekyll build --config=_config.yml
+  - JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml
 
   - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p /opt/caddy/eick'
   - scp -r -p -P 49999 _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
