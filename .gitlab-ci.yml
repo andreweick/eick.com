@@ -38,7 +38,7 @@ staging:
   - echo $(whoami)
   - JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
   - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p /opt/caddy/eick-staging'
-  - rsyc -arv --delete -e 'ssh - p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
+  - rsync -arv --delete -e 'ssh - p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
   - scp -r -p -P 49999 _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
 
   artifacts:
@@ -55,7 +55,7 @@ deploy:
   - JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml
 
   - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p /opt/caddy/eick'
-  - rsyc -arv --delete -e 'ssh - p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
+  - rsync -arv --delete -e 'ssh - p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
 
   artifacts:
     expire_in: 2 weeks
