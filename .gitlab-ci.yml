@@ -40,10 +40,10 @@ staging:
   - scp -r -p -P 49999 _site/* maeick@linode.missionfocus.com:~/eick-staging
 
   artifacts:
-    expire_in: 1 week
+    expire_in: 2 weeks
     paths:
       - _staging
-  except:
+  only:
   - master
 
 deploy:
@@ -56,7 +56,7 @@ deploy:
   - scp -r -p -P 49999 _site/* maeick@linode.missionfocus.com:~/eick
 
   artifacts:
-    expire_in: 1 week
+    expire_in: 2 weeks
     paths:
     - _site
   only:
