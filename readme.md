@@ -1,32 +1,33 @@
 Personal website for Andrew Eick, built with Jekyll
 
 ## Deploy
-To deploy to www.eick.us, push code to origin/www-eick-us. This site built with 
+Anything on origin/master will get built and pushed to www.eick.com.
 
-```JEKYLL_ENV=production jekyll build --config=_config.yml```
+```shell
+JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml
+```
 
-To deploy to http://stage.eick.us, push code to origin/stage-eick-us. This is 
-built publishing the drafts and future posts and disabling robots etc...
+Anything pushed to any other branch will get built and pushed to stage.eick.com.
 
-```JEKYLL_ENV=stage jekyll build --config=_config.yml,_config-stage.yml --drafts --future```
+```shell
+JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
+```
 
-## Front Matter additions
-
-```allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)```
-
+## Front matter additions
 
 ### Layouts:
 
+If you use layouts and have text, use the key *intro:* to define a title
+
+```YAML
+intro: "Soccer Peeps second to last game of the season."
 ```
+
+
+```YAML
 photo_layout: "three_up"
 photo_layout: "two_up"
 photo_layout: "full"
-```
-
-If you use layouts and have text, use the key ```intro:``` as in 
-
-``` 
-intro: "Soccer Peeps second to last game of the season."
 ```
 
 ---
@@ -40,8 +41,15 @@ intro: "Soccer Peeps second to last game of the season."
 ### Homepage
 To get an image up on the home page thumbnail grid put into the YAML
 
-```
+```YAML
 featured_image: path/to/image.jpg
+```
+
+
+### Other Front Matter additions
+
+```
+allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)
 ```
 
 ---
