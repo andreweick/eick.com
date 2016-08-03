@@ -7,6 +7,7 @@ mediaUrlRoot: "https://eick.imgix.net"
 image_path: '/assets/img/'
 gems:
   - jekyll-seo-tag
+  - imgix
 
 imgix:
   source: eick.imgix.net # Your imgix source address
