@@ -44,7 +44,8 @@ staging:
     expire_in: 2 weeks
     paths:
       - _staging
-  only:
+  when: on_success
+  except:
   - master
 
 deploy:
@@ -60,5 +61,6 @@ deploy:
     expire_in: 2 weeks
     paths:
     - _site
+    when: on_success
   only:
   - master
