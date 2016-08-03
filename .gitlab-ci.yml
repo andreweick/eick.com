@@ -3,17 +3,6 @@ image: ruby:2.3
 before_script:
   - bundle install
 
-stages:
-  - build
-  - staging
-  - deploy
-
-build:
-  stage: build
-  script:
-  - echo $(whoami)
-  - bundle exec jekyll build
-
   # install ssh-agent
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
 
@@ -27,6 +16,17 @@ build:
   # WARNING: use only in docker container, if you use it with shell you will overwrite your user's ssh config
   - mkdir -p ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+stages:
+  - build
+  - staging
+  - deploy
+
+build:
+  stage: build
+  script:
+  - echo $(whoami)
+  - bundle exec jekyll build
 
   except:
   - master
