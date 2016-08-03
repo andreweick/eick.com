@@ -1,8 +1,7 @@
 image: ruby:2.3
 
 before_script:
-  - ls
-  - bundle install
+bu  - bundle install
 
 stages:
     - build
@@ -13,7 +12,7 @@ build:
   stage: build
   script:
   - echo $(whoami)
-  - jekyll build -d test
+  - bundle exec jekyll build
   except:
   - master
 
@@ -21,7 +20,7 @@ test:
   stage: test
   script:
   - echo $(whoami)
-  - jekyll build -d test
+  - bundle exec jekyll build
   except:
   - master
 
@@ -29,7 +28,7 @@ deploy:
   stage: deploy
   script:
   - echo $(whoami)
-  - jekyll build -d public
+  - bundle exec jekyll build
 
   # install ssh-agent
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
