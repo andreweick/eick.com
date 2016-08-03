@@ -41,12 +41,10 @@ staging:
   - rsync -arv --delete -e 'ssh -p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
 
   artifacts:
-    expire_in: 2 weeks
+    expire_in: 1 weeks
     paths:
-      - _staging
+      - _site
   when: on_success
-  except:
-  - master
 
 deploy:
   stage: deploy
@@ -58,7 +56,7 @@ deploy:
   - rsync -arv --delete -e 'ssh -p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
 
   artifacts:
-    expire_in: 2 weeks
+    expire_in: 1 weeks
     paths:
     - _site
     when: on_success
