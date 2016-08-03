@@ -1,7 +1,7 @@
 image: ruby:2.3
 
 before_script:
-  - sudo apt-get -y install rsync
+  - apt-get update && apt-get -y install rsync
   - bundle install
 
   # install ssh-agent
