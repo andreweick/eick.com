@@ -1,12 +1,12 @@
 image: ruby:2.3
 
 before_script:
-bu  - bundle install
+  - bundle install
 
 stages:
-    - build
-    - test
-    - deploy
+  - build
+  - test
+  - deploy
 
 build:
   stage: build
