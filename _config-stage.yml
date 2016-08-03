@@ -7,6 +7,8 @@ unpublished: true
 
 mediaUrlRoot: "http://stage.media.eick.us"
 
+destination: _staging
+
 defaults:
   -
    scope:
