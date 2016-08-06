@@ -28,8 +28,8 @@ build:
   stage: build
   script:
   - echo $(whoami)
-  - bundle exec jekyll build
-
+  - JEKYLL_ENV=development bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
+  - bundle exec htmlproofer --check-html --only-4xx --empty-alt-ignore  _site
   except:
   - master
 
