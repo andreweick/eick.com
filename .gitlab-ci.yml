@@ -3,6 +3,7 @@ image: ruby:2.3
 before_script:
   - apt-get update && apt-get -y install rsync
   - bundle install
+  - bundle update
 
   # install ssh-agent
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
