@@ -14,29 +14,6 @@ section: archive
   <div class="headings">
     <input type="text" class="search" placeholder="Search {{ archive_cat | capitalize }} posts…" />
   </div>
-   {% comment %}<!-- TODO: Fix these filter buttons
-  <div class="tags">
-    {% for article in collection %}
-      {% if article.vimeo OR if article.youtube OR if article.video %}
-        {% assign showVideo = 'yes' %}
-      {% endif %}
-      {% if article.photo_layout %}
-        {% assign showGallery = 'yes' %}
-      {% endif %}
-    {% endfor %}
-    {% if showVideo == 'yes' %}
-      <button id="filter-video" class="tag" style="margin:0 .5em .75em 0;">
-        Video
-      </button>
-    {% endif %}
-    {% if showGallery == 'yes' %}
-      <button id="filter-photo_layout" class="tag" style="margin:0 .5em .75em 0;">
-        Gallery
-      </button>
-    {% endif %}
-    <button id="filter-none" class="small clearButton hidden">clear filters</button>
-  </div>
-   -->{% endcomment %}
   <div class="list-filter">
     {% for article in collection %}
      {% capture category %}{{ article.categories }}{% endcapture %}
