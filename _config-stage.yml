@@ -5,8 +5,6 @@ show_drafts: true
 future: true
 unpublished: true
 
-mediaUrlRoot: "http://stage.media.eick.us"
-
 defaults:
   -
    scope:
