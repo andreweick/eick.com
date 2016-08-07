@@ -10,7 +10,7 @@ tags: video
 slug: report-on-joe-castelvetere
 published: true
 ---
-Jasmine did a report on Joe at the end of last school year (she was in third grade).  When she did the report it was less then a year since [his passing][1] and I can see in her eyes that she was still struggling with the loss.
+Jasmine did a report on Joe at the end of last school year (she was in third grade).  When she did the report it was less then a year since his passing and I can see in her eyes that she was still struggling with the loss.
 
 {% video 70708157 %}
 
@@ -49,6 +49,3 @@ In the 1970's, Joe was busy running parts of Dearborn, buying real estate, raisi
 * Family man who helped get his children and grandchildren jobs to pay for college.
 * helped build Camp Dearborn a fun recreational camp ground in Milford, MI
 * Helped renovated St Clement Catholic Church
-
-
-[1]:/blog/2012/03/26/joe-castelvetere-1928-2012/

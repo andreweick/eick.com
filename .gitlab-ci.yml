@@ -32,7 +32,8 @@ build:
   script:
   - echo $(whoami)
   - JEKYLL_ENV=development bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
-  - bundle exec htmlproofer --check-html --only-4xx --empty-alt-ignore  _site
+  - bundle exec htmlproofer --only-4xx --empty-alt-ignore --disable-external --check-favicon --file-ignore _site/family/2015/11/22/mclean-all-stars-second/index.html  _site
+
   except:
   - master
 
