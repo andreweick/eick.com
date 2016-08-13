@@ -52,6 +52,7 @@ featured_image: path/to/image.jpg
 allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)
 ```
 
+
 ---
 
 The Sass (bourbon) files are in assets/css
