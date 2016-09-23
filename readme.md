@@ -7,7 +7,7 @@ Anything on origin/master will get built and pushed to www.eick.com.
 JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml
 ```
 
-Anything pushed to any other branch will get built and pushed to stage.eick.com.
+Anything pushed to any other branch will get built and pushed to https://stage.eick.com.
 
 ```shell
 JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
