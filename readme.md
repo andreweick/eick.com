@@ -13,7 +13,6 @@ Anything pushed to any other branch will get built and pushed to stage.eick.com.
 JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
 ```
 
-
 ## Front matter additions
 
 ### Layouts:
@@ -24,10 +23,17 @@ If you use layouts and have text, use the key *intro:* to define a title
 intro: "Soccer Peeps second to last game of the season."
 ```
 
+Possible choices for layout are:
+```YAML
+intro: "Soccer Peeps second to last game of the season."
+photo_layout: "three_up"
+```
 
 ```YAML
-photo_layout: "three_up"
 photo_layout: "two_up"
+```
+
+```YAML
 photo_layout: "full"
 ```
 
@@ -52,7 +58,6 @@ featured_image: path/to/image.jpg
 ```
 allow-robots: true  # sets the ROBOTS meta tag in the HTML (defaults to true)
 ```
-
 
 ---
 
