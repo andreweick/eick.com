@@ -58,7 +58,7 @@ deploy:
   - rsync -arv --delete -e 'ssh -p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
 
   artifacts:
-    expire_in: 1 weeks
+    expire_in: 6 months
     paths:
     - _site
     when: on_success
