@@ -247,6 +247,12 @@
       }
     },
 
+    "2016-09-30-jasmine-vilon": {
+      "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/09/25/",
+      "images":{
+        "Jasmine making a violin practice video":"20160925-jasmine-violin-0002.jpg"
+      }
+    },
   "2015-01-14-stuff-goes-here": {
 
   }
