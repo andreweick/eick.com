@@ -55,6 +55,7 @@ unpublished: false
 
 # options (data)
 google_analytics_id: UA-320642-1
+pingdom_rum: true
 typekit_id: qur4ysq
 
 
