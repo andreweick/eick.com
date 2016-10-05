@@ -12,3 +12,6 @@ defaults:
    values:
     layout: post
     sitemap: false
+
+compress_html:
+  profile: true

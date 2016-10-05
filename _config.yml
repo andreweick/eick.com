@@ -76,8 +76,7 @@ defaults:
    values:
     layout: post
 
-
 compress_html:
-#  ignore:
-#    envs: [development]
+  ignore:
+    envs: [build,stage]
   profile: false
