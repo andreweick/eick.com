@@ -49,6 +49,8 @@ layout: compress
     {% if jekyll.environment == 'production' %}
       {% include global/seo.html %}
       {% include global/analytics.html %}
+    {% else %}
+      <!-- analytics tracking code not included in non-production builds -->
     {% endif %}
   </head>
   <body class="{% if page.class %}{{page.class}}{% endif %}{% if page.featured_image %} featured_image{% endif %}">
