@@ -78,6 +78,6 @@ defaults:
 
 
 compress_html:
-#  ignore:
-#    envs: [development]
-  profile: false
+  ignore:
+    envs: [stage]
+  profile: true
