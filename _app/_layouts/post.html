@@ -16,8 +16,8 @@ section: post
       <div class="gallery js-flickity"
             data-flickity-options='{ "imagesLoaded": true, "wrapAround": true, "percentPosition": false, "autoPlay": 7200, "lazyLoad": 3}'>
         {% for image in imageData.images %}
-          <a href="{{ base_url }}{{ image[1] }}" class="gallery-cell">
-            <img data-flickity-lazyload="{{ base_url }}{{ image[1] }}" alt="{{ image[0] }}" class="gallery-cell-image">
+          <a href="{{ base_url }}{{ image[0] }}" class="gallery-cell">
+            <img data-flickity-lazyload="{{ base_url }}{{ image[0] }}" alt="{{ image[1] }}" class="gallery-cell-image">
           </a>
 
         {% endfor %}
@@ -29,8 +29,8 @@ section: post
     <div class="grid {{ page.photo_layout | default: 'three_up' }}" id="image-container">
       <div class="grid-sizer"></div>
       {% for image in imageData.images %}
-        <a href="{{ base_url }}{{ image[1] }}" class="grid-item{% cycle ' grid-item--width3', ' grid-item--width4', ' grid-item--width4', ' grid-item--width5' , ''%}">
-          <img src="{{ base_url }}{{ image[1] }}" alt="{{ image[0] }}">
+        <a href="{{ base_url }}{{ image[0] }}" class="grid-item{% cycle ' grid-item--width3', ' grid-item--width4', ' grid-item--width4', ' grid-item--width5' , ''%}">
+          <img src="{{ base_url }}{{ image[0] }}" alt="{{ image[1] }}">
         </a>
       {% endfor %}
     </div>
@@ -39,8 +39,8 @@ section: post
 
     {% for image in imageData.images %}
       <p>
-        <a href="{{ base_url }}{{ image[1] }}">
-          <img src="{{ base_url }}{{ image[1] }}" alt="{{ image }}" style="max-width:100%;">
+        <a href="{{ base_url }}{{ image[0] }}">
+          <img src="{{ base_url }}{{ image[0] }}" alt="{{ image[1] }}" style="max-width:100%;">
         </a>
       </p>
     {% endfor %}
