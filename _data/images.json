@@ -259,7 +259,6 @@
     "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/10/01/",
     "images":{
       "20161001-dragon-warriors-game-4-0047.jpg":"Dragon Warriors Game 4",
-      "20161001-dragon-warriors-game-4-0085.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0094.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0180.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0204.jpg":"Dragon Warriors Game 4",
@@ -271,6 +270,7 @@
       "20161001-dragon-warriors-game-4-0375.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0505.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0520.jpg":"Dragon Warriors Game 4",
+      "20161001-dragon-warriors-game-4-0085.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0530.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0692.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0745.jpg":"Dragon Warriors Game 4",
@@ -284,7 +284,45 @@
       "20161001-dragon-warriors-game-4-1257.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-1454-Edit-2.jpg":"Dragon Warriors Game 4"
     }
+  },
 
+  "2016-10-15-dragon-warriors-game-5": {
+    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/10/15/",
+    "images":{
+      "20161015-game-5-0032-Edit.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0070.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0078.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0161.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0175.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0231.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0289.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0356.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0381.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0430.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0545.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0679.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0710.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0822.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0847.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0882.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-0925.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1051.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1081.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1176.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1276.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1396.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1496.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1568.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1600.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1634.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1695.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1803.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1828.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-1959.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-2005.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-2021.jpg" : "Dragon Warriors Game 5",
+      "20161015-game-5-2091.jpg" : "Dragon Warriors Game 5"
+    }
   }
 
 }
