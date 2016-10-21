@@ -4,6 +4,7 @@ bio: "Andrew Eick is a technologist dedicated to crafting scientific innovation 
 url: http://eick.com
 # basedir:          "/"
 mediaUrlRoot: "https://eick.imgix.net"
+movieUrlRoot: "https://media.eick.com"
 image_path: '/assets/img/'
 gems:
   - jekyll-seo-tag
