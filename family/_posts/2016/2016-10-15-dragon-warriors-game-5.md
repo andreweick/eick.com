@@ -8,6 +8,6 @@ tags:
 featured_image: "/photographs/2000s/2010s/2016/10/15/20161015-game-5-0032-Edit.jpg"
 images: "2016-10-15-dragon-warriors-game-5"
 intro : "Game 5 for the Dragon Warriors<br/>Home: 2, Visitors: 0"
-photo_layout: two_up
+photo_layout: three_up
 published: true
 ---
