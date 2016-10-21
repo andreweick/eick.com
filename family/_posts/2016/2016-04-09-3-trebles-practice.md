@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Trebles practice
-date: 2016-04-09 09:35
+date: 2016-04-09 09:36
 author: Andy Eick
 tags:
 - choir

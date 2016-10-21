@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Trebles Festival Performance
-date: 2016-04-10 09:35
+date: 2016-04-10 09:37
 author: Andy Eick
 tags:
 - choir
