@@ -5,7 +5,7 @@ date: 2016-04-11 09:38
 author: Andy Eick
 tags:
 - video
-intro: "3 Trebles Festival in Washington D.C.  Slideshow<br/><a href='/family/2016/04/11/3-trebles-video/'>Slideshow</a><br/><a href='/family/2016/04/10/3-trebles-performance/'>Performance Day</a><br/><a href='/family/2016/04/09/3-trebles-practice/'>Practice Day</a>"
+intro: "3 Trebles Festival in Washington D.C.<br/><ul><li><a href='/family/2016/04/11/3-trebles-video/'>Slideshow</a></li><li><a href='/family/2016/04/10/3-trebles-performance/'>Performance Day</a></li><li><a href='/family/2016/04/09/3-trebles-practice/'>Practice Day</a></li></ul>"
 featured_image: "/photographs/2000s/2010s/2016/04/10/20160410-1195.jpg"
 published: true
 ---
