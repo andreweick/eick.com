@@ -29,7 +29,7 @@ build:
   script:
   - echo $(whoami)
   - JEKYLL_ENV=development bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
-  - bundle exec htmlproofer --only-4xx --check-favicon _site
+  - bundle exec htmlproofer --only-4xx--check-favicon _site
 
 
 staging:
