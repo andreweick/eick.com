@@ -3,7 +3,7 @@ layout: post
 title: Jasmine Halloween Dance
 date: 2014-10-24 14:20
 author: Andy Eick
-tags: 
+tags:
 - jasmine
 - halloween
 featured_image: "/photographs/2014/2014-10-24/halloween-dance-2014-10-24-16-55-25.jpeg"
@@ -20,5 +20,5 @@ Jasmine went to the Halloween dance at the local community center. Jasmine chang
 
 ![Jasmine outfit number 2]({{ site.mediaUrlRoot }}/photographs/2014/2014-10-24/halloween-dance-2014-10-24-17-47-561.jpeg)
 
-![]({{ site.mediaUrlRoot }}/photographs/2014/2014-10-24/halloween-dance-2014-10-24-18-36-54.jpeg)
-![]({{ site.mediaUrlRoot }}/photographs/2014/2014-10-24/halloween-dance-2014-10-24-18-44-48.jpeg)
+![Halloween 2014]({{ site.mediaUrlRoot }}/photographs/2014/2014-10-24/halloween-dance-2014-10-24-18-36-54.jpeg)
+![Halloween 2014]({{ site.mediaUrlRoot }}/photographs/2014/2014-10-24/halloween-dance-2014-10-24-18-44-48.jpeg)

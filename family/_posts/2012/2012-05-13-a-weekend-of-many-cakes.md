@@ -3,7 +3,7 @@ layout: post
 title: "a weekend of many cakes"
 date: 2012-05-13 17:41
 comments: false
-tags: 
+tags:
 - Jasmine
 - Libby
 thumbsrc: http://media.eick.us/2012/2012-05-06-2/1024x1024/libby-communion-3.jpeg
@@ -28,5 +28,4 @@ We had many cakes last weekend -- a few snapshots....
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-2/libby-communion-4.jpeg)
-
+![Many Cakes]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-2/libby-communion-4.jpeg)

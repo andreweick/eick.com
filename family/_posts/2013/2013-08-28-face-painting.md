@@ -13,6 +13,6 @@ featured_image: "/photographs/2013/2013-05-05/jasmine.jpeg"
 ---
 Jasmine and Libby get their face painted and hair extensions at the fair.
 
-![]({{ site.mediaUrlRoot }}/photographs/2013/2013-05-05/jasmine.jpeg)
+![Face Painting]({{ site.mediaUrlRoot }}/photographs/2013/2013-05-05/jasmine.jpeg)
 
-![]({{ site.mediaUrlRoot }}/photographs/2013/2013-05-05/libby.jpeg)
+![Face Painting]({{ site.mediaUrlRoot }}/photographs/2013/2013-05-05/libby.jpeg)

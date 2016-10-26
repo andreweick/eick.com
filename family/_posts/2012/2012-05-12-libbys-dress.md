@@ -3,7 +3,7 @@ layout: post
 title: "Libby's dress"
 date: 2012-05-12 15:41
 comments: false
-tags: 
+tags:
 - Libby
 - dress
 - studio
@@ -14,15 +14,14 @@ Libby modeling her first communion dress
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-1.jpeg)
+![Libby's dress]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-1.jpeg)
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-2.jpeg)
+![Libby's dress]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-2.jpeg)
 
 
 
 
-![]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-3.jpeg)
-
+![Libby's dress]({{ site.mediaUrlRoot }}/photographs/2012/2012-05-06-1/libby-dress-3.jpeg)

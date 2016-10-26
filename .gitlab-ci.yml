@@ -29,7 +29,7 @@ build:
   script:
   - echo $(whoami)
   - JEKYLL_ENV=development bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
-  - bundle exec htmlproofer --only-4xx --empty-alt-ignore --disable-external --check-favicon --file-ignore _site/family/2015/11/22/mclean-all-stars-second/index.html  _site
+  - bundle exec htmlproofer --only-4xx --disable-external --check-favicon _site
 
 
 staging:
@@ -56,7 +56,7 @@ deploy:
   - rsync -arv --delete -e 'ssh -p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick
 
   artifacts:
-    expire_in: 6 months
+    expire_in: 3 months
     paths:
     - _site
     when: on_success
