@@ -1,7 +1,7 @@
 {
   "images": {
       "2014-12-19-busy-week": {
-        "base_url": "https://eick.imgix.net/photographs/",
+        "base_url": "https://media-eick-com.imgix.net/photographs/",
         "images": {
             "2014/2014-12-17/busy-week-2014-12-17-18-58-40.jpeg":"Libby\'s chorus 1",
             "2014/2014-12-17/busy-week-2014-12-17-20-46-18.jpeg":"Libby\'s chorus 2",
@@ -26,7 +26,7 @@
       },
 
       "2015-11-21-mclean-all-stars-first": {
-        "base_url": "https://eick.imgix.net/2000s/2010s/2015/11/",
+        "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2015/11/",
         "images":{
           "2015-11-21/20151121-0002.jpg":"McLean All Star Tournament 01",
           "2015-11-21/20151121-0009.jpg":"McLean All Star Tournament 02",
@@ -69,7 +69,7 @@
       },
 
       "2015-11-21-mclean-all-stars-second": {
-        "base_url": "https://eick.imgix.net/2000s/2010s/2015/11/",
+        "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2015/11/",
         "images":{
           "2015-11-21/20151121-0031.jpg":"McLean All Star Tournament Day 1, #01",
           "2015-11-21/20151121-0104.jpg":"McLean All Star Tournament Day 1, #02",
@@ -121,14 +121,14 @@
       },
 
   "2015-03-16-libby-plays-harpsichord" : {
-    "base_url": "https://eick.imgix.net/2000s/2010s/2015/03/2015-03-13",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2015/03/2015-03-13",
     "images": {
       "/20150313-_DSF4618.jpg":"Libby playing a Harpsichord at master class"
     }
   },
 
   "2016-04-09-3-trebles-practice": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/04/09/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/04/09/",
     "images":{
       "20160409-0017.jpg":"3 Treble Festival (Practice day)",
       "20160409-0056.jpg":"3 Treble Festival (Practice day)",
@@ -198,7 +198,7 @@
   },
 
   "2016-04-10-3-trebles-performance": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/04/10/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/04/10/",
     "images":{
       "20160410-0016.jpg":"3 Treble Festival, Washington D.C. Performance",
       "20160410-0056.jpg":"3 Treble Festival, Washington D.C. Performance",
@@ -271,7 +271,7 @@
   },
 
   "2016-09-10-dragon-warriors-game-1": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/09/10/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/09/10/",
     "images":{
       "20160910-dragon-warriors-game-1-0004.jpg":"Dragon Warriors Game 1, #01",
       "20160910-dragon-warriors-game-1-0083.jpg":"Dragon Warriors Game 1, #02",
@@ -301,7 +301,7 @@
   },
 
   "2016-09-17-dragon-warriors-game-2": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/09/17/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/09/17/",
     "images":{
       "20160917-dragon-warriors-game-2-1288-Edit.jpg":"Dragon Warriors Game 2",
       "20160917-dragon-warriors-game-2-0016.jpg":"Dragon Warriors Game 2, #02",
@@ -352,7 +352,7 @@
   },
 
     "2016-09-24-dragon-warriors-game-3": {
-      "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/09/24/",
+      "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/09/24/",
       "images":{
         "20160924-dragon-warriors-game-3-0215-Edit.jpg":"Dragon Warriors Game 3",
         "20160924-dragon-warriors-game-3-0017.jpg":"Dragon Warriors Game 3, #02",
@@ -384,14 +384,14 @@
       }
     },
     "2016-09-30-lincoln-and-generals-at-antietam": {
-      "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2011/05/17/",
+      "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2011/05/17/",
       "images":{
         "20110517-lincoln-sackett-antietam-0001.jpg":"My (distant) cousin on my Mom's side, first general on left"
       }
     },
 
     "2016-09-30-jasmine-violin": {
-      "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/09/25/",
+      "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/09/25/",
       "images":{
         "20160925-jasmine-violin-0001.jpg":"Jasmine making a violin practice video #1",
         "20160925-jasmine-violin-0002.jpg":"Jasmine making a violin practice video #2"
@@ -399,7 +399,7 @@
     },
 
   "2016-10-01-dragon-warriors-game-4": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/10/01/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/10/01/",
     "images":{
       "20161001-dragon-warriors-game-4-1454-Edit-2.jpg":"Dragon Warriors Game 4",
       "20161001-dragon-warriors-game-4-0047.jpg":"Dragon Warriors Game 4",
@@ -430,7 +430,7 @@
   },
 
   "2016-10-15-dragon-warriors-game-5": {
-    "base_url": "https://eick.imgix.net/photographs/2000s/2010s/2016/10/15/",
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/10/15/",
     "images":{
       "20161015-game-5-0032-Edit.jpg" : "Dragon Warriors Game 5",
       "20161015-game-5-0070.jpg" : "Dragon Warriors Game 5",
@@ -465,6 +465,103 @@
       "20161015-game-5-2005.jpg" : "Dragon Warriors Game 5",
       "20161015-game-5-2021.jpg" : "Dragon Warriors Game 5",
       "20161015-game-5-2091.jpg" : "Dragon Warriors Game 5"
+    }
+  },
+  "2016-10-22-dragon-warriors-game-6": {
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/10/22/",
+    "images":{
+      "20161022-game-6-1877-title.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0027.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0098.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0110.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0140.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0212.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0234.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0402.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0534.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0570.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0846.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-0960.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1012.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1042.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1160.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1190.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1219.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1297.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1375.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1387.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1431.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1435.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1465.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1741.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1790.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1818.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1863.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-1877.jpg" : "Dragon Warriors Game 6",
+      "20161022-game-6-2028.jpg" : "Dragon Warriors Game 6",
+      "20161015-game-5-2091.jpg" : "Dragon Warriors Game 6"
+    }
+  },
+  "2016-10-29-dragon-warriors-game-7": {
+    "base_url": "https://media-eick-com.imgix.net/photographs/2000s/2010s/2016/10/29/",
+    "images":{
+      "20161029-game-7-0839-title.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0012.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0080.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0100.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0102.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0105.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0140.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0189.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0194.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0201.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0287.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0294.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0340.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0391.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0398.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0430.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0436.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0448.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0454.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0466.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0534.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0545.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0560.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0566.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0577.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0596.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0700.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0713.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0784.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0804.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0823.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0839.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0878.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0943.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-0984.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1030.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1196.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1247.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1256.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1349.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1421.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1427.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1447.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1558.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1592.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1658.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1665.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1726.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1734.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1765.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1868.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1873.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1939.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-1968.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-2020.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-2023.jpg" : "Dragon Warriors Game 7",
+      "20161029-game-7-2030.jpg" : "Dragon Warriors Game 7"
     }
   }
 
