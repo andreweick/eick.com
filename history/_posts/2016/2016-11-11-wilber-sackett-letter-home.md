@@ -14,20 +14,20 @@ Beaume, France
 
 Dear Aunt Annie --
 
-"Somewhat suprirsed" to receive your letter the other day -- but that wasn't 
+"Somewhat suprirsed" to receive your letter the other day -- but that wasn't
 anything to how glad I was to get it!
 
 Things are pretty busy around here these days -- you know we are coming home!  
-Glory of glories!  Home -- believe me, to a kid who had practically never even 
+Glory of glories!  Home -- believe me, to a kid who had practically never even
 reached the end of his Mother's apron strings, only to be thrown so absolutely
 on his "own" for a year -- a good part of the time with no mail -- in a strange
-country, that word has a magic that attracts every bit of him, and nearly 
+country, that word has a magic that attracts every bit of him, and nearly
 leaves him speechless from emotion at the very thought of going back!  But such
-is the case; they formed us into casual companies today, we probably will make 
+is the case; they formed us into casual companies today, we probably will make
 the trip to the coast about the tenth and sail about the twentieth.  That means
 "Home and Mother" in July!
 
-Well, I'll stop my raving now but you can see that you can expect very little 
+Well, I'll stop my raving now but you can see that you can expect very little
 of me, I'm too wrought up to even talk rational.
 
 Do you really mean to say that George is good about writing? He surely must have
@@ -35,7 +35,7 @@ a motive of some kind -- maybe he's in love with you! (At that I wouldn't blame
 him -- for I remember a might pretty little Southern girl as my 'Aunt Annie'.)
 
 You will have to overlook the paper, the blots, and the bum writing! The first
-two are result of conditions which I make no excuse for (I'm sitting on my 
+two are result of conditions which I make no excuse for (I'm sitting on my
 bunk writing with a mirror to lay the paper on) but I'm heartily ashamed of the
 latter!
 
@@ -51,13 +51,13 @@ while ago by that 'awful' description of me as a baby three years old! I think
 that is really mean -- and I'm mortified nearly to death!
 
 And now for what you left "unsaid" (Uncle Howard's part)!  I don't think that
-it was fair for him to make fun of you, do you Aunt Annie?  I've seen Mother 
-leave things unsaid -- she'd either run out of time or her audeience would 
+it was fair for him to make fun of you, do you Aunt Annie?  I've seen Mother
+leave things unsaid -- she'd either run out of time or her audeience would
 disappear! I'm sorry that I didn't get that other letter of yours, Uncle Howard,
 but than as long as I know you wrote I'm pleased for I know that a busy man has
 little time to write to a faraway nephew even if he does think of him at times!
 
-Well, folks, I'm almost out of things to say -- I knew I couldn't be orginial 
+Well, folks, I'm almost out of things to say -- I knew I couldn't be orginial
 enough to write a good letter! So it will have to be just good by and good luck
 and lots of love to all. And those cousins of mine had better not forget their
 "corn fed" Iowa relations -- or we'll be down by first aeroplane and "clean up"!
