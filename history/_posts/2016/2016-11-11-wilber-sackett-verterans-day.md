@@ -14,13 +14,13 @@ the time to reflect on what his country has done for him and what he can do to
 keep alive the feelings of patriotism and love of country.
 
 It's a cycle really, the young man out of the service after
-giving two or more years of his life to help in the contiunally
+giving two or more years of his life to help in the continually
 important job of defending the country, coming home with a
 feeling of pride and relief that he was able to return to his
 family alive.
 
-However, that young man may not see the improtrance of
-active participation in the vetran's organizations. Perhaps
+However, that young man may not see the importance of
+active participation in the veteran's organizations. Perhaps
 he is somewhat bitter about his experiences, as in the case
 with many Viet Nam era soldiers.
 
@@ -42,17 +42,17 @@ likens it much to his own experiences when he returned home
 following his years of action during World War I.
 
 "I felt out of place," he said. He added that the young man
-today has these same feelings when he attends a meetingfind the majority of
+today has these same feelings when he attends a meeting and finds the majority of
 members are much older. He said it is a generation gap and nothing more.
 
 ## Returned from war in 1918
-Sackett returned from his duties in Europe in 1918. About his joing of the Legion
+Sackett returned from his duties in Europe in 1918. About his joining of the Legion
 he says" I read in the Des Moines paper that a chapter was being formed. I went
 to the meetings at the coliseum. Everyone who I talked to and everyone there
 seemed to be old enough to be my father. I felt out of place.
 But that was the way it was during the war also.
 
-Sackett didn't joing the Legion until 1923 while in Red Oak,
+Sackett didn't joining the Legion until 1923 while in Red Oak,
 after he finished his education. When he moved to
 Spencer in 1929 to join the John W. Cory law firm, he transferred
 his membership and has since been a member.
@@ -69,7 +69,7 @@ support of the country when her safety or democracy is
 threatened.
 
 This special sense of pride has been handed down in the Sackett
-family, as it has in many. Wilber has today a rememberence
+family, as it has in many. Wilber has today a remembrance
 of his grandfather's patriotism and love of country.
 
 Grandfather George C. Sackett was a soldier in the Civil War. He
@@ -80,10 +80,10 @@ inscribed his small pocket bible for Wilber to carry with him.
 He also gave him a small U.S. flat, to be inserted in the
 bible and carried during the time of his combat duty.
 
-Wilber still has these articles, even though the flagis worn thin
+Wilber still has these articles, even though the flag is worn thin
 and shredded with age. They are indeed special,
 something that constantly reminds him of his service to his
-country and his gradfather's before him.
+country and his grandfather's before him.
 
 Sackett's grandmother, Emma French Sackett, was also
 very active during the civil war. She was a civil war nurse
@@ -112,7 +112,7 @@ such an important part of their lives. The German ship was in
 American Harbors when the war broke out in 1917, and therefore
 made its return trip to its homeland filled with American soldiers.
 
-Sackett looks back now and laughts at the trip across the
+Sackett looks back now and laughs at the trip across the
 Atlantic. "We zig-zagged all the way across," he says. "We
 had three submarine scares but none of the ships were ever
 lost. It took 12 days to get over there."
@@ -123,14 +123,14 @@ damaged from explosives and fire. "We were far enough back from the
 front lines that when the armistice went into effect we found out about
 it a day later," Sackett recalls.
 
-Following the signing of the armistice, Sacket was transfered to the west
+Following the signing of the armistice, Sackett was transferred to the west
 coast of France where he worked on the French roads while
 he waited for transportation back home. At the time, he remembers, all
 troops were returned by ship rather than airplane. It took several
 months to transport all the troops and those who saw direct combat
 were returned home first. The rebuilding of the roads had a duo purpose:
 to return the country to pre-war condition and to
-provide jobs for the American soldiers remaing in Europe.
+provide jobs for the American soldiers remaining in Europe.
 
 While in France, Sackett met up with Louis Geiermann of Dearborn, Michigan.
 There were the youngest soldiers in their company
@@ -150,7 +150,7 @@ went upside down and we never begged again."
 Another amusing story from Sackett's service days, is the story of how
 he lost his hair. At one time he tossed his helmet in
 the ditch. The mustard gas fumes tend to go to a low place
-and it settled in his helmet.  Sackett said his scapl itched
+and it settled in his helmet.  Sackett said his scalp itched
 severely and by the third day he went to see the doctor about
 it. The doctor had to shave Sackett's head to tread the blisters.
 Consequently, he hasn't had hair since.
@@ -173,22 +173,22 @@ of the Iowa National Guard's participation, because the men
 fought as a unit. Especially hard hit were the communities
 of Ottumwa and Red oak. Both lost a great number of
 men, according to Sackett, because the men were on the front line. McNider was
-one of the principal orgranizers of the Legion, possibily
+one of the principal organizers of the Legion, possibly
 because he has so many men on the line and the Legion
 was organized to help the veterans.
 
 ## The Legion has helped
 
 The local and national American
-Legion organizations are devoted to helping the vetrans
-of all wars. It took over responsibilies of the GAR and the Spainish American
-War Vetrans. There was a demise of these groups
+Legion organizations are devoted to helping the veterans
+of all wars. It took over responsibilities of the GAR and the Spanish American
+War Veterans. There was a demise of these groups
 and the revolutionary war veteran's groups.
 
 The primary purpose of the Legion is to look
 after and protect the veteran's interests. The Legion represents
 them before the congress as a lobby group for
-the disabled, wounded vetrans and their dependents and widows.
+the disabled, wounded veterans and their dependents and widows.
 
 The American Legion also supports the veterans hospitals throughout
 the country. Local veterans have attended the hospitals in Sioux
@@ -197,7 +197,7 @@ hospitalization and care is very inexpensive, according to Sackett,
 because of the Legion support.
 
 The Legion has also been instrumental in the education of the
-children of veterans and has acted as their liason.
+children of veterans and has acted as their liaison.
 One of the biggest projects of the Legion each year is the Boys
 State program, where youth are given a first hand experience
 at understanding governmental procedures.
@@ -205,17 +205,17 @@ at understanding governmental procedures.
 Locally, the Legion sponsors things for youth which
 will help to build their character. The post sponsors a Boy Scout
 troop and the American Legion Basketball team. In addition they work
-with the Vetrans of Foreign Wars to provide a Memorial Day program and
-the Avenue of Flags, both to show respect for deceased vetrans
+with the Veterans of Foreign Wars to provide a Memorial Day program and
+the Avenue of Flags, both to show respect for deceased veterans
 and to promote a living patriotism. The Legion building is also
-available to organiations needing a large place for
+available to organizations needing a large place for
 wholesome activities.
 
 Another of the visible signs of the Legion is the military
-funeral. Last year the post held 33 for the deceased vetrans.
+funeral. Last year the post held 33 for the deceased veterans.
 "This is a sign that patriotism is not dead," Sackett said.
 
-Meanwhile, he keeps promoting Legion and Legion activites. He knows
+Meanwhile, he keeps promoting Legion and Legion activities. He knows
 there will come a time when the young service men of today will have
 the time to carry on the work of the Legion. "It could become a very
 vital part of the community," he said.
