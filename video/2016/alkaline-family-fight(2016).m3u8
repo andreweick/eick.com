@@ -1,0 +1,18 @@
+---
+layout: null
+---
+#EXTM3U
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=5146216,BANDWIDTH=6504732,CODECS="mp4a.40.2, avc1.4d001f",RESOLUTION=960x540
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Broadband%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=2594445,BANDWIDTH=3234481,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Broadband%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=493600,BANDWIDTH=680290,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Cellular%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=232997,BANDWIDTH=325745,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Cellular%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=1269051,BANDWIDTH=1546639,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Wi-Fi%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=758744,BANDWIDTH=973920,CODECS="mp4a.40.2, avc1.42001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Wi-Fi%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=37905,BANDWIDTH=51490,CODECS="mp4a.40.2"
+{{ site.movieUrlRoot }}/static/video/2016-12-10-alkaline-family-fight/Alkaline%20Earth%20Metal%20Family%20Fight-Audio%20for%20HTTP%20Live%20Streaming.segments/prog_index.m3u8
