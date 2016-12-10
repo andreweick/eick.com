@@ -6,7 +6,7 @@ author: Andy Eick
 tags:
 - video
 intro: "Jasmine's 8th grade science class skit"
-featured_image: "photographs/2000s/2010s/2016/12/05/20161205-jasmine-science-movie-0010.jpg"
+featured_image: "/photographs/2000s/2010s/2016/12/05/20161205-jasmine-science-movie-0010.jpg"
 published: true
 ---
 <video
