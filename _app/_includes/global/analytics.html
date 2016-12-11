@@ -1,4 +1,4 @@
-{% if site.pingdom_rum == true%}
+{% if site.pingdom_rum == true %}
 <script>
 var _prum = [['id', '57f04aca7585f09202c98af4'],
              ['mark', 'firstbyte', (new Date()).getTime()]];
@@ -10,6 +10,23 @@ var _prum = [['id', '57f04aca7585f09202c98af4'],
     s.parentNode.insertBefore(p, s);
 })();
 </script>
+{% endif %}
+{% if site.piwik == true %}
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.eick.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.eick.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 {% elsif site.google_analytics_id %}
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
