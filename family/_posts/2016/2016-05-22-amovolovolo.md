@@ -16,4 +16,4 @@ published: true
 </video>
 
 
-If the video above doesn't play, you can see it on [here on vimeo](https://vimeo.com/197117199), password *spartans*.
+*If the video above doesn't play, you can see it on [here on vimeo](https://vimeo.com/197117199).*
