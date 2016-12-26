@@ -6,14 +6,14 @@ author: Andy Eick
 tags:
 - video
 intro: "Libby's Choir (CCW Bel Canto) Practice"
-featured_image: "/photographs/2000s/2010s/2016/12/05/20161205-jasmine-science-movie-0010.jpg"
+featured_image: "https://media.eick.com/static/video/2016-12-17-ccw-practice/20161217-CCW-Christmas-Rehearsal-0044.jpg"
 published: true
 ---
 <video
   width='100%'
   src='/video/2016/2016-12-17-ccw-practice.m3u8'
   controls
-  poster='{{ site.mediaUrlRoot }}/photographs/2000s/2010s/2016/12/05/20161205-jasmine-science-movie-0010.jpg'>
+  poster='{{ site.movieUrlRoot }}/static/video/2016-12-17-ccw-practice/20161217-CCW-Christmas-Rehearsal-0044.jpg'>
 </video>
 
 

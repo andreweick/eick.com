@@ -6,13 +6,14 @@ author: Andy Eick
 tags:
 - video
 intro: "Bel Canto signs Amovolovolo"
+featured_image: "https://media.eick.com/static/video/Amovolovolo/20160522-MAE-CCW-1707.jpg"
 published: true
 ---
 <video
   width='100%'
   src='/video/2016/Amovolovolo.m3u8'
   controls
-  poster='{{ site.mediaUrlRoot }}/photographs/2000s/2010s/2016/12/05/20161205-jasmine-science-movie-0010.jpg'>
+  poster='{{ site.movieUrlRoot }}/static/video/Amovolovolo/20160522-MAE-CCW-1707.jpg'>
 </video>
 
 

@@ -35,7 +35,11 @@ section: home
         {% endfor %}
         {% for image in family limit: 16 %}
           {% if image.featured_image %}
-            <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
+            {% if image.featured_image contains "http" %}
+              <a href="{{ image.url }}"><img src="{{ image.featured_image }}"></a>
+            {% else %}
+              <a href="{{ image.url }}"><img src="{{ site.mediaUrlRoot }}{{ image.featured_image }}"></a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
