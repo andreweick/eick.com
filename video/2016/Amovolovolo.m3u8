@@ -1,0 +1,18 @@
+---
+layout: null
+---
+#EXTM3U
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=5130825,BANDWIDTH=6340137,CODECS="mp4a.40.2, avc1.4d001f",RESOLUTION=852x480
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Broadband%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=2587111,BANDWIDTH=3235714,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Broadband%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=507797,BANDWIDTH=852189,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Cellular%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=242927,BANDWIDTH=366375,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Cellular%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=1263988,BANDWIDTH=1706192,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Wi-Fi%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=755266,BANDWIDTH=1049127,CODECS="mp4a.40.2, avc1.42001e",RESOLUTION=640x360
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Wi-Fi%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=40512,BANDWIDTH=42043,CODECS="mp4a.40.2"
+{{ site.movieUrlRoot }}/static/video/Amovolovolo/Amovolovolo%20(2016-05-22)-Audio%20for%20HTTP%20Live%20Streaming.segments/prog_index.m3u8
