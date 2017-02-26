@@ -36,9 +36,9 @@ staging:
   script:
   - echo $(whoami)
   - JEKYLL_ENV=stage bundle exec jekyll build --config=_config.yml,_config-stage.yml --drafts --future
-  - bundle exec htmlproofer --only-4xx --check-favicon _site
   - ssh -p 49999 maeick@linode.missionfocus.com 'mkdir -p /opt/caddy/eick-staging'
   - rsync -arv --delete -e 'ssh -p 49999' _site/* maeick@linode.missionfocus.com:/opt/caddy/eick-staging
+  - bundle exec htmlproofer --only-4xx --check-favicon _site
 
   artifacts:
     expire_in: 1 weeks
