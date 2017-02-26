@@ -3,10 +3,7 @@ title: Wilber Sackett Veteran's Day
 date: 2016-11-11
 author: Andy Eick
 tags: history
-featured_image: "/photographs/2000s/2010s/2011/05/17/20110517-lincoln-sackett-antietam-0001.jpg"
-images: "2016-09-30-lincoln-and-generals-at-antietam"
 intro: "Wilber Sackett<br>1899 - 1991"
-photo_layout: one_up
 published: false
 ---
 Today's world is moving so fast that it isn't until later in life that a man has
