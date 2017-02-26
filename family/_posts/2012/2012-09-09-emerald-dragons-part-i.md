@@ -3,7 +3,7 @@ layout: post
 title: "Emerald Dragons Part I"
 date: 2012-09-09 13:13
 comments: false
-tags: 
+tags:
 - jasmine
 - soccer
 - emerald-dragons
@@ -29,7 +29,7 @@ One of Jasmine's soccer games from last June (2012).
 ![Emerald Dragons Part I]({{ site.mediaUrlRoot }}/photographs/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58.jpeg)
 
 
-![Emerald Dragons Part I]({{ site.mediaUrlRoot }}/photographs/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58(1).jpeg)
+![Emerald Dragons Part I]({{ site.mediaUrlRoot }}/photographs/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-58-1.jpeg)
 
 
 ![Emerald Dragons Part I]({{ site.mediaUrlRoot }}/photographs/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-47-28.jpeg)
@@ -51,4 +51,3 @@ One of Jasmine's soccer games from last June (2012).
 
 
 ![Emerald Dragons Part I]({{ site.mediaUrlRoot }}/photographs/2012/2012-08-19-1/06-09-emerald-dragons--2012-06-09at10-38-50.jpeg)
-

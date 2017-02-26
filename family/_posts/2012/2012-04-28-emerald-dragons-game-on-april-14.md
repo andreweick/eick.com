@@ -14,8 +14,6 @@ The first game for Jasmine's soccer game was April 14, and it was unusually warm
 
 Jasmine was the fastest player on the field, and she just never seems to get tired.  (In "Girls on the Run" class, the teacher tells her to "start running" and then to "stop running" -- she never gets tired enough to stop on her own).  The other coach kept yelling "Get the girl in the red shorts!" as she ran around.  
 
-I also put together a web site for me to post pictures of the whole team.  The [Web site](http://eick.us/emerald-dragons) will have all the pictures I take from the games that you can view as a slideshow.   The game from April 14th is [here](http://eick.us/emerald-dragons/#/8/0) If you want to be notified by email when I post a new game [click here](http://eepurl.com/lhf_9)
-
 # Emerald Dragons 2012-04-14
 
 

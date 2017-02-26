@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Libby playing basketball II
+title: Libby playing basketball 2
 date: 2014-03-11
 comments: false
 tags:
