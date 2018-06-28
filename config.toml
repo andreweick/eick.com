@@ -1,0 +1,38 @@
+title = "Andrew Eick"
+DefaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+baseURL = "https://www.eick.com"
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+
+[params]
+description = "The Personal Website of Andrew Eick"
+logo = ""
+
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1.0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2.0
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archive/"
+weight = 3.0
+
+
+
+[taxonomies]
+series = "series"
+tag = "tags"
