@@ -1,25 +1,15 @@
 ---
 hide_body: true
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- type: datetime
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
   name: date
-  label: Date
-- name: images
-  label: Image
-  type: image_gallery
-  hidden: false
-  default: ''
-- name: image_credit
-  label: Image Credit
-  type: text
-  hidden: false
-  default: ''
-- name: description
-  label: description
-  type: textarea
-  description: Very Short. Good for SEO
+  label: date
+  template: partial-date
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit

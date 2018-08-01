@@ -1,4 +1,6 @@
-{{ $script := .Site.Data.webpack_assets.app }}
-{{ with $script.js }}
-  <script src="{{ print . }}" defer></script>
-{{ end }}
+{{ $js := resources.Get "output/js/app.js" | resources.Fingerprint }}
+{{ with $js }}
+  <script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{ end }} 
+  
+

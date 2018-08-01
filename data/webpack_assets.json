@@ -1,6 +1,0 @@
-{
-  "app": {
-    "css": "/dist/css/app.css",
-    "js": "/dist/js/app.dev.js"
-  }
-}

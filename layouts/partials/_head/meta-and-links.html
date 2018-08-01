@@ -10,10 +10,26 @@
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 {{ end }}
 
-{{ $stylesheet := .Site.Data.webpack_assets.app }}
-  {{ with $stylesheet.css }}
-    <link href="{{ print . }}" rel="stylesheet">
+{{ if (fileExists "./assets/output/fonts/fonts.css") -}}
+  {{ with (resources.Get "output/fonts/fonts.css") }}
+    {{ $fonts := . | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $fonts.Permalink | relURL }}" integrity="{{ $fonts.Data.Integrity }}"> 
   {{ end }}
+{{ end }}
+
+{{ if .Site.IsServer }}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/config/dev/postcss.config.js") | minify | fingerprint }}    
+    {{ with $style }}
+      <link rel="stylesheet" href="{{ .Permalink }}" data> 
+    {{ end }}
+{{ else }}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/config/postcss.config.js")  | minify | fingerprint }}  
+  {{ with $style }}
+    <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}"> 
+  {{ end }}
+  
+{{ end }}
+
 
 {{ partial "_head/manifest.html" . }}
 
@@ -24,8 +40,40 @@
 {{ end }}
 
 {{ if eq (getenv "HUGO_ENV") "production" }}
-  {{- template "_internal/opengraph.html" . -}}
-  {{- template "_internal/google_news.html" . -}}
-  {{- template "_internal/schema.html" . -}}
-  {{- template "_internal/twitter_cards.html" . -}}
+  {{/* Images */}}
+  {{ $image_url := ($.Param "dev.image_url") }}
+  {{ if eq .Section "book" }}
+    {{ with .Params.editions }}
+      {{ with (index . 0).cover_image }}
+        <meta property="og:image" content="{{ $image_url }}{{ . }}" />
+        <meta itemprop="image" content="{{ $image_url }}{{.}}">
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ if $.Param "image.file" }}
+      {{ $image := printf "%s%s" $image_url ($.Param "image.file") }}
+      <meta property="og:image" content="{{ $image }}" />
+      <meta itemprop="image" content="{{ $image }}">
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image:src" content="{{ $image }}"/>
+    {{ else if $.Param "featured_image.file" }}
+        {{ $image := printf "%s%s" $image_url ($.Param "featured_image.file") }}
+        <meta property="og:image" content="{{ $image }}" />
+        <meta itemprop="image" content="{{ $image }}">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image:src" content="{{ $image }}"/>
+      {{ else }}
+        <meta name="twitter:card" content="summary"/>
+    {{ end }}
+  {{ end }}
+
+  {{/* TITLES/Descriptions etc */}}
+
+  {{- partial "_head/meta-opengraph.html" . -}}
+  {{- partial "_head/meta-google_news.html" . -}}
+  {{- partial "_head/meta-schema.html" . -}}
+  {{- partial "_head/meta-twitter_cards.html" . -}}
+  {{ partial "_head/google-analytics.html" . }}
+
+
 {{ end }}

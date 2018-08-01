@@ -1,26 +1,21 @@
 ---
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Title
-  description: To make a word italicized put an *asterisk* before and after it, like
-    *The Title*
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: 
-- type: image_gallery
-  name: images
-  label: Images
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
+  name: date
+  label: date
+  template: partial-date
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit
 - type: tag_list
   label: Topics
   name: tags
 - type: tag_list
   label: Category
   name: categories
-- type: text
-  label: Description
-  name: description
-  description: Very Short. Good for SEO

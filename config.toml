@@ -1,10 +1,13 @@
 title = "Andrew Eick"
 DefaultContentLanguage = "en"
 MetaDataFormat = "yaml"
+buildFuture = true
 baseURL = "https://www.eick.com"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
+themesDir = "layout_modules"
+#theme = "hugo-base-layouts"
 
 [params]
 description = "The Personal Website of Andrew Eick"
@@ -36,3 +39,32 @@ weight = 3.0
 [taxonomies]
 series = "series"
 tag = "tags"
+
+
+[mediaTypes]
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
+
+
+[outputFormats]
+
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputFormats.REDIR]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputs]
+home = [
+"HTML",
+"HEADERS",
+"REDIR"
+]
