@@ -3,8 +3,9 @@ layout: page
 title: About Andrew Eick
 permalink: /about/
 intro: "Mark Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community."
+images:
+ - /images/andyeick.jpg
 ---
-![Andrew Eick's photo](/assets/images/andyeick.jpg)
 
 ### Biographical sketch
 
