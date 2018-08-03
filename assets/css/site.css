@@ -1,6 +1,33 @@
 /* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
 
-body {
-  font-family: 'Vesper Libre';
-  font-weight: 500;
+/* Style headings */
+h1, h2, h3 {
+  @apply font-brand text-grey-darkest;
 }
+
+
+/* add a border to the body */
+
+body {
+ @apply border-solid border-grey-blue-darker border-r-8 border-l-8;
+ min-height: 100vh;
+}
+.bordered {
+  @apply fixed w-full border-solid border-grey-blue-darker border-b-4;
+}
+.bordered-b {
+  @apply pin-t;
+}
+.bordered-t {
+  @apply pin-b;
+}
+
+ /* Create a grid for the body */
+
+ .content {   
+  grid-template-columns: 1fr 4fr;
+ }
+
+ .active {
+   @apply bg-grey-blue-darker;
+ }
