@@ -17,11 +17,4 @@
   <span class="block font-sans text-xs italic p-2">{{ . }}</span>
 {{ end }}
 
-{{with .Params.tags}}
-  <section class="tags mt-2">
-    {{range .}}
-      <span class="inline-block">#{{.}}</span>
-    {{end}}
-  </section>
-{{end}}
 </div>
