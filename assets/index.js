@@ -1,4 +1,4 @@
-//require("typeface-vesper-libre")
+require("typeface-play")
 import "./js/lazysizes.js"
 import "./js/nojs.js"
 

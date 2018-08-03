@@ -28,6 +28,7 @@
     "postcss-cli": "^6.0.0",
     "postcss-import": "^11.0.0",
     "tailwindcss": "0.6.4",
+    "typeface-play": "^0.0.54",
     "webpack": "^4.16.2",
     "webpack-command": "^0.4.1"
   },

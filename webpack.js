@@ -6,8 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
 	mode: "production",
 	entry: {
-		app: "./assets/index.js",
-		algolia: "./assets/algolia.js",
+		app: "./assets/index.js",// 
 	},
 	output: {		
 		path: path.resolve(__dirname, "assets/output"),    
