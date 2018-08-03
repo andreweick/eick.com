@@ -9,16 +9,20 @@
       {{ partialCached "_head/scripts.html" . }}
     {{ end }}
   </head>
-  <body class="{{.Kind}} m-0 body-color font-primary leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-    {{ block "header" . }}{{ partial "_global/header.html" . }}{{ end }}
-    <div id="content" class="content">
+  <body class="{{.Kind}} m-0 font-sans leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+    <div id="content" class="content md:grid">      
+    {{ block "header" . }}      
+      {{ partial "_global/header.html" . }}      
+    {{ end }}    
       <main role="main">
-        {{ block "hero" . }}{{ end }}
-        {{ block "main" . }}{{ end }}
-      </main>
-      {{ block "footer" . }}
-        {{- partial "_global/footer.html" . -}}
-      {{ end }}
+        <div class="min-h-screen text-grey-darker">
+          {{ block "hero" . }}{{ end }}
+          {{ block "main" . }}{{ end }}
+        </div>
+        {{ block "footer" . }}
+          {{- partial "_global/footer.html" . -}}
+        {{ end }}
+      </main>      
     </div>
     {{ block "page_bottom" . }}
       {{- partial "_global/page-bottom.html" . -}}

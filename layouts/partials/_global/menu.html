@@ -2,17 +2,17 @@
 {{ $menu := index .page.Site.Menus (.menu) }}
 {{ with $menu }}
   <nav aria-label="{{ $.menu }}">
-    <ul name="{{ $.menu }}" class="list-reset">
+    <ul name="{{ $.menu }}" class="list-reset text-grey-blue-dark w-full">
       {{ range . }}
         <li class="{{ .Identifier }}">
-          <a class="color-inherit {{ if in $currentPage.URL .URL }} active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="color-inherit no-underline block hover:bg-grey hover:text-primary-color-darker py-1 pl-6{{ if eq $currentPage.URL .URL }} active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
           {{ if .HasChildren }}
             <ul class="list-reset">
               {{ range .Children }}
-                <li{{ if $currentPage.IsMenuCurrent "main" . }} class="bg-primary-color-dark"{{ end }}>
-                  <a href="{{ .URL }}">
+                <li class="text-base{{ if eq $currentPage.URL .URL }} active{{ end }}">
+                  <a href="{{ .URL }}" class="pl-12 py-1 block hover:bg-grey hover:text-primary-color-darker  color-inherit no-underline">
                     {{ .Name }}
                   </a>
                 </li>
