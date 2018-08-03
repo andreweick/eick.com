@@ -34,6 +34,26 @@ name = "Archive"
 url = "/archive/"
 weight = 3.0
 
+[[menu.main]]
+identifier = "family"
+parent = "archive"
+name = "Family"
+url = "/family/"
+weight = 3.0
+
+[[menu.main]]
+identifier = "history"
+parent = "archive"
+name = "History"
+url = "/history/"
+weight = 3.0
+
+[[menu.main]]
+identifier = "snapshot"
+parent = "archive"
+name = "Snapshot"
+url = "/snapshot/"
+weight = 3.0
 
 
 [taxonomies]
