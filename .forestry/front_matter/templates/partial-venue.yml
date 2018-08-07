@@ -36,6 +36,6 @@ fields:
     label: Link
     type: text
     hidden: false
-    default:   
+    default: 
   hidden: false
   default: 
