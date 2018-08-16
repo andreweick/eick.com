@@ -26,7 +26,7 @@ p a:hover {
 
 
 hr {
-  @apply .py-4;
+  @apply py-8 border-t border-b-0 border-r-0 border-l-0;
 }
 
 dt::after {
