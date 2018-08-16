@@ -1,12 +1,15 @@
-//const webpack = require("webpack")
+const webpack = require("webpack")
 const path = require("path")
 const CleanWebpackPlugin = require("clean-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
-module.exports = {
+module.exports =  env => {
+	console.log('NODE_ENV: ', process.env.NODE_ENV); // 'local'
+	return {
 	mode: "production",
 	entry: {
-		app: "./assets/index.js",// 
+		app: "./assets/index.js",
+		// algolia: "./assets/algolia.js",
 	},
 	output: {		
 		path: path.resolve(__dirname, "assets/output"),    
@@ -57,6 +60,9 @@ module.exports = {
 		],
 	},
 	plugins: [		
+		new webpack.DefinePlugin({
+			ENVIRONMENT: JSON.stringify(process.env.NODE_ENV)
+		}),
 		new CleanWebpackPlugin(
 			[
 				"./static/fonts/",				
@@ -74,4 +80,6 @@ module.exports = {
 			filename: `./fonts/fonts.css`
 		})	
 	],
+	}
+	
 }
