@@ -18,26 +18,7 @@ module.exports = {
         extensions: ['html']
       }], 
       fontFace: true,
-      whitelist: ["body",
-      "h-3/4",
-      "h-screen",
-      "bg-near-white",
-      "text-white-70",
-      "ais-hits",
-      "ais-hits--item",
-      "results-hidden",
-      "hidden",
-      "ais-pagination",
-      "ais-pagination--item__active ais-pagination--item__first",
-      "ais-pagination--item__last",
-      "bg-primary-color",
-      "turbolinks-progress-bar",
-      "opacity-25",
-      "about",
-      "pagination",
-      "our-work",
-      "updates",
-      "take-action",]
+      whitelist: ["hr"]
     }),    
     require('autoprefixer')({
       grid: true,
