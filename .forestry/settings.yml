@@ -13,7 +13,7 @@ sections:
   - default
   - home
 - type: directory
-  path: content/about
+  path: content/cv
   label: About
   create: all
   match: "**/*"
