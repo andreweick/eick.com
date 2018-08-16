@@ -15,6 +15,21 @@ sections:
   create: all
   templates:
   - default
+- path: content/family
+  label: Family
+  create: all
+  templates:
+  - article
+- path: content/history
+  label: History
+  create: all
+  templates:
+  - article
+- path: content/snapshot
+  label: Snapshot
+  create: all
+  templates:
+  - article
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
