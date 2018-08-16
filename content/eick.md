@@ -1,8 +1,6 @@
 ---
 title: "Andrew Eick's Professional Background"
-author: Andy Eick
-tags: cv
-layout: page
+url: cv/eick
 ---
 M. Andrew Eick
 ==============
@@ -10,6 +8,7 @@ M. Andrew Eick
  -->  
 
 ## Biography ##
+
 Mark Andrew Eick is a technologist dedicated to crafting scientific innovation into practical solutions for the Intelligence Community (IC). With degrees in computer science and philosophy, he started his career in 1995 at Ford Motor Company developing systems to manage the development and printing of service manuals. The system he developed fundamentally changed the production process, improving efficiency and quality and earning him multiple technology awards.
 
 In 2003 Mr. Eick became CTO at SSS Research, a DOD contracting startup focused on bringing new visualization techniques to thin client geospatial applications. His innovations optimizing the processing and transmission of geospatial data received multiple software patent awards and were deployed in an operational system which directly contributed to numerous successful missions.
@@ -19,6 +18,7 @@ In 2008, Mr. Eick started his own company, Mission Focus, focusing on the “Big
 -------------------------------------------------------------------------------
 
 ## Position Summary ##
+
 * Mission Focus, Founder and CEO, 2008 - Present
 * Institute for Modern Intelligence, Founder and Chairman, 2009 - Present
 * TexelTek, Inc, Chief Scientists, 2008
@@ -28,26 +28,30 @@ In 2008, Mr. Eick started his own company, Mission Focus, focusing on the “Big
 * UNI/CARE Systems, System Engineer, 1992 - 1995
 
 ## Education Summary ##
+
 * Masters, Computer Science, Oakland University, 1995
 * Bachelors, Computer Science / Philosophy, Western Michigan University, 1992
 
 ## Patent Summary ##
+
 * [Server-based systems and methods for enabling interactive, collaborative thin-and no-client image-based applications][p1], Issued March 2007, US Patent: 11/688132
 * [Analysis of time-based geospatial mashups using AD HOC visual queries][p2], Issued, December 2007, US Patent: 12/005334
 * [Systems and methods for visualizing arguments][p3], Issued, January 2006, US Patent: 11/331309
 * [Platform for real-time tracking and analysis][p4], Issued, February 2008, US Patent: 12/070976
 
 ## Honors ##
+
 * 4 patent awards
 * Trade Secret, Ford Motor Company
 * Vice Presidents select project award, Ford Motor Company
 * Microsoft MVP
 
--------------------------------------------------------------------------------
+---
 
 # Select Work Experience #
 
 ## Mission Focus ##
+
 _Founder and CEO, 2008 - Present, Alexandria, VA_
 
 * Established business
@@ -68,6 +72,7 @@ _Founder and CEO, 2008 - Present, Alexandria, VA_
 
 
 ## Institute for Modern Intelligence ##
+
 _Founder and Chairman, 2009 - Present, Alexandria, VA_
 
 * Established business and obtained 501(c)(3) non-profit status
@@ -75,6 +80,7 @@ _Founder and Chairman, 2009 - Present, Alexandria, VA_
 * Established open-source licensing model for Ultra large scale cloud data framework
 
 ## SSS Research ##
+
 _Chief Technology Officer, 2003 - 2008, Naperville, IL_
 
 GeoBoost™ project
@@ -98,6 +104,7 @@ DECIDE™ project
 * Led 4 person development and quality assurance team.  Defined development workflow environment, including development workflow, bug tracking system, source control repository, and agile process
 
 ## Ford Motor Company ##
+
 _Software Engineer, 1995-2007, Dearborn, MI_
 
 * Created, architected, and led a 15 person team in the implementation of a 7 year project to migrate the existing publishing system into an SGML / XML based publishing system
@@ -105,7 +112,8 @@ _Software Engineer, 1995-2007, Dearborn, MI_
 * Developed multilingual framework for both interface and published content installed languages are English, French, Spanish, and other European language
 * Produced a system to analyze existing warranty data and parts data to discern instances of “over-repair”. This system resulted in $1 million in monthly savings.
 
-## UNI/CARE Systems, Inc. ##  
+## UNI/CARE Systems, Inc. ##
+
 _System Engineer, 1992 - 1995, Troy, MI_
 * Deployed and maintained UNIX infrastructure for networked health facilities.
 
@@ -114,6 +122,7 @@ _System Engineer, 1992 - 1995, Troy, MI_
 ### Patents
 
 ##### Server-based systems and methods for enabling interactive, collabortive thin-and no-client image-based applications
+
 *Issued March 2007, US Patent: 11/688132*
 
 A server receives image, graphic and/or analytic data and processes and asynchronously outputs that data to a thin/no client. The server inputs image data in a variety of different formats and renders a normalized format that can be streamed to the thin/no client using light-weight protocol(s). The server updates the image, feature and/or analytic data in real time. The server inputs feature, analytic, business logic and other data and process it into various format(s) that can be streamed to the thin/no client and overlaid on the image data.
@@ -122,17 +131,20 @@ The server provides application services, which can include collaboration, track
 web pages.
 
 ##### Analysis of time-based geospatial mashups using AD HOC visual queries
+
 *Issued, December 2007, US Patent: 12/005334, also issued as US8230333*
 
 An apparatus in one example has an analytical environment for mashup data having visual analysis metaphors, and linking and correlation functionality among the visual analysis metaphors. A system may have: at least one store having a predetermined floor plan layout; at least one predetermined location on the predetermined floor plan layout for displaying at least one product; analytical environment for mashup data having visual analysis metaphors, the mashup data formed from data indicative of the predetermined floor plan layout, and data indicated of sales of the at least one product; and linking and correlation functionality among the visual analysis metaphors through a web browser. In one example, a plurality of products may be positioned on a plurality of shelves, and may be depicted in a geographical display. Sales of each product may be depicted in a in time line display that is linked to the
 geographical display.
 
 ##### Systems and methods for visualizing arguments
+
 *Issued, January 2006, US Patent: 11/331309*
 
 Hypotheses are questions of interest to an observer. Evidence are facts that establish or disprove hypotheses or sub-hypotheses. Inferences are logical links that connect facts to hypotheses as evidence. An argument is a set of facts linked by inferences to support or disprove a given hypothesis. Hypotheses, sub-hypothesis, facts, evidence, inference and arguments are visualized using a plurality of interrelated graphical user interfaces. A main visualization screen includes a fact visualization portion, a hypothesis visualization portion and an argument construction visualization portion. The evidence visualization portion comprises an evidence display portion, an evidence details portion and visualization selection widgets that allow different evidence visualization or marshaling techniques to be applied to visualize the facts. The argument construction visualization potion allows hypotheses, sub-hypotheses and conjectures to be associated into an argument, facts to be associated and inference links to be added to link the facts to various ones of the hypotheses.
 
 ##### Platform for real-time tracking and analysis
+
 *Issued, February 2008, US Patent: 12/070976*
 
 An apparatus in one example has: at least one of an identification tag and a video feed associated with at least one asset; at least one real time location server that operatively interfaces with the at least one of the identification tag and the video feed; and real-time data analysis and tracking system that ingests asset location data for at least one asset from at least one real time location server. The real time data analysis and tracking system may have a real-time alerting rules engine. Assets being tracked may be organized into at least categories and groups, the categories may be used to manipulate visibility of sets of assets in a portal, and the groups may be used by the real-time alerting rules engine.
@@ -140,6 +152,7 @@ An apparatus in one example has: at least one of an identification tag and a vid
 -------------------------------------------------------------------------------
 
 ## Select Presentations ##
+
 * Big Data Happiness, [SPIE.DSS Conference](http://spie.org/x6765.xml), Baltimore, Maryland, April 20, 2015<!-- For most organizations, Big Data is an ocean of suffering. In this paper we discuss the root causes of this suffering (ambiguity and scale), methods for reducing it (refinement and unification), and practices to stop creating more of it (sustainable data operations and management). We also present a fully implemented compute and storage apparatus that embodies these methods and practices, which NGA calls the GeoInt Data & Analytics Cloud (GDAC). We describe how GDAC and motion imagery standards, quality, and interoperability reinforce each other to operationalize diverse data at scale, creating an ideal platform for ABI, and thereby transform an ocean of suffering into Big Data happiness. -->
 * The Conceptual Underpinnings for Ultra-Large Scale, Unified Data-space Management, [Oak Ridge National Labs](http://www.ornl.gov) Seminar, Oak Ridge, Tennessee, February 7, 2012
 * [Defense Geospatial Intelligence](http://dgi.wbresearch.com/), London, UK. Chaired “Creating new value through effective use of Multi-Int” day, January 2012
