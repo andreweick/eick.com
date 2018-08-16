@@ -8,7 +8,8 @@ googleAnalytics = ""
 languageCode = "en-us"
 themesDir = "layout_modules"
 #theme = "hugo-base-layouts"
-
+[blackfriday]
+fractions = false
 [params]
 description = "The Personal Website of Andrew Eick"
 logo = ""
