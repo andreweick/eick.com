@@ -12,13 +12,6 @@ sections:
   templates:
   - default
   - home
-- type: directory
-  path: content/cv
-  label: About
-  create: all
-  match: "**/*"
-  templates:
-  - default
 - path: content/family
   label: Family
   create: all
