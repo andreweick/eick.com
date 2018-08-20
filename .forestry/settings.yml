@@ -12,19 +12,32 @@ sections:
   templates:
   - default
   - home
-- path: content/family
+- type: directory
+  path: content/cv
+  label: About
+  create: all
+  match: "**/*"
+  templates:
+  - default
+- type: directory
+  path: content/family
   label: Family
   create: all
+  match: "**/*"
   templates:
   - article
-- path: content/history
+- type: directory
+  path: content/history
   label: History
   create: all
+  match: "**/*"
   templates:
   - article
-- path: content/snapshot
+- type: directory
+  path: content/snapshot
   label: Snapshot
   create: all
+  match: "**/*"
   templates:
   - article
 upload_dir: static/uploads
