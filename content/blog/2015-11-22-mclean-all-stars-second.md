@@ -12,7 +12,7 @@ featured_image: "/photographs/2000s/2010s/2015/11/2015-11-21/20151121-0331.jpg"
 published: true
 ---
 
-##McLean All Star Tournament Day 1
+_McLean All Star Tournament Day 1_
 
 !["McLean All Star Tournament Day 1, #01"],(https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0031.jpg")
 !["McLean All Star Tournament Day 1, #02"],(https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0104.jpg")
