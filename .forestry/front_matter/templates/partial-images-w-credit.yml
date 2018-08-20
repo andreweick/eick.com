@@ -9,12 +9,12 @@ fields:
     name: image
     label: Image
   - type: text
-    name: credit
-    label: Credit
-    description: optional
-  - type: text
     name: caption
     label: caption
+    description: optional
+  - type: text
+    name: credit
+    label: Credit/Data
     description: optional
   label: Images
   name: images
