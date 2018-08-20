@@ -1,0 +1,18 @@
+---
+layout: null
+---
+#EXTM3U
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=5149287,BANDWIDTH=5191508,CODECS="mp4a.40.2, avc1.4d001f",RESOLUTION=960x540
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Broadband%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=2595107,BANDWIDTH=2617412,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Broadband%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=475751,BANDWIDTH=505796,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Cellular%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=228501,BANDWIDTH=308320,CODECS="mp4a.40.2, avc1.42e015",RESOLUTION=428x240
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Cellular%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=1267606,BANDWIDTH=1292688,CODECS="mp4a.40.2, avc1.4d001e",RESOLUTION=640x360
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Wi-Fi%20High.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=757062,BANDWIDTH=791706,CODECS="mp4a.40.2, avc1.42001e",RESOLUTION=640x360
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Wi-Fi%20Low.segments/prog_index.m3u8
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=35989,BANDWIDTH=38404,CODECS="mp4a.40.2"
+{{ site.mediaUrlRoot }}/static/video/2015-12-18-libby-jury/Libby%20Jury-Audio%20for%20HTTP%20Live%20Streaming.segments/prog_index.m3u8

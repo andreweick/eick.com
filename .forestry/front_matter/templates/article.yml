@@ -1,0 +1,17 @@
+---
+label: article
+hide_body: false
+is_partial: false
+fields:
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
+  name: date
+  label: date
+  template: partial-date
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit

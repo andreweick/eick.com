@@ -1,0 +1,11 @@
+{{ $currentPage := . }}
+<div class="color-inherit bg-inherit">
+  <div class="lg:flex flex-col justify-between text-3xl">
+    <h1 class="py-4 px-6">
+      <a href="/" class="no-underline text-4xl text-grey">
+        {{ .Site.Title }}
+      </a>
+    </h1>
+    {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
+  </div>    
+</div>

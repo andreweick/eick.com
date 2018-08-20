@@ -1,0 +1,27 @@
+/* play-400normal - latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Play Regular '),
+    local('Play-Regular'),
+    url(/fonts/play-latin-4007e006e4d6a3a254cfc58679951d82921.woff2) format('woff2'), 
+    url(/fonts/play-latin-400f9cb7fa433c92701d330e326ada7c36d.woff) format('woff'); /* Modern Browsers */
+}
+
+/* play-700normal - latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Play Bold '),
+    local('Play-Bold'),
+    url(/fonts/play-latin-700c4ef08c1f72385e8f4632bce7777006e.woff2) format('woff2'), 
+    url(/fonts/play-latin-70092afb45cd2eadadc925f406ae59b19ea.woff) format('woff'); /* Modern Browsers */
+}
+
+

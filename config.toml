@@ -1,0 +1,91 @@
+title = "Andrew Eick"
+DefaultContentLanguage = "en"
+MetaDataFormat = "yaml"
+buildFuture = true
+baseURL = "https://www.eick.com"
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+themesDir = "layout_modules"
+#theme = "hugo-base-layouts"
+[blackfriday]
+fractions = false
+[params]
+description = "The Personal Website of Andrew Eick"
+logo = ""
+
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1.0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2.0
+
+# [[menu.main]]
+# identifier = "archive"
+# name = "Archive"
+# url = "/archive/"
+# weight = 3.0
+
+# [[menu.main]]
+# identifier = "family"
+# parent = "archive"
+# name = "Family"
+# url = "/family/"
+# weight = 3.0
+
+# [[menu.main]]
+# identifier = "history"
+# parent = "archive"
+# name = "History"
+# url = "/history/"
+# weight = 3.0
+
+# [[menu.main]]
+# identifier = "snapshot"
+# parent = "archive"
+# name = "Snapshot"
+# url = "/snapshot/"
+# weight = 3.0
+
+
+[taxonomies]
+series = "series"
+tag = "tags"
+
+
+[mediaTypes]
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
+
+
+[outputFormats]
+
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputFormats.REDIR]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+
+[outputs]
+home = [
+"HTML",
+"HEADERS",
+"REDIR"
+]
