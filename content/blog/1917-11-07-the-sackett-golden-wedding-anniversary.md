@@ -38,7 +38,7 @@ This happy anniversary not only brought joy to the Sackett family, but to this c
 
 ![Written on the back of the photograph](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/600x600/photos/sackett-family-1917-back.jpg)
 
-![Newspaper clipping commemorating the day](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/sackett-family-golden-1917-newspaper.jpeg)
+![Newspaper clipping commemorating the day](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/900x900/photos/sackett-family-golden-1917-newspaper.jpeg)
 
 [^1]:
 
