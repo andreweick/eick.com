@@ -13,13 +13,9 @@ tags:
 draft: false
 ---
 
-Memories of the Civil War, as told to Winterset Women's Club, _October 9, 1914_
+# Memories of the Civil War, as told to Winterset Women's Club, _October 9, 1914_
 
-Civil War Nurse
-
-![Emma French Sackett](https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett_emma.jpg)
-
-Emma French Sackett (Eick great grandmother)
+## Civil War Nurse
 
 Today I am living in the dim and hazy past, as I reread the treasured letters received in time of the Civil War. While there is such of sadness, there is great interest in reviewing those days of fifty years ago, when our country was in a turmoil in every part, when friend and foe were on every hand. The traitors were not all below Mason & Dixon’s line, but Copperheads, like the reptile name they bore, striking in the dark were in our very midst and had they dared, in their bitterness, would have taken the lives of many. From the time of the John Brown raid, capturing the government arsenal at Harper’s Ferry, Va., in the autumn of 1857, there was much bitter feeling, which could not be smothered, and was aggravated by the election of Lincoln to the presidency in the fall of 1860, followed by the seceding of several of the southern states in February, 1861. The distant rumbling of war culminated in the firing on Ft. Sumpter, April 14, 1861, which found the North wholly unprepared for war, while the South had prepared in many ways. Most of the men at the head of government affairs were slaveholders, so that through them great aid was given the South and crippled the North, and men who had received their military education at West Point, through the generosity of the government, became leading officers in the rebel army.
 
@@ -96,3 +92,7 @@ Presented before the Winterset Women's Club October 9, 1914 and reprinted in the
 After the war, she went back home and was married to George Sackett on November 06, 1867 at Eddyville. They first lived in Denmark, Lee County where their first child, Frank, was born. In 1870 they moved to Grand River Township, Adair County, Iowa where they farmed and had four more children, Carrie, Anna, Ida and Erwin.
 
 Retiring from farming in 1896, they moved to Winterset where they spent the remainder of their years on West Court Avenue. George passed away in April, 1922 and Emma in May, 1924. Quoting from her obituary "She was a woman of unusual grace and refinement, and one whose long and useful life was an impress for good among her friends and associates."
+
+![Emma French Sackett](https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett_emma.jpg)
+
+Emma French Sackett (Libby's 3rd great grandmother)
