@@ -4,7 +4,7 @@ categories:
   - history
 date: "1914-10-09"
 description: A speech by Emma Sackett remembering her time as a Civil War nurse.
-slug: memroies-of-the-civil-war
+slug: memories-of-the-civil-war
 tags:
   - civil-war
   - newspaper
