@@ -11,8 +11,10 @@ tags:
 draft: false
 ---
 
+<!--
 featured_image: "/photographs/2000s/2010s/2015/03/2015-03-13/20150313-0001.jpg"
 images: "2015-03-16-libby-plays-harpsichord"
+ -->
 
 Libby playing the Harpsichord at Levine School of Music.
 
