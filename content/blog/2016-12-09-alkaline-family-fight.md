@@ -13,7 +13,6 @@ description: "Jasmine's 8th grade science class skit"
 Jasmine's 8th grade science class skit.
 
 <video
-  width='100%'
   src='https://s3.amazonaws.com/media.eick.com/video/2016-12-10-alkaline-family-fight/alkaline-family-fight(2016).m3u8'
   controls
   poster='https://d1yey5ck8hkfrc.cloudfront.net/fit-in/640x640/photos/20151122-0892.jpg'>
