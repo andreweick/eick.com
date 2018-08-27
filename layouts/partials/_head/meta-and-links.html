@@ -25,7 +25,7 @@
 {{ else }}
   {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/config/postcss.config.js")  | minify | fingerprint }}  
   {{ with $style }}
-    <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"> 
   {{ end }}
   
 {{ end }}
