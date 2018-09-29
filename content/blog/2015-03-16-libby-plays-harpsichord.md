@@ -1,11 +1,10 @@
 ---
 title: Libby Plays Harpsichord
-categories:
-  - piano
 date: "2015-03-16"
 description: Libby playing harpsichord for a master class at Levine School of Music.
 tags:
   - harpsichord
+  - piano
   - audio
   - libby
 draft: false

@@ -1,7 +1,5 @@
 ---
 title: Memories of the Civil War, 1914
-categories:
-  - history
 date: "1914-10-09"
 description: A speech by Emma Sackett remembering her time as a Civil War nurse.
 slug: memories-of-the-civil-war
@@ -12,6 +10,10 @@ tags:
   - family-tree
 draft: false
 ---
+
+![Emma French Sackett](https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett_emma.jpg)
+
+Emma French Sackett (Libby's 3rd great grandmother)
 
 # Memories of the Civil War, as told to Winterset Women's Club, _October 9, 1914_
 
@@ -92,7 +94,3 @@ Presented before the Winterset Women's Club October 9, 1914 and reprinted in the
 After the war, she went back home and was married to George Sackett on November 06, 1867 at Eddyville. They first lived in Denmark, Lee County where their first child, Frank, was born. In 1870 they moved to Grand River Township, Adair County, Iowa where they farmed and had four more children, Carrie, Anna, Ida and Erwin.
 
 Retiring from farming in 1896, they moved to Winterset where they spent the remainder of their years on West Court Avenue. George passed away in April, 1922 and Emma in May, 1924. Quoting from her obituary "She was a woman of unusual grace and refinement, and one whose long and useful life was an impress for good among her friends and associates."
-
-![Emma French Sackett](https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett_emma.jpg)
-
-Emma French Sackett (Libby's 3rd great grandmother)

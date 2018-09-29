@@ -2,13 +2,12 @@
 title: Libby Choir Practice
 date: 2016-12-17 09:38
 author: Andy Eick
-category:
-  - choir
 tags:
   - video
   - bel-canto
   - ccw
 description: "Libby's Choir (CCW Bel Canto) Practice"
+draft: false
 ---
 
 Libby's choir practice.

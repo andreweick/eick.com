@@ -1,7 +1,5 @@
 ---
 title: Sackett Golden Wedding Anniversary
-categories:
-  - history
 date: "1917-11-07"
 description: Newspaper story from 1917 describing Cassander Sackett anniversary
 slug: sackett-golden-wedding-anniversary

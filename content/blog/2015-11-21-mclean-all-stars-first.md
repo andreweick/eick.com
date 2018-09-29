@@ -3,14 +3,11 @@ layout: post
 title: McLean All Stars First
 date: 2015-11-21 09:35
 author: Andy Eick
-categories:
-  - soccer
 tags:
   - all-star
   - soccer
   - jasmine
-featured_image: "/photographs/2000s/2010s/2015/11/2015-11-21/20151121-0472.jpg"
-published: True
+draft: false
 ---
 
 ![McLean All Star Tournament 01](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0002.jpg)

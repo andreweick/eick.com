@@ -2,12 +2,11 @@
 title: Alkaline Family Fight
 date: 2016-12-09 09:38
 author: Andy Eick
-category:
-  - family
 tags:
   - jasmine
   - video
 description: "Jasmine's 8th grade science class skit"
+draft: false
 ---
 
 Jasmine's 8th grade science class skit.
