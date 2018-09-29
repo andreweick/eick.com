@@ -15,7 +15,9 @@ draft: false
 
 Emma French Sackett (Libby's 3rd great grandmother)
 
-# Memories of the Civil War, as told to Winterset Women's Club, _October 9, 1914_
+# Memories of the Civil War, as told to Winterset Women's Club
+
+_October 9, 1914_
 
 ## Civil War Nurse
 
