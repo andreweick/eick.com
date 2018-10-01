@@ -25,4 +25,4 @@ Jasmine's 8th grade science class skit.
 </video>
  -->
 
-_If the video above doesn't play, you can see it on [here on vimeo](https://vimeo.com/195028882)._
+_If the video above doesn't play, you can see it [here on vimeo](https://vimeo.com/195028882)._
