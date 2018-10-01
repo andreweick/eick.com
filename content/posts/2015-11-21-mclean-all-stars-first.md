@@ -8,42 +8,81 @@ tags:
   - soccer
   - jasmine
 draft: false
+images:
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0002.jpg"
+    description: "McLean All Star Tournament 01"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0009.jpg"
+    description: "McLean All Star Tournament 02"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0112.jpg"
+    description: "McLean All Star Tournament 03"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0145.jpg"
+    description: "McLean All Star Tournament 04"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0353.jpg"
+    description: "McLean All Star Tournament 07"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0379.jpg"
+    description: "McLean All Star Tournament 08"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0392.jpg"
+    description: "McLean All Star Tournament 09"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0431.jpg"
+    description: "McLean All Star Tournament 10"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0472.jpg"
+    description: "McLean All Star Tournament 11"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0562.jpg"
+    description: "McLean All Star Tournament 12"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0693.jpg"
+    description: "McLean All Star Tournament 13"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0716.jpg"
+    description: "McLean All Star Tournament 14"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0759.jpg"
+    description: "McLean All Star Tournament 15"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0799.jpg"
+    description: "McLean All Star Tournament 16"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0812.jpg"
+    description: "McLean All Star Tournament 17"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-1005.jpg"
+    description: "McLean All Star Tournament 18"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-1027.jpg"
+    description: "McLean All Star Tournament 19"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0088.jpg"
+    description: "McLean All Star Tournament 20"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0152.jpg"
+    description: "McLean All Star Tournament 21"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0163.jpg"
+    description: "McLean All Star Tournament 22"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0220.jpg"
+    description: "McLean All Star Tournament 23"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0236.jpg"
+    description: "McLean All Star Tournament 24"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0238.jpg"
+    description: "McLean All Star Tournament 25"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0271.jpg"
+    description: "McLean All Star Tournament 26"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0285.jpg"
+    description: "McLean All Star Tournament 27"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0346.jpg"
+    description: "McLean All Star Tournament 28"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0372.jpg"
+    description: "McLean All Star Tournament 29"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0512.jpg"
+    description: "McLean All Star Tournament 39"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0855.jpg"
+    description: "McLean All Star Tournament 40"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0892.jpg"
+    description: "McLean All Star Tournament 41"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0934.jpg"
+    description: "McLean All Star Tournament 42"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0937.jpg"
+    description: "McLean All Star Tournament 43"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0962.jpg"
+    description: "McLean All Star Tournament 44"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0975.jpg"
+    description: "McLean All Star Tournament 45"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0981.jpg"
+    description: "McLean All Star Tournament 46"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0985.jpg"
+    description: "McLean All Star Tournament 47"
+  - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0986.jpg"
+    description: "McLean All Star Tournament 48"
 ---
 
-![McLean All Star Tournament 01](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0002.jpg)
-![McLean All Star Tournament 02](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0009.jpg)
-![McLean All Star Tournament 03](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0112.jpg)
-![McLean All Star Tournament 04](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0145.jpg)
-![McLean All Star Tournament 07](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0353.jpg)
-![McLean All Star Tournament 08](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0379.jpg)
-![McLean All Star Tournament 09](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0392.jpg)
-![McLean All Star Tournament 10](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0431.jpg)
-![McLean All Star Tournament 11](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0472.jpg)
-![McLean All Star Tournament 12](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0562.jpg)
-![McLean All Star Tournament 13](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0693.jpg)
-![McLean All Star Tournament 14](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0716.jpg)
-![McLean All Star Tournament 15](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0759.jpg)
-![McLean All Star Tournament 16](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0799.jpg)
-![McLean All Star Tournament 17](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0812.jpg)
-![McLean All Star Tournament 18](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-1005.jpg)
-![McLean All Star Tournament 19](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-1027.jpg)
-![McLean All Star Tournament 20](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0088.jpg)
-![McLean All Star Tournament 21](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0152.jpg)
-![McLean All Star Tournament 22](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0163.jpg)
-![McLean All Star Tournament 23](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0220.jpg)
-![McLean All Star Tournament 24](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0236.jpg)
-![McLean All Star Tournament 25](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0238.jpg)
-![McLean All Star Tournament 26](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0271.jpg)
-![McLean All Star Tournament 27](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0285.jpg)
-![McLean All Star Tournament 28](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0346.jpg)
-![McLean All Star Tournament 29](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0372.jpg)
-![McLean All Star Tournament 39](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0512.jpg)
-![McLean All Star Tournament 40](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0855.jpg)
-![McLean All Star Tournament 41](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0892.jpg)
-![McLean All Star Tournament 42](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0934.jpg)
-![McLean All Star Tournament 43](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0937.jpg)
-![McLean All Star Tournament 44](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0962.jpg)
-![McLean All Star Tournament 45](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0975.jpg)
-![McLean All Star Tournament 46](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0981.jpg)
-![McLean All Star Tournament 47](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0985.jpg)
-![McLean All Star Tournament 48](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0986.jpg)
+_McLean All Star Tournament Day 1_
