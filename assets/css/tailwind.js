@@ -974,7 +974,7 @@ module.exports = {
 		center: true,
 		padding: "4rem",
 	}),
-	require("./../plugins/css-grid.js")({
+	require("./plugins/css-grid.js")({
 		grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
 		gaps: {
 			0: "0",
