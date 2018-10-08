@@ -1,6 +1,6 @@
 ---
 date: {{ .Date }}
-description: 
+description: ""
 images: [""]
 type:
 draft: true
