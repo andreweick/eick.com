@@ -29,32 +29,18 @@ name = "About"
 url = "/about/"
 weight = 2.0
 
-# [[menu.main]]
-# identifier = "archive"
-# name = "Archive"
-# url = "/archive/"
-# weight = 3.0
+[[menu.main]]
+identifier = "notes"
+name = "notes"
+url = "/notes/"
+weight = 4.0
 
-# [[menu.main]]
-# identifier = "family"
-# parent = "archive"
-# name = "Family"
-# url = "/family/"
-# weight = 3.0
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 3.0
 
-# [[menu.main]]
-# identifier = "history"
-# parent = "archive"
-# name = "History"
-# url = "/history/"
-# weight = 3.0
-
-# [[menu.main]]
-# identifier = "snapshot"
-# parent = "archive"
-# name = "Snapshot"
-# url = "/snapshot/"
-# weight = 3.0
 
 
 [taxonomies]
