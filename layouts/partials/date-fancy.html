@@ -1,0 +1,12 @@
+<div class="inline-block rounded-t overflow-hidden bg-green-lightest text-center w-24">
+  <div class="bg-red-darkg ftext-white pt-1">
+        {{ .Format "Jan" }}
+  </div>
+  <div class="border-l border-r">
+      <span class="text-3xl font-bold">  {{ .Format "2" }}</span>
+  </div>
+  <div class="pb-2 px-2 border-l border-r border-b rounded-b flex justify-between">
+      <span class="text-xs font-bold">  {{ .Format "Mon" }}</span>
+      <span class="text-xs font-bold"> {{ .Format "2006" }}</span>
+  </div>
+</div>

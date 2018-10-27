@@ -1,5 +1,6 @@
-{{ $image := index (.Params.images) 0 }}
+{{ $image := .Params.images }}
 {{ with $image }}
+  {{ $image := index . 0 }}
   {{ if in (print $.Site.BaseURL) "localhost" }}
     <img data-src="{{ . }}" src="/images/placeholder.svg" class="lazyload mw-100">
   {{ else }}

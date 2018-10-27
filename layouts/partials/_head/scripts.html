@@ -1,6 +1,8 @@
-{{ $js := resources.Get "output/js/app.js" | resources.Fingerprint }}
-{{ with $js }}
-  <script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ end }} 
-  
-
+<!-- scripts -->
+{{ if (fileExists "./assets/output/js/app.js") -}}
+  {{ $scripts := resources.Get "output/js/app.js" | fingerprint }}
+  {{ with $scripts }}    
+    <script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+    {{ $.Scratch.Set "scripts" $scripts }}    
+  {{end}} 
+{{end}} 

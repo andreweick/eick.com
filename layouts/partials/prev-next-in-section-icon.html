@@ -1,8 +1,20 @@
-<div class="flex flex-wrap justify-between text-lg text-grey-dark">
+<div class="inline-block flex xl:flex-col mx-8 text-center justify-between text-lg text-grey-dark xl:mt-16">
   {{ with .PrevInSection }}
-    <a href="{{ .URL }}" class="hidden lg:block fixed pin-l md:mt-32 bg-grey-light hover:bg-grey hover:text-white  no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&laquo;</a>
+    <a href="{{ .URL }}" class="lg:inline-block  xl:mt-4  hover:text-white  no-underline color-inherit text-black rounded text-4xl" title="{{ .Title }}">&laquo;</a>
   {{ end }}
   {{ with .NextInSection }}
-    <a href="{{ .URL }}" class="hidden lg:block fixed pin-r md:mt-32 bg-grey-light hover:bg-grey hover:text-white no-underline color-inherit px-6 py-1 rounded text-4xl" title="{{ .Title }}">&raquo;</a>
+    <a href="{{ .URL }}" class="lg:inline-block  xl:mt-4  hover:text-white no-underline color-inherit text-black ounded text-4xl" title="{{ .Title }}">&raquo;</a>
   {{ end }}
 </div>
+<script>
+    document.body.onkeyup = function(e){
+
+      {{ if .PrevInSection }}
+        if (e.keyCode == '37') { window.location = '{{ .PrevInSection.Permalink }}'; }
+      {{ end }}
+      {{ if .NextInSection }}
+        if (e.keyCode == '39') { window.location = '{{.NextInSection.Permalink }}'; }
+      {{ end }}
+    };
+
+  </script>

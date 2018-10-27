@@ -11,11 +11,7 @@
 {{ end }}
 
 
-{{ $stylesheet := resources.Get "output/css/app.css" | minify | fingerprint }}
-{{ with $stylesheet }}
-  <link rel="stylesheet" href="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"> 
-{{ end }}
-
+{{partial "_head/stylesheets.html" .}}
 
 {{ partial "_head/manifest.html" . }}
 

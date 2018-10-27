@@ -1,0 +1,10 @@
+<div class="xl:mt-32 xl:mb-8 flex xl:flex-col items-center justify-between">
+  {{ if ne .Type "page"}}
+    {{ with .Type }}
+      <h4 class="inline-block flex-grow transform-90 px-6 xl:px-0 text-white text-3xl xl:text-4xl tracking-wide uppercase ml-0">
+        {{.}}
+      </h4>
+    {{ end }}
+  {{ end }}
+  {{partial "prev-next-in-section-icon.html" .}}
+</div>
