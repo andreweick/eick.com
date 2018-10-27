@@ -1,6 +1,6 @@
 ---
 title: Libby Choir Practice
-date: 2016-12-17 09:38
+date: 2016-12-17
 author: Andy Eick
 tags:
   - video

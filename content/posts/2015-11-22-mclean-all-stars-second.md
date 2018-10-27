@@ -7,7 +7,7 @@ tags:
   - soccer
   - jasmine
 draft: false
-images:
+gallery:
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0031.jpg"
     description: "McLean All Star Tournament Day 1, #01"
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0104.jpg"
