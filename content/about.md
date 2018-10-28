@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About M. Andrew Eick
-permalink: /about/
 images:
   - /images/andyeick.jpg
 ---

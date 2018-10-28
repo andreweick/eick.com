@@ -1,20 +1,53 @@
-<article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-4">
-  {{- partial "_components/page-heading.html" . -}}
+<article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-4 pb-16">
+  
+  <section class="nested-copy-line-height text-xl nested-no-underlines nested-img mid-gray">
 
-  <section class="nested-copy-line-height leading-normal text-xl nested-no-underlines nested-imgTK mid-gray">
+    {{if eq .Type "notes"}}
+      {{partial "_components/image-single.html" .}}
+    {{else}}
+      {{partial "_components/image-article.html" .}}
+    {{end}}
 
-  {{ if (or (eq .Section "article") (eq .Section "event")) }}
-    {{ if .Date }}
-      {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
+    {{if eq .Type "bookmark"}}
+      {{$bookmark := .Params.bookmark }}
+      {{ with .Description }}
+        <blockquote class="text-3xl max-w-lg mx-auto my-32 font-brand leading-loose">
+          {{.}}
+          {{ with $bookmark }}
+            <span class="block font-sans ml-4 font-semibold text-sm">
+                {{ replaceRE "^https?://([^/]+).*" "$1" . | safeHTMLAttr }} {{ partial "svg/link-external.svg" (dict "size" "12") }}
+            </span>
+          {{ end }}
+        </blockquote>
+      {{ end }}
+    {{end}}
+
+    {{if eq .Type "quote"}}
+      {{$author := .Params.author }}
+      {{ with .Description }}
+        <blockquote class="text-3xl max-w-lg mx-auto my-32 font-brand leading-loose">
+          {{.}}
+          {{ with $author }}
+            <span class="block font-sans ml-4 font-semibold text-sm">
+              — {{ . }}
+            </span>
+          {{ end }}
+        </blockquote>
+      {{ end }}
+    {{end}}
+
+    {{/* GALLERY */}}
+    {{with .Params.gallery}}
+      {{range first 50 .}}
+        {{with .url}}
+          <img data-src="{{.}}" alt="" class="lazyload h-64 mr-2 my-2" style="flex-basis:10%;">
+        {{end}}
+      {{ end }}
     {{ end }}
-  {{ end }}
 
-    {{partial "_components/image-article.html" .}}
     {{/* {{partial "_components/description.html" .}} */}}
+    {{partial "_components/link-to-original.html" (dict "item" .)}}
 
     {{ .Content }}
-    {{partial "_components/venue.html" .}}
-
-    {{partial "_components/link-to-original.html" (dict "item" .)}}
   </section>
 </article>

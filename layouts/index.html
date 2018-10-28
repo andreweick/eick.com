@@ -1,7 +1,26 @@
 {{ define "main" }}
-  <div class="h-screen flex flex-col items-center justify-center">
+  <div class="flex flex-coltk flex-wrap items-center justify-center">
+      {{ $pages := where (where .Site.RegularPages "Section" "posts") ".Params.gallery" "ne" nil }}
       
-        <h1 class="">Andrew Eick</h1>
+
+    {{ range $pages }}
+
+
+      {{ with .Params.gallery }}
+      {{ range first 5 . }}
+
+
+      {{with .url}}
+      <img data-src="{{.}}" alt="" class="lazyload h-64 mr-2 my-2" style="flex-basis:10%;">
+      {{end}}
+      
+        
+      {{ end }}
+      {{ end }}
+      
+    {{ end }}
+
+
       
   </div>
 {{ end }}

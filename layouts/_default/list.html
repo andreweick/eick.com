@@ -1,26 +1,17 @@
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
-  <div class="page-list_default mx-auto min-h-screen">
-
-    <div class="mb-16">
-      {{- partial "_components/page-heading.html" . -}}
+{{partial "page-header.html" .}}
+  <div class="mx-auto min-h-screen grid grid-1-3">
+    <div class="bg-orange text-black">
+      {{partial "post-navigation.html" .}}
     </div>
-
-    <div class="lg:flex flex-wrap lg:flex-row-reverse mx-auto">
-
-      <aside class="lg:w-1/3 lg:px-8 pb-8">
-      {{/**   {{- partial "_components/category-tag-listing.html" . -}} **/}}
-      </aside>
-
-      <section class="lg:w-2/3 pt5 min-vh-100">
-        <div class="list-display">
-          {{ range .Paginator.Pages }}
-            {{- partial "summary.html" . -}}
-          {{ end }}
-        </div>
-      </section>
+    <div>      
+      {{ range .Paginator.Pages }}
+        {{partial "summary.html" .}}
+      {{ end }}
+      {{partial "_global/footer.html" .}}     
     </div>
-
-    {{- template "_internal/pagination.html" . -}}
   </div>
 {{ end }}
+
+
+          
