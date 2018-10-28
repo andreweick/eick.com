@@ -66,12 +66,12 @@ let colors = {
 	'transparent': 'transparent',
 	
 	'grey-blue-lightest' : '#F8FBFD',
-'grey-blue-lighter' : '#E3EEF7',
-'grey-blue-light' : '#CDE1F1',
-'grey-blue' : '#B8D4EB',
-'grey-blue-dark' : '#A6BFD4',
-'grey-blue-darker' : '#6E7F8D',
-'grey-blue-darkest' : '#374047',
+  'grey-blue-lighter' : '#E3EEF7',
+  'grey-blue-light' : '#CDE1F1',
+  'grey-blue' : '#B8D4EB',
+  'grey-blue-dark' : '#A6BFD4',
+  'grey-blue-darker' : '#6E7F8D',
+  'grey-blue-darkest' : '#374047',
 
   'black': '#090909',
   'grey-darkest': '#3d4852',
@@ -618,6 +618,7 @@ module.exports = {
   minHeight: {
     '0': '0',
     'full': '100%',
+    'half': '50vh',
     'screen': '100vh'
   },
 

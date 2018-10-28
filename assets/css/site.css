@@ -30,6 +30,7 @@ body {
    }
    .transform-90 {
     transform: rotate(-90deg);
+    @apply text-4xl;
  }
   
  }

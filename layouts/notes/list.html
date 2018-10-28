@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{$quote := (where .Pages "Type" "quote") | shuffle }}
+  <div class="mx-auto min-h-screen grid grid-1-3">
+    <div class="bg-orange text-black">
+      {{partial "post-navigation.html" .}}
+    </div>
+    <div>
+      <div class="mx-auto max-w-lg py-2 lg:pt-5 px-4 pt-16 pb-16 min-h-screen">      
+        {{range first 1 $quote}}
+          {{partial "type-quote" .}}        
+        {{end}}
+        {{range first 1 .Pages.Reverse}}
+          <a href="{{.Permalink}}" class="block no-underline text-black hover:underline text-xl">next &raquo;</a>
+        {{end}}
+      </div>
+      <div>
+        {{partial "_global/footer.html" .}}     
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+
+        

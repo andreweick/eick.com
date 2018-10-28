@@ -1,13 +1,17 @@
 {{ define "main" }}
-{{partial "page-header.html" .}}
+
   <div class="mx-auto min-h-screen grid grid-1-3">
     <div class="bg-orange text-black">
       {{partial "post-navigation.html" .}}
     </div>
-    <div>      
-      {{ range .Paginator.Pages }}
-        {{partial "summary.html" .}}
-      {{ end }}
+    <div class="mx-auto px-4 py-16">      
+      <div class="max-w-lg grid grid-columns-4 grid-gap-4 min-h-screen">
+          {{ range .Paginator.Pages }}
+          <div>
+              {{partial "summary.html" .}}
+          </div>
+        {{ end }}
+      </div>
       {{partial "_global/footer.html" .}}     
     </div>
   </div>

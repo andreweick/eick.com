@@ -1,4 +1,4 @@
-<article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-4 pb-16">
+<article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-4 pt-16 pb-16 min-h-screen">
   
   <section class="nested-copy-line-height text-xl nested-no-underlines nested-img mid-gray">
 
@@ -23,17 +23,7 @@
     {{end}}
 
     {{if eq .Type "quote"}}
-      {{$author := .Params.author }}
-      {{ with .Description }}
-        <blockquote class="text-3xl max-w-lg mx-auto my-32 font-brand leading-loose">
-          {{.}}
-          {{ with $author }}
-            <span class="block font-sans ml-4 font-semibold text-sm">
-              — {{ . }}
-            </span>
-          {{ end }}
-        </blockquote>
-      {{ end }}
+      {{ partial "type-quote" . }}
     {{end}}
 
     {{/* GALLERY */}}
