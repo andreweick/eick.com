@@ -391,11 +391,6 @@ nav .active {
   padding-right: .75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -428,6 +423,14 @@ nav .active {
   padding-top: .75rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -450,6 +453,10 @@ nav .active {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.relative {
+  position: relative;
 }
 
 .pin-t {
@@ -607,14 +614,14 @@ nav .active {
             flex-direction: row-reverse;
   }
 
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .md\:grid {
-    display: -ms-grid;
-    display: grid;
   }
 }
 
@@ -633,6 +640,10 @@ nav .active {
 
   .lg\:pt-0 {
     padding-top: 0;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0;
   }
 
   .lg\:pt-5 {
@@ -672,17 +683,21 @@ nav .active {
     margin-bottom: 2rem;
   }
 
-  .xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .xl\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .xl\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .xl\:px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .xl\:absolute {
+    position: absolute;
   }
 
   .xl\:grid {
