@@ -10,7 +10,7 @@
     {{ end }}
   </head>
   <body class="{{.Kind}} m-0 font-sans leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-    <div id="content" class="content md:grid">      
+    <div id="content" class="content grid">      
       {{block "header" .}}      
         {{partial "_global/header.html" .}}      
       {{end}}    
