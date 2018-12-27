@@ -10,7 +10,7 @@
           {{partial "type-quote" .}}        
         {{end}}
         {{range first 1 .Pages.Reverse}}
-          <a href="{{.Permalink}}" class="block no-underline text-black hover:underline text-xl">next &raquo;</a>
+          <a href="{{.Permalink}}" class="font-bold bg-primary-color-light hover:bg-primary-color-lightest border px-2 shadow-md hover:shadow-none dim py-1 rounded inline-block no-underline text-white hover:text-primary-color-light text-xl">next &raquo;</a>
         {{end}}
       </div>
       <div>
