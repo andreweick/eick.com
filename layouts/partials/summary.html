@@ -1,9 +1,11 @@
-<div class="summary card mb-16">
-{{ if .Params.images}}
+<div class="summary max-w-xs card mb-16 border-solid border border-grey-blue-light">
+
+  {{ if .Params.images}}
   <img src="{{index (.Params.images) 0}}" class="w-full" />
 {{ end }}
 
-<section>
+
+<section class="p-4">
   <div class="font-bold text-xl mb-2">
   {{ partial "_components/item-title.html" . }}
   </div>
