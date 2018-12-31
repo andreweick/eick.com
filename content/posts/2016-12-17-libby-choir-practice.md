@@ -8,6 +8,8 @@ tags:
   - ccw
 description: "Libby's Choir (CCW Bel Canto) Practice"
 draft: false
+images: 
+ - https://s3.amazonaws.com/media.eick.com/video/2016-12-17-ccw-practice/20161217-CCW-Christmas-Rehearsal-0044.jpg
 ---
 
 Libby's choir practice.

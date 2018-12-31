@@ -4,6 +4,7 @@
 @import "tailwindcss/components";
 
 /* Modules */
+@import "modules/_hovers";
 @import "modules/_utilities";
 @import "modules/_nested";
 

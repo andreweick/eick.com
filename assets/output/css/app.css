@@ -24,6 +24,101 @@
 
 /* Modules */
 
+/*
+
+  HOVER EFFECTS
+  Docs: http://tachyons.io/docs/themes/hovers/
+
+    - Dim
+    - Glow
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
+
+*/
+
+/*
+
+  Dim element on hover by adding the dim class.
+
+*/
+
+.dim {
+  opacity: 1;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active {
+  opacity: .8;
+  -webkit-transition: opacity .15s ease-out;
+  -o-transition: opacity .15s ease-out;
+  transition: opacity .15s ease-out;
+}
+
+/*
+
+  Animate opacity to 100% on hover by adding the glow class.
+
+*/
+
+/*
+
+  Hide child & reveal on hover:
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+
+.hide-child .child {
+  opacity: 0;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in;
+}
+
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  opacity: 1;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in;
+}
+
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+
+/* Add pointer on hover */
+
+/*
+   Add shadow on hover.
+
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+*/
+
+/* Combine with classes in skins and skins-pseudo for
+ * many different transition possibilities. */
+
 h1,
 h2,
 h3,
@@ -136,6 +231,10 @@ nav .active {
   padding: 0;
 }
 
+.bg-primary-color-light {
+  background-color: #5c758f;
+}
+
 .bg-primary-color {
   background-color: #000;
 }
@@ -144,16 +243,28 @@ nav .active {
   background-color: #090909;
 }
 
+.bg-grey-darkest {
+  background-color: #3d4852;
+}
+
+.bg-grey {
+  background-color: #b8c2cc;
+}
+
 .bg-grey-lighter {
   background-color: #f1f5f8;
 }
 
-.bg-orange {
-  background-color: #f6993f;
-}
-
 .bg-green-lightest {
   background-color: #eaf0f2;
+}
+
+.hover\:bg-primary-color-lightest:hover {
+  background-color: #e8ebef;
+}
+
+.border-grey-blue-light {
+  border-color: #cde1f1;
 }
 
 .rounded {
@@ -172,6 +283,14 @@ nav .active {
 .rounded-b {
   border-bottom-right-radius: .25rem;
   border-bottom-left-radius: .25rem;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-r {
@@ -391,6 +510,11 @@ nav .active {
   padding-right: .75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -404,11 +528,6 @@ nav .active {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pt-1 {
@@ -468,12 +587,21 @@ nav .active {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
 }
 
+.hover\:shadow-none:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .fill-current {
   fill: currentColor;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-primary-color-light {
+  color: #5c758f;
 }
 
 .text-grey-blue-light {
@@ -560,10 +688,6 @@ nav .active {
   text-decoration: none;
 }
 
-.hover\:underline:hover {
-  text-decoration: underline;
-}
-
 .tracking-wide {
   letter-spacing: .05em;
 }
@@ -592,9 +716,9 @@ nav .active {
   grid-gap: 1rem;
 }
 
-.grid-columns-4 {
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+.grid-columns-2 {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 /* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
@@ -614,14 +738,28 @@ nav .active {
             flex-direction: row-reverse;
   }
 
-  .md\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+
+  .md\:grid {
+    display: -ms-grid;
+    display: grid;
   }
 }
 

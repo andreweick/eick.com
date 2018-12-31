@@ -4,6 +4,7 @@ MetaDataFormat = "yaml"
 buildFuture = true
 baseURL = "https://www.eick.com"
 enableRobotsTXT = true
+paginate = "5"
 googleAnalytics = ""
 languageCode = "en-us"
 themesDir = "layout_modules"

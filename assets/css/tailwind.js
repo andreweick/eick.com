@@ -978,7 +978,8 @@ module.exports = {
 	require("./plugins/css-grid.js")({
 		grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
 		gaps: {
-			0: "0",
+      0: "0",
+      2: ".5rem",
 			4: "1rem",
 			6: "1.5rem",
 			8: "2rem",
