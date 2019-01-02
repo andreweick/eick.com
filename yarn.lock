@@ -5140,10 +5140,22 @@ supports-color@^5.3.0, supports-color@^5.4.0, supports-color@^5.5.0:
   dependencies:
     has-flag "^3.0.0"
 
+tailwindcss-break@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-break/-/tailwindcss-break-0.1.0.tgz#bea7dc850d2e2349a6872c74da09277d72b2a096"
+  integrity sha512-CnU40nr6HBHpu05ZjMCoyFPJo8VlOklI0/yW4ke4KjVew+ezbh6XiV0Mer1oqJqQG8xiVDRHsxXk9b2MmLvJ9A==
+
 tailwindcss-flexbox-order@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-flexbox-order/-/tailwindcss-flexbox-order-1.0.0.tgz#e3cdc345400369e596ad031866d408db93ad465d"
   integrity sha512-k0DgnFhqCmojmly+GvpMv4lb1VeoSN6F8lekab99VeQDT0CjeOK+/LRAu9oumL4vnFw6gAgLoyP5dtG5TlN/4w==
+  dependencies:
+    lodash "^4.17.10"
+
+tailwindcss-multi-column@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-multi-column/-/tailwindcss-multi-column-0.2.0.tgz#2390ba326c0e0b2081a8f7b435a2f2da0c832114"
+  integrity sha512-tMDTydzqGK6qQnNol34Vajh6dJ12KG6BkfitrmPMNg/C8nx8mopJETUil8Vi0evtDVp144vPHGi7vGomYlDRfg==
   dependencies:
     lodash "^4.17.10"
 

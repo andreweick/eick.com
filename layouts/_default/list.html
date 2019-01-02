@@ -1,32 +1,14 @@
 {{ define "main" }}
-
   <div class="mx-auto min-h-screen grid grid-1-3">
     <div class="bg-grey text-black">
       {{partial "post-navigation.html" .}}
-    </div>
-    <div class="px-4 md:px-16 py-4 md:py-16 ">     
-        <div class="min-h-screen">
-
-          {{len .Pages}}
-            {{range $i, $p := (.Paginator 150).Pages}}          
-            <div class="max-w-full  md:grid grid-columns-2 grid-gap-4 hide-child">
-              {{$p}}
-                  
-                  <div class="">
-                    {{.Render "view-list-title"}}                              
-                  </div>
-      
-                    <div class="">
-                        <div class="child">
-                            {{.Summary}}
-                          </div>
-        
-                    </div>
-                  
-              
-            </div>
-            {{ end }}
-        </div>
+    </div>    
+    <div class="px-8 py-4 md:py-16 ">             
+      <div class="min-h-screen col-gap-lg md:col-count-2 lg:col-count-2 xl:col-count-3">
+        {{range $i, $p := (.Paginator 150).Pages}}                                  
+          {{- .Render "view-list-title" -}}                        
+        {{end}}
+      </div>
       {{partial "_global/footer.html" .}}     
     </div>
   </div>

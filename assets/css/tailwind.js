@@ -974,7 +974,38 @@ module.exports = {
 	require("tailwindcss/plugins/container")({
 		center: true,
 		padding: "4rem",
-	}),
+  }),
+  require('tailwindcss-multi-column')({
+    counts: [1, 2, 3, 4, 5, 6, 7],
+    gaps: {
+      'sm': '1rem',
+      'md': '1.5rem',
+      'lg': '2rem',
+    },
+    widths: {
+      'sm': '120px',
+      'md': '240px',
+      'lg': '360px',
+    },
+    rules: {
+      colors: {
+        'red': 'red',
+        'lime': 'lime',
+        'blue': 'blue',
+      },
+      widths: {
+        default: '1px',
+        'sm': '2px',
+        'md': '3px',
+      },
+    },
+    variants: ['responsive'],
+  }),
+  require('tailwindcss-break')({
+    widows: [1, 2, 3],
+    orphans: [1, 2, 3],
+    variants: [],
+  }),
 	require("./plugins/css-grid.js")({
 		grids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
 		gaps: {
