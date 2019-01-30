@@ -37,7 +37,6 @@ weight = 2.0
 
 [[menu.main]]
 identifier = "Notes"
-parent = "Notes"
 name = "Notes"
 url = "/Notes/"
 weight = 2.0
