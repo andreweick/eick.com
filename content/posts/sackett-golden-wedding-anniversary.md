@@ -1,21 +1,18 @@
 ---
-title: Sackett Golden Wedding Anniversary
-date: "1917-11-07"
-description: Newspaper story from 1917 describing Cassander Sackett anniversary
-slug: sackett-golden-wedding-anniversary
-tags:
-  - civil-war
-  - newspaper
-  - sackett
-  - family-tree
+title: "Sackett Golden Wedding Anniversary"
+author: ["M. Andrew Eick"]
+date: 1970-11-07T10:01:00-05:00
+tags: ["civilwar", "newspaper", "sackett", "familytree"]
 draft: false
+description: "Newspaper story from 1917 describing Cassander Sackett anniversary"
 ---
 
-![Sackett's in 1917.](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/sackett-family-1917.jpg)
+{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/sackett-family-1917.jpg" caption="Figure 1: Sackett's in 1917" >}}
 
-_Sal's dad (Libby's Great Grandfather) is the young man in the back row on the right._
+Sal's Dad (Libby's Great Grandfather) is the young man in the back row on the right
 
-# The Winterset Madisonin, Wednesday, November 7, 1917
+
+## The Winterset Madisonian, Wednesday, November 7, 1917 {#the-winterset-madisonian-wednesday-november-7-1917}
 
 Golden sunshine, golden wishes and golden gifts poured upon the Sackett home on Tuesday, November 6th, in celebration of the golden wedding anniversary of George Cassander Sackett and Emma Arthusa French.  A family dinner was given at the noon hour, followed by a reception for friends during the afternoon.  The children of the household arranged to gather at the parental home for a reunion.  The illness of one daughter, Mrs Carrie Youblood of Billings, Montana, prevented the completeness of the gathering.  The family included Mr. and Mrs. Frank Sackett and children, Wilbur, George, Harriet and Louise of Des Moines; Mrs Anna Sackett-Rich and son, Russell of Sioux City; Mr and Mrs. Erwin Sackett and baby Emma, of South Range, Wis.; Miss Ida Sackett of Winterset, Mr. and Mrs. J. M. Keithley and Mrs. Maggie French of Des Moines, these ladies being sister and sister in law of Mrs. Sackett and guests at the wedding of half century ago.
 
@@ -33,10 +30,6 @@ This happy anniversary not only brought joy to the Sackett family, but to this c
 
 ---
 
-![Written on the back of the photograph](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/600x600/photos/sackett-family-1917-back.jpg)
+{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/600x600/photos/sackett-family-1917-back.jpg" caption="Figure 2: Written on the back of the photograph" >}}
 
-![Newspaper clipping commemorating the day](https://d1yey5ck8hkfrc.cloudfront.net/fit-in/900x900/photos/sackett-family-golden-1917-newspaper.jpg)
-
-[^1]:
-
-  Sal's dad (Libby's Great Grandfather) is the young man in the back row on the right.
+{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/900x900/photos/sackett-family-golden-1917-newspaper.jpg" caption="Figure 3: Newspaper clipping from the day" >}}
