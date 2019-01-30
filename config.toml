@@ -24,12 +24,6 @@ url = "/"
 weight = 1.0
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 2.0
-
-[[menu.main]]
 identifier = "posts"
 name = "Posts"
 url = "/posts/"
@@ -42,11 +36,31 @@ url = "/Notes/"
 weight = 2.0
 
 [[menu.main]]
+identifier = "images"
+parent = "Notes"
+name = "images"
+url = "/images/"
+weight = 3.0
+
+[[menu.main]]
+identifier = "quotes"
+parent = "Notes"
+name = "quotes"
+url = "/quotes/"
+weight = 3.0
+
+[[menu.main]]
 identifier = "bookmarks"
 parent = "Notes"
 name = "bookmarks"
 url = "/bookmarks/"
 weight = 3.0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2.0
 
 # [[menu.main]]
 # identifier = "snapshot"
