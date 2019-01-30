@@ -1,25 +1,20 @@
 ---
-title: Memories of the Civil War, 1914
-date: "1914-10-09"
-description: A speech by Emma Sackett remembering her time as a Civil War nurse.
-slug: memories-of-the-civil-war
-tags:
-  - civil-war
-  - newspaper
-  - sackett
-  - family-tree
+title: "Memories of the Civil War, 1914"
+author: ["M. Andrew Eick"]
+date: 1970-10-09T00:00:00-04:00
+tags: ["civilwar", "newspaper", "sackett", "familytree"]
 draft: false
+description: "A speech by Emma Sackett remembering her time as a nurse in the American Civil War."
 ---
 
-![Emma French Sackett](https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett_emma.jpg)
+{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
 
-Emma French Sackett (Libby's 3rd great grandmother)
 
-# Memories of the Civil War, as told to Winterset Women's Club
+## Memories of the Civil War, as told to Winterset Women's Club {#memories-of-the-civil-war-as-told-to-winterset-women-s-club}
 
-_October 9, 1914_
+<span class="underline">October 9, 1914</span>
 
-## Civil War Nurse
+**Civil War Nurse**
 
 Today I am living in the dim and hazy past, as I reread the treasured letters received in time of the Civil War. While there is such of sadness, there is great interest in reviewing those days of fifty years ago, when our country was in a turmoil in every part, when friend and foe were on every hand. The traitors were not all below Mason & Dixon’s line, but Copperheads, like the reptile name they bore, striking in the dark were in our very midst and had they dared, in their bitterness, would have taken the lives of many. From the time of the John Brown raid, capturing the government arsenal at Harper’s Ferry, Va., in the autumn of 1857, there was much bitter feeling, which could not be smothered, and was aggravated by the election of Lincoln to the presidency in the fall of 1860, followed by the seceding of several of the southern states in February, 1861. The distant rumbling of war culminated in the firing on Ft. Sumpter, April 14, 1861, which found the North wholly unprepared for war, while the South had prepared in many ways. Most of the men at the head of government affairs were slaveholders, so that through them great aid was given the South and crippled the North, and men who had received their military education at West Point, through the generosity of the government, became leading officers in the rebel army.
 
@@ -90,8 +85,8 @@ Presented before the Winterset Women's Club October 9, 1914 and reprinted in the
 
 ---
 
-- Emma French, daughter of Alvin D. & Caroline A. (Clark) French was born in Pennsylvania in 1841. Her father was a Congregational preacher and as a result, the family moved around a lot. Emma's older brother was born in New Jersey and within two years of Emma's birth, the family had moved to New York where they appeared in the 1855 Broome County census. A year later, they were living in Denmark, Lee County, Iowa and by 1860 they were in Eddyville, Wapello County, Iowa but returned to Denmark, Iowa sometime before 1865.
-  It was from Denmark, Iowa that Emma volunteered as a Civil War nurse in January 1865 and served until September of that same year. Her experiences in the war are detailed in the above document.
+-   Emma French, daughter of Alvin D. & Caroline A. (Clark) French was born in Pennsylvania in 1841. Her father was a Congregational preacher and as a result, the family moved around a lot. Emma's older brother was born in New Jersey and within two years of Emma's birth, the family had moved to New York where they appeared in the 1855 Broome County census. A year later, they were living in Denmark, Lee County, Iowa and by 1860 they were in Eddyville, Wapello County, Iowa but returned to Denmark, Iowa sometime before 1865.
+    It was from Denmark, Iowa that Emma volunteered as a Civil War nurse in January 1865 and served until September of that same year. Her experiences in the war are detailed in the above document.
 
 After the war, she went back home and was married to George Sackett on November 06, 1867 at Eddyville. They first lived in Denmark, Lee County where their first child, Frank, was born. In 1870 they moved to Grand River Township, Adair County, Iowa where they farmed and had four more children, Carrie, Anna, Ida and Erwin.
 
