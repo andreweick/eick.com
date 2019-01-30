@@ -44,7 +44,7 @@ weight = 2.0
 
 [[menu.main]]
 identifier = "bookmarks"
-parent = "archive"
+parent = "Notes"
 name = "bookmarks"
 url = "/bookmarks/"
 weight = 3.0
