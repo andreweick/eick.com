@@ -20,6 +20,7 @@
 
     In 2008, Mr. Eick started his own company, [[http://missionfocus.com][Mission Focus]], focusing on the “Big Data” problems inherent in the IC domain. As CEO he now orchestrates technology and operations at a much larger scale, employing cloud technologies to address the storage and processing of diverse information at tremendous scale. In addition, in 2009 Mr. Eick also co-founded the Institute for Modern Intelligence, a 501(c)(3) non-profit corporation whose mission is to develop the science, practice, and governance of Intelligence at Ultra-Large scale.
 
+
 * cv
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: /
@@ -218,8 +219,7 @@
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: posts
   :END:
-
-
+ 
 ** DONE Memories of the Civil War, 1914 :civilwar:newspaper:sackett:familytree:
    CLOSED: [1970-10-09 Fri]
    :PROPERTIES:
@@ -660,7 +660,6 @@ https://s3.amazonaws.com/media.eick.com/family-tree-media/lodema-loomis-prayer-c
 #+CAPTION: Original Newspaper Story
 https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-sackett-newspaper.jpg
 
-
 ** DONE Alkaline Family Fight Night                           :jasmine:video:
    CLOSED: [2016-12-09 Fri]
    :PROPERTIES:
@@ -683,6 +682,9 @@ Jasmine's 8th grade science class skit
 
 [[https://vimeo.com/195028882][If the video above doesn't play, you can see it by clicking this link]]
 
+
+   :END:
+ 
 
 * images                                                              :photo:
   :PROPERTIES:
@@ -801,7 +803,7 @@ Jasmine's 8th grade science class skit
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :author "Van Gogh"
    :END:
 
-
+   :END:
 * bookmark                                                         :bookmark:
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: notes
