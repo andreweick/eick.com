@@ -13,9 +13,9 @@
     "start": "run-s build:assets dev",
     "dev": "run-p dev:parcel dev:hugo",
     "dev:hugo": "NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged --noHTTPCache",
-    "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir --public-url /dist/ assets/dist",
-    "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/dist --public-url /dist/ --no-cache",
-    "deploy:assets": "NODE_ENV=production parcel build ./assets/index.js --out-dir assets/dist --public-url /dist/ --no-cache",
+    "dev:parcel": "NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/dist --public-url /dist/",
+    "build:assets": "NODE_ENV=development parcel build ./assets/index.js --out-dir assets/dist --no-cache --experimental-scope-hoisting --public-url /dist/",
+    "deploy:assets": "NODE_ENV=production parcel build ./assets/index.js --out-dir assets/dist --no-cache --experimental-scope-hoisting --public-url /dist/",
     "build:hugo": "env NODE_ENV=production hugo --gc --minify"
   },
   "devDependencies": {
