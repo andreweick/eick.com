@@ -745,7 +745,8 @@ Jasmine's 8th grade science class skit
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: notes
   :END:
-** TODO Diamonds
+** DONE Diamonds
+   CLOSED: [2019-03-13 Wed 06:36]
    :PROPERTIES:
    :EXPORT_FILE_NAME: chekhov-diamonds
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type quote
