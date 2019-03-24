@@ -1,11 +1,14 @@
 ---
-title: "2015 McLean All Stars 1"
-author: ["M. Andrew Eick"]
-date: 2015-11-21T11:40:00-05:00
-tags: ["allstar", "jasmine", "soccer"]
+layout: post
+title: McLean All Stars First
+date: 2015-11-21 09:35
+author: Andy Eick
+tags:
+  - all-star
+  - soccer
+  - jasmine
 draft: false
-description: "2015 McLean All Stars Day 1"
-images:
+gallery:
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0002.jpg"
     description: "McLean All Star Tournament 01"
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0009.jpg"
@@ -80,7 +83,6 @@ images:
     description: "McLean All Star Tournament 47"
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151122-0986.jpg"
     description: "McLean All Star Tournament 48"
-
 ---
 
-<span class="underline">McLean All Star Tournament Day 1</span>
+_McLean All Star Tournament Day 1_

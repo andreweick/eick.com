@@ -1,0 +1,9 @@
+{{with .Params.images}}
+  <div class="lazyload" data-noscript="">
+    <noscript>
+    {{range .}}
+      <img src="{{.}}" class="lazyload max-w-full shadow-md" alt="Image " />
+    {{end}}
+    </noscript>
+  </div>
+{{ end }}

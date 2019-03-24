@@ -24,10 +24,16 @@ body {
 
  /* Create a grid for the body */
 
- .content {   
-  grid-template-columns: 1fr 4fr;
+ @screen xl {
+  .grid-1-3 {   
+    grid-template-columns: .25fr 4fr;
+   }
+   .transform-90 {
+    transform: rotate(-90deg);
+    @apply text-4xl;
  }
-
- .active {
-   @apply bg-grey-blue-darker;
+  
+ }
+ nav .active {
+   @apply text-primary-color-light;
  }

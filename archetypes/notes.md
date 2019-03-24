@@ -1,7 +1,10 @@
 ---
 date: {{ .Date }}
-description: ""
-images: [""]
+description: 
+images: 
+quote:
+  - text:
+    copy:
 type:
 draft: true
 ---

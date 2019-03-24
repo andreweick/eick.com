@@ -1,0 +1,9 @@
+.delimit:after {
+  content: ", ";
+}
+.delimit:last-child:after {
+  content: "";
+}
+.delimit:nth-last-child(2):after {
+  content: " and ";
+}
