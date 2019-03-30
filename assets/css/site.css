@@ -14,7 +14,7 @@ body {
 	min-height: 100vh;
 }
 .bordered {
-	@apply fixed w-full border-solid border-grey-blue-darker border-b-4;
+	@apply fixed w-full border-solid border-grey-blue-darker border-4;
 }
 .bordered-b {
 	@apply pin-t;
