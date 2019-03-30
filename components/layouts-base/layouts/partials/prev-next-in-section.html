@@ -1,9 +1,9 @@
 <div class="inline-block flex xl:flex-col mx-8 text-center justify-between text-lg text-grey-dark xl:mt-32">
   {{ with .PrevInSection }}
-    <a href="{{ .URL }}" class="lg:inline-block  xl:mt-4  hover:text-white  no-underline color-inherit text-black rounded text-xl" title="{{ .Title }}">prev</a>
+    <a href="{{ .URL }}" class="lg:inline-block mx-1 xl:mt-4 hover:text-white  no-underline color-inherit text-black rounded text-sm lg:text-xl" title="{{ .Title }}">prev</a>
   {{ end }}
   {{ with .NextInSection }}
-    <a href="{{ .URL }}" class="lg:inline-block  xl:mt-4  hover:text-white no-underline color-inherit text-black ounded text-xl" title="{{ .Title }}">next</a>
+    <a href="{{ .URL }}" class="lg:inline-block mx-1 xl:mt-4 hover:text-white no-underline color-inherit text-black ounded text-sm lg:text-xl" title="{{ .Title }}">next</a>
   {{ end }}
 </div>
 <script>
