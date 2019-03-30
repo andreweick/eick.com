@@ -1,26 +1,20 @@
 {{ define "main" }}
-  <div class="flex flex-coltk flex-wrap items-center justify-center">
-      {{ $pages := where (where .Site.RegularPages "Section" "posts") ".Params.gallery" "ne" nil }}
-      
+  {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
 
-    {{ range $pages }}
-
-
-      {{ with .Params.gallery }}
-      {{ range first 5 . }}
-
-
-      {{with .url}}
-      <img data-src="{{.}}" alt="" class="lazyload h-64 mr-2 my-2" style="flex-basis:10%;">
-      {{end}}
-      
-        
-      {{ end }}
-      {{ end }}
-      
-    {{ end }}
-
-
-      
+  <div class="mx-auto min-h-screen grid grid-1-3">
+    <div class="bg-grey text-black">
+      {{partial "post-navigation.html" .}}
+    </div>    
+    <div class="px-8 py-4 md:py-16 ">             
+      <div class="min-h-screen col-gap-lg md:col-count-2 lg:col-count-2 xl:col-count-3">
+        {{range $i, $p := $paginator.Pages}}                                  
+          {{- .Render "view-list-title" -}}                        
+        {{end}}
+      </div>
+      {{partial "_global/footer.html" .}}     
+    </div>
   </div>
 {{ end }}
+
+
+          
