@@ -1,9 +1,7 @@
 {{ define "main" }}
-  {{partial "page-header.html" .}}
-  <div class="mx-auto min-h-screen xl:grid grid-1-3">
-    <div class="bg-grey text-black">
-      {{partial "post-navigation.html" .}}
-    </div>    
+  {{partial "navigation/page-header.html" .}}
+  <div class="mx-auto min-h-screen xl:grid grid-1-3">    
+      {{partial "navigation/post-navigation.html" .}}    
     <div>
       {{partial "article.html" .}}   
       {{partial "_global/footer.html" .}}     

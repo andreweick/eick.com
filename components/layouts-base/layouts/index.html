@@ -2,9 +2,7 @@
   {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
 
   <div class="mx-auto min-h-screen grid grid-1-3">
-    <div class="bg-grey text-black">
-      {{partial "post-navigation.html" .}}
-    </div>    
+     {{partial "navigation/post-navigation.html" .}}    
     <div class="px-8 py-4 md:py-16 ">             
       <div class="min-h-screen col-gap-lg md:col-count-2 lg:col-count-2 xl:col-count-3">
         {{range $i, $p := $paginator.Pages}}                                  
