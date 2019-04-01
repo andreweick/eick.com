@@ -10,11 +10,11 @@ h3 {
 /* add a border to the body */
 
 body {
-	@apply border-solid border-primary-color border-r-8 border-l-8;
+	@apply border-solid border-grey-blue-darker border-r-8 border-l-8;
 	min-height: 100vh;
 }
 .bordered {
-	@apply fixed w-full border-solid border-primary-color border-4;
+	@apply fixed w-full border-solid border-grey-blue-darker border-4;
 }
 .bordered-b {
 	@apply pin-t;

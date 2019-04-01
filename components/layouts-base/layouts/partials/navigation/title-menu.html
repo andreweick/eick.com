@@ -1,13 +1,13 @@
 {{ $currentPage := . }}
-<header class="bg-grey-light text-white font-brand lg:sticky py-1 lg:pt-4 lg:pb-3 pin-t">
+<header class="bg-grey-darkest text-white font-brand lg:sticky py-1 lg:pt-4 lg:pb-3 pin-t">
 <div class="color-inherit bg-inherit">
   <div class="lg:flex flex-wrap items-center">
     <h1 class="px-6 leading-none m-0 pt-4 lg:pt-0">
-      <a href="/" class="no-underline text-3xl color-inherit">
+      <a href="/" class="no-underline text-3xl text-white ">
         {{ .Site.Title }}
       </a>
     </h1>
-    <div class="text-grey-darker pt-1">
+    <div class="text-grey-light pt-1">
         {{- partial "navigation/menu.html" (dict "page" . "menu" "main") -}}
     </div>
   </div>    
