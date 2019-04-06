@@ -1,11 +1,11 @@
 ---
 title: "2015 McLean All Stars 2"
 author: ["M. Andrew Eick"]
-date: 2015-11-21T14:11:00-05:00
+expiryDate: 2015-11-22T00:00:00-05:00
 tags: ["allstar", "soccer", "jasmine"]
 draft: false
 description: "2015 McLean All Stars Day 2"
-gallery:
+images:
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0031.jpg"
     description: "McLean All Star Tournament Day 1, #01"
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0104.jpg"

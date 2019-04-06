@@ -7,8 +7,6 @@ draft: false
 description: "Memories from my great grandmother, a nurse in the American civil war"
 ---
 
-{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
-
 Emma Sackett, My Great Great Grandmother, was a nurse in the civil war. She contributed to a book in 1895 with Clara Barton about her experiences in the war, excerpted below.
 
 Having a desire to minister to the needs of our suffering soldiers, I went from Denmark, Iowa,to Chicago,in company with Mrs.Colton, and reported to Mrs. Livermore, not knowing whether we should be sent to the front amid the battlefields, or where our lot would be cast. February 1, 1864, we were sent to Jeffersonville General Hospital, where I was assigned to Ward 18, which was crowded with sick and wounded, so there was no lack of work to do. And although sad the office we performed, our hearts were filled with pleasure in the work we were doing. It was ours to minister to the wants of mind and body; and when the poor soldier boy had breathed his last, to write to his parents, wife or sister, telling of his last hours, and giving the messages for loved ones at home. And as we folded the letter inclosing a lock of the dear one's hair, we prayed that the white-winged messenger might break the news gently. In this way an interesting correspondence has been continued with those whom I have never seen, as they cling to every item, and long for more incidents of their dead.

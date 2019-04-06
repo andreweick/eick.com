@@ -5,7 +5,7 @@ date: 2015-11-21T11:40:00-05:00
 tags: ["allstar", "jasmine", "soccer"]
 draft: false
 description: "2015 McLean All Stars Day 1"
-gallery:
+images:
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0002.jpg"
     description: "McLean All Star Tournament 01"
   - url: "https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/20151121-0009.jpg"

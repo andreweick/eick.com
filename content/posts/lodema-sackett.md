@@ -1,5 +1,5 @@
 ---
-title: "Lodema Sackett"
+title: "Lodema Scakett"
 author: ["M. Andrew Eick"]
 date: 2015-11-12T14:53:00-05:00
 tags: ["sackett", "familytree", "newspaper"]
@@ -29,6 +29,6 @@ Her wages were one and a half dollars a day and her board. For three months work
 
 When it was sold, three years later, one third of it had disappeared. After considerable investigation they found straws through which someone had obtained the whiskey. In the meantime, the hired man had a terrible sickness which the doctor diagnosed as delirium tremens. Thus the mystery was solved.
 
-{{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-loomis-prayer-card.jpg" caption="Figure 2: Lodema Sackett Prayer Card" >}}
+{{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodema-loomis-prayer-card.jpg" caption="Figure 2: Lodema Sackett Prayer Card" >}}
 
 {{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-sackett-newspaper.jpg" caption="Figure 3: Original Newspaper Story" >}}
