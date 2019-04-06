@@ -6,4 +6,8 @@ draft: false
 description: "odyssey-road-trip"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7NDMSMYQpds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Libby's 9th grade creative writing class makes a paradoy of the Odyssey.
+
+If you can't see the video below, [watch on youtube](https://youtu.be/7NDMSMYQpds)
+
+{{< youtube 7NDMSMYQpds >}}

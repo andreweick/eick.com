@@ -8,4 +8,6 @@ description: "libby-plays-joplin"
 
 Libby plays Elite Syncopation by Scott Joplin, Feburary 24, 2019.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you can't see the video below, [watch on youtube.](https://youtu.be/1YRDplz2SRQ)
+
+{{< youtube 1YRDplz2SRQ >}}
