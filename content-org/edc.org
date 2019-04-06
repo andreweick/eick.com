@@ -690,7 +690,54 @@ Jasmine's 8th grade science class skit
 
 
    :END:
+** DONE Odyssey Road Trip
+   CLOSED: [2019-03-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: odyssey-road-trip
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description odyssey-road-trip
+   :END:
  
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7NDMSMYQpds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+** DONE Libby Piano Duet
+   CLOSED: [2019-02-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-piano-duet
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-piano-duet
+   :END:
+ 
+Libby plays a duet with Nargol, February 24, 2019
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kepVfe26dFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+** DONE Libby Plays Joplin
+   CLOSED: [2019-02-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-plays-joplin
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-plays-joplin
+   :END:
+ 
+Libby plays Elite Syncopation by Scott Joplin, Feburary 24, 2019.
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+** DONE Libby Plays Scarlatti
+   CLOSED: [2019-02-24]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-plays-scarlatti
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-plays-scarlatti
+   :END:
+ 
+Libby plays Sonata in E Major by Scarlatti, February 24, 2019
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
 
 * images                                                              :photo:
   :PROPERTIES:
