@@ -44,24 +44,15 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
-// 	'primary-color-lightest' : '#E8E9EA',
-// 'primary-color-lighter' : '#A1A5AA',
-// 'primary-color-light' : '#5B626A',
-// 'primary-color' : '#141E2A',
-// 'primary-color-dark' : '#121B26',
-// 'primary-color-darker' : '#0C1219',
-// 'primary-color-darkest' : '#06090D',
 
 
-'primary-color-lightest' : '#E8EBEF',
-'primary-color-lighter' : '#1D566E',
-'primary-color-light' : '#5C758F',
-'primary-color' : '#000',
-'primary-color-dark' : '#143456',
-'primary-color-darker' : '#141E2A',
-'primary-color-darkest' : '#07111D',
-
-
+  'primary-color-lightest' : '#E8EBEF',
+  'primary-color-lighter' : '#1D566E',
+  'primary-color-light' : '#5C758F',
+  'primary-color' : '#000',
+  'primary-color-dark' : '#143456',
+  'primary-color-darker' : '#141E2A',
+  'primary-color-darkest' : '#07111D',
 
 	'transparent': 'transparent',
 	
