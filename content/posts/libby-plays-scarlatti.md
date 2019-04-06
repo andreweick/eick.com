@@ -6,6 +6,8 @@ draft: false
 description: "libby-plays-scarlatti"
 ---
 
-Libby plays Sonata in E Major by Scarlatti, February 24, 2019
+Libby plays Sonata in E Major by Scarlatti, February 24, 2019.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you can't see the video below, [watch on youtube](https://youtu.be/iVDxMp2k0iY)
+
+{{< youtube iVDxMp2k0iY >}}

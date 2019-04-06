@@ -8,4 +8,6 @@ description: "libby-piano-duet"
 
 Libby plays a duet with Nargol, February 24, 2019
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kepVfe26dFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you can't see the video below, [watch on youtube.](https://youtu.be/kepVfe26dFY)
+
+{{< youtube kepVfe26dFY >}}

@@ -696,10 +696,13 @@ Jasmine's 8th grade science class skit
    :EXPORT_FILE_NAME: odyssey-road-trip
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description odyssey-road-trip
    :END:
- 
-#+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7NDMSMYQpds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+END_EXPORT
+
+Libby's 9th grade creative writing class makes a paradoy of the Odyssey.
+
+If you can't see the video below, [[https://youtu.be/7NDMSMYQpds][watch on youtube]] 
+
+{{< youtube 7NDMSMYQpds >}}
+
 
 ** DONE Libby Piano Duet
    CLOSED: [2019-02-24 Sun]
@@ -710,9 +713,11 @@ Jasmine's 8th grade science class skit
  
 Libby plays a duet with Nargol, February 24, 2019
 
-#+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kepVfe26dFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+END_EXPORT
+If you can't see the video below, [[https://youtu.be/kepVfe26dFY][watch on youtube.]]
+
+{{< youtube kepVfe26dFY >}}
+
+
 ** DONE Libby Plays Joplin
    CLOSED: [2019-02-24 Sun]
    :PROPERTIES:
@@ -722,9 +727,10 @@ Libby plays a duet with Nargol, February 24, 2019
  
 Libby plays Elite Syncopation by Scott Joplin, Feburary 24, 2019.
 
-#+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+END_EXPORT
+If you can't see the video below, [[https://youtu.be/1YRDplz2SRQ][watch on youtube.]]
+
+{{< youtube 1YRDplz2SRQ >}}
+
 
 ** DONE Libby Plays Scarlatti
    CLOSED: [2019-02-24]
@@ -733,11 +739,13 @@ Libby plays Elite Syncopation by Scott Joplin, Feburary 24, 2019.
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-plays-scarlatti
    :END:
  
-Libby plays Sonata in E Major by Scarlatti, February 24, 2019
+Libby plays Sonata in E Major by Scarlatti, February 24, 2019. 
 
-#+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iVDxMp2k0iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+END_EXPORT
+If you can't see the video below, [[https://youtu.be/iVDxMp2k0iY][watch on youtube]]
+
+{{< youtube iVDxMp2k0iY >}}
+
+
 
 * images                                                              :photo:
   :PROPERTIES:
