@@ -2,10 +2,9 @@
   title, top of page  
 */}}
 {{ with .Title }}  
-  <div class="py-3 px-2 flex items-center bg-grey-light">  
+  <div class="py-3 px-2 flex items-center bg-grey-blue-darker">  
     <h1 class="inline-block leading-none pl-4 text-black text-2xl leading-tight">
-      <a href="{{$.Permalink}}" class="color-inherit no-underline">
-        {{ . }} {{ partial "svg/link-external.svg" (dict "size" "16") }}
+      <a href="{{$.Permalink}}" class="text-grey-blue-light no-underline">
         {{ . }} <span class="inline-block ml-1">{{ partial "svg/link-external.svg" (dict "size" "16") }}</span>
       </a>
     </h1>

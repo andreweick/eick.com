@@ -56,13 +56,21 @@ let colors = {
 
 	'transparent': 'transparent',
 	
-	'grey-blue-lightest' : '#F8FBFD',
-  'grey-blue-lighter' : '#E3EEF7',
-  'grey-blue-light' : '#CDE1F1',
-  'grey-blue' : '#B8D4EB',
-  'grey-blue-dark' : '#A6BFD4',
-  'grey-blue-darker' : '#6E7F8D',
-  'grey-blue-darkest' : '#374047',
+	// 'grey-blue-lightest' : '#F8FBFD',
+  // 'grey-blue-lighter' : '#E3EEF7',
+  // 'grey-blue-light' : '#CDE1F1',
+  // 'grey-blue' : '#B8D4EB',
+  // 'grey-blue-dark' : '#A6BFD4',
+  // 'grey-blue-darker' : '#6E7F8D',
+  // 'grey-blue-darkest' : '#374047',
+
+  'grey-blue-lightest': '#F8FBFD',
+'grey-blue-lighter': '#E4EEF8',
+'grey-blue-light': '#CFE2F2',
+'grey-blue': '#BBD5ED',
+'grey-blue-dark': '#A8C0D5',
+'grey-blue-darker': '#70808E',
+'grey-blue-darkest': '#4A5C6D',
 
   'black': '#090909',
   'grey-darkest': '#3d4852',
