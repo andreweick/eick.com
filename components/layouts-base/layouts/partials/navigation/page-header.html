@@ -6,6 +6,7 @@
     <h1 class="inline-block leading-none pl-4 text-black text-2xl leading-tight">
       <a href="{{$.Permalink}}" class="color-inherit no-underline">
         {{ . }} {{ partial "svg/link-external.svg" (dict "size" "16") }}
+        {{ . }} <span class="inline-block ml-1">{{ partial "svg/link-external.svg" (dict "size" "16") }}</span>
       </a>
     </h1>
   </div>
