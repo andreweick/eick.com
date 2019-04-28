@@ -1,7 +1,7 @@
 title: Andrew Eick
 themesDir: components
 theme:
-  - layouts-base
+  - bozzetto
 DefaultContentLanguage: en
 MetaDataFormat: yaml
 buildFuture: true
