@@ -2,6 +2,7 @@
 title: "Libby Plays Scarlatti"
 author: ["M. Andrew Eick"]
 date: 2019-02-24T00:00:00-05:00
+tags: ["libby", "piano", "video"]
 draft: false
 description: "libby-plays-scarlatti"
 ---

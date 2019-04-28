@@ -741,7 +741,8 @@ Libby plays Sonata in E Major by Scarlatti, February 24, 2019.
 If you can't see the video below, [[https://youtu.be/iVDxMp2k0iY][watch on youtube]]
 
 {{< youtube iVDxMp2k0iY >}}
-** TODO Libby and Nargol play Bach
+** DONE Libby and Nargol play Bach                        :libby:piano:video:
+   CLOSED: [2019-04-28 Sun 18:36]
    :PROPERTIES:
    :EXPORT_FILE_NAME: libby-and-nargol-play-bach
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-and-nargol-play-bach
@@ -751,7 +752,7 @@ Libby and Nargol play Bach for the 2019 Levine School of Music Themed recital.
 If you can't see the video below, [[https://youtu.be/mN-O9pykhTY]]  
 
 {{< youtube mN-O9pykhTY>}} 
-** TODO The Adventures of Kayla the Cat
+** TODO The Adventures of Kayla the Cat                         :libby:story:
    :PROPERTIES:
    :EXPORT_FILE_NAME: the-adventures-of-kayla-the-cat
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description the-adventures-of-kayla-the-cat
