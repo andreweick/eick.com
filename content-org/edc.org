@@ -690,7 +690,62 @@ Jasmine's 8th grade science class skit
 
 
    :END:
+** DONE Odyssey Road Trip
+   CLOSED: [2019-03-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: odyssey-road-trip
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description odyssey-road-trip
+   :END:
+
+Libby's 9th grade creative writing class makes a paradoy of the Odyssey.
+
+If you can't see the video below, [[https://youtu.be/7NDMSMYQpds][watch on youtube]] 
+
+{{< youtube 7NDMSMYQpds >}}
+
+
+** DONE Libby Piano Duet
+   CLOSED: [2019-02-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-piano-duet
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-piano-duet
+   :END:
  
+Libby plays a duet with Nargol, February 24, 2019
+
+If you can't see the video below, [[https://youtu.be/kepVfe26dFY][watch on youtube.]]
+
+{{< youtube kepVfe26dFY >}}
+
+
+** DONE Libby Plays Joplin
+   CLOSED: [2019-02-24 Sun]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-plays-joplin
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-plays-joplin
+   :END:
+ 
+Libby plays Elite Syncopation by Scott Joplin, Feburary 24, 2019.
+
+If you can't see the video below, [[https://youtu.be/1YRDplz2SRQ][watch on youtube.]]
+
+{{< youtube 1YRDplz2SRQ >}}
+
+
+** DONE Libby Plays Scarlatti
+   CLOSED: [2019-02-24]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: libby-plays-scarlatti
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description libby-plays-scarlatti
+   :END:
+ 
+Libby plays Sonata in E Major by Scarlatti, February 24, 2019. 
+
+If you can't see the video below, [[https://youtu.be/iVDxMp2k0iY][watch on youtube]]
+
+{{< youtube iVDxMp2k0iY >}}
+
+
 
 * images                                                              :photo:
   :PROPERTIES:
@@ -737,7 +792,7 @@ Jasmine's 8th grade science class skit
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :description "Yuck, do not get again (or maybe it was corked)"
    :END:
 
-** DONE Jasmine jumping in front of ManhattanX
+** DONE Jasmine jumping in front of Manhattan
    CLOSED: [2018-09-30 Sun 13:00]
    :PROPERTIES:
    :EXPORT_FILE_NAME: 2018-09-30T13:00:52
