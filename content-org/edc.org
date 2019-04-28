@@ -888,7 +888,7 @@ The End
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :description "Yuck, do not get again (or maybe it was corked)"
    :END:
 
-** DONE Jasmine jumping in front of ManhattanX
+** DONE Jasmine jumping in front of Manhattan
    CLOSED: [2018-09-30 Sun 13:00]
    :PROPERTIES:
    :EXPORT_FILE_NAME: 2018-09-30T13:00:52
