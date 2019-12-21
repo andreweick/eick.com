@@ -1,6 +1,9 @@
 # Ignore docs files
 .vscode
 
+themes/
+
+
 # Numerous always-ignore extensions
 *.diff
 *.err
