@@ -1,6 +1,5 @@
 ---
 title: "Memories of the Civil War, 1914"
-author: ["M. Andrew Eick"]
 date: 1970-10-09T00:00:00-04:00
 tags: ["civilwar", "newspaper", "sackett", "familytree"]
 draft: false

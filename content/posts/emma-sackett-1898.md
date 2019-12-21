@@ -1,6 +1,5 @@
 ---
 title: "Emma Sackett, 1898"
-author: ["M. Andrew Eick"]
 date: 2015-11-12T12:48:00-05:00
 tags: ["civilwar", "sackett", "familytree"]
 draft: false

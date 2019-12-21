@@ -1,6 +1,5 @@
 ---
 title: "Sackett Golden Wedding Anniversary"
-author: ["M. Andrew Eick"]
 date: 1970-11-07T10:01:00-05:00
 tags: ["civilwar", "newspaper", "sackett", "familytree"]
 draft: false
@@ -10,7 +9,6 @@ description: "Newspaper story from 1917 describing Cassander Sackett anniversary
 {{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/sackett-family-1917.jpg" caption="Figure 1: Sackett's in 1917" >}}
 
 Sal's Dad (Libby's Great Grandfather) is the young man in the back row on the right
-
 
 ## The Winterset Madisonian, Wednesday, November 7, 1917 {#the-winterset-madisonian-wednesday-november-7-1917}
 

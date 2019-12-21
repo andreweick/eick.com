@@ -1,6 +1,6 @@
 ---
 title: "about"
-author: ["M. Andrew Eick"]
+type: page
 draft: false
 ---
 

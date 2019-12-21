@@ -1,6 +1,5 @@
 ---
 title: "Libby Choir Practice"
-author: ["M. Andrew Eick"]
 date: 2015-03-16T14:49:00-04:00
 tags: ["video", "belcanto", "ccw"]
 draft: false

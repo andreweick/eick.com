@@ -1,6 +1,5 @@
 ---
 title: "Odyssey Road Trip"
-author: ["M. Andrew Eick"]
 date: 2019-03-24T00:00:00-04:00
 draft: false
 description: "odyssey-road-trip"

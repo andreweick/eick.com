@@ -1,6 +1,5 @@
 ---
 title: "Libby Piano Duet"
-author: ["M. Andrew Eick"]
 date: 2019-02-24T00:00:00-05:00
 draft: false
 description: "libby-piano-duet"

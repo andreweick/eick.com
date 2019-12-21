@@ -1,6 +1,5 @@
 ---
 title: "Lodema Sackett"
-author: ["M. Andrew Eick"]
 date: 2015-11-12T14:53:00-05:00
 tags: ["sackett", "familytree", "newspaper"]
 draft: false
@@ -19,8 +18,6 @@ In 1817, the "north" school was built on the farm of Judge William Eyles on Akro
 
 In 1887, Mrs. Loomis gave this recollection of that early school:
 
->
->
 > "It was in the year 1819, when Captain George Lyman, father of Dr. Lyman, came to my home in Tallmadge and engaged me to teach school in Wadsworth. I was then twenty-one years old and had considerable experience, as I began teaching > at the age of fifteen. In November of that year, a young man was sent on horseback for me. I rode the horse and he walked by my side--a distance of twenty-one miles.
 >
 > I boarded at Captain Lyman's, who lived about three-fourths of a mile from the schoolhouse..."
