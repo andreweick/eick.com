@@ -1,6 +1,7 @@
 ---
 title: "Odyssey Road Trip"
 date: 2019-03-24T00:00:00-04:00
+tags: ["video", "libby"]
 draft: false
 description: "odyssey-road-trip"
 ---

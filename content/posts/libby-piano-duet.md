@@ -1,6 +1,7 @@
 ---
 title: "Libby Piano Duet"
 date: 2019-02-24T00:00:00-05:00
+tags: ["video", "libby", "piano"]
 draft: false
 description: "libby-piano-duet"
 ---
