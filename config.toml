@@ -1,4 +1,5 @@
-theme = "hugo-ink"
+#theme = "hugo-ink"
+theme = "ananke"
 
 baseURL = "http://eick.com/"
 languageCode = "en-us"
