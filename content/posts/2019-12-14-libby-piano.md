@@ -1,7 +1,7 @@
 ---
 title: "Libby's Critiqued Recital Piano"
 date: 2019-12-21T14:37:37-05:00
-draft: true
+draft: false
 description: "Libby plays Sonata in C minor, Op. 13, III. Allegro."
 ---
 

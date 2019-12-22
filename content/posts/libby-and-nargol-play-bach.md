@@ -1,10 +1,9 @@
 ---
 title: "Libby and Nargol play Bach"
-author: ["M. Andrew Eick"]
 date: 2019-04-28T18:36:00-04:00
 tags: ["libby", "piano", "video"]
 draft: false
-description: "libby-and-nargol-play-bach"
+description: "Libby and Nargol play Bach for the 2019 Levine School of Music Themed recital."
 ---
 
 Libby and Nargol play Bach for the 2019 Levine School of Music Themed recital.

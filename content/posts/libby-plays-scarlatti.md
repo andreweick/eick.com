@@ -3,7 +3,7 @@ title: "Libby Plays Scarlatti"
 date: 2019-02-24T00:00:00-05:00
 tags: ["libby", "piano", "video"]
 draft: false
-description: "libby-plays-scarlatti"
+description: "Libby plays Sonata in E Major by Scarlatti, February 24, 2019."
 ---
 
 Libby plays Sonata in E Major by Scarlatti, February 24, 2019.
