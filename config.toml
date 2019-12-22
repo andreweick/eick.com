@@ -1,7 +1,7 @@
 #theme = "hugo-ink"
 theme = "ananke"
 
-baseURL = "https://eick.com/"
+baseURL = "https://www.eick.com/"
 languageCode = "en-us"
 title = "M. Andrew Eick"
 paginate = 5
