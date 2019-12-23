@@ -7,4 +7,6 @@ description: "Libby plays Sonata in C minor, Op. 13, III. Allegro."
 
 Libby plays Sonata in C minor, Op. 13, III. Allegro for her Critiqued Recital, December 14, 2019, Levine School of Music.
 
+[If the video doesn't play below, you can see it by clicking this link](https://youtu.be/56QrL--SgLA)
+
 {{< youtube 56QrL--SgLA >}}
