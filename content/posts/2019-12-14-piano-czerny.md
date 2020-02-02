@@ -8,5 +8,5 @@ draft: false
 Libby plays Czerny, December 14, 2019
 
 <audio controls>
-	<source src='https://s3.amazonaws.com/media.eick.com/audio/2019/2019-12-14-czerny.m4a' type="audio/mpeg" >
+	<source src='https://s3.amazonaws.com/media.eick.com/audio/2019/2019-12-14-czerny.mp3' type="audio/mpeg" >
 </audio>
