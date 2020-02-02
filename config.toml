@@ -8,6 +8,13 @@ paginate = 5
 
 copyright = "© Copyright notice"
 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+	  # Need to add unsafe to allow audio to play
+	  unsafe = true
+
 [params]
 	subtitle = "If A, then B; B; therefore A"
 
