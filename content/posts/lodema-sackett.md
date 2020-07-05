@@ -8,7 +8,7 @@ description: "An interview from 1817 about being a school teacher in Ohio"
 
 ## Lodema Sackett {#lodema-sackett}
 
-{{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-sackett.jpg" caption="Figure 1: Lodema Sackett picture" >}}
+{{< figure src="hhttps://mfc.imgix.net/edc/family-tree-media/lodemia-sackett.jpg" caption="Figure 1: Lodema Sackett picture" >}}
 
 Lodema Sackett, my fourth great aunt, lived from 1788 to 1889 in Ohio. She was interviewed in 1887 about being a school teacher.
 
@@ -26,6 +26,6 @@ Her wages were one and a half dollars a day and her board. For three months work
 
 When it was sold, three years later, one third of it had disappeared. After considerable investigation they found straws through which someone had obtained the whiskey. In the meantime, the hired man had a terrible sickness which the doctor diagnosed as delirium tremens. Thus the mystery was solved.
 
-{{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-loomis-prayer-card.jpg" caption="Figure 2: Lodema Sackett Prayer Card" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/lodemia-loomis-prayer-card.jpg" caption="Figure 2: Lodema Sackett Prayer Card" >}}
 
-{{< figure src="https://s3.amazonaws.com/media.eick.com/family-tree-media/lodemia-sackett-newspaper.jpg" caption="Figure 3: Original Newspaper Story" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/lodemia-sackett-newspaper.jpg" caption="Figure 3: Original Newspaper Story" >}}

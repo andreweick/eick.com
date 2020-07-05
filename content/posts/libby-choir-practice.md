@@ -2,12 +2,11 @@
 title: "Libby Choir Practice"
 date: 2015-03-16T14:49:00-04:00
 tags: ["video", "belcanto", "ccw"]
-draft: false
+draft: true
 description: "Libby's Choir (CCW Bel Canto) Practice"
 ---
 
 Libby's choir practice
-
 
 <video
   width='100%'

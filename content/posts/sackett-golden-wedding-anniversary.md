@@ -6,7 +6,7 @@ draft: false
 description: "Newspaper story from 1917 describing Cassander Sackett anniversary"
 ---
 
-{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/1000x1000/photos/sackett-family-1917.jpg" caption="Figure 1: Sackett's in 1917" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett-family-1917.jpg?fit=clip&h=1000&w=1000" caption="Figure 1: Sackett's in 1917" >}}
 
 Sal's Dad (Libby's Great Grandfather) is the young man in the back row on the right
 
@@ -28,6 +28,6 @@ This happy anniversary not only brought joy to the Sackett family, but to this c
 
 ---
 
-{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/600x600/photos/sackett-family-1917-back.jpg" caption="Figure 2: Written on the back of the photograph" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett-family-1917-back.jpg?fit=clip&h=600&w=600" caption="Figure 2: Written on the back of the photograph" >}}
 
-{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/fit-in/900x900/photos/sackett-family-golden-1917-newspaper.jpg" caption="Figure 3: Newspaper clipping from the day" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett-family-golden-1917-newspaper.jpg?fit=clip&h=1000&w=1000" caption="Figure 3: Newspaper clipping from the day" >}}

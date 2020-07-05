@@ -6,7 +6,7 @@ draft: false
 description: "A speech by Emma Sackett remembering her time as a nurse in the American Civil War."
 ---
 
-{{< figure src="https://d1yey5ck8hkfrc.cloudfront.net/photos/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
 
 
 ## Memories of the Civil War, as told to Winterset Women's Club {#memories-of-the-civil-war-as-told-to-winterset-women-s-club}
