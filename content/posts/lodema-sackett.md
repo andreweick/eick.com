@@ -8,7 +8,7 @@ description: "An interview from 1817 about being a school teacher in Ohio"
 
 ## Lodema Sackett {#lodema-sackett}
 
-{{< figure src="hhttps://mfc.imgix.net/edc/family-tree-media/lodemia-sackett.jpg" caption="Figure 1: Lodema Sackett picture" >}}
+{{< figure src="https://mfc.imgix.net/edc/family-tree-media/lodemia-sackett.jpg" caption="Figure 1: Lodema Sackett picture" >}}
 
 Lodema Sackett, my fourth great aunt, lived from 1788 to 1889 in Ohio. She was interviewed in 1887 about being a school teacher.
 
