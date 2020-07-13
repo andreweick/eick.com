@@ -6,7 +6,6 @@ tags:
   - newspaper
   - sackett
   - familytree
-  - something
 draft: false
 description: A speech by Emma Sackett remembering her time as a nurse in the
   American Civil War.

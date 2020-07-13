@@ -3,10 +3,11 @@ backend:
   branch: add-netlifycms
 media_folder: static/uploads
 public_folder: /uploads
-publish_mode: editorial_workflow
+local_backend: true
 slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "_"
 collections:
+- import collection pages
 - import collection posts
