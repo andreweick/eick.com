@@ -1,9 +1,15 @@
 ---
-title: "Memories of the Civil War, 1914"
+title: Memories of the Civil War, 1914
 date: 1970-10-09T00:00:00-04:00
-tags: ["civilwar", "newspaper", "sackett", "familytree"]
+tags:
+  - civilwar
+  - newspaper
+  - sackett
+  - familytree
+  - something
 draft: false
-description: "A speech by Emma Sackett remembering her time as a nurse in the American Civil War."
+description: A speech by Emma Sackett remembering her time as a nurse in the
+  American Civil War.
 ---
 
 {{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
