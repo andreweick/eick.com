@@ -1,0 +1,12 @@
+backend:
+  name: git-gateway
+  branch: add-netlifycms
+media_folder: static/uploads
+public_folder: /uploads
+publish_mode: editorial_workflow
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+collections:
+- import collection posts

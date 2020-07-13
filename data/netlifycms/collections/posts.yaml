@@ -1,0 +1,14 @@
+name: "posts"
+label: "Posts"
+label_singular: "Post"
+folder: "content/posts"
+create: true
+sortableFields: ['title']
+preview_path: article/{{slug}}
+fields:
+  - import field title
+  - import field date
+  - import field description
+  - import field authors
+  - import field body
+
