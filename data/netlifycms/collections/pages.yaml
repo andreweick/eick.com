@@ -1,0 +1,22 @@
+name: "pages"
+label: "Main Pages"
+files:
+  - name: "cv"
+    label: "CV"
+    file: "content/eick-cv.md"
+    preview_path: '{{slug}}'
+    fields:
+      - import field title
+      - import field description
+      - label: "Authors"
+        name: "author"
+        widget: "list"
+      - import field body
+  - name: "about"
+    label: "About"
+    file: "content/about.md"
+    preview_path: '{{slug}}'
+    fields:
+      - import field title
+      - import field description
+      - import field body
