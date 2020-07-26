@@ -3,7 +3,8 @@ title: The Adventures of Kayla the Cat
 date: 2019-12-19T14:48:36.579Z
 description: Libby's children's book, illustrated by Jasmine
 tags:
-  - libby story
+  - libby
+  - story
 ---
 The Adventures of Kayla the Cat
 By Libby Eick
