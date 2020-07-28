@@ -1,0 +1,20 @@
+/* Base - Variables: tailwind-config.js */
+
+/* @import "./tailwindcss/tailwindcss/preflight"; */
+@tailwind preflight;
+@tailwind components;
+
+
+/* Modules */
+@import "./tailwindcss/modules/_hovers";
+@import "./tailwindcss/modules/_utilities";
+@import "./tailwindcss/modules/_nested";
+
+
+/* Site Specific */
+@import "./site";
+
+
+@tailwind utilities; 
+
+/* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */

@@ -1,9 +1,14 @@
-theme: ananke
+title: M. Andrew Eick
 baseURL: 'https://www.eick.com/'
 languageCode: en-us
-title: M. Andrew Eick
+DefaultContentLanguage: en
+themesDir: components
 paginate: 5
 copyright: © Copyright notice
+
+enableRobotsTXT: true
+theme:
+  - layouts-base
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -42,3 +47,24 @@ taxonomies:
 module:
   imports:
     - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
+mediaTypes:
+  text/netlify:
+    delimiter: ""
+    suffixes:
+      - ""
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR

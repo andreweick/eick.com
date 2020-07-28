@@ -1,0 +1,7 @@
+{{with .Params.gallery}}
+  {{range first 50 .}}
+    {{with .url}}
+      <img data-src="{{.}}" alt="" class="lazyload h-64 mr-2 my-2" style="flex-basis:10%;">
+    {{end}}
+  {{ end }}
+{{ end }}
