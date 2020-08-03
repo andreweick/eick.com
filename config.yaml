@@ -21,6 +21,12 @@ params:
     - page
   featherIconsCDN: true
   mode: auto
+  tnd_imgix:
+    domain: mfc.imgix.net
+    defaults:
+      auto: format
+      ch: Width,DPR
+      q: 95
   social:
     - name: Github
       icon: github
@@ -47,6 +53,7 @@ taxonomies:
 module:
   imports:
     - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
+    - path: github.com/theNewDynamic/hugo-module-tnd-imgix
 mediaTypes:
   text/netlify:
     delimiter: ""
