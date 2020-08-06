@@ -1,6 +1,6 @@
 ---
 title: Memories of the Civil War, 1914
-date: 1970-10-09T00:00:00-04:00
+date: 2020-08-06T04:00:00.000Z
 description: A speech by Emma Sackett remembering her time as a nurse in the
   American Civil War.
 tags:
