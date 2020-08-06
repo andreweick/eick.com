@@ -1,0 +1,11 @@
+{{ $types := slice .Type  }}
+<article class="h-entry mx-auto max-w-lg py-2 lg:pt-5 px-4 pt-16 pb-16 min-h-screen">
+	<section class="nested-copy-line-height text-xl nested-no-underlines nested-img mid-gray">
+		{{range $types }}
+			{{ $partial := printf "article-type/%s.html" . }}
+			{{ if templates.Exists (print "partials/" $partial) }}
+				{{ partial $partial $ }}
+			{{ end }}
+		{{ end }}			
+	</section>
+</article>

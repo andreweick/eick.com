@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="mx-auto grid grid-1-3">
+    {{partial "navigation/post-navigation.html" .}}    
+    <div class="px-8 py-4 md:py-16 ">
+      {{range $key, $value := .Data.Terms}}
+        <div class="mb-16">
+          <h2 class="f1 border-b pb-2 mb-2">
+            <a href="{{ "/" | relLangURL}}{{$.Data.Plural | urlize}}/{{$key | urlize}}" class="no-underline blue hover:text-black">
+              {{$.Data.Singular | humanize}}: {{$key}}
+            </a>
+          </h2>
+          <div class="col-gap-lg md:col-count-2 lg:col-count-2 xl:col-count-3">
+            {{range $value.Pages}}
+              {{- .Render "view-list-title" -}}
+            {{end}}
+          </div>
+        </div>
+      {{ end }}
+      {{partial "_global/footer.html" .}}     
+    </div>
+  </div>
+{{ end }}
