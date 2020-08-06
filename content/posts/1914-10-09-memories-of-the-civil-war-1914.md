@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
+{{< figure src="/edc/family-tree-media/sackett-emma.jpg" caption="Emma French Sackett" >}}
 
 
 ## Memories of the Civil War, as told to Winterset Women's Club {#memories-of-the-civil-war-as-told-to-winterset-women-s-club}
