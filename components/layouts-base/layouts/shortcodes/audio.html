@@ -1,0 +1,8 @@
+{{ $title := "Track" }}
+{{ with .Get "title" }}
+  {{ $title = . }}
+{{ end }}
+{{ with .Get "file" }}
+  {{ $meta := dict "copy" (printf "Music for " $title) "title" $title "url" . }}
+  {{ partial "audioplayer" $meta }}
+{{ end }}

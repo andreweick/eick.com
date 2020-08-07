@@ -6,6 +6,9 @@
   "repository": "https://github.com/imintel/eick.com",
   "author": "budparr <budparr@gmail.com>",
   "license": "MIT",
+  "hugo": {
+    "version": "0.74.3"
+  },
   "scripts": {
     "cms": "npx netlify-cms-proxy-server",
     "dev:cms": "run-p cms hugo-cms",
@@ -35,7 +38,8 @@
     "tailwindcss-break": "^0.1.0",
     "tailwindcss-flexbox-order": "^1.0.0",
     "tailwindcss-multi-column": "^0.2.0",
-    "typeface-play": "^0.0.54"
+    "typeface-play": "^0.0.54",
+    "amplitudejs": "^5.0.3"
   },
   "dependencies": {}
 }
