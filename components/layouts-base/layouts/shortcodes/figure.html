@@ -5,7 +5,7 @@
     {{ $src = partialCached "tnd-imgix/GetSRC" $args $args }}
   {{ end }}
   
-  <figure>
+  <figure {{ with $.Get "class" }} class="{{ . }}"{{ end }}>
     <img src="{{ $src }}" {{ with $.Get "caption" }} alt="{{ . }}" {{ end}}>
     {{ with $.Get "caption" }}
       <figcaption>
