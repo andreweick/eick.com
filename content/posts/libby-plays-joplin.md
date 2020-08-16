@@ -10,4 +10,6 @@ Libby plays Elite Syncopation by Scott Joplin, February 24, 2019.
 
 If you can't see the video below, [watch on youtube.](https://youtu.be/1YRDplz2SRQ)
 
+{{< audio title="Libby Joplin" file="/uploads/go-went-gone-audio-sample.mp3" >}}
+
 {{< youtube 1YRDplz2SRQ >}}
