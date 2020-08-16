@@ -9,6 +9,4 @@ tags:
 ---
 Libby playing the Harpsichord at Levine School of Music.
 
-<audio controls>
-	<source src='https://s3.amazonaws.com/media.eick.com/audio/2015/libby-harpsichord.mp3' type="audio/mpeg" >
-</audio>
+{{< audio title="Libby plays Harpsicord" file="https://dtiii97niiyr6.cloudfront.net/audio/2015/libby-harpsichord.mp3" >}}
