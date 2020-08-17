@@ -1,0 +1,3 @@
+imports:
+  - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
+  - path: github.com/theNewDynamic/hugo-module-tnd-imgix

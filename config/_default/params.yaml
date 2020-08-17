@@ -1,0 +1,19 @@
+subtitle: 'If A, then B; B; therefore A'
+avatar: 'https://secure.gravatar.com/avatar/335dc7f83bbef5faacc41a687534c09f'
+disableDisqusTypes:
+  - page
+featherIconsCDN: true
+mode: auto
+tnd_imgix:
+  domain: mfc.imgix.net
+  defaults:
+    auto: format
+    ch: Width,DPR
+    q: 95
+social:
+  - name: Github
+    icon: github
+    url: 'https://github.com/andreweick'
+  - name: RSS
+    icon: rss
+    url: /index.xml

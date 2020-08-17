@@ -1,0 +1,48 @@
+title: M. Andrew Eick
+baseURL: 'https://www.eick.com/'
+languageCode: en-us
+DefaultContentLanguage: en
+paginate: 5
+copyright: © Copyright notice
+
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: All posts
+      url: /posts
+      weight: 2
+    - name: About
+      url: /about
+      weight: 3
+    - name: Tags
+      url: /tags
+      weight: 4
+
+mediaTypes:
+  text/netlify:
+    delimiter: ""
+    suffixes:
+      - ""
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
