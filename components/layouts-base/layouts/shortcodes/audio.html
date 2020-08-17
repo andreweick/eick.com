@@ -3,6 +3,6 @@
   {{ $title = . }}
 {{ end }}
 {{ with .Get "file" }}
-  {{ $meta := dict "copy" (printf "Music for " $title) "title" $title "url" . }}
+  {{ $meta := dict "copy" "" "title" $title "url" . }}
   {{ partial "audioplayer" $meta }}
 {{ end }}
