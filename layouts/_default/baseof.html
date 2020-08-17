@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
+<html lang="{{ site.LanguageCode | default "en" }}" class="no-js">
   <head>
-    <title>{{with .Title}}{{.}} | {{end}}{{.Site.Title}}</title>
     {{block "head" .}}
       {{- partial "_head/meta-and-links.html" . -}}
     {{ end }}
     {{block "scripts" .}}
-      {{partialCached "_head/scripts.html" .}}
+      {{ partialCached "_head/scripts.html" . }}
     {{ end }}
   </head>
   <body class="{{.Kind}} m-0 font-sans leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
