@@ -1,0 +1,14 @@
+{{ $styles := partialCached "tnd-styles/private/GetStyleAssets" "GetStyleAssets" }}
+{{ range where $styles "type" "==" "critical" }}
+  {{ with .style }}
+    <style>{{ .Content | safeCSS }}</style>
+  {{ end }}
+{{ end }}
+{{ range where $styles "type" "!=" "critical" }}
+  {{ with .style }}
+    <link 
+      rel="stylesheet"
+      href="{{ .RelPermalink }}"
+    >
+  {{ end }}
+{{ end }}

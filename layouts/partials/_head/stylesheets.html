@@ -1,3 +1,4 @@
+{{ partial "tnd-styles/private/GetStyleAssets" . }}
 {{ if (fileExists "./assets/dist/index.css") }}  
 {{ $css := resources.Get "dist/index.css" | minify }}
 {{ with $css }}
