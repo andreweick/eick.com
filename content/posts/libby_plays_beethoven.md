@@ -9,5 +9,5 @@ tags:
 Libby plays Beethoven, December 14, 2019
 
 <audio controls>
-	<source src='https://s3.amazonaws.com/media.eick.com/audio/2019/2019-12-14-beethoven-sonata-c-minor.mp3' type="audio/mpeg" >
+	<source src='https://dtiii97niiyr6.cloudfront.net/audio/2019-12-14-beethoven-sonata-c-minor.mp3' type="audio/mpeg" >
 </audio>
