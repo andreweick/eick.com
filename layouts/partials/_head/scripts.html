@@ -1,7 +1,11 @@
-{{ if (fileExists "./assets/dist/index.js") }}
-  {{ $js := resources.Get "dist/index.js" | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js.Permalink | relURL }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ with resources.Get "/js/index.js" }}
+  {{ $js := . | js.Build "main.js" }}
+  {{ if not site.IsServer }}
+    {{ $js = $js | minify | fingerprint }}
+  {{ end }}
+  <script type="text/javascript" src="{{ $js.RelPermalink }}"crossorigin="anonymous" defer></script>
 {{ end }}
+
 {{ with resources.Get "js/audioplayer.js" }}
   {{ $audio := . | js.Build }}
   {{ with $audio }}

@@ -64,7 +64,7 @@ let colors = {
   // 'grey-blue-darker' : '#6E7F8D',
   // 'grey-blue-darkest' : '#374047',
 
-  'grey-blue-lightest': '#F8FBFD',
+'grey-blue-lightest': '#F8FBFD',
 'grey-blue-lighter': '#E4EEF8',
 'grey-blue-light': '#CFE2F2',
 'grey-blue': '#BBD5ED',

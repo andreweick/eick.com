@@ -12,13 +12,13 @@
 
 /* purgecss end ignore */
 
-@import "tailwindcss/utilities";
-
 /* Modules */
-@import "./tailwindcss/modules/_hovers";
-@import "./tailwindcss/modules/_utilities";
-@import "./tailwindcss/modules/_nested";
+@import "tailwindcss/modules/_hovers";
+@import "tailwindcss/modules/_utilities";
+@import "tailwindcss/modules/_nested";
 
 
 /* Site Specific */
-@import "./site";
+@import "site.css";
+
+@import "tailwindcss/utilities";

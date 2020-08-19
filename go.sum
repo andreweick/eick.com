@@ -3,5 +3,7 @@ github.com/theNewDynamic/hugo-module-tnd-imgix v0.2.1/go.mod h1:6P3SwYL7H/Kccxwr
 github.com/theNewDynamic/hugo-module-tnd-netlifycms v0.1.5/go.mod h1:nq9tIR0Xpx2W2mSQHfJya2OvAfgYOMveqrllijA27vo=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.1 h1:PTjKah87+DTjjDPfZHtrQ41p56xuliCmYWVKy0l+1RQ=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.1/go.mod h1:VY3Qvzif9T0Z0rjR85ufUQE1wrS/M5VZC9Dx1V8Vo8Y=
+github.com/theNewDynamic/hugo-module-tnd-styles v0.0.0-20200819193951-88ed34c26aa1 h1:yg1HnQ1KJCn44q1b4H/nLk8SEesXs16Gx1ADXQwaCCw=
+github.com/theNewDynamic/hugo-module-tnd-styles v0.0.0-20200819193951-88ed34c26aa1/go.mod h1:Ih6Fi3sn/qasVNDN3wXpO5NDH16G1o7QeY/EoKfxGcI=
 github.com/theNewDynamic/hugo-module-tnd-tags v0.0.0-20200626200509-93dcb309850a h1:t5I67C9YSEr4MyzZ7IhcQvHmPSayjk6CpCxhjSI0hgo=
 github.com/theNewDynamic/hugo-module-tnd-tags v0.0.0-20200626200509-93dcb309850a/go.mod h1:fuXjv9Nbt2hi6oaOVAqhPRrS4hL9uYcwroo6V/Mw7Uk=
