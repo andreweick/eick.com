@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-{{< figure src="/edc/family-tree-media/sackett-emma.jpg" caption="Emma French Sackett" left>}}
+{{< figure src="/edc/family-tree-media/sackett-emma.jpg" caption="Emma French Sackett" class=left>}}
 
 ---
 
