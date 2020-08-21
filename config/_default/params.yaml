@@ -10,6 +10,15 @@ tnd_imgix:
     auto: format
     ch: Width,DPR
     q: 95
+tnd_styles:
+  fonts:
+    - family: Play
+      style: normal
+      weight: 400
+      file: fonts/files/play-v11-latin-regular
+      local: 
+        - Play Regular
+        - Play-Regular
 social:
   - name: Github
     icon: github

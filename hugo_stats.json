@@ -1,15 +1,12 @@
 {
   "htmlElements": {
     "tags": [
-      "!--",
-      "!--,",
       "!doctype",
       "a",
       "article",
       "blockquote",
       "body",
       "div",
-      "div\n",
       "figcaption",
       "figure",
       "footer",
@@ -152,6 +149,7 @@
       "pl-4",
       "pl-6",
       "player",
+      "production",
       "progress-hide",
       "pt-1",
       "pt-16",

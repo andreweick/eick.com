@@ -39,8 +39,20 @@
 }
 
 .nested-img img, .nested-img video {
- 
   max-width: 100%;  
+}
+.nested-img figure.float-left,
+.nested-img figure.float-right {
+  max-width: 50%
+}
+.nested-img figure.float-left{
+  float: left;
+  margin-right: 1rem;
+}
+
+.nested-img figure.float-right{
+  float: right;
+  margin-left: 1rem;
 }
 
 .nested-links a {
