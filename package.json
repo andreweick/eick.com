@@ -19,7 +19,7 @@
     "build": "run-s deploy:assets build:hugo",
     "deploy": "run-s hugo-prod",
     "start": "run-s dev:hugo",
-    "dev:hugo": "NODE_ENV=development bin/hugo* server --gc --minify --disableFastRender --navigateToChanged --noHTTPCache"
+    "dev:hugo": "NODE_ENV=development bin/hugo* server --gc --disableFastRender --navigateToChanged --noHTTPCache"
   },
   "devDependencies": {
     "intersection-observer": "^0.5.1",

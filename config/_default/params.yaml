@@ -16,9 +16,10 @@ tnd_styles:
       style: normal
       weight: 400
       file: fonts/files/play-v11-latin-regular
-      local: 
-        - Play Regular
-        - Play-Regular
+    - family: Play
+      style: normal
+      weight: 700
+      file: fonts/files/play-v11-latin-700
 social:
   - name: Github
     icon: github
