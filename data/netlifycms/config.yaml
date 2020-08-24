@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 collections:
 - import collection pages
 - import collection posts
