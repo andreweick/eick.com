@@ -20,6 +20,8 @@ tnd_styles:
       style: normal
       weight: 700
       file: fonts/files/play-v11-latin-700
+tnd_redirects:
+  use_aliases: true
 social:
   - name: Github
     icon: github

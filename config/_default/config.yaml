@@ -4,7 +4,7 @@ languageCode: en-us
 DefaultContentLanguage: en
 paginate: 5
 copyright: © Copyright notice
-
+disableAliases: true
 enableRobotsTXT: true
 
 taxonomies:
@@ -21,13 +21,8 @@ outputFormats:
     isPlainText: true
     mediatype: text/netlify
     notAlternative: true
-  REDIR:
-    baseName: _redirects
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
 outputs:
   home:
     - HTML
     - HEADERS
-    - REDIR
+    - tnd_redirects_netlify

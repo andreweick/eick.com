@@ -3,3 +3,4 @@ imports:
   - path: github.com/theNewDynamic/hugo-module-tnd-imgix
   - path: github.com/theNewDynamic/hugo-module-tnd-seo
   - path: github.com/theNewDynamic/hugo-module-tnd-styles
+  - path: github.com/theNewDynamic/hugo-module-tnd-redirects
