@@ -10,19 +10,7 @@ enableRobotsTXT: true
 taxonomies:
   tag: tags
 
-mediaTypes:
-  text/netlify:
-    delimiter: ""
-    suffixes:
-      - ""
-outputFormats:
-  HEADERS:
-    baseName: _headers
-    isPlainText: true
-    mediatype: text/netlify
-    notAlternative: true
 outputs:
   home:
     - HTML
-    - HEADERS
     - tnd_redirects_netlify
