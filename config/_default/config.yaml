@@ -1,0 +1,16 @@
+title: M. Andrew Eick
+baseURL: 'https://www.eick.com/'
+languageCode: en-us
+DefaultContentLanguage: en
+paginate: 5
+copyright: © Copyright notice
+disableAliases: true
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - tnd_redirects_netlify

@@ -1,7 +1,10 @@
 ---
-title: "about"
+title: About
 type: page
 draft: false
+menu:
+  main:
+    weight: 3
 ---
 
 ## Biographical sketch {#biographical-sketch}

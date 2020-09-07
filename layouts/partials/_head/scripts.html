@@ -1,0 +1,14 @@
+{{ with resources.Get "/js/index.js" }}
+  {{ $js := . | js.Build "main.js" }}
+  {{ if not site.IsServer }}
+    {{ $js = $js | minify | fingerprint }}
+  {{ end }}
+  <script type="text/javascript" src="{{ $js.RelPermalink }}"crossorigin="anonymous" defer></script>
+{{ end }}
+
+{{ with resources.Get "js/audioplayer.js" }}
+  {{ $audio := . | js.Build }}
+  {{ with $audio }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

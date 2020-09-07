@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+{{ hugo.Generator }}
+
+{{ partial "tnd-styles/tags.html" . }}
+
+{{ partial "_head/manifest.html" . }}
+
+{{ partial "tnd-seo/tags" . }}
+
+{{ with .OutputFormats.Get "rss" }}
+<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
+<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ site.Title }}" />
+{{ end }}
+
+{{ partial "_head/google-analytics.html" . }}
