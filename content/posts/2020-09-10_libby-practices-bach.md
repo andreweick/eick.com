@@ -1,7 +1,7 @@
 ---
 title: Libby Practices Bach
 date: 2020-09-09T13:15:30.171Z
-description: ""
+description: Bach Prelude practice run through
 tags:
   - libby
   - piano
