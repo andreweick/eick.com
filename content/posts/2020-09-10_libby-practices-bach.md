@@ -1,0 +1,12 @@
+---
+title: Libby Practices Bach
+date: 2020-09-09T13:15:30.171Z
+description: ""
+tags:
+  - libby
+  - piano
+  - practice
+---
+Libby practices bach, September 9, 2020
+
+https://cdn-eick-com.s3.amazonaws.com/audio/2020-09-09-bach-practice.m4a
