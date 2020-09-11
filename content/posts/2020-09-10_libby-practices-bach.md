@@ -6,8 +6,9 @@ tags:
   - libby
   - piano
   - practice
+  - audio
 ---
-Libby practices bach, September 9, 2020.
+Libby practices Bach, September 9, 2020.
 
 
-{{< audio title="Libby plays Harpsichord" file="https://cdn-eick-com.s3.amazonaws.com/audio/2020-09-09-bach-practice.m4a" >}}
+{{< audio title="Libby plays a Bach Preulued" file="https://cdn-eick-com.s3.amazonaws.com/audio/2020-09-09-bach-practice.m4a" >}}
