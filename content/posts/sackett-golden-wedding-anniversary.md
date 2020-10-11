@@ -1,9 +1,13 @@
 ---
-title: "Sackett Golden Wedding Anniversary"
-date: 1970-11-07T10:01:00-05:00
-tags: ["civilwar", "newspaper", "sackett", "familytree"]
+title: Sackett Golden Wedding Anniversary
+date: 1917-11-07T05:00:00.000Z
+description: Newspaper story from 1917 describing Cassander Sackett anniversary
+tags:
+  - civilwar
+  - newspaper
+  - sackett
+  - familytree
 draft: false
-description: "Newspaper story from 1917 describing Cassander Sackett anniversary"
 ---
 
 {{< figure src="https://mfc.imgix.net/edc/imgix/Nov-7-1917.tif?fit=clip&h=1000&w=1000" caption="Figure 1: Sackett's in 1917" >}}
