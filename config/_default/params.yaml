@@ -66,10 +66,10 @@ tnd_redirects:
   use_aliases: true
   rules:
   # Following rule for production
-  - origin: https://eick.netlify.app/*
-    target: https://www.eick.com/:splat
-    code: 301
-    force: true
+  # - origin: https://www-eick-com.netlify.app/*
+  #   target: https://www.eick.com/:splat
+  #   code: 301
+  #   force: true
 
 # ###############
 # TND HEADERS
