@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode | default "en" }}" class="no-js">
   <head>
-    {{block "head" .}}
-      {{- partial "_head/meta-and-links.html" . -}}
-    {{ end }}
-    {{block "scripts" .}}
-      {{ partialCached "_head/scripts.html" . }}
-    {{ end }}
+  {{ partial "head" . }}
   </head>
-  <body class="{{.Kind}} m-0 font-sans leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="{{.Kind}} m-0 text-blue-200 font-sans leading-normal text-base{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     <div id="content" class="content grid">      
       {{block "header" .}}      
         {{partial "navigation/title-menu.html" .}}      

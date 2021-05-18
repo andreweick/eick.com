@@ -10,7 +10,11 @@ enableRobotsTXT: true
 taxonomies:
   tag: tags
 
-outputs:
-  home:
-    - HTML
-    - tnd_redirects_netlify
+# Some bugs related to 404 template https://github.com/gohugoio/hugo/issues/7603
+disableKinds:
+  - '404'
+# googleAnalytics: UA-PROPERTY_ID
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5

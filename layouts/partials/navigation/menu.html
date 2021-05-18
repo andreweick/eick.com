@@ -1,17 +1,19 @@
-{{ $currentPage := .page }}
-{{ $menu := index .page.Site.Menus (.menu) }}
-{{ with $menu }}
+{{ $args := dict
+  "menu" .menu
+  "Page" .page
+}}
+{{ with partialCached "tnd-menus/GetMenu" $args .page.File.UniqueID }}
   <nav aria-label="{{ $.menu }}">
     <ul name="{{ $.menu }}" class="list-reset color-inherit pb-4 lg:pb-0">
       {{ range . }}
         <li class="{{ .Identifier }} inline-block">
-          <a class="color-inherit no-underline hover:text-primary-color-light py-1 pl-6{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="color-inherit no-underline hover:text-primary-color-light py-1 pl-6{{ if .Active }} active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
           {{ if .HasChildren }}
             <ul class="list-reset">
               {{ range .Children }}
-                <li class="text-base{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+                <li class="text-base{{ if .Active }} active{{ end }}">
                   <a href="{{ .URL }}" class="pl-12 py-1 block hover:text-primary-color-darker  color-inherit no-underline">
                     {{ .Name }}
                   </a>

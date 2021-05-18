@@ -1,37 +1,28 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "hugo --minify -e cached"
 
 [build.environment]
   GO_VERSION = "1.14"
-  NODE_VERSION = "10.13.0"
-  HUGO_VERSION = "0.74.3"
+  NODE_VERSION = "15.4.0"
+  HUGO_VERSION = "0.83.1"
+
+[context]
+
+[context.production]
 
 [context.production.environment]
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
 
-[context.split1.environment]
-HUGO_ENV = "production"
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
+command = "hugo --minify -e cached -D -b $DEPLOY_PRIME_URL"
 [context.deploy-preview.environment]
+HUGO_ENV = "staging"
+
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
+command = "hugo --minify -e cached -b $DEPLOY_URL"
 [context.branch-deploy.environment]
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "staging"
 
-[[headers]]
-for = "/*"
-[headers.values]
-Strict-Transport-Security = "max-age=15768000"
-X-Xss-Protection = "1; mode=block"
-X-Frame-Options = "DENY"
-X-Content-Type-Options = "nosniff"
-Referrer-Policy = "strict-origin-when-cross-origin"
-Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+[context.main]
+command = "hugo --minify -e cached -b $DEPLOY_URL"

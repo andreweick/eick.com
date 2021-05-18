@@ -4,6 +4,8 @@ date: 2016-12-09T00:00:00-05:00
 tags: ["jasmine", "video"]
 draft: false
 description: "Jasmine's 8th grade science class skit"
+aliases:
+  - /gogogogo-please
 ---
 
 Jasmine's 8th grade science class skit.

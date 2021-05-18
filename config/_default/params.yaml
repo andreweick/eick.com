@@ -1,15 +1,16 @@
-subtitle: 'If A, then B; B; therefore A'
-avatar: 'https://secure.gravatar.com/avatar/335dc7f83bbef5faacc41a687534c09f'
-disableDisqusTypes:
-  - page
-featherIconsCDN: true
-mode: auto
-tnd_imgix:
-  domain: mfc.imgix.net
-  defaults:
-    auto: format
-    ch: Width,DPR
-    q: 95
+# ###############
+# TND SEO
+# https://github.com/theNewDynamic/hugo-module-tnd-seo#settings
+# ###############
+tnd_seo:
+  jsonld: true
+  enable_follow: true
+  disable_title: false
+
+# ###############
+# TND STYLES
+# https://github.com/theNewDynamic/hugo-module-tnd-styles#fonts
+# ###############
 tnd_styles:
   fonts:
     - family: Play
@@ -20,12 +21,75 @@ tnd_styles:
       style: normal
       weight: 700
       file: fonts/files/play-v11-latin-700
+
+# ###############
+# TND SCRIPTS
+# https://github.com/theNewDynamic/hugo-module-tnd-scripts
+# ###############
+tnd_scripts:
+  scripts:
+    - name: main
+      path: /js/index.js
+    - name: audioplayer
+      path: /js/audioplayer.js
+# ###############
+# TND MEDIA
+# https://github.com/theNewDynamic/hugo-module-tnd-media#settings
+# If used in combination with imgix:
+# https://github.com/theNewDynamic/hugo-module-tnd-imgix#settings
+# ###############
+tnd_media:
+  storage: bundle
+  imgix:
+    domain: mfc.imgix.net
+    defaults:
+      auto: format
+      ch: Width,DPR
+      q: 95
+
+# ###############
+# TND SOCIALS
+# https://github.com/theNewDynamic/hugo-module-tnd-socials#configure
+# ###############
+tnd_socials:
+  services:
+  - name: github
+    handle: 'https://github.com/andreweick'
+  - name: rss
+    handle: https://www.eick.com/index.xml
+
+# ###############
+# TND REDIRECTS
+# https://github.com/theNewDynamic/hugo-module-tnd-redirects#api
+# ###############
 tnd_redirects:
   use_aliases: true
-social:
-  - name: Github
-    icon: github
-    url: 'https://github.com/andreweick'
-  - name: RSS
-    icon: rss
-    url: /index.xml
+  rules:
+  # Following rule for production
+  - origin: https://eick.netlify.app/*
+    target: https://www.eick.com/:splat
+    code: 301
+    force: true
+
+# ###############
+# TND HEADERS
+# https://github.com/theNewDynamic/hugo-module-tnd-headers#adding-custom-headers
+# ###############
+tnd_headers:
+  groups:
+    - headers:
+      - field: Content-Security-Policy
+        value: upgrade-insecure-requests
+      - field: Strict-Transport-Security
+        value: max-age=15768000
+      - field: X-Xss-Protection
+        value: 1; mode=block
+      - field: X-Frame-Options
+        value: DENY
+      - field: X-Content-Type-Options
+        value: nosniff
+      - field: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - field: Feature-Policy
+        value: camera 'none'; geolocation 'none'; microphone 'none';
+

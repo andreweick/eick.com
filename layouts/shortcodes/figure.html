@@ -1,10 +1,7 @@
 
 {{ with .Get "src" }}
-  {{ $src := . }}
-  {{ if templates.Exists "partials/tnd-imgix/GetSRC.html" }}
-    {{ $args := dict "src" . "width" "800" }}
-    {{ $src = partialCached "tnd-imgix/GetSRC" $args $args }}
-  {{ end }}
+  {{ $args := dict "path" . "width" "800" }}
+  {{ $src := partialCached "tnd-media/Get" $args $args }}
   <figure {{ with $.Get "class" }} class="{{ . }}"{{ end }}>
     <img src="{{ $src }}" {{ with $.Get "caption" }} alt="{{ . }}" {{ end}}>
     {{ with $.Get "caption" }}

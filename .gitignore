@@ -1,32 +1,28 @@
-# Ignore docs files
-.vscode
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
-# *.lock
-
-# Ignore emacs backup files
-*#
-
-# OS or Editor folders
-*.scssc
+# OS
 .DS_Store
 Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-.asset-cache
 
-# Folders to ignore
-node_modules
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# Vagrant
+.vagrant/
+
+# FE Setup
+.bin/node_modules/
+/node_modules/
+/npm-debug.log.*
+/npm-debug.log
+/npm-debug.log*
+
+# Hugo
+hugo_stats.json
 public
+
+# Local Netlify folder
+.netlify
