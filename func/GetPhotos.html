@@ -1,8 +1,22 @@
 {{ $s := newScratch }}
 {{ $s.Set "data" dict }}
-
-{{ with site.Taxonomies.remote }}
-  
+{{ $output := slice 
+    (dict "error" 
+      (dict "Name" "Nothing")
+    ) 
+}}
+{{ with site.Taxonomies.remotes }}
+  {{ range $term := . }}
+    {{ $request := `https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/` }}
+    {{ $query := print "?name=" $term.Page.Name }}
+    {{ with $data := getJSON "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/?name" $term.Page.Name }}
+      {{ with .Name }}
+      {{ $s.SetInMap "data" $term.Page.Name $data }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-
-{{ return $s.Get "data" }}
+{{ with $s.Get "data" }}
+  {{ $output = . }}
+{{ end }}
+{{ return $output }}
