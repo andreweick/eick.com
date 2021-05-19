@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ printf "%#v" .Name }}
+  {{ with getJSON "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/" (printf "Prod/photoapi/list?name=%s" .Title) }}
+  {{ printf "%#v" . }}
+  {{ end }}
+{{ end }}

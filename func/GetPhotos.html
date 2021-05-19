@@ -1,0 +1,8 @@
+{{ $s := newScratch }}
+{{ $s.Set "data" dict }}
+
+{{ with site.Taxonomies.remote }}
+  
+{{ end }}
+
+{{ return $s.Get "data" }}
