@@ -1,0 +1,17 @@
+<div class="block no-underline border p-4 my-4">
+  title: {{ .Name }}
+  src: {{ .SRC }}
+  <div class="border p-4">
+    <img src="{{ .SRC }}" alt="{{ .Name }}">
+  </div>
+  {{ with .Classification.Labels }}
+    <div class="text-xl">
+      Classifications
+    </div>
+    {{ range . }}
+      <div class="border-b p-2">
+        <strong>{{ .Name }}</strong> {{ .Confidence }}
+      </div>
+    {{ end }}
+  {{ end }}
+</a>

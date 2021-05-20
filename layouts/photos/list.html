@@ -1,10 +1,7 @@
 {{ define "main" }}
   {{ with partialCached "func/GetPhotos" "GetPhotos" }}
-    {{ printf "%#v" (len .) }}
     {{ range $index, $value := . }}
-    <div class="my-4">
-      {{ $index }}: {{ printf "%#v" . }}
-    </div>
+    {{ partial "photo_li" . }}
     {{ end }}
   {{ end }}
 {{ end }}

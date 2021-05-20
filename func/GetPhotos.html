@@ -7,12 +7,25 @@
 }}
 {{ with site.Taxonomies.remotes }}
   {{ range $term := . }}
-    {{ $request := `https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/` }}
-    {{ $query := print "?name=" $term.Page.Name }}
-    {{ $test := "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list?name=10_eicks_pose_by_monolith_.jpg" }}
-    {{ warnf "%#v" (printf "Prod/photoapi/list?name=%s" $term.Page.Title) }}
-    {{ with $data := getJSON "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/" (printf "Prod/photoapi/list?name=%s" $term.Page.Title) }}
-      {{ $s.SetInMap "data" $term.Page.Name $data }}
+    {{ with site.Data.photos }}
+      {{ with where . "Name" $term.Page.Title }}
+        {{ with index . 0 }}
+          {{ $src := "" }}
+          {{ $args := dict "path" .Name "width" 800 }}
+          {{ with partialCached "tnd-media/Get" $args $args }}
+            {{ with .Permalink }}
+              {{ $src = . }}
+            {{ end }}
+          {{ end }}
+          {{ $extend := dict
+            "RelPermalink" $term.Page.RelPermalink
+            "SRC" $src
+           }}
+          {{ $s.SetInMap "data" $term.Page.Title (merge . $extend) }}
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{ warnf "%#v" "No photos data" }}
     {{ end }}
   {{ end }}
 {{ end }}

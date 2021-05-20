@@ -39,7 +39,7 @@ tnd_scripts:
 # https://github.com/theNewDynamic/hugo-module-tnd-imgix#settings
 # ###############
 tnd_media:
-  storage: bundle
+  storage: static
   imgix:
     domain: mfc.imgix.net
     defaults:

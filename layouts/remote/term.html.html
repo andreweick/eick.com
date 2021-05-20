@@ -1,3 +1,5 @@
 {{ define "main" }}
-
+  {{ with partialCached "func/GetPhoto" .Title }}
+    {{ partial "photo_single" . }}
+  {{ end }}
 {{ end }}

@@ -26,3 +26,9 @@ HUGO_ENV = "staging"
 
 [context.main]
 command = "hugo --minify -e cached -b $DEPLOY_URL"
+
+[[plugins]]
+  package = "./build/netlify-plugin-s3photo"
+  [plugins.inputs]
+  S3URL = "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/"
+  contentDir = "remote/s3"
