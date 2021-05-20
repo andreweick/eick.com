@@ -5,7 +5,9 @@ folder: "content/posts"
 create: true
 sortableFields: ['title']
 preview_path: article/{{slug}}
-slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+#  posts/2019-12-14-libby-piano/
+slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
 fields:
   - import field title
   - import field date
