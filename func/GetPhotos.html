@@ -9,10 +9,10 @@
   {{ range $term := . }}
     {{ $request := `https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/` }}
     {{ $query := print "?name=" $term.Page.Name }}
-    {{ with $data := getJSON "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list/?name" $term.Page.Name }}
-      {{ with .Name }}
+    {{ $test := "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/Prod/photoapi/list?name=10_eicks_pose_by_monolith_.jpg" }}
+    {{ warnf "%#v" (printf "Prod/photoapi/list?name=%s" $term.Page.Title) }}
+    {{ with $data := getJSON "https://b2e2t0ibm9.execute-api.us-east-1.amazonaws.com/" (printf "Prod/photoapi/list?name=%s" $term.Page.Title) }}
       {{ $s.SetInMap "data" $term.Page.Name $data }}
-      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}

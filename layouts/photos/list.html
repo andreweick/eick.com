@@ -1,7 +1,10 @@
 {{ define "main" }}
-  {{ range $index, $value := partialCached "func/GetPhotos" "GetPhotos" }}
+  {{ with partialCached "func/GetPhotos" "GetPhotos" }}
+    {{ printf "%#v" (len .) }}
+    {{ range $index, $value := . }}
     <div class="my-4">
-      {{ printf "%#v" . }}
+      {{ $index }}: {{ printf "%#v" . }}
     </div>
+    {{ end }}
   {{ end }}
 {{ end }}
