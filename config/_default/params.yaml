@@ -41,7 +41,7 @@ tnd_scripts:
 tnd_media:
   storage: static
   imgix:
-    domain: mfc.imgix.net
+    domain: edc.imgix.net
     defaults:
       auto: format
       ch: Width,DPR

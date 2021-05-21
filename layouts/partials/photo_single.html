@@ -1,17 +1,21 @@
 <div class="block no-underline border p-4 my-4">
-  title: {{ .Name }}
-  src: {{ .SRC }}
-  <div class="border p-4">
-    <img src="{{ .SRC }}" alt="{{ .Name }}">
-  </div>
-  {{ with .Classification.Labels }}
-    <div class="text-xl">
-      Classifications
+  <h1 class="text-4xl mb-8 break-all">{{ .Name }}</h1>
+  <div class="md:grid grid-cols-12 grid-gap-8">
+    <div class="col-span-4">
+      <h2 class="text-xl">By {{ .Artist }}</h2>
+      {{ with .Classification }}
+        <div class="flex flex-wrap my-8 text-xs -mx-1">
+          {{ range . }}
+          <div class="border mx-1 mb-2 p-1">
+            {{ . }}
+          </div>
+        {{ end }}
+        </div>
+      {{ end }}
     </div>
-    {{ range . }}
-      <div class="border-b p-2">
-        <strong>{{ .Name }}</strong> {{ .Confidence }}
-      </div>
-    {{ end }}
-  {{ end }}
+    <div class="border p-4 col-span-8">
+      <img class="max-w-full" src="{{ .SRC }}" alt="{{ .Name }}">
+    </div>
+  </div>
+  
 </a>

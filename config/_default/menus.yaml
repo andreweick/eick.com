@@ -1,0 +1,4 @@
+main:
+  - name: Photos
+    params:
+      page: /photos

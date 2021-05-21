@@ -1,4 +1,9 @@
-<a href="{{ .RelPermalink }}" class="block no-underline border p-4 my-4">
-  title: {{ .Name }}
-  src: {{ .SRC }}
+<a href="{{ .RelPermalink }}" class="flex items-center no-underline border p-4 my-4">
+  <div class="w-32 flex-shrink-0 flex-grow-9 mr-4">
+    <img src="{{ .SRC }}" alt="">
+  </div>
+  <div>
+    <div><strong>title</strong>: {{ .Name }}</div>
+    <div><strong>by</strong>: {{ .Artist }}</div>
+  </div>
 </a>

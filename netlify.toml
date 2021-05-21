@@ -27,6 +27,9 @@ HUGO_ENV = "staging"
 [context.main]
 command = "hugo --minify -e cached -b $DEPLOY_URL"
 
+# Comment local-install-core plugin for local dev.
+[[plugins]]
+  package = "@netlify/plugin-local-install-core"
 [[plugins]]
   package = "./build/netlify-plugin-s3photo"
   [plugins.inputs]

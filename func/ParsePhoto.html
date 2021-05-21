@@ -1,0 +1,64 @@
+{{/*
+  ParsePhoto
+  Structure data for a Photo item
+
+  @author @regisphilibert
+
+  @context Page (.)
+
+  @access private
+
+  @returns Map
+      String (.Name)
+      String (.ParsedName)
+      String (.Artist)
+      String (.CaptureTime)
+      String (.Description)
+      String (.Caption)
+      Int (.ID)
+      Int (.Height)
+      Int (.Width)
+      Slice of String (.Classification)
+  @uses
+     - partial
+
+  @example - Go Template
+    {{ with partialCached "ParsePhotot" context context }}
+      {{ something = . }}
+    {{ end }}
+*/}}
+{{ $s := newScratch }}
+{{ $s.Set "data" dict }}
+
+{{ with partialCached "func/GetPhotoData" "GetPhotoData" }}
+  {{ with where . "Name" $.Title }}
+    {{ with index . 0 }}
+      {{ $src := "" }}
+      {{ $args := dict "path" .Name "width" 800 }}
+      {{ with partialCached "tnd-media/Get" $args $args }}
+        {{ with .Permalink }}
+          {{ $src = . }}
+        {{ end }}
+      {{ end }}
+      {{ $classifications := slice }}
+      {{ with .Classification.Labels }}
+        {{ range . }}
+          {{ with .Name }}
+            {{ $classifications = $classifications | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $extend := dict
+        "RelPermalink" $.RelPermalink
+        "SRC" $src
+        "Classification" $classifications
+        }}
+
+      {{ $s.Set "data" (merge . $extend) }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ warnf "%#v" "No photos data" }}
+{{ end }}
+
+{{ return $s.Get "data" }}
