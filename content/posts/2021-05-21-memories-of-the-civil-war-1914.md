@@ -1,6 +1,6 @@
 ---
 title: Memories of the Civil War, 1914
-date: 2021-05-21T21:40:52.559Z
+date: 1914-10-09T21:40:52.559Z
 tags:
   - civil-war
   - newspaper
