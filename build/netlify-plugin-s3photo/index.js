@@ -197,11 +197,17 @@ module.exports = {
     }
     await Promise.all([
       ['data/photos.json'].map(async (filename) => {
-        //let photos = []
-        await remotePhotos.forEach( photo => {
-          //photos[photo.Name] = photo
+        const photos = remotePhotos.map(item => {
+          let Classification = []
+          if(typeof item.Classification.Labels !== "undefined" && item.Classification.Labels){
+            Classification = item.Classification.Labels.map(item => item.Name)
+          }
+          return {
+            ...item,
+            Classification
+          }
         })
-        const photos = remotePhotos
+
         let fileName = filename;
 
         // The full file path and name

@@ -40,18 +40,9 @@
           {{ $src = . }}
         {{ end }}
       {{ end }}
-      {{ $classifications := slice }}
-      {{ with .Classification.Labels }}
-        {{ range . }}
-          {{ with .Name }}
-            {{ $classifications = $classifications | append . }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
       {{ $extend := dict
         "RelPermalink" $.RelPermalink
         "SRC" $src
-        "Classification" $classifications
         }}
 
       {{ $s.Set "data" (merge . $extend) }}
