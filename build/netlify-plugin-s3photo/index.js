@@ -112,7 +112,7 @@ module.exports = {
   onPreBuild: async ({
     inputs: {
       S3URL,
-      limit = 200,
+      limit = 3000,
       contentDir = "./remote/s3",
       postDatePrefix = true,
       cacheFile = "./remote/s3/cache/wpMarkdownCache.json"
@@ -123,17 +123,21 @@ module.exports = {
     }
   }) => {
 
-    const S3Photo = async function(filename) {
+    const S3Photo = function(filename) {
       const S3APIURL = S3URL + '?name=' + filename
       return fetch(S3APIURL).then(response => {
         const output = response.json()
+        if(output.Name == "") {
+          throw `${filename} does not exist`; // rejects the promise
+        }
+        
         return output
       })
     }
 
     const S3Photos = async function(filenames) {
-      const pArray = filenames.map(async filename => {
-        const response = await S3Photo(filename)
+      const pArray = filenames.map(filename => {
+        const response = S3Photo(filename)
         return response
       });
       const photos = await Promise.all(pArray);
@@ -152,7 +156,7 @@ module.exports = {
         failPlugin: failPlugin
       }),
       remotePhotos,
-    ]);
+    ])
       if(false) {
       const createContentFiles = photoFiles.map(async (photo) => {
         // Set the file name using the post slug

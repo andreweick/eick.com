@@ -3,7 +3,7 @@
 
     <div class="max-w-3xl mx-auto py-4">
       <div class="border p-4 mb-4">
-        We've got {{ len . }} photos. (Limit set to 200)
+        We've got {{ len . }} photos. (Limit set to 3000)
       </div>
       {{ $paginator := $.Paginate . }}
       {{ range $paginator.Pages }}
