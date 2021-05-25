@@ -6,6 +6,12 @@ tags:
   - soccer
   - jasmine
 ---
+{{ $args := dict 
+  "path" "20210522-soccer-0001.jpg" 
+  "width" 1024 
+  "height" 100 
+}}
+
 <img src="https://edc.imgix.net/20210522-soccer-0001.jpg?fit=clip&h=1000&w=1000">
 <img src="https://edc.imgix.net/20210522-soccer-0008.jpg?fit=clip&h=1000&w=1000">
 <img src="https://edc.imgix.net/20210522-soccer-0017.jpg?fit=clip&h=1000&w=1000">
