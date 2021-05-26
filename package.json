@@ -14,9 +14,9 @@
    "tailwindcss": "project"
   }
  },
- "dependencies": {},
  "description": "Replace this description with project's",
  "devDependencies": {
+  "@meilisearch/instant-meilisearch": "^0.5.0",
   "@tailwindcss/typography": "^0.4.0",
   "algoliasearch": "^4.8.6",
   "amplitudejs": "^5.0.3",
