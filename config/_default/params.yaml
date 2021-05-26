@@ -128,7 +128,7 @@ tnd_search:
     - name: hits
       templates:
         item: |
-          <a class="flex items-center block p-2 font-bold text-black no-underline border-b border-black group hover:bg-grey-light min-h-24" href="{{ ref }}">
+          <a class="flex items-center block p-2 font-bold text-black no-underline border-b border-black group hover:bg-grey-light min-h-24" href="{{ permalink }}">
             <div>
               <div class="text-sm font-normal leading-tight group-hover:text-white">
               {{type}}
