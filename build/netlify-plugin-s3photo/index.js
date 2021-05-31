@@ -112,7 +112,7 @@ module.exports = {
   onPreBuild: async ({
     inputs: {
       S3URL,
-      limit = 3000,
+      entryLimit,
       contentDir = "./remote/s3",
       postDatePrefix = true,
       cacheFile = "./remote/s3/cache/wpMarkdownCache.json"
@@ -147,7 +147,7 @@ module.exports = {
     // Initialise Ghost Content API
     const photosDir = contentDir + "/photos/"
     const photosFilenames = require('./photos_filenames.json')
-    const remotePhotos = await S3Photos(photosFilenames.slice(1, limit))
+    const remotePhotos = await S3Photos(photosFilenames.slice(1, entryLimit))
 
     const [cacheDate, photoListFile, photoFiles, ] = await Promise.all([
       getCacheTimestamp({
