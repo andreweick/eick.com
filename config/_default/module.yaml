@@ -3,6 +3,8 @@
 # https://www.thenewdynamic.com/article/hugo-modules-everything-from-imports-to-create/
 # ################################
 mounts:
+  - source: content
+    target: content
   - source: layouts
     target: layouts
   # Returning partials are core elements which should sit at the root of the project.
@@ -11,10 +13,10 @@ mounts:
   # We'll keep the uploads dir at the root of the repo while mounting it underneath `content/upload`.
   # This allow us to easily change the location of the directory to `static/` or `assets/` if needed.
   # See https://github.com/theNewDynamic/hugo-module-tnd-media#storage
-  - source: content
-    target: content
+  - source: static
+    target: static
   - source: uploads
-    target: content/uploads
+    target: static/uploads
 imports:
   - path: github.com/theNewDynamic/hugo-module-tnd-seo
   - path: github.com/theNewDynamic/hugo-module-tnd-styles
