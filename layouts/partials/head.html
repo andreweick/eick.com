@@ -21,3 +21,7 @@
 {{ partialCached "tnd-styles/tags.html" . }}
 
 {{ partialCached "tnd-scripts/tags.html" "all" }}
+
+{{ if .Params.search }}
+{{ partial "tnd-search/instantsearch/tags" . }}
+{{ end }}

@@ -7,6 +7,10 @@ command = "hugo --minify -e cached"
   NODE_VERSION = "15.4.0"
   HUGO_VERSION = "0.83.1"
 
+
+[functions]
+  directory = "functions"
+
 [context]
 
 [context.production]
