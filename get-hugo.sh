@@ -46,7 +46,23 @@ pushd ${PWD}/temp
 
 echo Current Directory: ${PWD}
 
-curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${EXTENDED}${HUGO_VERSION}_macOS-64bit.tar.gz -o ${FILE}.tar.gz
+# Get operating system name
+SYSTEM_STRING=`uname -s`
+if [ $SYSTEM_STRING == "Darwin" ]; then
+   PLATFORM_STRING="macOS"
+else
+   PLATFORM_STRING=$SYSTEM_STRING
+fi
+
+# Get ARM or Intel
+UNAME_ARCH=`uname -m`
+if [ $UNAME_ARCH == 'x86_64' ]; then
+   ARCHITECTURE_STRING="64bit"
+else
+   ARCHITECTURE_STRING="ARM64"
+fi
+
+curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${EXTENDED}${HUGO_VERSION}_${PLATFORM_STRING}-${ARCHITECTURE_STRING}.tar.gz -o ${FILE}.tar.gz
 
 TARBALL=${FILE}.tar.gz
 

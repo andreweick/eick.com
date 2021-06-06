@@ -24,5 +24,8 @@ nbproject/
 hugo_stats.json
 public
 
+#hugo binary
+/bin/
+
 # Local Netlify folder
 .netlify
