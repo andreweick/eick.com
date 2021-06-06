@@ -24,7 +24,7 @@ nbproject/
 hugo_stats.json
 public
 
-#hugo binary
+#hugo binary -- run get-hugo.sh to get correct hugo binary
 /bin/
 
 # Local Netlify folder
