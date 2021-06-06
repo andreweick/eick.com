@@ -1,7 +1,6 @@
 {
  "author": "theNewDynamic",
  "comments": {
-  "dependencies": {},
   "devDependencies": {
     "amplitudejs": "^5.3.1",
     "intersection-observer": "^0.5.1",
