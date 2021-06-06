@@ -1,8 +1,15 @@
-<div class="border border-gray-400 p-2">
-  <img class="lazyload" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
-  {{ with .Title }}
-    <div class="text-sm mt-2 text-center italic">
-      {{ . }}
-    </div>
+{{ with .Destination }}
+  {{ $src := . }}
+  {{ $args := dict "path" . "width" 800 }}
+  {{ with partialCached "tnd-media/Get" $args $args }}
+    {{ $src = .RelPermalink }}
   {{ end }}
-</div>
+  <figure>
+    <img class="lazyload" src="{{ $src }}" alt="{{ $.Text }}" {{ with $.Title}} title="{{ . }}"{{ end }} />
+    {{ with $.Title }}
+    <figcaption>
+      <p>{{ . }}</p>
+    </figcaption>
+    {{ end }}
+  </figure>
+{{ end }}

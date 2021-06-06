@@ -43,9 +43,9 @@ tnd_scripts:
 # https://github.com/theNewDynamic/hugo-module-tnd-imgix#settings
 # ###############
 tnd_media:
-  storage: bundle
+  storage: static
   imgix:
-    domain: mfc.imgix.net
+    domain: edc.imgix.net
     defaults:
       auto: format
       ch: Width,DPR
@@ -97,3 +97,54 @@ tnd_headers:
       - field: Feature-Policy
         value: camera 'none'; geolocation 'none'; microphone 'none';
 
+
+tnd_search:
+  service: meili
+  instantsearch:
+    indexName: default
+    appId: https://search.eick.ws
+    apiKey: 71dea55ca64952406e4685744e437840e5b97dc5b5b65c080fd67d2deab445c4
+    startEmpty: true
+    widgets:
+    - name: searchBox
+      autofocus: true
+      placeholder: 'Search'
+      showSubmit: false
+      showReset: false
+      showLoadingIndicator: false
+      classes:
+        root: 'px-2'
+        reset: 'hidden'
+        input: 'hide-clear border block b-white w-full py-2 px-4 text-3xl leading-5 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 border-opacity-0 focus:ring-offset-2 focus:ring-offset-indigo-600 focus:ring-white focus:border-white'
+    - name: menu
+      js: menu
+      attribute: tags
+      classes:
+        root: mb-4 px-4
+        count: hidden
+        list: flex flex-wrap justify-start list-reset
+        item: text-sm px-2 py-1 text-black mr-1
+        link: text-black no-underline
+    - name: hits
+      templates:
+        item: |
+          <a class="flex items-center block p-2 font-bold text-black no-underline border-b border-black group hover:bg-grey-light min-h-24" href="{{ permalink }}">
+            <div>
+              <div class="text-sm font-normal leading-tight group-hover:text-white">
+              {{type}}
+              </div>
+              {{title}}
+            </div>
+          </a>
+        empty: |
+          <span class="block px-8 py-2 border-b border-black">No results</span>
+      classes:
+        root: 'px-4'
+        list: 'list-reset'
+    - name: pagination
+      classes:
+        root: py-2 mt-8 text-black px-4
+        list: flex items-center list-reset flex-wrap justify-center
+        item: text-xs text-black inline-block border shadow align-middle mb-2 lg:mb-0 mx-1 py-1 px-2 md:py-2 md:px-4 hover:bg-gray-200
+        link: text-current no-underline
+        selectedItem: no-underline

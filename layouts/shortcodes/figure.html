@@ -1,6 +1,6 @@
 
 {{ with .Get "src" }}
-  {{ $args := dict "path" . "width" "800" }}
+  {{ $args := dict "path" . "width" 800 }}
   {{ $src := partialCached "tnd-media/Get" $args $args }}
   <figure {{ with $.Get "class" }} class="{{ . }}"{{ end }}>
     <img src="{{ $src.Permalink }}" {{ with $.Get "caption" }} alt="{{ . }}" {{ end}}>
