@@ -76,11 +76,7 @@ tags:
 
 ![McLean Soccer](/20210605-soccer-0861.jpg)
 
-![McLean Soccer](/20210605-soccer-0862.jpg)
-
 ![McLean Soccer](/20210605-soccer-0863.jpg)
-
-![McLean Soccer](/20210605-soccer-0864.jpg)
 
 ![McLean Soccer](/20210605-soccer-0865.jpg)
 
@@ -88,19 +84,11 @@ tags:
 
 ![McLean Soccer](/20210605-soccer-0881.jpg)
 
-![McLean Soccer](/20210605-soccer-0882.jpg)
-
 ![McLean Soccer](/20210605-soccer-0885.jpg)
-
-![McLean Soccer](/20210605-soccer-0886.jpg)
 
 ![McLean Soccer](/20210605-soccer-0889.jpg)
 
-![McLean Soccer](/20210605-soccer-0890.jpg)
-
 ![McLean Soccer](/20210605-soccer-0897.jpg)
-
-![McLean Soccer](/20210605-soccer-0898.jpg)
 
 ![McLean Soccer](/20210605-soccer-0903.jpg)
 
