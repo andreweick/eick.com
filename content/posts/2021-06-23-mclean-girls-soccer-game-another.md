@@ -74,14 +74,6 @@ tags:
 
 ![McLean Soccer](/20210605-soccer-0819.jpg)
 
-![McLean Soccer](/20210605-soccer-0841.jpg)
-
-![McLean Soccer](/20210605-soccer-0842.jpg)
-
-![McLean Soccer](/20210605-soccer-0845.jpg)
-
-![McLean Soccer](/20210605-soccer-0846.jpg)
-
 ![McLean Soccer](/20210605-soccer-0861.jpg)
 
 ![McLean Soccer](/20210605-soccer-0862.jpg)
