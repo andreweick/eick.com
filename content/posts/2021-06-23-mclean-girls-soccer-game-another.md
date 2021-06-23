@@ -4,7 +4,8 @@ date: 2021-06-05T15:27:27.264Z
 tags:
   - soccer
 ---
-![McLean Soccer](/20210605-soccer-0004.jpg
+![McLean Soccer](/20210605-soccer-0004.jpg)
+
 ![McLean Soccer](/20210605-soccer-0012.jpg)
 ![McLean Soccer](/20210605-soccer-0026.jpg)
 ![McLean Soccer](/20210605-soccer-0034.jpg)
