@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ $data := dict
+    "Name" "builder_eick_title"
+    "Artist" "builder_eick_artist"
+    "SRC" "https://edc.imgix.net/builder_eick_img_src?auto=format&ch=Width,DPR&q=95&w=800"
+  }}
+  {{ with $data }}
+    {{ partial "photo_single" . }}
+  {{ end }}
+{{ end }}

@@ -17,9 +17,7 @@
 {{ $pages := slice }}
 {{ with site.Taxonomies.remotes }}
   {{ range $term := . }}
-    {{ with partialCached "func/ParsePhoto" .Page .Page }}
-      {{ $pages = $pages | append $term.Page }}
-    {{ end }}
+    {{ $pages = $pages | append $term.Page }}
   {{ end }}
 {{ end }}
 

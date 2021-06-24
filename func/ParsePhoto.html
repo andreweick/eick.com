@@ -29,6 +29,13 @@
 */}}
 {{ $s := newScratch }}
 {{ $s.Set "data" dict }}
+{{ $s.SetInMap "data" "Name" $.Title }}
+{{ $s.SetInMap "data" "RelPermalink" $.RelPermalink }}
+{{ if site.IsServer }}
+  {{ $s.SetInMap "data" "RelPermalink" (printf "/.netlify/functions/photo/?name=%s" $.Title) }}
+{{ end }}
+{{ $s.SetInMap "data" "SRC" (printf "https://edc.imgix.net/%s?auto=format&ch=Width,DPR&q=95&w=800" $.Title) }}
+{{ $s.SetInMap "data" "Hugo" false }}
 
 {{ with partialCached "func/GetPhotoData" "GetPhotoData" }}
   {{ with where . "Name" $.Title }}
@@ -43,13 +50,12 @@
       {{ $extend := dict
         "RelPermalink" $.RelPermalink
         "SRC" $src
+        "Hugo" true
         }}
 
       {{ $s.Set "data" (merge . $extend) }}
     {{ end }}
   {{ end }}
-{{ else }}
-  {{ warnf "%#v" "No photos data" }}
 {{ end }}
 
 {{ return $s.Get "data" }}

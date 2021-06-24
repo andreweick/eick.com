@@ -157,48 +157,7 @@ module.exports = {
       }),
       remotePhotos,
     ])
-      if(false) {
-      const createContentFiles = photoFiles.map(async (photo) => {
-        // Set the file name using the post slug
-        let fileName = `${photo.Name}.md`;
-
-        // If postDatePrefix is true prefix file with post date
-        if (postDatePrefix) {
-          fileName = `${photo.Name}.md`;
-        }
-
-        // The full file path and name
-        const fullFilePath = photosDir + fileName;
-
-        // Get the post updated date and last cached date
-        const postUpdatedAt = new Date(photo.CaptureTime ? photo.CaptureTime : '');
-
-        if ((await cache.has(fullFilePath)) && cacheDate > postUpdatedAt) {
-          // Restore markdown from cache
-          await cache.restore(fullFilePath);
-
-          log({
-            color: cyan,
-            label: "Restored from cache",
-            value: fullFilePath
-          });
-        } else {
-          // Generate markdown file
-          await writeFile({
-            fullFilePath: fullFilePath,
-            content: createMarkdownContent(photo, 'photo')
-          });
-          // Cache the markdown file
-          await cache.save(fullFilePath);
-
-          log({
-            color: green,
-            label: "Generated and cached",
-            value: fullFilePath
-          });
-        }
-      })
-    }
+    
     await Promise.all([
       ['data/photos.json'].map(async (filename) => {
         const photos = remotePhotos.map(item => {
