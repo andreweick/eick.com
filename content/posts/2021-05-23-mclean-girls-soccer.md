@@ -12,6 +12,8 @@ tags:
   "height" 100 
 }}
 
+{{< figure src="/20210522-soccer-0001.jpg" caption="Figure 1: 20210522-soccer-0001.jpg" >}}
+
 <img src="https://edc.imgix.net/20210522-soccer-0001.jpg?fit=clip&h=1000&w=1000">
 <img src="https://edc.imgix.net/20210522-soccer-0008.jpg?fit=clip&h=1000&w=1000">
 <img src="https://edc.imgix.net/20210522-soccer-0017.jpg?fit=clip&h=1000&w=1000">
