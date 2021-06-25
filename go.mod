@@ -11,13 +11,13 @@ require (
 	github.com/theNewDynamic/hugo-module-tnd-headers v0.1.4 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-icons v0.1.4 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-imgix v0.2.2 // indirect
-	github.com/theNewDynamic/hugo-module-tnd-media v0.0.0-20210510200733-51e435159ad7 // indirect
+	github.com/theNewDynamic/hugo-module-tnd-media v0.0.0-20210531144828-07e0fa64fece // indirect
 	github.com/theNewDynamic/hugo-module-tnd-menus v0.0.0-20210322205111-03cfde5da487 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-netlifycms v0.1.71 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-redirects v1.2.4 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-scripts v0.0.0-20210512182152-9e0809896a22 // indirect
-	github.com/theNewDynamic/hugo-module-tnd-search v0.1.5 // indirect
-	github.com/theNewDynamic/hugo-module-tnd-seo v0.1.8 // indirect
+	github.com/theNewDynamic/hugo-module-tnd-search v0.2.0 // indirect
+	github.com/theNewDynamic/hugo-module-tnd-seo v0.1.10 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-socials v0.1.5 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-styles v0.7.4 // indirect
 	github.com/theNewDynamic/hugo-module-tnd-tags v0.0.0-20201216162006-4a63841356ad // indirect

@@ -12,6 +12,8 @@
   {{ template "_internal/google_analytics_async.html" . }}
 {{end}}
 
+{{ partialCached "plausible" . }}
+
 {{ partial "tnd-seo/tags.html" . }}
 {{/* Remove following if Projects uses its own classes on forms */}}
 {{ partial "tnd-forms/head.html" . }}
@@ -19,3 +21,7 @@
 {{ partialCached "tnd-styles/tags.html" . }}
 
 {{ partialCached "tnd-scripts/tags.html" "all" }}
+
+{{ if .Params.search }}
+{{ partial "tnd-search/instantsearch/tags" . }}
+{{ end }}

@@ -1,8 +1,39 @@
-<div class="border border-gray-400 p-2">
-  <img class="lazyload" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
-  {{ with .Title }}
-    <div class="text-sm mt-2 text-center italic">
-      {{ . }}
-    </div>
+{{ with .Destination }}
+  {{ $path := . }}
+  {{ $original := . }}
+  {{ $args := dict "path" . "width" 480 }}
+  {{ with partialCached "tnd-media/Get" $args $args }}
+    {{ $original = .RelPermalink }}
   {{ end }}
-</div>
+  {{ $variants := slice
+    (dict 
+      "args" (dict
+        "path" $path
+        "width" 864
+      )
+      "media" "(min-width: 768px)"
+    )
+    (dict 
+      "args" (dict
+        "path" $path
+        "width" 768
+      )
+      "media" "(min-width: 480px)"
+    )
+  }}
+<figure class="max-w-full">
+  <picture>
+    {{ range $variant := $variants }}
+      {{ with partialCached "tnd-media/Get" .args .args }}
+        <source data-srcset="{{ .RelPermalink }}" media="{{ $variant.media }}">
+      {{ end }}
+    {{ end }}
+    <img class="lazyload" src="{{ $original }}" {{ with $.Text }}alt="{{ $.Text }}"{{ end }} {{ with $.Title }} title="{{ . }}"{{ end }} />
+  </picture>
+  {{ with $.Title }}
+  <figcaption>
+    <p>{{ . }}</p>
+  </figcaption>
+  {{ end }}
+</figure>
+{{ end }}
