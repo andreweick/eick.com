@@ -18,6 +18,8 @@ async function handler(event, context) {
   const placeholder = await fetch(`${site_url}/placeholder/index.html`).then(response => {
     if(response.ok) {
       return response.text()
+    } else {
+      throw new Error(`Nothing found at ${site_url}/placeholder/index.html`);
     }
   })
   const photo_data = await fetch(`https://m2gfewcae1.execute-api.us-east-1.amazonaws.com/Prod/photoapi?name=${name}`).then(response => {
