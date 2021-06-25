@@ -7,10 +7,12 @@ const extractNetlifySiteFromContext = function(context) {
   }
   return site
 }
+
 const fetch = require("node-fetch");
 
 async function handler(event, context) {
   const {site_url} = extractNetlifySiteFromContext(context)
+
   const name = event.queryStringParameters.name
   
   const placeholder = await fetch(`${site_url}/placeholder/index.html`).then(response => {
@@ -24,16 +26,24 @@ async function handler(event, context) {
     }
   })
  
-  let body = await placeholder.replaceAll('builder_eick_title', name)
+  let content = await placeholder.replaceAll('builder_eick_title', name)
                               .replaceAll('builder_eick_img_src', name)
+                              //.replaceAll('builder_eick_debug', '')
                               .replaceAll('builder_eick_artist', photo_data.Artist)
   return {
     statusCode: 200,
     headers: {
       "Content-Type": "text/html",
     },
-    body,
+    body: content,
   };
 }
 
+// There is currently no easy way to determine if we want a cached route (using builder()) or not. 
+// As builder is not supported locally, we need to comment/uncomment for now.
+
+//For deploy:
 exports.handler = builder(handler)
+
+// For local
+//exports.handler = handler
