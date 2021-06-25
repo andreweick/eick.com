@@ -20,3 +20,6 @@ sitemap:
   filename: sitemap.xml
   priority: 0.5
 
+outputs:
+  term:
+  - HTML
