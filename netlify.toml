@@ -33,7 +33,6 @@ command = "hugo --minify -e cached -b $DEPLOY_URL"
 [[plugins]]
   package = "./build/netlify-plugin-s3photo"
   [plugins.inputs]
-  S3URL = " https://m2gfewcae1.execute-api.us-east-1.amazonaws.com/Prod/photoapi/"
   contentDir = "remote/s3"
   entryLimit = 1000
 

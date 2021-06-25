@@ -111,7 +111,7 @@ const createMarkdownContent = (data, template) => {
 module.exports = {
   onPreBuild: async ({
     inputs: {
-      S3URL,
+      S3URL = process.env.S3API_URL,
       entryLimit,
       contentDir = "./remote/s3",
       postDatePrefix = true,
