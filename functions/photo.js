@@ -27,11 +27,10 @@ async function handler(event, context) {
       return response.json()
     }
   })
- 
-  let content = await placeholder.replaceAll('builder_eick_title', name)
-                              .replaceAll('builder_eick_img_src', name)
-                              .replaceAll('builder_eick_debug', site_url)
-                              .replaceAll('builder_eick_artist', photo_data.Artist)
+  let content = await placeholder.replace(/builder_eick_title/g, name)
+                              .replace(/builder_eick_img_src/g, name)
+                              .replace(/builder_eick_debug/g, site_url)
+                              .replace(/builder_eick_artist/g, photo_data.Artist)
   return {
     statusCode: 200,
     headers: {
@@ -45,7 +44,7 @@ async function handler(event, context) {
 // As builder is not supported locally, we need to comment/uncomment for now.
 
 //For deploy:
-//exports.handler = builder(handler)
+exports.handler = builder(handler)
 
 // For local
-exports.handler = handler
+//exports.handler = handler
