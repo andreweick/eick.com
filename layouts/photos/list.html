@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ with partialCached "func/GetPhotoPages" "GetPhotoPages" }}
+
+    <div class="max-w-3xl mx-auto py-4">
+      <div class="border p-4 mb-4">
+        We've got {{ len . }} photos. (Only 1000 are generated with Hugo)
+      </div>
+      {{ $paginator := $.Paginate . }}
+      {{ range $paginator.Pages }}
+        {{ with partialCached "func/ParsePhoto" . . }}
+          {{ partial "photo_li" . }}
+        {{ end }}
+      {{ end }}
+      {{ template "_internal/pagination.html" $ }}
+    </div>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ with partialCached "func/ParsePhoto" . . }}
+    {{ partial "photo_single" . }}
+  {{ else }}
+    nope
+  {{ end }}
+{{ end }}

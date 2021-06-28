@@ -1,0 +1,8 @@
+{{ $photo := dict }}
+{{ with partialCached "func/GetPhotos" "GetPhotos" }}
+  {{ with index . $ }}
+    {{ $photo = . }}
+  {{ end }}
+{{ end }}
+
+{{ return $photo }}

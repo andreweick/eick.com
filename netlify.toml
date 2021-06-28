@@ -7,7 +7,6 @@ command = "hugo --minify -e cached"
   NODE_VERSION = "15.4.0"
   HUGO_VERSION = "0.83.1"
 
-
 [functions]
   directory = "functions"
 
@@ -27,3 +26,21 @@ HUGO_ENV = "staging"
 command = "hugo --minify -e cached -b $DEPLOY_URL"
 [context.branch-deploy.environment]
 HUGO_ENV = "staging"
+
+[context.main]
+command = "hugo --minify -e cached -b $DEPLOY_URL"
+
+[[plugins]]
+  package = "./build/netlify-plugin-s3photo"
+  [plugins.inputs]
+  contentDir = "remote/s3"
+  entryLimit = 1000
+
+[[context.deploy-preview.plugins]]
+package = "@netlify/plugin-local-install-core"
+[[context.production.plugins]]
+package = "@netlify/plugin-local-install-core"
+
+[dev]
+  functions = "functions"
+  publish = "public"

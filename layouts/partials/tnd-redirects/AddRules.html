@@ -12,12 +12,18 @@
 
 */}}
 {{ $redirs := slice }}
-{{/* EXAMPLE:
 
-{{ $posts := where site.RegularPages "Params.redirect_ca" "==" true }}
-{{ range $posts }}
-  {{ $rule := dict "origin" .RelPermalink "target" "/canadian-regulation" "country" "ca" }}
-  {{ $redirs = $redirs | append $rule }}
+{{ with partialCached "func/GetPhotoPages" "GetPhotoPages" }}
+  {{ range $page := . }}
+    {{ if not (partialCached "func/PhotoHasData" . .) }}
+      {{ $redirs = $redirs | append (dict
+        "origin" (printf "/photo/%s" .Title)
+        "target" (printf "/.netlify/functions/photo/?name=%s" .Title) 
+        "code" 200
+        "force" true
+      ) }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-*/}}
+
 {{ return $redirs }}
