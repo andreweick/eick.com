@@ -13,7 +13,7 @@
 */}}
 {{ $redirs := slice }}
 {{ $pretty_permalink := site.Params.pretty_permalink }}
-{{ if $$pretty_permalink }}
+{{ if $pretty_permalink }}
   {{ with partialCached "func/GetPhotoPages" "GetPhotoPages" }}
     {{ range $page := . }}
       {{ if not (partialCached "func/PhotoHasData" . .) }}
