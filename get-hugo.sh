@@ -33,7 +33,7 @@ fi
 echo Cleaning bin directory
 
 if [ -d ${PWD}/bin ]; then
-    rm -rf ${PWD}/bin
+    rm -rf ${PWD}/bin/hugo_*
 fi
 
 echo Make temp directory
