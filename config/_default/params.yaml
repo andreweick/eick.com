@@ -2,8 +2,27 @@ photo_s3:
   pretty_permalink: false
 # ###############
 # PLAUSIBLE
+#
+# To exclude pages from tracking:
+# Any pages listed in this format, comma-separated, with asterisks to indicate 
+# unspecified regions of the pathname, will not be counted in your Plausible dashboard.
+# 
+# "/blog4, /rule/*, /how-to-*, /*/admin, /*/priv/*, /more-paths-here"
+#
+# All entries must begin with a /, and should not include the trailing slash as we 
+# account for this automatically.
+#
+# Asterisks (*) expand to any stretch (of length >=0) of the page path and can be on 
+# either end or in the middle of any entry, but cannot be in the place of slashes.
+# Double asterisks (**) expand to any stretch (of length >=0) of the page path, 
+# can be on either end or in the middle of any entry, and can represent any 
+# characters, even slashes.
+#
+# https://plausible.io/docs/excluding-pages#2-add-the-pages-youd-like-to-exclude-from-being-tracked
+#
 # ###############
 plausible: eick.com
+plausible_exclude: "/media-test, /.netlify, /photos/page/*"
 # ###############
 # TND SEO
 # https://github.com/theNewDynamic/hugo-module-tnd-seo#settings
