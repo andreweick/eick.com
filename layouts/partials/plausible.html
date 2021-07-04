@@ -4,7 +4,12 @@
   async
   defer
   data-domain="{{ . }}"
-  src="https://plausible.io/js/plausible.js"
+  {{ if isset site.Params.plausible_exclude }}
+    src="https://plausible.io/js/plausible.exclusions.js"
+    data-exclude="{{ site.Params.plausible_exclude }}"
+  {{ else }}
+    src="https://plausible.io/js/plausible.js"
+  {{ end }}
   ></script>
   {{ end }}
 {{ end }}
