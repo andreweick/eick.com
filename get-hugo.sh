@@ -1,4 +1,6 @@
 #!/bin/bash
+# A docker specific version (https://gist.github.com/exavolt/80cbdf4148fac42ab367eea793b8d4ac) uses chained containers and the build go system to create it.  I like this version better to just download it from the github release page.
+
 DIR=${PWD}
 
 HUGO_TYPE='extended'
