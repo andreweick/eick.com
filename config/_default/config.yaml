@@ -9,6 +9,7 @@ enableRobotsTXT: true
 
 taxonomies:
   tag: tags
+  remote: remotes
 
 # Some bugs related to 404 template https://github.com/gohugoio/hugo/issues/7603
 disableKinds:
@@ -18,3 +19,7 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+outputs:
+  term:
+  - HTML

@@ -1,0 +1,24 @@
+{{/*
+  GetPhotoPages
+  Returns the pages generated for the terms hack, only if they're mapped to an object listed in site.Data.photo
+
+  @author @regisphilibert
+
+  @context Any (.)
+
+  @access private
+
+  @returns Collection of Pages
+
+  @uses
+     - func/ParsePhoto
+
+*/}}
+{{ $pages := slice }}
+{{ with site.Taxonomies.remotes }}
+  {{ range $term := . }}
+    {{ $pages = $pages | append $term.Page }}
+  {{ end }}
+{{ end }}
+
+{{ return $pages }}
