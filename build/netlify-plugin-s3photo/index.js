@@ -123,6 +123,28 @@ module.exports = {
     }
   }) => {
 
+    const grabPhotos = async function(images, token) {
+      try {
+        const response = await fetch(S3URL + '?NextToken=' + token)
+        let data = await response.json();
+        let output_images = images.concat(data.Name)
+        let output_next = data.NextToken !== "" ? data.NextToken : false
+        if(output_next) {
+          let temp_data = await grabPhotos(output_images, output_next)
+          output_images = temp_data.images
+          output_next = temp_data.next
+        }
+        return {
+          images: output_images,
+          next: output_next
+        }
+      } catch (err) {
+        return console.error(err)
+      }
+    }
+
+
+
     const S3Photo = function(filename) {
       const S3APIURL = S3URL + '?name=' + filename
       return fetch(S3APIURL).then(response => {
@@ -145,8 +167,11 @@ module.exports = {
       return photos;
     }
     // Initialise Ghost Content API
+
+    const S3AllImageNames = await grabPhotos([], 0)
+
     const photosDir = contentDir + "/photos/"
-    const photosFilenames = require('./photos_filenames.json')
+    const photosFilenames = S3AllImageNames.images
     const remotePhotos = await S3Photos(photosFilenames.slice(1, entryLimit))
 
     const [cacheDate, photoListFile, photoFiles, ] = await Promise.all([
