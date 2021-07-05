@@ -1,31 +1,9 @@
-# Hugo Project Template Repo
-
-This template repo should be used upon starting a new Hugo Project. It uses our own modules and project structure plus loads some useful templates.
+# Eick.com
 
 ## Setup
 
-### 1. Download Hugo binary:
-1. Update Package.json "hugo.version" key with latest or desired Hugo Version symver. Warning: It should always match `netlify.toml`'s `HUGO_VERSION` environment variable.
-2. `$ npm run gethugo`
-
-### 2. Setup Hugo Module
-Where `repo_url` is GitHub's repo url without protocole: Ex: `github.com/theNewDynamic/thenewdynamic.com` 
-1. `$ REPO={repo_url} npm run modinit`
-
-### 3. Install required NPM modules
-1. `$ npm run modpack` to update package.json with Hugo Modules' required npm modules.
-2. `$ npm install`
-
-### 4. Multilingual sites
-If the site shall be multilingual:
-
-1. Update [`config/_default/languages.yaml`](https://github.com/theNewDynamic/hugo-project-template/blob/2c154bfdafb093d3fa5177174d8d50d464b12b4e/config/_default/languages.yaml#L8-L12
-) to add more languages.
-2. Add localized content files to directories matching the extra language's `contentDir` settings. (Ex: `content/fr`)
-3. Add string localization files under the `118n` directory matching the extra languages' codes with needed strings. (Ex: `/i18n/fr.yaml`)
-
 ## NPM Scripts
-
+After having run `npm install` you should be able to use the following:
 - `$ npm run start`: Run Hugo in a local dev server environment -> http://localhost/1313.
 - `$ npm run deploy`: Deploy site and process ressources.
 - `$ npm run hugo-cms`: Runs NetlifyCMS and Hugo
