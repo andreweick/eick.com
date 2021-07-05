@@ -7,8 +7,6 @@ tags:
   - sackett
   - family-tree
 ---
-{{< figure src="/edc/family-tree-media/sackett-emma.jpg" caption="Emma French Sackett" attr=align left>}}
-
 ## Memories of the Civil War
 
 ### Emma French, October 9, 1914, as told to Winterset Women's Club
