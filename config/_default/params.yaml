@@ -1,5 +1,6 @@
 photo_s3:
   pretty_permalink: false
+  
 # ###############
 # PLAUSIBLE
 #
