@@ -33,6 +33,7 @@ async function handler(event, context) {
 
   const name = getURLSlug(event.path)
   
+  const debug = ''
   /** 1. First we grab the HTML from the Hugo generated placeholder */
   const placeholder = await fetch(`${site_url}/placeholder/index.html`).then(response => {
     if(response.ok) {
@@ -47,12 +48,19 @@ async function handler(event, context) {
       return response.json()
     }
   })
+  let classifications = ''
+  if(typeof photo_data.Classification !== "undefined") {
+    photo_data.Classification.Labels.map(entry => {
+      classifications += `<div class="border mx-1 mb-2 p-1">${entry.Name}</div>`
+    })
+  }
 
   let content = await placeholder
-    .replace(/builder_eick_title/g, name)
-    .replace(/builder_eick_img_src/g, name)
-    .replace(/builder_eick_debug/g, event.path)
-    .replace(/builder_eick_artist/g, photo_data.Artist)
+  .replace(/builder_eick_title/g, name)
+  .replace(/builder_eick_img_src/g, name)
+  .replace(/builder_eick_classifications/g, classifications)
+  .replace(/builder_eick_artist/g, photo_data.Artist)
+  .replace(/builder_eick_debug/g, debug)
 
   return {
     statusCode: 200,
@@ -63,11 +71,4 @@ async function handler(event, context) {
   };
 }
 
-// There is currently no easy way to determine if we want a cached route (using builder()) or not. 
-// As builder is not supported locally, we need to comment/uncomment for now.
-
-//For deploy:
 exports.handler = builder(handler)
-
-// For local
-//exports.handler = handler
