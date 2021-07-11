@@ -7,4 +7,4 @@ tags:
 ---
 Piano Practice February 10, 2021
 
-{{< audio title="Piano Practice" file="https://cdn.eick.coim/audio/2021-02-10.mp4" >}}
+{{< audio title="Piano Practice" file="https://cdn.eick.com/audio/2021-02-10.mp4" >}}
