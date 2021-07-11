@@ -33,7 +33,7 @@
 {{ $s.SetInMap "data" "Name" $.Title }}
 {{ $s.SetInMap "data" "RelPermalink" $.RelPermalink }}
 {{ if or site.IsServer (not $pretty_permalink) }}
-  {{ $s.SetInMap "data" "RelPermalink" (printf "/.netlify/functions/photo/?name=%s" $.Title) }}
+  {{ $s.SetInMap "data" "RelPermalink" (printf "/.netlify/functions/photo/%s" $.Title) }}
 {{ end }}
 {{ $s.SetInMap "data" "SRC" (printf "https://edc.imgix.net/%s?auto=format&ch=Width,DPR&q=95&w=800" $.Title) }}
 {{ $s.SetInMap "data" "Hugo" false }}

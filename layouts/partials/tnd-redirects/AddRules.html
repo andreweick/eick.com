@@ -19,7 +19,7 @@
       {{ if not (partialCached "func/PhotoHasData" . .) }}
         {{ $redirs = $redirs | append (dict
           "origin" (printf "/photo/%s" .Title)
-          "target" (printf "/.netlify/functions/photo/?name=%s" .Title) 
+          "target" (printf "/.netlify/functions/photo/%s" .Title) 
           "code" 200
           "force" true
         ) }}
