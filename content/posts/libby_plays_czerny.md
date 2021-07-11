@@ -5,6 +5,7 @@ description: ""
 tags:
   - piano
   - audio
+  - piano-practice
   - libby
 ---
 Libby plays Czerny, December 14, 2019
