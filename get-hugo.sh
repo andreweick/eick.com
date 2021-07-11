@@ -96,6 +96,8 @@ tar --extract --file ${TEMPDIR}/*.tar.gz --directory ${TEMPDIR}
 # do we need sudo command for these?
 chmod +x ${TEMPDIR}/hugo
 
+mkdir -p $DIR/bin
+
 mv ${TEMPDIR}/hugo $DIR/bin/${FILE}
 
 # The OS will delete the temporary directory at some point
