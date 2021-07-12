@@ -14,3 +14,11 @@ Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Cum socii
 </audio>
 
 {{< audio title="Libby Joplin" file="/uploads/go-went-gone-audio-sample.mp3" >}}
+
+### Multiple audio files
+{{< audio title="Libby Piano Run 1" file="https://cdn.eick.com/audio/2021-07-10-run-1.mp3" >}}
+
+{{< audio title="Libby Piano Drill" file="https://cdn.eick.com/audio/2021-07-10-drill-1.mp3" >}}
+
+{{< audio title="Libby Piano Run 2" file="https://cdn.eick.com/audio/2021-07-10-run-2.mp3" >}}
+
