@@ -28,7 +28,7 @@
     {{ end }}
 */}}
 {{ $s := newScratch }}
-{{ $pretty_permalink := site.Params.pretty_permalink }}
+{{ $pretty_permalink := site.Params.photo_s3.pretty_permalink }}
 {{ $s.Set "data" dict }}
 {{ $s.SetInMap "data" "Name" $.Title }}
 {{ $s.SetInMap "data" "RelPermalink" $.RelPermalink }}
