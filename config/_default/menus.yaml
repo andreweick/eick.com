@@ -2,3 +2,6 @@ main:
   - name: Photos
     params:
       page: /photos
+  - name: Search
+    params:
+      page: /search
