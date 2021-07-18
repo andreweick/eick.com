@@ -8,6 +8,32 @@ Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultr
 
 Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
 
+## MUX 
+
+Libby and Nargol play Bach for the 2019 Levine School of Music Themed recital.
+
+<video id="my-player" class="video-js vjs-16-9" controls preload="auto" width="100%">
+</video>
+
+<script>
+const player = videojs('my-player', {
+  timelineHoverPreviews: true,
+  plugins: {
+    mux: {
+      debug: false,
+      data: {
+        video_title: 'Libby and Nargol play Bach'
+      }
+    }
+  }
+});
+
+player.src({
+  src: "DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo",
+  type: "video/mux",
+});
+</script>
+
 ## Audio
 <audio controls>
 	<source src='https://cdn.eick.com/audio/2019/2019-12-14-beethoven-sonata-c-minor.mp3' type="audio/mpeg" >
