@@ -15,24 +15,19 @@
   }
  },
  "dependencies": {
-  "node-fetch": "^2.6.1"
+  "amplitudejs": "^5.3.2"
  },
  "description": "Replace this description with project's",
  "devDependencies": {
-  "@meilisearch/instant-meilisearch": "^0.5.0",
-  "@netlify/functions": "^0.7.2",
   "@tailwindcss/typography": "^0.4.0",
   "algoliasearch": "^4.8.6",
-  "amplitudejs": "^5.0.3",
   "instantsearch.js": "^4.17.0",
   "lazysizes": "^5.3.0",
   "npm-run-all": "^4.1.5",
   "postcss-cli": "^8.0.0",
   "postcss-import": "^12.0.1",
   "quicklink": "^2.0.0",
-  "tailwindcss": "^2.0.2",
-  "tailwindcss-break": "^0.1.0",
-  "tailwindcss-multi-column": "^0.2.0"
+  "tailwindcss": "^2.0.2"
  },
  "hugo": {
   "extended": "true",
@@ -53,7 +48,7 @@
   "cms": "npx netlify-cms-proxy-server",
   "deploy": "npm run prod:hugo",
   "dev:cms": "run-p cms hugo-cms",
-  "dev:hugo": "HUGO_ENV=development bin/hugo* server -D --gc --navigateToChanged --noHTTPCache",
+  "dev:hugo": "HUGO_ENV=development bin/hugo* server --minify -D --gc --navigateToChanged --noHTTPCache",
   "dev:netlify": "netlify dev -l",
   "gethugo": "bash get-hugo.sh",
   "hugo-cms": "HUGO_ENV=development bin/hugo* server -D --gc --noHTTPCache",
