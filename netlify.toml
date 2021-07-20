@@ -41,3 +41,6 @@ package = "@netlify/plugin-local-install-core"
 [dev]
   functions = "functions"
   publish = "public"
+  framework = "#custom"
+  port = 8888
+  targetPort = 1313
