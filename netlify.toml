@@ -42,5 +42,6 @@ package = "@netlify/plugin-local-install-core"
   functions = "functions"
   publish = "public"
   framework = "#custom"
+  command = "npm run start"
   port = 8888
   targetPort = 1313
