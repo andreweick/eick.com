@@ -2,6 +2,11 @@
 .DS_Store
 Thumbs.db
 
+# Ignore the local hugo in the bin directory.  
+# npm run gethugo instead -- it will get the correct architecture and OS version of hugo
+# and version from the package.json file
+/bin/hugo* 
+
 # IDEs
 .buildpath
 .project

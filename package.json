@@ -18,7 +18,7 @@
   "@mux/mux-node": "^3.2.3",
   "node-fetch": "^2.6.1"
  },
- "description": "Replace this description with project's",
+ "description": "Replace this description with poject's",
  "devDependencies": {
   "@meilisearch/instant-meilisearch": "^0.5.0",
   "@netlify/functions": "^0.7.2",
