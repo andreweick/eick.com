@@ -10,10 +10,29 @@ Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Cum socii
 
 ## MUX 
 
-Libby and Nargol play Bach for the 2019 Levine School of Music Themed recital.
+Libbya and Nargol play Bach for the 2019 Levine School of Music Themed recital.
 
 <video id="my-player" class="video-js vjs-16-9" controls preload="auto" width="100%">
 </video>
+
+<script>
+const player = videojs('my-player', {
+  timelineHoverPreviews: true,
+  plugins: {
+    mux: {
+      debug: false,
+      data: {
+        video_title: 'Libby and Nargol play Bach'
+      }
+    }
+  }
+});
+
+player.src({
+  src: "DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo",
+  type: "video/mux",
+});
+</script>
 
 <script>
 const player = videojs('my-player', {
