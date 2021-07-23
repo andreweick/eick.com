@@ -3,13 +3,18 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 {{ hugo.Generator }}
 
+{{/* // MUX.js start */}}
+<script src="https://unpkg.com/@mux/videojs-kit@latest/dist/index.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@mux/videojs-kit@latest/dist/index.css">
+{{/* // MUX.js end */}}
+
 {{ with .OutputFormats.Get "RSS" }}
-  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
-  <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ site.Title }}" />
+<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
+<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ site.Title }}" />
 {{ end }}
 
 {{ if partialCached "tnd-func/IsProduction" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
 {{end}}
 
 {{ partialCached "plausible" . }}
