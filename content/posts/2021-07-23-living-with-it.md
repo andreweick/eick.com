@@ -1,7 +1,7 @@
 ---
 title: "Living With It"
 date: 2021-07-23T00:28:30Z
-draft: true
+draft: false
 tags:
   - video
   - libby
