@@ -37,6 +37,7 @@ exports.handler = async function(event, context) {
         statusCode: 200,
         body: JSON.stringify({
             src: playbackId + "?token=" + token, 
+            srcHls: "https://stream.mux.com/" + playbackId + ".m3u8?token=" + token,
             srcTimelineHover: "https://image.mux.com/" + playbackId + "/storyboard.vtt?token=" + tokenStoryboard,  
             srcStoryboard: "https://image.mux.com/" + playbackId + "/storyboard.jpg?token=" + tokenStoryboard,
             token: token, 
