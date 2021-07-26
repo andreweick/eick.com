@@ -1,8 +1,5 @@
 {{ define "main" }}
   {{ $posts := where site.RegularPages "Type" "posts") }}
-  {{ with where $posts "exclude" "not in" ".Params.tags" }}
-    {{ $posts = . }}
-  {{ end }}
   {{ $paginator := .Paginate $posts }}
   <div class="mx-auto min-h-screen grid grid-1-3">
      {{partial "navigation/post-navigation.html" .}}
