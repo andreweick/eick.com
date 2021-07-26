@@ -1,16 +1,21 @@
 {{ define "main" }}
   {{ with partialCached "func/GetPhotoPages" "GetPhotoPages" }}
 
-    <div class="max-w-3xl mx-auto py-4">
-      <div class="border p-4 mb-4">
-        We've got {{ len . }} photos. (Only 1000 are generated with Hugo)
-      </div>
-      {{ $paginator := $.Paginate . }}
-      {{ range $paginator.Pages }}
-        {{ with partialCached "func/ParsePhoto" . . }}
-          {{ partial "photo_li" . }}
-        {{ end }}
+    <div class="max-w-3xl xl:max-w-6xl mx-auto py-4">
+      {{ if partialCached "tnd-env/IsNot" "productionn" "production" }}
+        <div class="border p-4 mb-4">
+          We've got {{ len . }} photos. (Only 1000 are generated with Hugo)
+        </div>
       {{ end }}
+
+      {{ $paginator := $.Paginate . }}
+      <div class="grid my-8 grid-cols-2 md:grid-cols-5 xl:grid-cols-8 gap-4">
+        {{ range $paginator.Pages }}
+          {{ with partialCached "func/ParsePhoto" . . }}
+            {{ partial "photo_li" . }}
+          {{ end }}
+        {{ end }}
+      </div>
       {{ template "_internal/pagination.html" $ }}
     </div>
   {{ end }}

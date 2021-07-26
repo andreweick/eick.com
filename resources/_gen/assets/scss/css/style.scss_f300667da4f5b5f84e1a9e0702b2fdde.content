@@ -1,4 +1,4 @@
-@import url(/workspaces/eick.com/assets/css/tailwind/utilities.css);
+@import url(/Users/regisphilibert/Boulot/tnd/eick.com/assets/css/tailwind/utilities.css);
 .tnd-container {
   @apply max-w-5xl mx-auto px-4; }
 
