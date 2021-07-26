@@ -4,8 +4,14 @@
   {{ with .Date }}
     <time datetime="{{ . }}">{{ .Format "Monday January 2, 2006" }}</time>
   {{ end }}
+
   <div class="my-12 prose max-w-none">
-    {{ .Content }}
+    {{ if in .RawContent "<!--more-->" }}
+      {{ .Summary }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+    
   </div>
   <hr>
 </div>
