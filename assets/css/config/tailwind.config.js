@@ -18,7 +18,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-break')({
       widows: [1, 2, 3],
       orphans: [1, 2, 3],
