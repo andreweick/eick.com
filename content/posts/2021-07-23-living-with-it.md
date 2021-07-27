@@ -7,7 +7,6 @@ tags:
   - libby
 ---
 
-# Living With It
 For Harriet, Covid isn’t the scariest thing about returning to school. While her sister, Maya, can’t wait to go back and their superintendent mom has her sights on bigger public office, Harriet has to figure out how to navigate her fear  without destroying everything.
 
 *By Libby Eick*
@@ -38,7 +37,7 @@ player.timelineHoverPreviews({
 });
 
 </script>
-
+<!--more-->
 ## About the Playwright
 Libby Eick is an artist who uses myriad forms to tell her stories, including playwriting, poetry, short fiction, photography, and music.
 

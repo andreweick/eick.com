@@ -10,6 +10,8 @@ tags:
 
 ![McLean Soccer](/20210605-soccer-0026.jpg)
 
+<!--more-->
+
 ![McLean Soccer](/20210605-soccer-0034.jpg)
 
 ![McLean Soccer](/20210605-soccer-0040.jpg)

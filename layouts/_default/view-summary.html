@@ -1,0 +1,17 @@
+<div class="max-w-3xl mx-auto">
+  <h1 class="text-3xl font-bold"><a class="underline" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+  
+  {{ with .Date }}
+    <time datetime="{{ . }}">{{ .Format "Monday January 2, 2006" }}</time>
+  {{ end }}
+
+  <div class="my-12 prose max-w-none">
+    {{ if in .RawContent "<!--more-->" }}
+      {{ .Summary }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+    
+  </div>
+  <hr>
+</div>
