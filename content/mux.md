@@ -26,5 +26,5 @@ if not, we'll just return:
 #### Private Video (elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk)
 {{< mux id="elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk" private="true" >}}
 
-#### Public Video (elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk)
+#### Public Video (DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo)
 {{< mux id="DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo" >}}
