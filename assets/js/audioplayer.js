@@ -1,8 +1,9 @@
 var Amplitude = require("amplitudejs")
 
-const player = document.getElementById('audioplayer')
+const player = document.getElementById('audioplayer-0')
+//const player = document.querySelector('data-audioplayer')
 if (player) {
-  console.log(player)
+
   const songs = player.getAttribute('data-songs')
   Amplitude.init({
     songs: JSON.parse(songs),

@@ -1,7 +1,11 @@
+{{ range .medias }}
+  <div>{{ .title }}</div>
+{{ end }}
 <div
-  id="audioplayer"
+  id="{{ .id }}"
+  data-audioplayer
   class="js-only player z-50 w-full bg-grey-blue-darkest text-sm text-center text-white w-full my-4 px-4 pt-4 pb-4"
-  data-songs="{{ slice . | jsonify }}"
+  data-songs="{{ .medias | jsonify }}"
 >
   <div class="flex flex-wrap justify-between pb-2">
 
@@ -33,7 +37,7 @@
 
   </div>
 
-  <progress id="song-played-progress" class="amplitude-song-played-progress h-2 w-full" amplitude-main-song-played-progress="true">
+  <progress data-song-player-progress id="song-played-progress" class="amplitude-song-played-progress h-2 w-full" amplitude-main-song-played-progress="true">
   </progress>
   <div class="progress-hide absolute left-0 bottom-0 w-full h-2 bg-purple-800"></div>
 </div>
