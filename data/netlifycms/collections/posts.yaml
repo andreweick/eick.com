@@ -13,5 +13,8 @@ fields:
   - import field date
   - import field description
   - import field tags
+  - name: hp_exclude
+    label: Exclude from Homepage
+    widget: boolean
   - import field body
 
