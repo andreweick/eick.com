@@ -29,6 +29,7 @@ nbproject/
 hugo_stats.json
 public
 remote
+resources
 
 # Local Netlify folder
 .netlify
