@@ -38,5 +38,6 @@ imports:
   - path: github.com/theNewDynamic/hugo-module-tnd-menus
   - path: github.com/theNewDynamic/hugo-component-tnd-blocks
   - path: github.com/theNewDynamic/hugo-module-tnd-func
+  - path: github.com/theNewDynamic/hugo-module-tnd-env
   # If we need iuebenda
   # - path: github.com/theNewDynamic/hugo-module-tnd-iubenda
