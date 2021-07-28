@@ -1,6 +1,6 @@
-async function getMuxData(id, private) {
+async function getMuxData(id, expire_time, private = true) {
   if(private) {
-    const response = await fetch(`/.netlify/functions/sign-video-url?id=${id}`)
+    const response = await fetch(`/.netlify/functions/sign-video-url?id=${id}&expire_time=${expire_time}`)
     if(response.ok) {
       return response.json()
     } else {
@@ -19,17 +19,21 @@ const players = document.querySelectorAll('[data-mux-player]')
 if(players) {
   const muxPlayers = {}
   players.forEach(player => {
-    const playerMuxID = player.getAttribute('data-video-id')
-    const private = player.getAttribute('private') && player.getAttribute('private')
+    const [playerID, playerMuxID, expireTime, video_title] = [
+      player.getAttribute('id'),
+      player.getAttribute('data-video-id'),
+      player.getAttribute('data-expire-time') || '2h',
+      player.getAttribute('data-title')
+    ]
     if(playerMuxID){
-      getMuxData(playerMuxID, private)
+      getMuxData(playerMuxID, expireTime)
       .then(data => {
-        muxPlayers[playerMuxID] = videojs(player.getAttribute('id'), {
+        muxPlayers[playerMuxID] = videojs(playerID, {
           plugins: {
             mux: {
               debug: false,
               data: {
-                video_title: 'Zoom Piano Recital'
+                video_title
               }
             }
           }

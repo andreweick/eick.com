@@ -8,8 +8,10 @@ exports.handler = async function(event, context) {
     const keyIdPublic = process.env.MUX_ENCRYPT_PUBLIC_KEY
     const keyEncryptSecretEnv = process.env.MUX_ENCRYPT_PRIVATE_KEY                    
 
-    const tokenValidFor = "2h"
-
+    let tokenValidFor = "2h"
+    if(event.queryStringParameters.expire_time){
+        tokenValidFor = event.queryStringParameters.expire_time
+    }
     let baseOptions = {
         keyId: keyIdPublic,     // Enter your signing key id here
         keySecret: keyEncryptSecretEnv, // Enter your base64 encoded private key here
@@ -37,12 +39,15 @@ exports.handler = async function(event, context) {
         statusCode: 200,
         body: JSON.stringify({
             src: playbackID + "?token=" + token, 
+            srcThumbnail: "https://image.mux.com/" + playbackID + "/thumbnail.jpg?token=" + tokenThumbnail,
+            // For debugging purposes
+            tokenValidFor,
+            // More data
             srcHls: "https://stream.mux.com/" + playbackID + ".m3u8?token=" + token,
             srcTimelineHover: "https://image.mux.com/" + playbackID + "/storyboard.vtt?token=" + tokenStoryboard,  
             srcStoryboard: "https://image.mux.com/" + playbackID + "/storyboard.jpg?token=" + tokenStoryboard,
-            token: token, 
+            token: token,
             tokenStoryboard: tokenStoryboard, 
-            srcThumbnail: "https://image.mux.com/" + playbackID + "/thumbnail.jpg?token=" + tokenThumbnail,
             tokenTumbnail: tokenThumbnail
         })
     };

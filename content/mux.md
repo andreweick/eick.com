@@ -23,8 +23,6 @@ if not, we'll just return:
 4. I have error handling on the client, but we need one on the serverless function as well. (for now it returns the same structured data only with ULR pointing to errors). I couldn't find [here](https://docs.mux.com/guides/video/secure-video-playback#3-generate-a-json-web-token) how we're supposed to handle and erroneous video ID for example...
 
 ### Examples:
-#### Private Video (elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk)
-{{< mux id="elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk" private="true" >}}
+#### Private Video (elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk) with an expire time of 4h
+{{< mux id="elecMd56a702qV7pWUCPO2Pejf01RvuKKF9EBrts7jdrk" title="Libby Plays Piano" expire-time="4h" >}}
 
-#### Public Video (DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo)
-{{< mux id="DZUbscooFImH800Zod01zZx8VI4Sf5Wx900CIk1VvqQedo" >}}
