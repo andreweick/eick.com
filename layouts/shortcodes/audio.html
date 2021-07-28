@@ -21,7 +21,7 @@
 
 {{ with $medias }}
   {{ partial "audioplayer" (dict 
-    "medias" $medias 
+    "songs" $medias 
     "id" (print "audioplayer-" $.Ordinal)
   ) }}
 {{ end }}
