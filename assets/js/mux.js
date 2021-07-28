@@ -46,6 +46,7 @@ if(players) {
           enabled: true,
           src: data.srcThumbnail
         });
+        player.setAttribute('poster', data.srcThumbnail)
       })
       .catch(error => {
         let errorBox = document.createElement('div')
