@@ -1,27 +1,23 @@
-{{ $title := "Track" }}
-{{ $file := "" }}
-{{ $medias := slice }}
-{{ with .Get "title" }}
-  {{ $title = split . "," }}
-  {{ $title = apply $title "trim" "." " " }}
-{{ end }}
-{{ with .Get "file" }}
-  {{ $file = split . "," }}
-  {{ $file = apply $file "trim" "." " " }}
-{{ end }}
-{{ if eq (len $title) (len $file) }}
-  {{ range $index, $value := $title }}
-    {{ $medias = $medias | append (dict
-      "copy" ""
-      "title" .
-      "url" (index $file $index)
-    ) }}
+
+{{ $playlist_data := dict }}
+{{ with partialCached "func/GetPagePlaylist" .Page .Page }}
+  {{ $playlist_data = . }}
+{{ else }}
+  {{ with $file := $.Get "file" }}
+    {{ with $title := $.Get "title" }}
+      {{ $playlist_data = dict 
+        "songs" (slice 
+          (dict
+            "url" $file
+            "title" $title
+          )
+        )
+        "title" $title 
+      }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
-{{ with $medias }}
-  {{ partial "audioplayer" (dict 
-    "songs" $medias 
-    "id" (print "audioplayer-" $.Ordinal)
-  ) }}
+{{ with $playlist_data }}
+  {{ partial "audioplayer" . }}
 {{ end }}

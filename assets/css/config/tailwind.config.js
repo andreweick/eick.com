@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: require('./fonts.config.js'),
       spacing: {
         '4m': '1em'
+      },
+      maxWidth: {
+        'audioplayer': '500px'
       }
     }
   },

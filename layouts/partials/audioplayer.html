@@ -1,11 +1,14 @@
-{{ with .songs }}
-{{ $multiple := gt (len .) 1 }}
+{{ $multiple := gt (len .songs) 1 }}
 <div
-  id="{{ $.id }}"
+  id="{{ $.title | urlize }}"
   data-audioplayer
-  class="js-only player z-50 w-full bg-grey-blue-darkest text-sm text-center text-white w-full my-4"
+  class="js-only player max-w-audioplayer mx-auto z-50 bg-grey-blue-darkest text-sm text-center text-white my-4"
   data-songs="{{ $.songs | jsonify }}"
 >
+  {{ with .cover }}
+    <img class="block w-full" src="{{ . }}" alt="Cover art for {{ $.title }}">
+  {{ end }}
+
   <div class="flex flex-wrap items-center justify-between p-4">
 
     <div class="hidden current-time md:inline-block text-grey">
@@ -59,4 +62,3 @@
     </div>
   {{ end }}
 </div>
-{{ end }}
