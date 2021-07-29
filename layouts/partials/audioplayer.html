@@ -45,9 +45,10 @@
     </div>
 
   </div>
-
-  <progress data-song-player-progress id="song-played-progress" class="amplitude-song-played-progress h-2 w-full" amplitude-main-song-played-progress="true">
-  </progress>
+  
+  <div class="song-navigation px-4 mb-4">
+    <input type="range" class="w-full h-1 border-0 bg-white amplitude-song-slider rounded-none"/>
+  </div>
 
   {{ if $multiple }}
     <div class="playlist border-t">
