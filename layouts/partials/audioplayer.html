@@ -1,30 +1,43 @@
+{{ $multiple := gt (len .songs) 1 }}
 <div
-  id="audioplayer"
-  class="js-only player z-50 w-full bg-grey-blue-darkest text-sm text-center text-white w-full my-4 px-4 pt-4 pb-4"
-  data-songs="{{ slice . | jsonify }}"
+  id="{{ $.title | urlize }}"
+  data-audioplayer
+  class="js-only player max-w-audioplayer mx-auto z-50 bg-grey-blue-darkest text-sm text-center text-white my-4"
+  data-songs="{{ $.songs | jsonify }}"
 >
-  <div class="flex flex-wrap justify-between pb-2">
+  {{ with .cover }}
+    <img class="block w-full" src="{{ . }}" alt="Cover art for {{ $.title }}">
+  {{ end }}
+
+  <div class="flex flex-wrap items-center justify-between p-4">
 
     <div class="hidden current-time md:inline-block text-grey">
       <span class="amplitude-current-minutes" amplitude-main-current-seconds="true"></span>:
       <span class="amplitude-current-seconds" amplitude-main-current-seconds="true"></span>
     </div>
-
-    <div class="flex flex-wrap items-center justify-center">
+    {{ if $multiple }}
+      <div class="amplitude-prev w-4 cursor-pointer" id="previous">{{ partialCached "svg/step-backward-solid.svg" "backward" }}</div>
+    {{ end }}
+    <div class="flex flex-wrap items-center justify-between">
       <div class="song-title w-100 py-1 md:py-0 text-grey-light">
         <span data-amplitude-song-info="copy"></span><span class="italic" data-amplitude-song-info="title"></span>
       </div>
       <div class="control-container flex flex-wrap justify-center mx-2 ">
-        <div class="amplitude-play-pause cursor-pointer" class="w-4 h-4" amplitude-main-play-pause="true">
+
+        <div class="amplitude-play-pause cursor-pointer w-6" amplitude-main-play-pause="true">
           <div class="amplitude-paused-icon">
-            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pause" style="width:1rem;height:1rem;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z"></path></svg>
+            {{ partialCached "svg/pause.svg" "pause" }}
           </div>
           <div class="amplitude-playing-icon">
-            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" style="width:1rem;height:1rem;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>
+            {{ partialCached "svg/play.svg" "play" }}
           </div>
         </div>
+
       </div>
     </div>
+    {{ if $multiple }}
+      <div class="amplitude-next w-4 cursor-pointer" id="next">{{ partial "svg/step-forward-solid.svg" "forward" }}</div>
+    {{ end }}
 
     <div class="duration hidden md:inline-block text-grey">
       <span class="amplitude-duration-minutes" amplitude-main-duration-minutes="true">00</span>:
@@ -32,45 +45,21 @@
     </div>
 
   </div>
+  
+  <div class="song-navigation px-4 mb-4">
+    <input type="range" class="w-full h-1 border-0 bg-white amplitude-song-slider rounded-none"/>
+  </div>
 
-  <progress id="song-played-progress" class="amplitude-song-played-progress h-2 w-full" amplitude-main-song-played-progress="true">
-  </progress>
-  <div class="progress-hide absolute left-0 bottom-0 w-full h-2 bg-purple-800"></div>
+  {{ if $multiple }}
+    <div class="playlist border-t">
+      {{ range $index, $song := $.songs }}
+      <div class="song px-4 py-1 border-b amplitude-song-container amplitude-play-pause cursor-pointer" data-amplitude-song-index="{{ $index }}">
+        <div class="song-meta-container">
+          <div class="now-playing">Playing...</div>
+          <span class="song-name" data-amplitude-song-info="title" data-amplitude-song-index="{{ $index }}"></span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  {{ end }}
 </div>
-<style>
-  progress {
-    border: none;
-  }
-  progress[value]{
-    -webkit-appearance: none;
-    appearance: none;
-  }
-  progress.amplitude-song-played-progress:not([value]) {
-    background-color: transparent;
-  }
-
-  progress[value]::-moz-progress-bar,
-  progress[value]::-webkit-progress-bar{
-    background-color: #000;
-  }
-
-  progress[value]::-webkit-progress-value {
-    background-color: #fff;
-  }
-  .progress-hide{
-    display:none;
-  }
-  progress[value="0"] + .progress-hide{
-    display: block
-  }
-
-  .amplitude-paused>.amplitude-paused-icon {
-    display: none;
-
-  }
-
-  .amplitude-playing>.amplitude-playing-icon {
-    display: none;
-    background-color: red;
-  }
-</style>

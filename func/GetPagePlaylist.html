@@ -1,0 +1,58 @@
+{{/*
+  GetPagePlaylist
+  Retrieve the Playlist data of a given page
+
+  @author @regisphilibert
+
+  @context Page (.)
+
+  @access private
+
+  @returns Map
+      String (.cover)
+      Slice of maps (.songs)
+        - String (.title)
+          String (.file)
+          String (.copy)?
+*/}}
+{{ $playlist := dict }}
+{{ with $.Params.playlist }}
+  {{ $title := .title | default "Playlist Title Missing" | upper }}
+  {{ $cover := "" }}
+  {{ $cover_file := .cover | default "2021-04-08-piano-fingers.jpg" }}
+  {{ $args := dict 
+    "src" $cover_file
+    "width" 500
+    "height" 500
+    "txt-align" "middle,center"
+    "txt-color" "ffffff"
+    "txt-size" 30
+    "txt-pad" 5
+    "txt" $title
+  }}
+  {{ with partialCached "tnd-media/Get" $args $args }}
+    {{ $cover = .RelPermalink }}
+  {{ end }}
+
+  {{ $songs := slice}}
+  {{ with .songs }}
+    {{ range $song := . }}
+      {{ with $file := .file }}
+        {{ $songs = $songs | append (dict
+          "copy" ($song.copy | default "")
+          "title" ($song.title | default $file)
+          "url" $file
+        ) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ with $songs }}
+    {{ $playlist = dict
+      "title" $title
+      "cover" $cover
+      "songs" $songs
+    }}
+  {{ end }}
+{{ end }}
+
+{{ return $playlist }}

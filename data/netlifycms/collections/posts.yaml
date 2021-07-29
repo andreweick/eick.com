@@ -16,5 +16,6 @@ fields:
   - name: hp_exclude
     label: Exclude from Homepage
     widget: boolean
+  - import field playlist
   - import field body
 

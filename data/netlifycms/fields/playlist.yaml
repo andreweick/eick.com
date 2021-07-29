@@ -1,0 +1,20 @@
+name: playlist
+label: Playlist
+widget: object
+collapsed: true
+summary: '{{fields.title}}'
+fields:
+  - name: title
+    widget: string
+    required: false
+  - name: cover
+    widget: string
+    required: false
+    hint: Defaults to https://edc.imgix.net/2021-04-08-piano-fingers.jpg?h=500&w=500
+  - name: songs
+    widget: list
+    fields:
+    - name: title
+      widget: string
+    - name: file
+      widget: string

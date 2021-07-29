@@ -1,8 +1,23 @@
-{{ $title := "Track" }}
-{{ with .Get "title" }}
-  {{ $title = . }}
+
+{{ $playlist_data := dict }}
+{{ with partialCached "func/GetPagePlaylist" .Page .Page }}
+  {{ $playlist_data = . }}
+{{ else }}
+  {{ with $file := $.Get "file" }}
+    {{ with $title := $.Get "title" }}
+      {{ $playlist_data = dict 
+        "songs" (slice 
+          (dict
+            "url" $file
+            "title" $title
+          )
+        )
+        "title" $title 
+      }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-{{ with .Get "file" }}
-  {{ $meta := dict "copy" "" "title" $title "url" . }}
-  {{ partial "audioplayer" $meta }}
+
+{{ with $playlist_data }}
+  {{ partial "audioplayer" . }}
 {{ end }}
