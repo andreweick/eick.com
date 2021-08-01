@@ -1,10 +1,11 @@
 ---
 title: McLean Girls Soccer
 date: 2021-05-22T20:15:26.074Z
-description: "# Hometown Heros: 0, Visitors: 0"
+description: "# Hometown Hero's: 0, Visitors: 0"
 tags:
   - soccer
   - jasmine
+hp_exclude: false
 ---
 ![McLean Girls Soccer](/20210522-soccer-0001.jpg)
 
