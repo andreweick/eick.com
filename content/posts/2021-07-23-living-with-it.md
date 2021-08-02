@@ -11,6 +11,8 @@ For Harriet, Covid isn’t the scariest thing about returning to school. While h
 
 *By Libby Eick*
 
+<!--more-->
+
 <video id="my-player" class="video-js vjs-16-9" controls preload="auto" width="100%">
 </video>
 
@@ -37,7 +39,7 @@ player.timelineHoverPreviews({
 });
 
 </script>
-<!--more-->
+
 ## About the Playwright
 Libby Eick is an artist who uses myriad forms to tell her stories, including playwriting, poetry, short fiction, photography, and music.
 
