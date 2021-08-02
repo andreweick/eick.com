@@ -31,7 +31,7 @@ HUGO_ENV = "staging"
   package = "./build/netlify-plugin-s3photo"
   [plugins.inputs]
   contentDir = "remote/s3"
-  entryLimit = 1000
+  entryLimit = 100
 
 [[context.deploy-preview.plugins]]
 package = "@netlify/plugin-local-install-core"
