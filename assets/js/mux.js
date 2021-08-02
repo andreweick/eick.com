@@ -4,7 +4,7 @@ async function getMuxData(id, expire_time, private = true) {
     if(response.ok) {
       return response.json()
     } else {
-      throw new Error(`We could not retrieve data for Mux private video (${id})`);
+      throw new Error(`We really could not retrieve data for Mux private video (${id})`);
     }
   } else {
     return {

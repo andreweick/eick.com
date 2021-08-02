@@ -5,6 +5,9 @@ draft: false
 tags:
   - video
   - libby
+mux:
+  - AssetID 2wgScyrI02tzVEzm01Ih9zpLMfeERHb01fqE6bsO9Js8rY
+  - PlaybackID IKVFwbz9p6tFytppdveQfL93RnKgjC7rZdia6XgClMc
 ---
 
 For Harriet, Covid isn’t the scariest thing about returning to school. While her sister, Maya, can’t wait to go back and their superintendent mom has her sights on bigger public office, Harriet has to figure out how to navigate her fear  without destroying everything.
@@ -12,6 +15,8 @@ For Harriet, Covid isn’t the scariest thing about returning to school. While h
 *By Libby Eick*
 
 <!--more-->
+
+{{< mux id="IKVFwbz9p6tFytppdveQfL93RnKgjC7rZdia6XgClMc" title="Living With It" expire-time="4h" >}}
 
 <video id="my-player" class="video-js vjs-16-9" controls preload="auto" width="100%">
 </video>
