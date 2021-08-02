@@ -3,10 +3,14 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 {{ hugo.Generator }}
 
+{{ if .HasShortcode "mux" }}
 {{/* // MUX.js start */}}
 <script src="https://unpkg.com/@mux/videojs-kit@latest/dist/index.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/@mux/videojs-kit@latest/dist/index.css">
+{{ partialCached "tnd-scripts/tags.html" (slice "mux") "mux" }}
 {{/* // MUX.js end */}}
+
+{{ end }}
 
 {{ with .OutputFormats.Get "RSS" }}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
@@ -25,7 +29,7 @@
 
 {{ partialCached "tnd-styles/tags.html" . }}
 
-{{ partialCached "tnd-scripts/tags.html" "all" }}
+{{ partialCached "tnd-scripts/tags.html" (slice "main") "main" }}
 
 {{ if .Params.search }}
 {{ partial "tnd-search/instantsearch/tags" . }}

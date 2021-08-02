@@ -58,6 +58,8 @@ tnd_scripts:
       path: /js/index.js
     - name: audioplayer
       path: /js/audioplayer.js
+    - name: mux
+      path: /js/mux.js
 # ###############
 # TND MEDIA
 # https://github.com/theNewDynamic/hugo-module-tnd-media#settings

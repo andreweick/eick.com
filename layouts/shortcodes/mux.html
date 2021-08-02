@@ -1,0 +1,23 @@
+{{ with .Get "id" }}
+  {{ $title := "A Video" }}
+  {{ with $.Get "title" }}
+    {{ $title = . }}
+  {{ end }}
+  <div class="my-8">
+    <video 
+      data-mux-player data-video-id="{{ . }}"
+      id="mux-player-{{ $.Ordinal }}" 
+      class="video-js vjs-16-9 " 
+      controls 
+      preload="auto" 
+      width="100%"
+      height="100%"
+      private="true"
+      data-title="{{ $title }}"
+      {{ with $.Get "expire-time" }}
+        data-expire-time="{{ . }}"
+      {{ end }}
+    >
+    </video>
+  </div>
+{{ end }}
