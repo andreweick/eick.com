@@ -1,6 +1,6 @@
 ---
-title: "Living With It"
-date: 2021-07-23T00:28:30Z
+title: Living With It
+date: 2021-07-23T00:28:30.000Z
 draft: false
 tags:
   - video
@@ -8,6 +8,7 @@ tags:
 mux:
   - AssetID 2wgScyrI02tzVEzm01Ih9zpLMfeERHb01fqE6bsO9Js8rY
   - PlaybackID IKVFwbz9p6tFytppdveQfL93RnKgjC7rZdia6XgClMc
+hp_exclude: true
 ---
 
 For Harriet, Covid isn’t the scariest thing about returning to school. While her sister, Maya, can’t wait to go back and their superintendent mom has her sights on bigger public office, Harriet has to figure out how to navigate her fear  without destroying everything.
