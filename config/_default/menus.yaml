@@ -1,4 +1,7 @@
 main:
+  - name: Chatter
+    params:
+      page: /tags/chatter
   - name: Photos
     params:
       page: /photos
