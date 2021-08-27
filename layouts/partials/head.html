@@ -9,7 +9,10 @@
 <link rel="stylesheet" href="https://unpkg.com/@mux/videojs-kit@latest/dist/index.css">
 {{ partialCached "tnd-scripts/tags.html" (slice "mux") "mux" }}
 {{/* // MUX.js end */}}
+{{ end }}
 
+{{ if .HasShortcode "audio" }}
+{{ partialCached "tnd-scripts/tags.html" (slice "audioplayer") "audioplayer" }}
 {{ end }}
 
 {{ with .OutputFormats.Get "RSS" }}
