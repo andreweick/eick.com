@@ -12,7 +12,7 @@ playlist:
     - title: "Schubert Sonata in A Major #3"
       file: https://cdn.eick.com/audio/2021-08-22-recital_01.mp3
 ---
-# moLibby plays Schubert Sonata in A Major
+# Libby plays Schubert Sonata in A Major
 ## Audio
 
 {{< audio >}}
