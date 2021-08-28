@@ -12,14 +12,15 @@ playlist:
     - title: "Schubert Sonata in A Major #3"
       file: https://cdn.eick.com/audio/2021-08-22-recital_01.mp3
 ---
-Libby plays Schubert Sonata in A Major
-
-<!--more-->
-
-{{< mux id="GbMbfkp1ROsMP3EnChsh2FbvuNlUPWL202QS5rzRWPvs" title="Schubert Sonata in A Major" expire-time="4h" >}}
-
+# moLibby plays Schubert Sonata in A Major
 ## Audio
 
 {{< audio >}}
 
+<!--more-->
+
 Honestly I don't understand why the audio in the video doesn't sound very good.  Above is the audio straight from the mixing board.
+
+## Video
+
+{{< mux id="GbMbfkp1ROsMP3EnChsh2FbvuNlUPWL202QS5rzRWPvs" title="Schubert Sonata in A Major" expire-time="4h" >}}
