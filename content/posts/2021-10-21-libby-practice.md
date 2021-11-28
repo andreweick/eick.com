@@ -1,10 +1,4 @@
 ---
-title: "2021 10 21 Libby Practice"
-date: 2021-11-28T21:25:41Z
-draft: true
----
-
----
 title: "Piano Practice, October 21, 2021"
 date: 2021-10-21T19:51:52Z
 draft: false
