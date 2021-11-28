@@ -13,11 +13,13 @@ playlist:
       file: https://cdn.eick.com/audio/2021-08-22-recital_01.mp3
 ---
 # Libby plays Schubert Sonata in A Major
+
+<!--more-->
+
 ## Audio
 
 {{< audio >}}
 
-<!--more-->
 
 Honestly I don't understand why the audio in the video doesn't sound very good.  Above is the audio straight from the mixing board.
 
