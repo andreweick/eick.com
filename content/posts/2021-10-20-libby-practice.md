@@ -1,5 +1,5 @@
 ---
-title: "Piano Practice, October 17, 2021"
+title: "Piano Practice, October 20, 2021"
 date: 2021-10-20T19:51:52Z
 draft: false
 tags:
