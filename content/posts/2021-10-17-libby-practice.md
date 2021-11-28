@@ -1,7 +1,7 @@
 ---
 title: "Piano Practice, October 17, 2021"
 date: 2021-10-17T19:51:52Z
-draft: true
+draft: false
 tags:
   - audio
   - piano-practice
