@@ -6,10 +6,19 @@ To control the number of photos rendered by hugo (and not the netlify delayed bu
 ## NPM Scripts
 After having run `npm install` you should be able to use the following:
 - `$ npm run dev:netlify`: Run the netlify cli (You can also test javascript functions!)
-- `$ npm run gethugo`: Get the appropriate hugo version for OS and ARCH into your ~/bin 
+- `$ npm run gethugo`: Get the appropriate hugo version for OS and ARCH into your ~/bin
 - `$ npm run start`: Run Hugo in a local dev server environment -> http://localhost/1313.
 - `$ npm run deploy`: Deploy site and process ressources.
 - `$ npm run hugo-cms`: Runs NetlifyCMS and Hugo
+
+## To add a new post:
+### Practice archetype
+
+The practice archetype will parse the date from the file name and set the post data and the audio files correctly.
+
+```bash
+./bin/hugo_0.83.1 new --kind=practice posts/2021-11-06-libby-practice.md
+```
 
 ## CSS
 
@@ -22,7 +31,7 @@ Project uses TND Styles module to manage TailwindCSS and fonts.
 - See `assets/css/tailwind/utilities.css` for declaring Tailwind custom utilities.
 
 ### CSS Files
-`assets/css/style.scss` holds all relative imports. 
+`assets/css/style.scss` holds all relative imports.
 SCSS syntax can be used in any files alongside Tailwind's own methods. `@apply` etc...
 
 ### Font files
@@ -48,10 +57,10 @@ We're using TND MEDIA and its DX.
 See [Settings](https://github.com/theNewDynamic/hugo-module-tnd-media#settings) and [Get function](https://github.com/theNewDynamic/hugo-module-tnd-media#get)
 
 ```
-{{ $args := dict 
-  "path" "/uploads/an-image.jpg" 
-  "width" 1024 
-  "height" 100 
+{{ $args := dict
+  "path" "/uploads/an-image.jpg"
+  "width" 1024
+  "height" 100
 }}
 {{ with partial "tnd-imgix/Get" $args }}
   <img src="{{ .RelPermalink }}" alt="Something nice" />
@@ -70,7 +79,7 @@ The netlify app domain redirection should be added through the params.tnd_redire
 See `config/_default/config`'s `googleAnalytics` key.
 
 
-## Assets Processing  
+## Assets Processing
 
 All assets are built by Hugo, their subsequent tags are loaded using the TND Styles module solution.
 
