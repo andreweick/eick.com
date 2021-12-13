@@ -9,7 +9,7 @@
       {{ end }}
 
       {{ $paginator := $.Paginate . 40 }}
-      <div class="grid my-8 grid-cols-2 md:grid-cols-5 xl:grid-cols-8 gap-4">
+      <div class="grid my-8 grid-cols-2 md:grid-cols-5 gap-4">
         {{ range $paginator.Pages }}
           {{ with partialCached "func/ParsePhoto" . . }}
             {{ partial "photo_li" . }}

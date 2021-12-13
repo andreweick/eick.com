@@ -35,9 +35,9 @@
   {{ $s.SetInMap "data" "RelPermalink" (printf "/.netlify/functions/photo/%s" $.Title) }}
 {{ end }}
 {{ $s.SetInMap "data" "Hugo" false }}
-{{ $s.SetInMap "data" "Title" false }}
+{{ $s.SetInMap "data" "Title" $.Title }}
 {{ $s.SetInMap "data" "SRC" (printf "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/%s/w1920" $.Title) }}
-{{ $s.SetInMap "data" "SRCThumbnail" (printf "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/%s/w320" $.Title) }}
+{{ $s.SetInMap "data" "SRCThumbnail" (printf "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/%s/square200" $.Title) }}
 {{ with partialCached "func/GetPhotoData" "GetPhotoData" }}
   {{ with where . "id" $.Title }}
     {{ with index . 0 }}
@@ -46,7 +46,7 @@
       {{ $varients := dict }}
       {{ with .variants }}
         {{ range $src := . }}
-          {{ with $key := partial "func/url/GetLastPart" "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/cf4a1daf-b5cf-4149-23dd-c3d8be04d500/public" }}
+          {{ with $key := partial "func/url/GetLastPart" . }}
             {{ $s.SetInMap "variants" $key $src  }}
           {{ end }}
         {{ end }}
