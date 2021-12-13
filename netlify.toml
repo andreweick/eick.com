@@ -28,10 +28,10 @@ command = "hugo --minify -b $DEPLOY_URL"
 HUGO_ENV = "staging"
 
 [[plugins]]
-  package = "./build/netlify-plugin-s3photo"
+  package = "./build/netlify-plugin-cloudinary-photos"
   [plugins.inputs]
-  contentDir = "remote/s3"
-  entryLimit = 100
+  contentDir = "./remote/cloudflare/"
+  pageLimit = -1
 
 [[context.deploy-preview.plugins]]
 package = "@netlify/plugin-local-install-core"

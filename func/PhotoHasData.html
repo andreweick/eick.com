@@ -1,6 +1,6 @@
 {{ $photo_has_data := false }}
 {{ with partialCached "func/GetPhotoData" "GetPhotoData" }}
-  {{ with where . "Name" $.Data.Term }}
+  {{ with where . "id" $.Data.Term }}
     {{ $photo_has_data = true }}
   {{ end }}
 {{ end }}

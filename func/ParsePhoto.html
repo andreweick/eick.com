@@ -30,31 +30,32 @@
 {{ $s := newScratch }}
 {{ $pretty_permalink := site.Params.photo_s3.pretty_permalink }}
 {{ $s.Set "data" dict }}
-{{ $s.SetInMap "data" "Name" $.Title }}
 {{ $s.SetInMap "data" "RelPermalink" $.RelPermalink }}
 {{ if or site.IsServer (not $pretty_permalink) }}
   {{ $s.SetInMap "data" "RelPermalink" (printf "/.netlify/functions/photo/%s" $.Title) }}
 {{ end }}
-{{ $s.SetInMap "data" "SRC" (printf "https://edc.imgix.net/%s?auto=format&ch=Width,DPR&q=95&w=800" $.Title) }}
 {{ $s.SetInMap "data" "Hugo" false }}
-
+{{ $s.SetInMap "data" "Title" false }}
+{{ $s.SetInMap "data" "SRC" (printf "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/%s/w1920" $.Title) }}
+{{ $s.SetInMap "data" "SRCThumbnail" (printf "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/%s/w320" $.Title) }}
 {{ with partialCached "func/GetPhotoData" "GetPhotoData" }}
-  {{ with where . "Name" $.Title }}
+  {{ with where . "id" $.Title }}
     {{ with index . 0 }}
-      {{ $src := "" }}
-      {{ $args := dict "path" .Name "width" 800 }}
-      {{ with partialCached "tnd-media/Get" $args $args }}
-        {{ with .Permalink }}
-          {{ $src = . }}
+      {{ $src := index .variants 0 }}
+      {{ $s.Set "variants" dict }}
+      {{ $varients := dict }}
+      {{ with .variants }}
+        {{ range $src := . }}
+          {{ with $key := partial "func/url/GetLastPart" "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/cf4a1daf-b5cf-4149-23dd-c3d8be04d500/public" }}
+            {{ $s.SetInMap "variants" $key $src  }}
+          {{ end }}
         {{ end }}
       {{ end }}
-      {{ $extend := dict
-        "RelPermalink" $.RelPermalink
-        "SRC" $src
-        "Hugo" true
-        }}
-
-      {{ $s.Set "data" (merge . $extend) }}
+      {{ $variants := $s.Get "variants" }}
+      {{ $s.SetInMap "data" "RelPermalink" $.RelPermalink  }}
+      {{ $s.SetInMap "data" "Title" .filename }}
+      {{ $s.SetInMap "data" "SRCs" $variants }}
+      {{ $s.SetInMap "data" "Hugo" true }}
     {{ end }}
   {{ end }}
 {{ end }}

@@ -3,7 +3,7 @@
   {{ with .Singular }}
     {{ if eq . "remote" }}
       {{ $publish = false }}
-      {{ with partialCached "func/PhotoHasData" $ $ }}
+      {{ with partialCached "func/PhotoHasData" $ $.Title }}
         {{ $publish = true }}
       {{ end }}
     {{ end }}

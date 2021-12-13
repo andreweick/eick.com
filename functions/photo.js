@@ -43,23 +43,31 @@ async function handler(event, context) {
     }
   })
   /** 2. Then we fetch the data from the API */
-  const photo_data = await fetch(`${process.env.S3API_URL}?name=${name}`).then(response => {
-    if(response.ok) {
-      return response.json()
-    }
-  })
-  let classifications = ''
-  if(typeof photo_data.Classification !== "undefined") {
-    photo_data.Classification.Labels.map(entry => {
-      classifications += `<div class="border mx-1 mb-2 p-1">${entry.Name}</div>`
+  const headers = { 'Authorization': 'Bearer ' + process.env.CLOUDFLARE_BEARER_TOKEN }
+  const photo_data = await fetch(`${process.env.CLOUDFLARE_API_URL}/${name}`,
+    {
+      headers
     })
-  }
+    .then(response => response.json())
+    .then(response => {
+      return {
+        ...response.result,
+        src: `https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/${name}/w1920`
+      }
+    }
+  )
+  let classifications = ''
+  // if(typeof photo_data.Classification !== "undefined") {
+  //   photo_data.Classification.Labels.map(entry => {
+  //     classifications += `<div class="border mx-1 mb-2 p-1">${entry.Name}</div>`
+  //   })
+  // }
 
   let content = await placeholder
-  .replace(/builder_eick_title/g, name)
-  .replace(/builder_eick_img_src/g, name)
+  .replace(/builder_eick_title/g, photo_data.filename)
+  .replace(/builder_eick_img_src/g, photo_data.src)
   .replace(/builder_eick_classifications/g, classifications)
-  .replace(/builder_eick_artist/g, photo_data.Artist)
+  .replace(/builder_eick_artist/g, 'No Artist')
   .replace(/builder_eick_debug/g, debug)
 
   return {

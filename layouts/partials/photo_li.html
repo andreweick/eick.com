@@ -1,11 +1,11 @@
 <div class="relative">
   <a href="{{ .RelPermalink }}" class="relative no-underline">
     <div class="w-full">
-      <img src="{{ .SRC }}" alt="">
+      <img src="{{ .SRCThumbnail }}" alt="">
     </div>
   </a>
   <div class="p-2 text-sm">
-    <div class="break-words"><strong>title</strong>: {{ .Name }}</div>
+    <div class="break-words"><strong>title</strong>: {{ .Title }}</div>
     {{ with .Artist }}
       <div><strong>by</strong>: {{ . }}</div>
     {{ end }}
