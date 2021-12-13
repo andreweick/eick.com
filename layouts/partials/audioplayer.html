@@ -9,7 +9,7 @@
     <img class="block w-full" src="{{ . }}" alt="Cover art for {{ $.title }}">
   {{ end }}
 
-  <div class="flex flex-wrap items-center justify-between p-4">
+  <div class="flex flex-nowrap items-center justify-between p-4">
 
     <div class="hidden current-time md:inline-block text-grey">
       <span class="amplitude-current-minutes" amplitude-main-current-seconds="true"></span>:
@@ -18,7 +18,7 @@
     {{ if $multiple }}
       <div class="amplitude-prev w-4 cursor-pointer" id="previous">{{ partialCached "svg/step-backward-solid.svg" "backward" }}</div>
     {{ end }}
-    <div class="flex flex-wrap items-center justify-between">
+    <div class="flex flex-wrap items-center justify-center sm:justify-between">
       <div class="song-title w-100 py-1 md:py-0 text-grey-light">
         <span data-amplitude-song-info="copy"></span><span class="italic" data-amplitude-song-info="title"></span>
       </div>
