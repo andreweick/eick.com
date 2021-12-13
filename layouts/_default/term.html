@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="mx-auto min-h-screen grid grid-1-3">
+    {{partial "navigation/post-navigation.html" .}}
+    <div class="px-8 py-4 md:py-16 ">
+      <div class="">
+        {{range $i, $p := (.Paginator 150).Pages}}
+          {{- .Render "view-summary" -}}
+        {{end}}
+      </div>
+      {{partial "_global/footer.html" .}}
+    </div>
+  </div>
+{{ end }}
