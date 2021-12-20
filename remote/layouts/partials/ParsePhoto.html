@@ -1,0 +1,6 @@
+{{ $s := newScratch }}
+{{ $s.Set "data" $ }}
+
+{{ $s.SetInMap "data" "title" $.filename }}
+
+{{ return $s.Get "data" }}

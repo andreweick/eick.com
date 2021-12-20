@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="block max-w-5xl mx-auto no-underline p-4 my-4">
+  <div class="flex justify-between items-center">
+    <h1 data-placeholder="{{ .Title }}" class="text-4xl mb-8 break-all">{{ .Title }}</h1>
+  </div>
+  {{ with partialCached "func/GetPhotoSRC" (dict "Page" $) .RelPermalink "public" }}
+  <div class="border p-4 col-span-8">
+    <img class="max-w-full" src="{{ . }}" alt="{{ $.Title }}"> 
+  </div>
+  {{ end }}
+  <div class="">
+    {{ with .Params.artist }}
+    <h2 class="text-xl">By {{ . }}</h2>
+    {{ end }}
+
+    {{ with .Params.classification }}
+      <div class="flex flex-wrap my-8 text-xs -mx-1">
+        <div class="border mx-1 mb-2 p-1">
+          {{ . }}^
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</a>
+{{ end }}
