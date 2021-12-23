@@ -3,12 +3,17 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 {{ hugo.Generator }}
 
-{{ if .HasShortcode "mux" }}
+{{ if .HasShortcode "muxx" }}
 {{/* // MUX.js start */}}
 <script src="https://unpkg.com/@mux/videojs-kit@latest/dist/index.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/@mux/videojs-kit@latest/dist/index.css">
 {{ partialCached "tnd-scripts/tags.html" (slice "mux") "mux" }}
 {{/* // MUX.js end */}}
+{{ end }}
+{{ if eq .Kind "page" }}
+  {{ if .HasShortcode "video_cloudflare" }}
+    {{ partialCached "tnd-scripts/tags.html" (slice "cloudflare-media") "cloudflare-media" }}
+  {{ end }}
 {{ end }}
 
 {{ if .HasShortcode "audio" }}

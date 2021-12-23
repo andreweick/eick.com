@@ -1,0 +1,14 @@
+<iframe
+  data-video-id="{{ .Get 0 }}"
+  {{ with .Get 1 }}{{ else }}
+  src="https://iframe.videodelivery.net/{{ .Get 0 }}"
+  {{ end }}
+  style="border: none;"
+  height="400"
+  width="400"
+  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+  allowfullscreen="true"
+  {{ with .Get 1 }}
+    data-video-signed="true"
+  {{ end }}
+></iframe>
