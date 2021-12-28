@@ -5,7 +5,7 @@ tags:
   - audio
   - piano-practice
 playlist:
-  title: Libby Practice
+  title: Libby Piano Recordings
   songs:
   - title: Brahms Opus 117 No. 1
     file: https://static.eick.com/file/static-eick-com/piano/Brahms+117+No.+1.mp3
