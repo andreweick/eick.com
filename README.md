@@ -12,7 +12,7 @@ After having run `npm install` you should be able to use the following:
 - `$ npm run hugo-cms`: Runs NetlifyCMS and Hugo
 
 ## To add a new post:
-### Practice archetype
+### Practice archetype (For Libby's piano audio recordings)
 
 The practice archetype will parse the date from the file name and set the post data and the audio files correctly.
 
