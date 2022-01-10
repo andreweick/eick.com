@@ -18,11 +18,9 @@ Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Cum socii
 {{< video_cloudflare 995f4df59ab4ae90e5a2c1af8e829988 >}}
 
 
-## Private Cloudflare
+## Private Cloudflare Video
 
 {{< video_cloudflare f5f0af3bd95d168f6435faf999f3d886 true >}}
-
-## Private Video
 
 ## Audio
 <audio controls>
