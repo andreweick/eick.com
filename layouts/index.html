@@ -10,6 +10,7 @@
           {{- .Render "view-summary" -}}
         {{end}}
       </div>
+      {{ template "_internal/pagination.html" $ }}
       {{partial "_global/footer.html" .}}
     </div>
   </div>
