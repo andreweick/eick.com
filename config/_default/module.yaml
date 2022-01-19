@@ -17,12 +17,8 @@ mounts:
     target: static
   - source: uploads
     target: static/uploads
-  - source: remote/s3/photos/_index.md
-    target: content/photos/_index.md
-  - source: data
-    target: data
-  - source: remote/s3/photos/data
-    target: data
+  - source: remote/public/photos
+    target: content/photos
 imports:
   - path: github.com/theNewDynamic/hugo-module-tnd-seo
   - path: github.com/theNewDynamic/hugo-module-tnd-styles

@@ -28,8 +28,9 @@ nbproject/
 # Hugo
 hugo_stats.json
 public
-remote
+remote_build
 resources
 
 # Local Netlify folder
 .netlify
+.hugo_build.lock

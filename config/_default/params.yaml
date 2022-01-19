@@ -1,4 +1,4 @@
-photo_s3:
+photo_api:
   pretty_permalink: true
   
 # ###############
@@ -60,6 +60,8 @@ tnd_scripts:
       path: /js/audioplayer.js
     - name: mux
       path: /js/mux.js
+    - name: cloudflare-media
+      path: /js/cloudflare_media.js
 # ###############
 # TND MEDIA
 # https://github.com/theNewDynamic/hugo-module-tnd-media#settings

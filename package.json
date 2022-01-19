@@ -37,7 +37,7 @@
  },
  "hugo": {
   "extended": "true",
-  "version": "0.89.4"
+  "version": "0.91.0"
  },
  "keywords": [
   "template"

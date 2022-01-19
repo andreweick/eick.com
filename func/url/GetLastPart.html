@@ -1,0 +1,11 @@
+{{ $key := "" }}
+{{ with urls.Parse . }}
+  {{ with .Path }}
+    {{ with last 1 (split . "/") }}
+      {{ with index . 0 }}
+        {{ $key = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $key }}

@@ -1,26 +1,17 @@
 <div class="relative">
-  <a href="{{ .RelPermalink }}" class="relative no-underline">
-    <div class="w-full">
-      <img src="{{ .SRC }}" alt="">
-    </div>
+  <a href="{{ .RelPermalink }}" class="relative block no-underline">
+    {{ $args := dict "Page" $ "variant" "square200" }}
+    {{ with partialCached "func/GetPhotoSRC" $args .RelPermalink "square200" }}
+      <div class="w-full">
+        <img class="block w-full" src="{{ . }}" alt="">
+      </div>
+    {{ end }}
+
   </a>
   <div class="p-2 text-sm">
-    <div class="break-words"><strong>title</strong>: {{ .Name }}</div>
-    {{ with .Artist }}
+    <div class="break-words"><strong>title</strong>: {{ .Title }}</div>
+    {{ with .Params.artist }}
       <div><strong>by</strong>: {{ . }}</div>
     {{ end }}
   </div>
-  {{ if partialCached "tnd-env/IsNot" "production" "production" }}
-  <div class="inline-block absolute right-0 top-0 text-xs">
-    {{ if .Hugo }}
-    <span class="bg-red-lightest px-1 text-sm">
-      Hugo
-    </span>
-    {{ else }}
-      <span class="bg-purple-lightest px-1 text-sm">
-        ODB
-      </span>
-    {{ end }}
-  </div>
-  {{ end }}
 </div>

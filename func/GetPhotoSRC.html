@@ -1,0 +1,29 @@
+{{/*
+  GetPhotoSRC
+  Retrieve a Photo URL given a variant 
+
+  @author @regisphilibert
+
+  @context String (.)
+
+  @access private
+
+  @returns String (a url)
+
+  @example - Go Template
+    {{ with partialCached "GetPhotoSRC" context context }}
+      {{ something = . }}
+    {{ end }}
+*/}}
+{{ $src := "" }}
+{{ $image := .Page }}
+{{ $variant := .variant | default "public" }}
+{{ with $image.Params.variants }}
+  {{ range . }}
+    {{ if in . $variant }}
+      {{ $src = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $src }}

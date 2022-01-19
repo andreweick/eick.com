@@ -1,0 +1,38 @@
+
+{{ $url := "http://edc-router.missionfocus.workers.dev/edcList/full" }}
+{{ $continue := true }}
+{{ $photos := slice }}
+
+{{ $args := dict 
+  "method" "GET"
+  "headers" (dict
+  "content-type" "application/json"
+  )
+}}
+
+{{ with resources.GetRemote $url $args }}
+  {{ with .Err }}
+    {{ warnf "%#v" . }}
+  {{ else }}
+    {{ with .Content | unmarshal }}
+      {{ if reflect.IsSlice . }}
+        {{ $photos = $photos | append . }}
+      {{ else }}
+        {{ warnf "Response is not a slice, slice expected" }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  
+{{ end }}
+
+{{ with $photos }}
+  {{ with apply . "partial" "ParsePhoto" "." }}
+    {{ range $index, $v := . }}
+      {{ $filename := printf "photos/%s.md" (urlize .filename) }}
+      {{ $file := . | jsonify | resources.FromString $filename }}
+      {{ $output := $file.RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return true }}
