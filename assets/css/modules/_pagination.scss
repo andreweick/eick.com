@@ -1,6 +1,11 @@
 .pagination{
   @apply flex justify-center items-center;
-  .page-item a {
+}
+.pagination .page-item a{
+  @apply px-2
+}
+@screen md{
+  .pagination .page-item a {
     @apply px-4;
   }
 }
