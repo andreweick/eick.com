@@ -1,7 +1,0 @@
-name: netlify-plugin-wp-markdown
-inputs:
-  - name: pageLimit
-    description: Tne number of entries to attempt to grab from S3
-    required: true
-  - name: contentDir
-    description: Directory to store the temporary md files
