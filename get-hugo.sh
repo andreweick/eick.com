@@ -1,7 +1,7 @@
 #!/bin/bash
 # A docker specific version (https://gist.github.com/exavolt/80cbdf4148fac42ab367eea793b8d4ac) uses chained containers and the build go system to create it.  I like this version better to just download it from the github release page.
 
-DIR=${PWD}
+DIR=$HOME
 
 HUGO_TYPE='extended'
 # Check for positional parameter, if found we assume it's the intended version
@@ -13,13 +13,15 @@ else
     HUGO_VERSION=$1
 fi
 
-FILE=hugo_${HUGO_VERSION}
+# Used to nae the file for the version
+# FILE=hugo_${HUGO_VERSION}
+FILE=hugo
 
 # Try to decode the architecture from the arch command.  I'm not sure what apple silicon returns
 
 arch=`arch`
 case $arch in
-    arm64 | aarch64) 
+    arm64 | aarch64)
         ARCH="ARM64"
         ;;
     x86_64 | i386)
@@ -96,14 +98,14 @@ tar --extract --file ${TEMPDIR}/*.tar.gz --directory ${TEMPDIR}
 # do we need sudo command for these?
 chmod +x ${TEMPDIR}/hugo
 
-mkdir -p $DIR/bin
+mkdir -p $DIR/.local/bin
 
-mv ${TEMPDIR}/hugo $DIR/bin/${FILE}
+mv ${TEMPDIR}/hugo $DIR/.local/bin/${FILE}
 
 # The OS will delete the temporary directory at some point
 
-location="$(which $DIR/bin/${FILE})"
+location="$(which $DIR/.local/bin/${FILE})"
 echo "Hugo binary location: $location"
 
-version="$($DIR/bin/${FILE} version)"
+version="$($DIR/.local/bin/${FILE} version)"
 echo $version
