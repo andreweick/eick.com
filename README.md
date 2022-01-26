@@ -17,7 +17,7 @@ After having run `npm install` you should be able to use the following:
 The practice archetype will parse the date from the file name and set the post data and the audio files correctly.
 
 ```bash
-./bin/hugo_0.83.1 new --kind=practice posts/2021-11-06-libby-practice.md
+hugo new --kind=practice posts/2021-11-06-libby-practice.md
 ```
 
 ## CSS
