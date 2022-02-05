@@ -1,6 +1,6 @@
 ---
 title: "Piano Practice,  January 31, 2022"
-date: "2022-01-31 22:04:55"
+date: "2022-01-31 19:54:36"
 draft: false
 tags:
   - audio
@@ -10,9 +10,9 @@ playlist:
   songs:
   - title: Scales
     file: https://static.eick.com/file/static-eick-com/piano/2022-01-31-001.mp3
-  - title: Wedding Day at Troldhaugen - Grieg (practice)
+  - title: Opus 118 No. 1 - Brahms (practice)
     file: https://static.eick.com/file/static-eick-com/piano/2022-01-31-002.mp3
-  - title: Wedding Day at Troldhaugen - Grieg (run through)
+  - title: Opus 118 No. 1 - Brahms (run through)
     file: https://static.eick.com/file/static-eick-com/piano/2022-01-31-003.mp3
 ---
 Piano Practice, January 31, 2022
