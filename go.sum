@@ -30,6 +30,8 @@ github.com/theNewDynamic/hugo-module-tnd-search v0.1.5 h1:JNy10OcQActoCQAud8omei
 github.com/theNewDynamic/hugo-module-tnd-search v0.1.5/go.mod h1:ALY3j5/mYy5M/cXzQrbOVpAP4CiSO4L4AHc6rORONkk=
 github.com/theNewDynamic/hugo-module-tnd-search v0.2.0 h1:1+SF77dRlFE1wo92trJQEhhVb6akLy7j78rU2FmOgX8=
 github.com/theNewDynamic/hugo-module-tnd-search v0.2.0/go.mod h1:ALY3j5/mYy5M/cXzQrbOVpAP4CiSO4L4AHc6rORONkk=
+github.com/theNewDynamic/hugo-module-tnd-search v0.2.4 h1:fNqsTx5zHkKH07joemmjkkN2mNitHV2k2gPoTVj/IZs=
+github.com/theNewDynamic/hugo-module-tnd-search v0.2.4/go.mod h1:ALY3j5/mYy5M/cXzQrbOVpAP4CiSO4L4AHc6rORONkk=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.8 h1:8b4nTj2Lxyds/qjgGUov9KbFGPsHrTFItiWA3aBcDVk=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.8/go.mod h1:VY3Qvzif9T0Z0rjR85ufUQE1wrS/M5VZC9Dx1V8Vo8Y=
 github.com/theNewDynamic/hugo-module-tnd-seo v0.1.9 h1:GkYhoQ0O4dmfWGNjwgaxifOCBaduGWwgtbKIsxYZgYM=
