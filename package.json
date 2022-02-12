@@ -16,11 +16,11 @@
  },
  "dependencies": {
   "@mux/mux-node": "^3.2.3",
-  "node-fetch": "^3.2.0"
+  "node-fetch": "^2.6.7"
  },
  "description": "Replace this description with poject's",
  "devDependencies": {
-  "@meilisearch/instant-meilisearch": "^0.2.1",
+  "@meilisearch/instant-meilisearch": "^0.5.0",
   "@netlify/functions": "^0.7.2",
   "@tailwindcss/typography": "^0.4.0",
   "algoliasearch": "^4.8.6",
