@@ -3,6 +3,7 @@ module github.com/imintel/eick.com
 go 1.14
 
 require (
+	github.com/gohugoio/hugo v0.99.1 // indirect
 	github.com/itemsapi/itemsjs v1.0.30 // indirect
 	github.com/theNewDynamic/hugo-component-tnd-blocks v0.0.0-20200618163712-a1fce85c0c7b // indirect
 	github.com/theNewDynamic/hugo-module-tnd-env v0.0.0-20210512181247-90dd1a287016 // indirect
