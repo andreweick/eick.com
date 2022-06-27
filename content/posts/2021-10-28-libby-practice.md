@@ -5,12 +5,14 @@ draft: false
 tags:
   - audio
   - piano-practice
+hp_exclude: true
 playlist:
   title: Libby Practice
   songs:
-  - title: Schubert Sonata in A Major, 3rd Movement (run through)
-    file: https://static.eick.com/file/static-eick-com/piano/2021-10-28-001.mp3
+    - title: Schubert Sonata in A Major, 3rd Movement (run through)
+      file: https://static.eick.com/file/static-eick-com/piano/2021-10-28-001.mp3
 ---
+
 Piano Practice, October 28, 2021
 
 <!--more-->

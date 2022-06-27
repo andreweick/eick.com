@@ -5,6 +5,7 @@ draft: false
 tags:
   - audio
   - piano-practice
+hp_exclude: true
 playlist:
   title: Schubert Sonata in A Major
   songs:

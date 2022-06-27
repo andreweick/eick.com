@@ -5,6 +5,7 @@ draft: false
 tags:
   - audio
   - piano-practice
+hp_exclude: true
 playlist:
   title: Libby Practice
   songs:
