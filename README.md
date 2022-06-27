@@ -8,7 +8,7 @@ After having run `npm install` you should be able to use the following:
 - `$ npm run dev:netlify`: Run the netlify cli (You can also test javascript functions!)
 - `$ npm run gethugo`: Get the appropriate hugo version for OS and ARCH into your ~/bin
 - `$ npm run start`: Run Hugo in a local dev server environment -> http://localhost/1313.
-- `$ npm run deploy`: Deploy site and process ressources.
+- `$ npm run deploy`: Deploy site and process resources.
 - `$ npm run hugo-cms`: Runs NetlifyCMS and Hugo
 
 ## To add a new post:
@@ -35,18 +35,18 @@ Project uses TND Styles module to manage TailwindCSS and fonts.
 SCSS syntax can be used in any files alongside Tailwind's own methods. `@apply` etc...
 
 ### Font files
-Font files should live under `assets/fonts`. The TND Style module will handle every thing fonts from `@fontface` decleration to preloading.
+Font files should live under `assets/fonts`. The TND Style module will handle every thing fonts from `@fontface` declaration to preloading.
 User should declare fonts using the TND Styles Module API in its section of the `/config/params.yaml` file. See https://github.com/theNewDynamic/hugo-module-tnd-styles#fonts
 
 ## JS
-Javascripts is built with Hugo's `js.Build` and can handle `jsx` as long as all the files' extension are `jsx`.
+Javascript is built with Hugo's `js.Build` and can handle `jsx` as long as all the files' extension are `jsx`.
 
 ### JS Files
 `assets/js/index.js` holds the relative imports.
 
 ## Multilingual
 
-The template is setup as Multilingual. Check the `config/languages.yaml` file to remove/edit other languages.
+The template is set up as Multilingual. Check the `config/languages.yaml` file to remove/edit other languages.
 
 String translations are handled via the `i18n`.
 
