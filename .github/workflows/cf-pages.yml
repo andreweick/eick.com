@@ -14,7 +14,7 @@ jobs:
           hugo-version: "0.101.0"
           extended: true
       - name: Build photolist
-        run: cd remote && pwd && hugo
+        run: cd remote && pwd && ls && hugo
       - name: Build site
         run: cd .. && pwd && hugo
     # - name: Publish to Workers Sites
