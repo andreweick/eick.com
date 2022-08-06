@@ -15,9 +15,12 @@ jobs:
           extended: true
       - name: Install NPM packages
         run: npm install
-      - name: Build Site
+      - name: Build Photo
         run: npm run build
-    # - name: Publish to Workers Sites
-    #   uses: cloudflare/wrangler-action@1.3.0
-    #   with:
-    #     apiToken: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Publish to Workers Sites
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages publish public --project-name eick-com
