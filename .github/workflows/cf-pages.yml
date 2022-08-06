@@ -26,4 +26,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages publish public --env production --project-name eick-com --commit-dirty=true --branch=production
+          command: pages publish public --project-name eick-com --commit-dirty=true
