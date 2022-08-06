@@ -52,6 +52,7 @@
  "scripts": {
   "clean": "rm -rf public/ static/dist resources",
   "cms": "npx netlify-cms-proxy-server",
+  "build": "cd remote && hugo && cd .. && hugo",
   "deploy": "npm run prod:hugo",
   "dev:cms": "run-p cms hugo-cms",
   "dev:hugo": "HUGO_ENV=development bin/hugo* server -D --gc --navigateToChanged --noHTTPCache",

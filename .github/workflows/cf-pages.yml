@@ -1,0 +1,29 @@
+name: Build & Publish
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.101.0"
+          extended: true
+      - name: Install NPM packages
+        run: npm install
+      - name: Build Photo
+        run: npm run build
+
+      - name: Create Pagefind index
+        run: npx pagefind --source "public" --bundle-dir "_pagefind"
+
+      - name: Publish to Workers Sites
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages publish public --project-name eick-com --commit-dirty=true
