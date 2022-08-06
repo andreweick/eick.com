@@ -18,6 +18,9 @@ jobs:
       - name: Build Photo
         run: npm run build
 
+      - name: Create Pagefind index
+        run: npx pagefind --source "public" --bundle-dir "_pagefind"
+
       - name: Publish to Workers Sites
         uses: cloudflare/wrangler-action@2.0.0
         with:
