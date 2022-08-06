@@ -13,8 +13,10 @@ jobs:
         with:
           hugo-version: "0.101.0"
           extended: true
-      - name: Build photolist
-        run: sh build-site.sh
+      - name: Install NPM packages
+        run: npm install
+      - name: Build Site
+        run: npm run build
     # - name: Publish to Workers Sites
     #   uses: cloudflare/wrangler-action@1.3.0
     #   with:
