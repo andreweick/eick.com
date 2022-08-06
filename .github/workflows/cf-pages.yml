@@ -16,7 +16,7 @@ jobs:
       - name: Build photolist
         run: cd remote && pwd && ls && hugo
       - name: Build site
-        run: cd .. && pwd && hugo
+        run: cd .. && pwd && ls && hugo
     # - name: Publish to Workers Sites
     #   uses: cloudflare/wrangler-action@1.3.0
     #   with:
