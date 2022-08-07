@@ -1,7 +1,7 @@
 {{ with .Get "src" }}
   {{ $path := . }}
-  {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/000b6b49-c71e-412c-5222-a20e37883b00/" }}
-  {{ $cfid := .Get "src" }}
+  {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
+  {{ $cfid := $.Get "src" }}
   {{ $original := print $base "w320" }}
   {{ $variants := slice
     (dict
