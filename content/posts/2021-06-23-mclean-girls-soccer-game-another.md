@@ -4,11 +4,18 @@ date: 2021-06-05T15:27:27.264Z
 tags:
   - soccer
 ---
-![McLean Soccer](/20210605-soccer-0004.jpg)
+
+{{< figure_cloudflare src="20210605-soccer-0004" title="McLean Soccer" >}}
+
+{{< figure_cloudflare src="20210605-soccer-0012" title="McLean Soccer" >}}
+
+{{< figure_cloudflare src="20210605-soccer-0026" title="McLean Soccer" >}}
+
+<!-- ![McLean Soccer](/20210605-soccer-0004.jpg)
 
 ![McLean Soccer](/20210605-soccer-0012.jpg)
 
-![McLean Soccer](/20210605-soccer-0026.jpg)
+![McLean Soccer](/20210605-soccer-0026.jpg) -->
 
 <!--more-->
 
@@ -145,4 +152,3 @@ tags:
 ![McLean Soccer](/20210605-soccer-1535.jpg)
 
 ![McLean Soccer](/20210605-soccer-1545.jpg)
-
