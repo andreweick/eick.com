@@ -1,8 +1,5 @@
 # Eick.com
 
-## Configuration
-To control the number of photos rendered by hugo (and not the netlify delayed build) change the parameter in ~/netlify.toml in the 'netlify-plugin-s3photo' part
-
 ## NPM Scripts
 After having run `npm install` you should be able to use the following:
 - `$ npm run dev:netlify`: Run the netlify cli (You can also test javascript functions!)

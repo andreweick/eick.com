@@ -1,13 +1,13 @@
 {{ with .Get "src" }}
   {{ $path := . }}
-  {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/000b6b49-c71e-412c-5222-a20e37883b00/" }}
+  {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
   {{ $original := print $base "w320" }}
   {{ $variants := slice
-    (dict 
+    (dict
       "key" "w960"
       "media" "(min-width: 768px)"
     )
-    (dict 
+    (dict
       "key" "w640"
       "media" "(min-width: 480px)"
     )
