@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-{{< figure src="https://mfc.imgix.net/edc/imgix/Nov-7-1917.tif?fit=clip&h=1000&w=1000" caption="Figure 1: Sackett's in 1917" >}}
+{{< figure_cloudflare src="nov-7-1917" title="Sackett's in 1917" >}}
 
 Sal's Dad (Libby's Great Grandfather) is the young man in the back row on the right
 
@@ -34,6 +34,6 @@ This happy anniversary not only brought joy to the Sackett family, but to this c
 
 ---
 
-{{< figure src="https://mfc.imgix.net/edc/imgix/Nov-7-1917b.tif?fit=clip&h=600&w=600" caption="Figure 2: Written on the back of the photograph" >}}
+{{< figure_cloudflare src="nov-7-1917b" title="Written on the back of the photograph" >}}
 
-{{< figure src="https://mfc.imgix.net/edc/imgix/20070606-20070606-Sackett%20Golden_1917.tif?fit=clip&h=1000&w=1000" caption="Figure 3: Newspaper clipping from the day" >}}
+<!-- {{< figure src="https://mfc.imgix.net/edc/imgix/20070606-20070606-Sackett%20Golden_1917.tif?fit=clip&h=1000&w=1000" caption="Figure 3: Newspaper clipping from the day" >}} -->

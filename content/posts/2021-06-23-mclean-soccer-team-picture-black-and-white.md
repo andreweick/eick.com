@@ -4,4 +4,4 @@ date: 2021-06-05T17:15:09.522Z
 tags:
   - soccer
 ---
-![McLean Soccer](/20210605-soccer-0845.jpg)
+{{< figure_cloudflare src="20210605-soccer-0845" title="McLean Soccer" >}}

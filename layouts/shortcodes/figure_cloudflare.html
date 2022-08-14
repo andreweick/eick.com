@@ -1,13 +1,14 @@
 {{ with .Get "src" }}
   {{ $path := . }}
-  {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/000b6b49-c71e-412c-5222-a20e37883b00/" }}
-  {{ $original := print $base "w320" }}
+  {{ $base := "imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
+  {{ $cfid := $.Get "src" }}
+  {{ $original := path.Join $base $cfid "w320" }}
   {{ $variants := slice
-    (dict 
+    (dict
       "key" "w960"
       "media" "(min-width: 768px)"
     )
-    (dict 
+    (dict
       "key" "w640"
       "media" "(min-width: 480px)"
     )
@@ -15,9 +16,9 @@
 <figure class="max-w-full">
   <picture>
     {{ range $variant := $variants }}
-      <source data-srcset="{{ print $base .key }}" media="{{ $variant.media }}">
+      <source data-srcset="https://{{ path.Join $base $cfid .key }}" media="{{ $variant.media }}">
     {{ end }}
-    <img class="lazyload" src="{{ $original }}" {{ with $.Get "text" }}alt="{{ . }}"{{ end }} {{ with $.Get "title" }} title="{{ . }}"{{ end }} />
+    <img class="lazyload" src="https://{{ $original }}" {{ with $.Get "text" }}alt="{{ . }}"{{ end }} {{ with $.Get "title" }} title="{{ . }}"{{ end }} />
   </picture>
   {{ with $.Get "title" }}
   <figcaption>
