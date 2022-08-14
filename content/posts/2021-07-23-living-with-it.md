@@ -31,4 +31,4 @@ A lifelong theater lover, Libby began playwriting during the COVID-19 quarantine
 Libby is thrilled to be a first-time winner in The Blank Theatre’s Young Playwrights festival for her second play, Living With It. She is grateful to the entire YPF team and excited to watch her play come to life!
 
 
-![Libby Eick, 2021](/20210424-libby-play-headshot-0086.jpg "Libby Eick, 2021")
+{{< figure_cloudflare src="20210424-libby-play-headshot-0086" title="Libby Eick, 2021" >}}

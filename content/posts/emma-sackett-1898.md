@@ -6,7 +6,8 @@ draft: false
 description: "Memories from my great grandmother, a nurse in the American civil war"
 ---
 
-{{< figure src="https://mfc.imgix.net/edc/family-tree-media/sackett%5Femma.jpg" caption="Figure 1: Emma French Sackett" >}}
+{{< figure_cloudflare src="sackett_emma" title="Emma French Sackett" >}}
+
 
 Emma Sackett, My Great Great Grandmother, was a nurse in the civil war. She contributed to a book in 1895 with Clara Barton about her experiences in the war, excerpted below.
 

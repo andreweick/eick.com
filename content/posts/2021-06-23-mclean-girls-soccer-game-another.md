@@ -11,144 +11,138 @@ tags:
 
 {{< figure_cloudflare src="20210605-soccer-0026" title="McLean Soccer" >}}
 
-<!-- ![McLean Soccer](/20210605-soccer-0004.jpg)
-
-![McLean Soccer](/20210605-soccer-0012.jpg)
-
-![McLean Soccer](/20210605-soccer-0026.jpg) -->
-
 <!--more-->
 
-![McLean Soccer](/20210605-soccer-0034.jpg)
+{{< figure_cloudflare src="20210605-soccer-0034" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0040.jpg)
+{{< figure_cloudflare src="20210605-soccer-0040" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0049.jpg)
+{{< figure_cloudflare src="20210605-soccer-0049" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0104.jpg)
+{{< figure_cloudflare src="20210605-soccer-0104" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0107.jpg)
+{{< figure_cloudflare src="20210605-soccer-0107" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0147.jpg)
+{{< figure_cloudflare src="20210605-soccer-0147" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0159.jpg)
+{{< figure_cloudflare src="20210605-soccer-0159" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0163.jpg)
+{{< figure_cloudflare src="20210605-soccer-0163" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0175.jpg)
+{{< figure_cloudflare src="20210605-soccer-0175" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0190.jpg)
+{{< figure_cloudflare src="20210605-soccer-0190" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0238.jpg)
+{{< figure_cloudflare src="20210605-soccer-0238" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0266.jpg)
+{{< figure_cloudflare src="20210605-soccer-0266" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0272.jpg)
+{{< figure_cloudflare src="20210605-soccer-0272" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0282.jpg)
+{{< figure_cloudflare src="20210605-soccer-0282" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0283.jpg)
+{{< figure_cloudflare src="20210605-soccer-0283" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0288.jpg)
+{{< figure_cloudflare src="20210605-soccer-0288" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0298.jpg)
+{{< figure_cloudflare src="20210605-soccer-0298" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0301.jpg)
+{{< figure_cloudflare src="20210605-soccer-0301" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0399.jpg)
+{{< figure_cloudflare src="20210605-soccer-0399" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0402.jpg)
+{{< figure_cloudflare src="20210605-soccer-0402" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0433.jpg)
+{{< figure_cloudflare src="20210605-soccer-0433" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0463.jpg)
+{{< figure_cloudflare src="20210605-soccer-0463" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0491.jpg)
+{{< figure_cloudflare src="20210605-soccer-0491" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0503.jpg)
+{{< figure_cloudflare src="20210605-soccer-0503" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0522.jpg)
+{{< figure_cloudflare src="20210605-soccer-0522" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0561.jpg)
+{{< figure_cloudflare src="20210605-soccer-0561" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0565.jpg)
+{{< figure_cloudflare src="20210605-soccer-0565" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0578.jpg)
+{{< figure_cloudflare src="20210605-soccer-0578" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0648.jpg)
+{{< figure_cloudflare src="20210605-soccer-0648" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0696.jpg)
+{{< figure_cloudflare src="20210605-soccer-0696" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0753.jpg)
+{{< figure_cloudflare src="20210605-soccer-0753" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0819.jpg)
+{{< figure_cloudflare src="20210605-soccer-0819" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0861.jpg)
+{{< figure_cloudflare src="20210605-soccer-0861" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0863.jpg)
+{{< figure_cloudflare src="20210605-soccer-0863" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0865.jpg)
+{{< figure_cloudflare src="20210605-soccer-0865" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0873.jpg)
+{{< figure_cloudflare src="20210605-soccer-0873" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0881.jpg)
+{{< figure_cloudflare src="20210605-soccer-0881" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0885.jpg)
+{{< figure_cloudflare src="20210605-soccer-0885" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0889.jpg)
+{{< figure_cloudflare src="20210605-soccer-0889" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0897.jpg)
+{{< figure_cloudflare src="20210605-soccer-0897" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0903.jpg)
+{{< figure_cloudflare src="20210605-soccer-0903" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0919.jpg)
+{{< figure_cloudflare src="20210605-soccer-0919" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0921.jpg)
+{{< figure_cloudflare src="20210605-soccer-0921" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0933.jpg)
+{{< figure_cloudflare src="20210605-soccer-0933" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0968.jpg)
+{{< figure_cloudflare src="20210605-soccer-0968" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0989.jpg)
+{{< figure_cloudflare src="20210605-soccer-0989" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-0995.jpg)
+{{< figure_cloudflare src="20210605-soccer-0995" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1025.jpg)
+{{< figure_cloudflare src="20210605-soccer-1025" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1029.jpg)
+{{< figure_cloudflare src="20210605-soccer-1029" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1031.jpg)
+{{< figure_cloudflare src="20210605-soccer-1031" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1102.jpg)
+{{< figure_cloudflare src="20210605-soccer-1102" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1140.jpg)
+{{< figure_cloudflare src="20210605-soccer-1140" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1203.jpg)
+{{< figure_cloudflare src="20210605-soccer-1203" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1221.jpg)
+{{< figure_cloudflare src="20210605-soccer-1221" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1229.jpg)
+{{< figure_cloudflare src="20210605-soccer-1229" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1305.jpg)
+{{< figure_cloudflare src="20210605-soccer-1305" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1329.jpg)
+{{< figure_cloudflare src="20210605-soccer-1329" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1342.jpg)
+{{< figure_cloudflare src="20210605-soccer-1342" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1405.jpg)
+{{< figure_cloudflare src="20210605-soccer-1405" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1421.jpg)
+{{< figure_cloudflare src="20210605-soccer-1421" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1437.jpg)
+{{< figure_cloudflare src="20210605-soccer-1437" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1452.jpg)
+{{< figure_cloudflare src="20210605-soccer-1452" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1456.jpg)
+{{< figure_cloudflare src="20210605-soccer-1456" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1502.jpg)
+{{< figure_cloudflare src="20210605-soccer-1502" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1519.jpg)
+{{< figure_cloudflare src="20210605-soccer-1519" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1535.jpg)
+{{< figure_cloudflare src="20210605-soccer-1535" title="McLean Soccer" >}}
 
-![McLean Soccer](/20210605-soccer-1545.jpg)
+{{< figure_cloudflare src="20210605-soccer-1545" title="McLean Soccer" >}}
