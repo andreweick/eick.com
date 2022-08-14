@@ -1,8 +1,8 @@
 {{ with .Get "src" }}
   {{ $path := . }}
-  {{ $base := "/imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
+  {{ $base := "imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
   {{ $cfid := $.Get "src" }}
-  {{ $original := "https:/" + path.Join $base $cfid "w320" }}
+  {{ $original := path.Join $base $cfid "w320" }}
   {{ $variants := slice
     (dict
       "key" "w960"
@@ -16,9 +16,9 @@
 <figure class="max-w-full">
   <picture>
     {{ range $variant := $variants }}
-      <source data-srcset="{{ path.Join $base $cfid .key }}" media="{{ $variant.media }}">
+      <source data-srcset="https://{{ path.Join $base $cfid .key }}" media="{{ $variant.media }}">
     {{ end }}
-    <img class="lazyload" src="{{ $original }}" {{ with $.Get "text" }}alt="{{ . }}"{{ end }} {{ with $.Get "title" }} title="{{ . }}"{{ end }} />
+    <img class="lazyload" src="https://{{ $original }}" {{ with $.Get "text" }}alt="{{ . }}"{{ end }} {{ with $.Get "title" }} title="{{ . }}"{{ end }} />
   </picture>
   {{ with $.Get "title" }}
   <figcaption>
