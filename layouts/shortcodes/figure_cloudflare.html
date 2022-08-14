@@ -18,7 +18,7 @@
     {{ range $variant := $variants }}
       <!-- base: {{ $base }} -->
       <!-- cfid: {{ $cfid }} -->
-      <!-- key: {{ $.key }} -->
+      <!-- key: {{ .key }} -->
       <source data-srcset="{{ path.Join $base $cfid .key }}" media="{{ $variant.media }}">
     {{ end }}
     <img class="lazyload" src="{{ $original }}" {{ with $.Get "text" }}alt="{{ . }}"{{ end }} {{ with $.Get "title" }} title="{{ . }}"{{ end }} />
