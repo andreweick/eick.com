@@ -2,7 +2,7 @@
   {{ $path := . }}
   {{ $base := "https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/" }}
   {{ $cfid := $.Get "src" }}
-  {{ $original := path.Join $base $cfid .key "w320" }}
+  {{ $original := path.Join $base $cfid "w320" }}
   {{ $variants := slice
     (dict
       "key" "w960"
