@@ -95,16 +95,6 @@ private: true
 [Full Resolution for 1011.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/8463803a-34db-414b-7d71-1d197384be00/w1920) {{< figure_cloudflare src=8463803a-34db-414b-7d71-1d197384be00 title=1011.jpg >}}
 [Full Resolution for 1010.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/e647f5cb-0635-4deb-692f-3381e6bc9300/w1920) {{< figure_cloudflare src=e647f5cb-0635-4deb-692f-3381e6bc9300 title=1010.jpg >}}
 [Full Resolution for 1000.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/2b7348d8-5d02-4c58-4b66-d69eec765800/w1920) {{< figure_cloudflare src=2b7348d8-5d02-4c58-4b66-d69eec765800 title=1000.jpg >}}
-[Full Resolution for zoological_gardens_new_london.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/zoological_gardens_new_london/w1920) {{< figure_cloudflare src=zoological_gardens_new_london title=zoological_gardens_new_london.jpg >}}
-[Full Resolution for zion_np2.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/zion_np2/w1920) {{< figure_cloudflare src=zion_np2 title=zion_np2.jpg >}}
-[Full Resolution for zion_np.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/zion_np/w1920) {{< figure_cloudflare src=zion_np title=zion_np.jpg >}}
-[Full Resolution for yucca_bloom.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/yucca_bloom/w1920) {{< figure_cloudflare src=yucca_bloom title=yucca_bloom.jpg >}}
-[Full Resolution for young_crown_prince_bertil.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/young_crown_prince_bertil/w1920) {{< figure_cloudflare src=young_crown_prince_bertil title=young_crown_prince_bertil.jpg >}}
-[Full Resolution for yosemite_scenery_ng.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/yosemite_scenery_ng/w1920) {{< figure_cloudflare src=yosemite_scenery_ng title=yosemite_scenery_ng.jpg >}}
-[Full Resolution for yosemite_scenery.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/yosemite_scenery/w1920) {{< figure_cloudflare src=yosemite_scenery title=yosemite_scenery.jpg >}}
-[Full Resolution for yosemite_scenery-2.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/yosemite_scenery-2/w1920) {{< figure_cloudflare src=yosemite_scenery-2 title=yosemite_scenery-2.jpg >}}
-[Full Resolution for yosemite_falls_dry_now.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/yosemite_falls_dry_now/w1920) {{< figure_cloudflare src=yosemite_falls_dry_now title=yosemite_falls_dry_now.jpg >}}
-[Full Resolution for xray_equipment_ku.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/xray_equipment_ku/w1920) {{< figure_cloudflare src=xray_equipment_ku title=xray_equipment_ku.jpg >}}
 [Full Resolution for 1167.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/e2e20726-f548-42a6-481e-f59025f35b00/w1920) {{< figure_cloudflare src=e2e20726-f548-42a6-481e-f59025f35b00 title=1167.jpg >}}
 [Full Resolution for 1159.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/faa18f2d-20a2-4dc2-bfc0-9d2ddc33c200/w1920) {{< figure_cloudflare src=faa18f2d-20a2-4dc2-bfc0-9d2ddc33c200 title=1159.jpg >}}
 [Full Resolution for 1158.jpg](https://imagedelivery.net/Zgety72ez9NMy5vNjlIElg/36708300-49f1-4a45-3bbc-5c6d7ea35f00/w1920) {{< figure_cloudflare src=36708300-49f1-4a45-3bbc-5c6d7ea35f00 title=1158.jpg >}}
