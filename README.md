@@ -81,3 +81,5 @@ See `config/_default/config`'s `googleAnalytics` key.
 All assets are built by Hugo, their subsequent tags are loaded using the TND Styles module solution.
 
 `$ npm run deploy` will process the assets and commit style related resources so that `production` does not compile the assets. (Thus gaining a good 3s of PostCSS)
+
+Test of signing
