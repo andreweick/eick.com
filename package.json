@@ -15,7 +15,7 @@
   }
  },
  "dependencies": {
-  "@mux/mux-node": "^3.2.3",
+  "@mux/mux-node": "^7.3.0",
   "node-fetch": "^2.6.7"
  },
  "description": "Replace this description with poject's",
